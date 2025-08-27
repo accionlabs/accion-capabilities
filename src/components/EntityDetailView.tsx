@@ -3,6 +3,7 @@ import { GraphContext } from '../App';
 import { GraphNode } from '../types/graph';
 import MarkdownRenderer from './MarkdownRenderer';
 import RelationshipPanel from './RelationshipPanel';
+import { getContentPath } from '../config/paths';
 
 interface EntityDetailViewProps {
   entityId: string;
@@ -92,7 +93,7 @@ const EntityDetailView: React.FC<EntityDetailViewProps> = ({
         setMarkdownContent(null);
         try {
           const path = entity.content.source.startsWith('/') ? entity.content.source : `/${entity.content.source}`;
-          const response = await fetch(path);
+          const response = await fetch(getContentPath(path));
           if (response.ok) {
             const text = await response.text();
             if (!text.trim().startsWith('<!DOCTYPE') && !text.trim().startsWith('<html')) {

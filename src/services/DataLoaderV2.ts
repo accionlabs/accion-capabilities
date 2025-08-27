@@ -1,11 +1,12 @@
 // Data loader v2 - loads from folder structure
 import { CapabilityGraph } from './CapabilityGraph';
 import { GraphNode, GraphEdge } from '../types/graph';
+import { getDataPath } from '../config/paths';
 
 export class DataLoaderV2 {
   private graph: CapabilityGraph;
   private idCounter: number = 0;
-  private baseUrl: string = '/data';
+  private baseUrl: string = getDataPath('/data');
 
   constructor(graph: CapabilityGraph) {
     this.graph = graph;
