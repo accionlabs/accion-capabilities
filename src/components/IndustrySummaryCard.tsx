@@ -160,14 +160,14 @@ const IndustrySummaryCard: React.FC<IndustrySummaryCardProps> = ({ summary, onVi
 
         {/* Action Buttons */}
         <div className="flex gap-2 mt-6">
-          <button
-            onClick={() => onViewDetails?.(industry.id)}
-            className="flex-1 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-colors"
+          <Link
+            to={`/industry-intelligence/${industry.id}`}
+            className="flex-1 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-blue-700 transition-colors text-center"
           >
             View Details
-          </button>
+          </Link>
           <Link
-            to={`/industries/${industry.id}/case-studies`}
+            to={`/industry-intelligence/${industry.id}/case-studies`}
             className="flex-1 border border-blue-500 text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors text-center"
           >
             Case Studies

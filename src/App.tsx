@@ -17,6 +17,8 @@ import TechnologiesPage from './pages/TechnologiesPage';
 import IndustriesPage from './pages/IndustriesPage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import IndustryIntelligencePage from './pages/IndustryIntelligencePage';
+import IndustryDetailPage from './pages/IndustryDetailPage';
+import EntityPage from './pages/EntityPage';
 import TestPage from './pages/TestPage';
 import TestGraphPage from './pages/TestGraphPage';
 import AppLayoutVertical from './components/AppLayoutVertical';
@@ -119,6 +121,8 @@ function App() {
             <Route path="industries/:id" element={<IndustriesPage />} />
             
             <Route path="industry-intelligence" element={<IndustryIntelligencePage />} />
+            <Route path="industry-intelligence/:industryId" element={<IndustryDetailPage />} />
+            <Route path="industry-intelligence/:industryId/case-studies" element={<EntityPage entityType="casestudy" title="Case Studies" />} />
             
             <Route path="case-studies" element={<CaseStudiesPage />} />
             <Route path="case-studies/:id" element={<CaseStudiesPage />} />
