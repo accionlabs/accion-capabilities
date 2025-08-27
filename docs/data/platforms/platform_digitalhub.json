@@ -1,0 +1,62 @@
+{
+  "id": "platform_digitalhub",
+  "name": "Digital Experience Hub",
+  "category": "platform",
+  "description": "Omnichannel digital experience platform for customer engagement",
+  "strategicValue": "Enables seamless customer experiences across all digital touchpoints",
+  "clientValue": [
+    "360-degree customer view",
+    "Personalized experiences",
+    "Real-time engagement"
+  ],
+  "maturityLevel": "mature",
+  "deploymentModels": [
+    "Cloud-native",
+    "Multi-cloud"
+  ],
+  "keyFeatures": [
+    {
+      "name": "Personalization Engine",
+      "description": "AI-driven content and experience personalization",
+      "businessValue": "Increases conversion rates by 25%"
+    },
+    {
+      "name": "Omnichannel Support",
+      "description": "Consistent experience across web, mobile, and IoT",
+      "businessValue": "Improves customer satisfaction by 30%"
+    }
+  ],
+  "businessImpactMetrics": [
+    {
+      "name": "Customer Engagement",
+      "value": "40",
+      "unit": "%",
+      "improvement": "increase"
+    }
+  ],
+  "type": "platform",
+  "tags": [
+    "platform"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_react",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_nodejs",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_kubernetes",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": []
+  }
+}

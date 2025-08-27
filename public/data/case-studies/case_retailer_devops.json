@@ -1,0 +1,62 @@
+{
+  "id": "case_retailer_devops",
+  "name": "DevOps Transformation for Fortune 500 Retailer",
+  "description": "Enterprise-wide DevOps transformation enabling rapid digital innovation",
+  "clientName": "Fortune 500 Retailer",
+  "challenge": "Slow release cycles hampering competitive response",
+  "solution": "Implemented comprehensive DevOps practices with automated CI/CD pipelines",
+  "outcomes": [
+    {
+      "description": "Increased deployment frequency",
+      "impact": "Enables rapid feature delivery",
+      "measuredValue": "10x increase"
+    },
+    {
+      "description": "Reduced mean time to recovery",
+      "impact": "Improved system reliability",
+      "measuredValue": "90% reduction"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Deployment Frequency",
+      "value": "10x",
+      "improvement": "increase"
+    },
+    {
+      "name": "MTTR",
+      "value": "90",
+      "unit": "%",
+      "improvement": "reduction"
+    },
+    {
+      "name": "Lead Time",
+      "value": "85",
+      "unit": "%",
+      "improvement": "reduction"
+    }
+  ],
+  "type": "casestudy",
+  "tags": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "acc_cicd_accelerator",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_retail",
+        "type": "DELIVERS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/retailer_devops.md"
+  }
+}

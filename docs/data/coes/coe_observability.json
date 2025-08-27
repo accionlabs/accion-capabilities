@@ -1,0 +1,228 @@
+{
+  "id": "coe_observability",
+  "type": "coe",
+  "data": {
+    "name": "Observability Center of Excellence",
+    "description": "Accion's Observability Center of Excellence specializes in implementing comprehensive monitoring, logging, and observability solutions for modern cloud-native environments. The CoE focuses on enabling organizations to achieve full visibility into their applications and infrastructure through advanced telemetry, real user monitoring, synthetic monitoring, AIOps, and automated anomaly detection. With 40+ specialized observability professionals and expertise across 50+ comprehensive monitoring implementations, the CoE delivers significant improvements in system visibility, operational insights, and data-driven decision making.",
+    "category": "Cloud",
+    "order": 2,
+    "keyCompetencies": [
+      "End-to-End Observability Platform Design",
+      "Real-Time Monitoring and Alerting",
+      "Log Aggregation and Analysis",
+      "Metrics Collection and Processing",
+      "Distributed Tracing Implementation",
+      "Application Performance Monitoring (APM)",
+      "Real User Monitoring (RUM)",
+      "Synthetic Monitoring and Testing", 
+      "AIOps and Anomaly Detection",
+      "Custom Dashboard Development and Visualization",
+      "Alert Correlation and Noise Reduction",
+      "Telemetry Data Management and Storage",
+      "Multi-Cloud Observability",
+      "Kubernetes and Container Monitoring",
+      "Infrastructure Observability and Health Monitoring",
+      "Security and Compliance Monitoring",
+      "Cost Optimization for Observability Tools",
+      "Observability as Code and Automation",
+      "Performance Baseline and Trend Analysis",
+      "Business Intelligence from Operational Data"
+    ],
+    "services": [
+      {
+        "name": "Observability Platform Design and Implementation",
+        "description": "Complete observability platform architecture and deployment for comprehensive system visibility",
+        "deliverables": [
+          "Observability platform architecture",
+          "Multi-cloud monitoring setup",
+          "Data ingestion pipelines",
+          "Storage and retention strategies"
+        ]
+      },
+      {
+        "name": "Real-Time Monitoring and Alerting",
+        "description": "Advanced monitoring solutions with intelligent alerting and notification systems",
+        "deliverables": [
+          "Real-time monitoring dashboards",
+          "Intelligent alerting rules",
+          "Multi-channel notifications",
+          "Alert correlation and deduplication"
+        ]
+      },
+      {
+        "name": "Log Aggregation and Analysis",
+        "description": "Centralized logging solutions with advanced search, analysis, and correlation capabilities",
+        "deliverables": [
+          "Centralized log aggregation",
+          "Log parsing and structuring",
+          "Advanced log analytics",
+          "Log-based alerting"
+        ]
+      },
+      {
+        "name": "Custom Dashboard Development",
+        "description": "Business and technical dashboards tailored to organizational needs and user roles",
+        "deliverables": [
+          "Executive dashboards",
+          "Technical monitoring dashboards",
+          "Business KPI visualization",
+          "Role-based access controls"
+        ]
+      },
+      {
+        "name": "Real User Monitoring (RUM) and Synthetic Monitoring",
+        "description": "Comprehensive user experience monitoring with both real user data and synthetic testing",
+        "deliverables": [
+          "Real user monitoring setup",
+          "Synthetic transaction monitoring",
+          "User journey tracking",
+          "Performance impact analysis"
+        ]
+      },
+      {
+        "name": "AIOps and Anomaly Detection",
+        "description": "AI-powered operations with machine learning-based anomaly detection and predictive analytics",
+        "deliverables": [
+          "ML-based anomaly detection",
+          "Predictive analytics models",
+          "Intelligent alert correlation",
+          "Pattern recognition and forecasting"
+        ]
+      },
+      {
+        "name": "Application Performance Monitoring (APM)",
+        "description": "Deep application performance insights with code-level visibility and user experience monitoring",
+        "deliverables": [
+          "Application performance tracking",
+          "Code-level instrumentation",
+          "User experience monitoring",
+          "Performance optimization recommendations"
+        ]
+      },
+      {
+        "name": "Infrastructure and Container Monitoring",
+        "description": "Comprehensive infrastructure monitoring including cloud resources, Kubernetes, and containerized applications",
+        "deliverables": [
+          "Infrastructure monitoring setup",
+          "Kubernetes cluster monitoring",
+          "Container lifecycle tracking",
+          "Resource utilization optimization"
+        ]
+      },
+      {
+        "name": "Observability Data Management and Storage",
+        "description": "Efficient telemetry data collection, storage, and lifecycle management for optimal performance and cost",
+        "deliverables": [
+          "Data retention policies",
+          "Time-series database optimization",
+          "Data compression and archiving",
+          "Query performance optimization"
+        ]
+      },
+      {
+        "name": "Cost Optimization and Resource Management",
+        "description": "Observability-driven cost optimization with resource utilization analysis and recommendations",
+        "deliverables": [
+          "Cost analysis dashboards",
+          "Resource optimization recommendations",
+          "Telemetry cost management",
+          "ROI measurement and reporting"
+        ]
+      }
+    ],
+    "technologies": [
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "Mimir",
+      "Tempo",
+      "Thanos",
+      "Datadog",
+      "New Relic",
+      "Sumo Logic",
+      "Splunk",
+      "Dynatrace",
+      "AppDynamics",
+      "ELK Stack (Elasticsearch, Logstash, Kibana)",
+      "Fluentd",
+      "FluentBit",
+      "OpenTelemetry",
+      "Jaeger",
+      "Zipkin",
+      "AWS CloudWatch",
+      "AWS X-Ray",
+      "Azure Monitor",
+      "Azure Application Insights",
+      "Google Cloud Monitoring",
+      "Google Cloud Logging",
+      "PagerDuty",
+      "OpsGenie",
+      "AlertManager",
+      "VictorOps",
+      "Grafana Agent",
+      "Prometheus Operator",
+      "Logic Monitor",
+      "BigPanda",
+      "Moogsoft",
+      "Pingdom",
+      "UptimeRobot",
+      "ThousandEyes",
+      "Catchpoint",
+      "Amazon Timestream",
+      "InfluxDB",
+      "TimescaleDB",
+      "Victoria Metrics",
+      "Kafka",
+      "Apache Pulsar",
+      "Redis",
+      "Apache Cassandra",
+      "MongoDB",
+      "Snowflake"
+    ],
+    "businessValue": "Accion's Observability CoE delivers transformative business value through comprehensive system visibility (95% improvement in observability coverage), faster issue identification (70% reduction in detection time), proactive monitoring (preventing 85% of performance issues), and substantial cost optimization (25-40% reduction in monitoring tool costs through consolidation). Organizations achieve enhanced operational insights, improved user experience monitoring, better performance optimization, faster troubleshooting, and data-driven decision making through advanced telemetry, analytics, and visualization capabilities.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_observability.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_prometheus",
+      "metadata": {
+        "category": "monitoring",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_grafana",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_datadog",
+      "metadata": {
+        "category": "apm"
+      }
+    }
+  ]
+}

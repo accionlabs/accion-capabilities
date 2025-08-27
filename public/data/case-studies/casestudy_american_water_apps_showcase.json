@@ -1,0 +1,131 @@
+{
+  "id": "casestudy_american_water_apps_showcase",
+  "type": "casestudy",
+  "name": "American Water - Digital Innovation Apps Showcase",
+  "client": "American Water",
+  "industry": "Utilities",
+  "description": "Comprehensive digital transformation initiative delivering seven integrated applications for workforce management, customer engagement, operational analytics, and safety management across America's largest water utility company.",
+  "challenge": "American Water faced multiple operational challenges including scattered customer data across various systems, legacy workforce management tools, limited real-time analytics for millions of meters and sensors, unreported safety incidents, and lack of unified employee and customer portals. These challenges led to operational inefficiencies, revenue loss, and compromised safety protocols.",
+  "solution": "Delivered an integrated suite of seven innovative applications: Customer 360 for unified customer data management, Meter Analytics for predictive maintenance and anomaly detection, Workforce Management for optimized scheduling and routing, Workforce Safety for incident reporting and risk prediction, Customer Portal for self-service capabilities, Homeowner Services for warranty management, and an AI-powered Intranet for employee engagement across 6,700+ employees in 47 states.",
+  "outcomes": [
+    "360-degree customer view consolidating data from multiple systems",
+    "AI-driven predictive analytics preventing equipment failures and revenue loss",
+    "Optimized workforce routing with traffic, weather, and crime data correlation",
+    "Comprehensive safety incident tracking and real-time risk alerts",
+    "Enhanced customer self-service capabilities reducing support overhead",
+    "Streamlined homeowner warranty claims management with B2B integrations",
+    "Interactive employee intranet with voice-enabled conversational UI",
+    "Significant reduction in travel time and operational costs",
+    "Improved safety protocols with predictive risk analytics",
+    "Enhanced customer satisfaction through unified portal experience"
+  ],
+  "technologies": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Predictive Analytics",
+    "Natural Language Processing (NLP)",
+    "Conversational UI",
+    "Voice Recognition",
+    "Real-time Analytics",
+    "Microservices Architecture",
+    "Interactive Dashboards",
+    "Data Visualization",
+    "Geospatial Analytics",
+    "Mobile Applications",
+    "Web Portals",
+    "B2B Platform Integration",
+    "Customer Relationship Management",
+    "Content Management Systems",
+    "Search and Indexing",
+    "Chatbots",
+    "Responsive Design"
+  ],
+  "applications": [
+    {
+      "name": "Customer 360",
+      "description": "Consolidated application providing complete customer profiles with AI-driven recommendations and predictive analytics"
+    },
+    {
+      "name": "Meter Analytics", 
+      "description": "Real-time analytics platform for millions of meters and sensors with anomaly detection and predictive maintenance"
+    },
+    {
+      "name": "Workforce Management",
+      "description": "Uber-like work management system with optimized routing, appointment scheduling, and real-time adjustments"
+    },
+    {
+      "name": "Workforce Safety",
+      "description": "AI-powered safety incident reporting system with predictive risk analytics and real-time alerts"
+    },
+    {
+      "name": "Customer Portal",
+      "description": "Self-service customer portal for bill payments, usage analytics, service requests, and account management"
+    },
+    {
+      "name": "Homeowner Services",
+      "description": "E-commerce platform for utility service line warranties with claims management and B2B integrations"
+    },
+    {
+      "name": "Intranet",
+      "description": "Voice-enabled, personalized employee portal with collaboration tools and conversational UI for 6,700+ employees"
+    }
+  ],
+  "keyFeatures": [
+    "360-degree customer data consolidation",
+    "AI-driven predictive analytics and recommendations", 
+    "Real-time meter and sensor data analysis",
+    "Anomaly detection for leaks and equipment failures",
+    "Optimized route planning with external data correlation",
+    "Comprehensive safety incident tracking and reporting",
+    "Interactive dashboards with data visualization",
+    "Self-service customer capabilities",
+    "Voice-enabled conversational interfaces",
+    "Responsive design across devices",
+    "Microservices-powered architecture",
+    "Seamless B2B platform integrations"
+  ],
+  "duration": "Multi-year digital transformation initiative",
+  "teamSize": "Cross-functional teams including data scientists, AI engineers, full-stack developers, and UX designers",
+  "scope": "Enterprise-wide deployment across 47 US states serving 6,700+ employees and millions of customers",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_utilities",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_aiml",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics", 
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_ux",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/american_water_apps_showcase.md"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "coe_ux",
+  "type": "coe",
+  "data": {
+    "name": "User Experience (UX) Center of Excellence",
+    "description": "Accion's UX Center of Excellence delivers comprehensive user experience design and digital transformation services. The CoE focuses on human-centered design principles, creating intuitive and engaging digital experiences across web, mobile, and emerging platforms. With expertise in design thinking, user research, interface design, and usability testing, the UX CoE helps organizations improve customer satisfaction, increase conversion rates, and build products that users love.",
+    "category": "Digital Products",
+    "order": 23,
+    "keyCompetencies": [
+      "Design Thinking and Strategy",
+      "User Research and Analysis",
+      "Information Architecture",
+      "Interaction Design",
+      "Visual Design and Branding",
+      "Prototyping and Wireframing",
+      "Usability Testing and Evaluation",
+      "Accessibility and Inclusive Design",
+      "Design Systems and Component Libraries",
+      "Mobile and Responsive Design",
+      "Voice and Conversational UI",
+      "AR/VR Experience Design",
+      "Service Design",
+      "Customer Journey Mapping",
+      "Design Sprint Facilitation",
+      "UX Writing and Content Strategy",
+      "Design Operations",
+      "Cross-functional Collaboration"
+    ],
+    "services": [
+      {
+        "name": "UX Strategy and Consulting",
+        "description": "Strategic UX planning and roadmap development",
+        "deliverables": [
+          "UX strategy",
+          "Design roadmap",
+          "UX maturity assessment",
+          "Design principles"
+        ]
+      },
+      {
+        "name": "User Research and Analysis",
+        "description": "Comprehensive user research to understand needs and behaviors",
+        "deliverables": [
+          "User personas",
+          "Journey maps",
+          "Research findings",
+          "Usability reports"
+        ]
+      },
+      {
+        "name": "Design Systems Development",
+        "description": "Creating scalable design systems and component libraries",
+        "deliverables": [
+          "Design system",
+          "Component library",
+          "Style guide",
+          "Pattern library"
+        ]
+      },
+      {
+        "name": "UI/UX Design Services",
+        "description": "End-to-end design services for digital products",
+        "deliverables": [
+          "Interface designs",
+          "Prototypes",
+          "Wireframes",
+          "Visual designs"
+        ]
+      },
+      {
+        "name": "Usability Testing",
+        "description": "Comprehensive usability testing and optimization",
+        "deliverables": [
+          "Test plans",
+          "Usability reports",
+          "Recommendations",
+          "A/B testing results"
+        ]
+      },
+      {
+        "name": "Accessibility Services",
+        "description": "Ensuring digital products meet accessibility standards",
+        "deliverables": [
+          "Accessibility audit",
+          "WCAG compliance",
+          "Remediation plan",
+          "Training"
+        ]
+      },
+      {
+        "name": "Design Sprint Facilitation",
+        "description": "Rapid design and validation through design sprints",
+        "deliverables": [
+          "Sprint outcomes",
+          "Validated concepts",
+          "Prototypes",
+          "User feedback"
+        ]
+      },
+      {
+        "name": "Digital Transformation Design",
+        "description": "UX-led digital transformation initiatives",
+        "deliverables": [
+          "Transformation roadmap",
+          "Experience strategy",
+          "Change management",
+          "Training"
+        ]
+      }
+    ],
+    "technologies": [
+      "Figma",
+      "Sketch",
+      "Adobe XD",
+      "InVision",
+      "Principle",
+      "Framer",
+      "Miro",
+      "Figjam",
+      "Maze",
+      "UserTesting",
+      "Hotjar",
+      "Optimal Workshop",
+      "Lookback",
+      "UsabilityHub",
+      "Adobe Creative Suite",
+      "Zeplin",
+      "Abstract",
+      "Storybook",
+      "React",
+      "Angular",
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Design Tokens",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Material Design",
+      "Ant Design",
+      "Carbon Design System"
+    ],
+    "businessValue": "Accion's UX Center of Excellence delivers significant business value through improved user satisfaction (30-50% increase in NPS scores), higher conversion rates (20-40% improvement), reduced development costs through design systems (25-35% efficiency gains), decreased support tickets (40-60% reduction), and faster time-to-market with validated designs. The CoE enables organizations to create user-centered products that drive engagement, retention, and business growth.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_ux.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    }
+  ]
+}

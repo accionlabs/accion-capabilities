@@ -1,0 +1,70 @@
+{
+  "id": "accelerator_nexial",
+  "type": "accelerator",
+  "name": "Nexial",
+  "category": "Enterprise Automation",
+  "description": "Low-code test automation framework for comprehensive testing with cross-platform capabilities",
+  "keyFeatures": [
+    "Low-Code Test Scripting - Simplified test creation and maintenance",
+    "Cross-Platform Testing - Comprehensive testing across multiple environments",
+    "Reporting Dashboards - Detailed test execution and quality metrics",
+    "CI/CD Integration - Seamless integration with development pipelines"
+  ],
+  "clientValue": [
+    "Test Creation Speed - 60% faster test creation and execution",
+    "Test Coverage - Broader and more comprehensive test coverage",
+    "Regression Reduction - Fewer production issues and defects",
+    "Quality Assurance - Enhanced overall software quality"
+  ],
+  "successStories": [],
+  "techStack": [
+    "Test automation",
+    "Low-code platform",
+    "CI/CD integration"
+  ],
+  "targetIndustries": [
+    "Software Development",
+    "QA Services"
+  ],
+  "businessImpactMetrics": [
+    "60% faster test creation and execution",
+    "Broader and more comprehensive test coverage",
+    "Fewer production issues and defects",
+    "Enhanced overall software quality"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_jenkins",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_github_actions",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_sonarqube",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_testing",
+        "type": "USES"
+      },
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/nexial.md"
+  }
+}

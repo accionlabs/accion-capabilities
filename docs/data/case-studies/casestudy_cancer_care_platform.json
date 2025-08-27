@@ -1,0 +1,67 @@
+{
+  "id": "casestudy_cancer_care_platform",
+  "type": "casestudy",
+  "name": "Cancer Care Platform for Patient Communication and Support",
+  "client": "Healthcare Social Network Provider",
+  "clientType": "healthcare_technology",
+  "industry": "Healthcare",
+  "description": "Built a comprehensive care management platform enabling cancer patients to communicate with other patients, family members, and caregivers while creating supportive communities based on cancer type, region, and demographics.",
+  "challenge": "Cancer patients needed a dedicated platform to connect with others facing similar challenges while maintaining privacy and security. The platform required sophisticated networking capabilities to create meaningful connections based on medical conditions, geographic location, and personal demographics, while integrating with social media for extended support networks.",
+  "solution": "Developed a comprehensive social care platform with patient networking capabilities, private group creation based on cancer type/region/gender, family and caregiver communication tools, Facebook integration for extended networks, comprehensive care management features, and secure HIPAA-compliant communication channels.",
+  "outcomes": [
+    "Improved patient engagement and mental wellbeing",
+    "Enhanced medication adherence through peer support",
+    "Reduced patient isolation through community building",
+    "Better care coordination between patients and caregivers",
+    "Increased support network effectiveness",
+    "Measurable improvement in patient mental health outcomes"
+  ],
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "AngularJS",
+    "Ionic",
+    "PHP",
+    "MySQL",
+    "AWS",
+    "Facebook API Integration",
+    "HIPAA Compliance"
+  ],
+  "duration": "Full platform development lifecycle",
+  "teamSize": "Full-stack development team with healthcare specialists",
+  "keyFeatures": [
+    "Patient-to-patient secure communication",
+    "Private network creation by cancer type/region/gender",
+    "Family and caregiver integration tools",
+    "Social media integration for extended support",
+    "Care plan sharing and coordination",
+    "Medication tracking and reminders",
+    "Educational resources and content sharing",
+    "Mental health support group facilitation"
+  ],
+  "socialImpact": [
+    "Community building among cancer patients",
+    "Peer support for treatment adherence",
+    "Reduced patient anxiety and depression",
+    "Enhanced family communication",
+    "Improved quality of life during treatment"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_ux",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/cancer_care_platform.md"
+  }
+}

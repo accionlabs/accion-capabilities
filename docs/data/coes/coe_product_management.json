@@ -1,0 +1,121 @@
+{
+  "id": "coe_product_management",
+  "type": "coe",
+  "data": {
+    "name": "Product Management Center of Excellence",
+    "description": "Accion's Product Management Center of Excellence provides strategic product leadership and management services, focusing on product strategy, roadmap development, market analysis, and product lifecycle management. The CoE specializes in agile product development, customer-centric design, go-to-market strategies, and product analytics. With expertise in modern product management frameworks, market research, and stakeholder alignment, the Product Management CoE enables organizations to build successful products that deliver market value and drive business growth.",
+    "category": "Digital Products",
+    "order": 2,
+    "keyCompetencies": [
+      "Product Strategy and Vision",
+      "Product Roadmap Development",
+      "Market Research and Analysis",
+      "Customer Journey Mapping",
+      "Product Lifecycle Management",
+      "Agile Product Development",
+      "Go-to-Market Strategy",
+      "Product Analytics and Metrics",
+      "Competitive Analysis",
+      "Stakeholder Management",
+      "Product Pricing and Positioning",
+      "User Story Development",
+      "Product Launch Management",
+      "Portfolio Management",
+      "Product Operations"
+    ],
+    "services": [
+      {
+        "name": "Product Strategy Consulting",
+        "description": "Comprehensive product strategy development and market positioning",
+        "deliverables": [
+          "Product vision and strategy",
+          "Market opportunity analysis",
+          "Competitive positioning",
+          "Business case development"
+        ]
+      },
+      {
+        "name": "Product Roadmap Development",
+        "description": "Strategic product roadmap planning and prioritization",
+        "deliverables": [
+          "Product roadmap",
+          "Feature prioritization framework",
+          "Release planning",
+          "Milestone definitions"
+        ]
+      },
+      {
+        "name": "Product Launch Management",
+        "description": "End-to-end product launch planning and execution",
+        "deliverables": [
+          "Launch strategy",
+          "Go-to-market plan",
+          "Marketing collateral",
+          "Success metrics"
+        ]
+      },
+      {
+        "name": "Product Analytics Implementation",
+        "description": "Product analytics and metrics framework setup",
+        "deliverables": [
+          "Analytics framework",
+          "KPI dashboards",
+          "User behavior tracking",
+          "Performance reports"
+        ]
+      }
+    ],
+    "technologies": [
+      "Jira",
+      "Confluence",
+      "ProductBoard",
+      "Aha!",
+      "Mixpanel",
+      "Amplitude",
+      "Google Analytics",
+      "Heap",
+      "Pendo",
+      "Figma",
+      "Miro",
+      "Slack"
+    ],
+    "businessValue": "Accion's Product Management Center of Excellence delivers strategic product leadership that drives 30-50% faster time-to-market, 40% improvement in product-market fit, enhanced customer satisfaction (NPS improvement of 20+ points), and increased revenue through better product positioning and pricing strategies. The CoE enables organizations to build products that customers love while achieving business objectives and market success.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_product_management.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_experience_design",
+      "metadata": {
+        "relationship": "collaborative"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_architecture",
+      "metadata": {
+        "relationship": "technical_alignment"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    }
+  ]
+}

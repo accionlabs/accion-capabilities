@@ -1,0 +1,283 @@
+{
+  "id": "coe_servicenow",
+  "type": "coe",
+  "data": {
+    "name": "ServiceNow Center of Excellence",
+    "description": "Serviceberry's ServiceNow Center of Excellence delivers comprehensive workflow automation and IT service management solutions. The CoE specializes in ITSM, CSM, FSM, HRSD, ITOM, ITBM, and Security Operations implementations across the full ServiceNow platform. With extensive experience in ServiceNow integrations, Smart Launch Kit frameworks, and proven program delivery methodologies, the CoE enables organizations to achieve streamlined operations, enhanced productivity, and improved service delivery through ServiceNow's comprehensive digital platform.",
+    "category": "Enterprise Automation",
+    "order": 15,
+    "keyCompetencies": [
+      "IT Service Management (ITSM)",
+      "Customer Service Management (CSM)",
+      "Field Service Management (FSM)",
+      "HR Service Delivery (HRSD)",
+      "IT Operations Management (ITOM)",
+      "IT Business Management (ITBM)",
+      "Security Operations (SecOps)",
+      "Incident Management",
+      "Change Management",
+      "Problem Management",
+      "Case Management",
+      "Service Request Management",
+      "Knowledge Management",
+      "Process Flows and Workflows",
+      "Notifications and Alerts",
+      "Customer 360 Degree View",
+      "Customer Service Portal",
+      "Mobile App Development",
+      "Visual Task Boards",
+      "Reports and Dashboards",
+      "ServiceNow Integration Hub",
+      "Performance Analytics",
+      "Process Automation",
+      "App Engine Development",
+      "Service Catalog Management",
+      "ServiceNow Scaled Agile Framework (SAFe) Implementation"
+    ],
+    "services": [
+      {
+        "name": "ITSM Implementation",
+        "description": "Complete IT Service Management implementation with incident, problem, change, and service request management",
+        "deliverables": [
+          "Incident management workflows",
+          "Problem management processes",
+          "Change management automation",
+          "Service request catalog"
+        ]
+      },
+      {
+        "name": "Customer Service Management (CSM)",
+        "description": "Customer service platform implementation with case management and customer portals",
+        "deliverables": [
+          "Customer service portal",
+          "Case management workflows",
+          "Customer 360 degree view",
+          "Customer data management"
+        ]
+      },
+      {
+        "name": "Field Service Management (FSM)",
+        "description": "Field service operations management with mobile capabilities and dynamic scheduling",
+        "deliverables": [
+          "Field service mobile app",
+          "Dynamic scheduling and dispatch",
+          "Inventory management",
+          "Contractor management"
+        ]
+      },
+      {
+        "name": "HR Service Delivery (HRSD)",
+        "description": "HR service management with employee lifecycle and service delivery automation",
+        "deliverables": [
+          "Employee service center",
+          "HR case management",
+          "Employee onboarding automation",
+          "Employee document management"
+        ]
+      },
+      {
+        "name": "IT Operations Management (ITOM)",
+        "description": "IT infrastructure monitoring and management with discovery and service mapping",
+        "deliverables": [
+          "Service mapping",
+          "Discovery automation",
+          "Event management",
+          "Cloud provisioning and governance"
+        ]
+      },
+      {
+        "name": "IT Business Management (ITBM)",
+        "description": "IT portfolio and project management with demand management and resource planning",
+        "deliverables": [
+          "Project and portfolio management",
+          "Demand management",
+          "Resource management",
+          "Investment funding management"
+        ]
+      },
+      {
+        "name": "Security Operations (SecOps)",
+        "description": "Security incident response and vulnerability management integration",
+        "deliverables": [
+          "Security incident response",
+          "Vulnerability response",
+          "Threat intelligence integration",
+          "Configuration compliance"
+        ]
+      },
+      {
+        "name": "ServiceNow App Engine Development",
+        "description": "Custom application development on the ServiceNow platform",
+        "deliverables": [
+          "Custom applications",
+          "Guided app creator solutions",
+          "Mobile studio applications",
+          "Integration hub connections"
+        ]
+      },
+      {
+        "name": "ServiceNow Integration Services",
+        "description": "Integration with third-party systems and platforms",
+        "deliverables": [
+          "API integrations",
+          "Data synchronization",
+          "Legacy system integrations",
+          "Real-time data exchange"
+        ]
+      },
+      {
+        "name": "ServiceNow Platform Optimization",
+        "description": "Performance optimization and platform governance services",
+        "deliverables": [
+          "Performance analytics setup",
+          "Platform governance framework",
+          "User experience optimization",
+          "Process improvement recommendations"
+        ]
+      }
+    ],
+    "technologies": [
+      "ServiceNow Platform",
+      "ServiceNow ITSM",
+      "ServiceNow CSM",
+      "ServiceNow FSM",
+      "ServiceNow HRSD",
+      "ServiceNow ITOM",
+      "ServiceNow ITBM",
+      "ServiceNow SecOps",
+      "ServiceNow App Engine",
+      "ServiceNow Integration Hub",
+      "ServiceNow Mobile Studio",
+      "ServiceNow Performance Analytics",
+      "ServiceNow Flow Designer",
+      "ServiceNow Service Portal",
+      "ServiceNow Visual Task Boards",
+      "ServiceNow Predictive Intelligence",
+      "ServiceNow Now Platform",
+      "JavaScript",
+      "AngularJS",
+      "Bootstrap",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "SOAP",
+      "JSON",
+      "XML",
+      "MS SQL Server",
+      "MySQL",
+      "PostgreSQL",
+      "Oracle Database",
+      "Java",
+      "ASP.NET",
+      "J2EE",
+      "Python",
+      "Node.js",
+      "Docker",
+      "Jenkins",
+      "Chef",
+      "Bamboo",
+      "Azure DevOps",
+      "Salesforce",
+      "Okta",
+      "CipherCloud",
+      "Elastic Search",
+      "RAPID7",
+      "CYWARE",
+      "Zendesk",
+      "MOKESCREEN",
+      "CrowdStrike",
+      "SAP",
+      "Dell Boomi",
+      "ArcSight",
+      "Qualys",
+      "Azure",
+      "Magento",
+      "MRTG",
+      "Digital Shadows"
+    ],
+    "businessValue": "Serviceberry's ServiceNow CoE delivers significant business value through streamlined IT operations, enhanced service delivery, and improved productivity. The CoE enables organizations to achieve 35% reduction in fulfillment time, 26% rise in ticket resolution per day, 100% compliance in field services, 70% increase in productivity, 40% reduction in case load, 45% less time in administrative tasks, and 100% automation of onboarding and offboarding processes. Through comprehensive ServiceNow implementations, organizations realize improved operational efficiency, enhanced user experience, reduced manual effort, and measurable cost savings.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_servicenow.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_automation",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_utilities",
+      "metadata": {}
+    }
+  ]
+}

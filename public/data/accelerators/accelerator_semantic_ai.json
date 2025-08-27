@@ -1,0 +1,118 @@
+{
+  "id": "accelerator_semantic_ai",
+  "type": "accelerator",
+  "data": {
+    "name": "Semantic.AI",
+    "description": "Semantic.AI is an advanced natural language understanding and semantic intelligence platform that enables organizations to extract deep meaning, context, and relationships from unstructured text data. Using state-of-the-art NLP, knowledge graphs, and semantic reasoning, the platform provides entity extraction, sentiment analysis, topic modeling, and intelligent document processing capabilities for enterprise-scale text analytics.",
+    "category": "AI/NLP",
+    "status": "Active",
+    "version": "3.2",
+    "lastUpdated": "2025-08-25",
+    "keyFeatures": [
+      "Advanced Entity Recognition",
+      "Semantic Relationship Extraction",
+      "Contextual Understanding Engine",
+      "Multi-language Support",
+      "Document Intelligence",
+      "Sentiment and Emotion Analysis",
+      "Topic Modeling and Classification",
+      "Knowledge Graph Generation",
+      "Intent Recognition",
+      "Summarization Engine",
+      "Question Answering System",
+      "Custom Model Training"
+    ],
+    "technologies": [
+      "Hugging Face Transformers",
+      "spaCy",
+      "BERT",
+      "GPT-4",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Neo4j",
+      "Elasticsearch",
+      "Apache NiFi",
+      "Docker",
+      "FastAPI"
+    ],
+    "benefits": [
+      "95% accuracy in entity extraction",
+      "85% reduction in document processing time",
+      "Support for 50+ languages",
+      "90% accuracy in sentiment analysis",
+      "Real-time text processing capabilities",
+      "Customizable domain-specific models",
+      "Scalable to billions of documents",
+      "GDPR compliant processing"
+    ],
+    "useCases": [
+      "Contract analysis and extraction",
+      "Customer feedback analysis",
+      "Regulatory compliance monitoring",
+      "Medical record processing",
+      "Legal document review",
+      "Social media monitoring",
+      "Research paper analysis",
+      "Email classification and routing"
+    ],
+    "industries": [
+      "Legal",
+      "Healthcare",
+      "Financial Services",
+      "Media",
+      "Government",
+      "Pharmaceuticals"
+    ],
+    "deliveryMethod": "API Service / On-premises",
+    "timeline": "2-6 weeks implementation",
+    "documentation": {
+      "overview": "content/accelerators/accelerator_semantic_ai.md",
+      "technicalGuide": "docs/accelerators/semantic-ai-technical.md",
+      "apiReference": "docs/accelerators/semantic-ai-api.md"
+    },
+    "metrics": {
+      "deployments": "40+",
+      "documentsProcessed": "100M+",
+      "apiCalls": "50M+ monthly",
+      "languages": "52"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_aiml",
+      "metadata": {
+        "relationship": "nlp_capabilities"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_huggingface",
+      "metadata": {
+        "purpose": "nlp_models"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "purpose": "language_models"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "purpose": "model_training"
+      }
+    }
+  ]
+}

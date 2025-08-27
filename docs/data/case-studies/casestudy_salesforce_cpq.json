@@ -1,0 +1,57 @@
+{
+  "id": "casestudy_salesforce_cpq",
+  "type": "casestudy",
+  "name": "Software Security Company - Optimizing Quotes & Pricing with CPQ",
+  "client": "Software Security Product Company",
+  "industry": "Technology",
+  "description": "Streamlining and automating the Configure, Price, Quote (CPQ) process, reducing errors, improving efficiency, and enhancing revenue tracking through Salesforce CPQ implementation.",
+  "challenge": "The software security company struggled with a cumbersome CPQ process using a highly customized NetSuite instance that was prone to errors, high manual dependencies leading to inefficiencies and delays, lack of quote tracking with frequent rework and no status visibility, and untracked discount approvals causing revenue loss due to unauthorized discounts.",
+  "solution": "Implemented Salesforce CPQ integrated with Sales Cloud to automate and streamline the entire quote-to-cash process, featuring automated configure-price-quote workflows, comprehensive approval processes for discounts and pricing, real-time quote tracking and status visibility, address standardization to reduce duplicate entries, and enhanced revenue tracking and compliance monitoring.",
+  "outcomes": [
+    "46% faster and more accurate quoting, reducing rework and revenue loss",
+    "Streamlined approval processes, ensuring compliance and profitability through controlled discount management",
+    "Significant improvement in address standardization, reducing duplicate entries and data quality issues",
+    "Enhanced quote tracking eliminating frequent rework through real-time status visibility",
+    "Better revenue control through comprehensive discount approval workflows",
+    "Improved operational efficiency through automation and reduced manual intervention"
+  ],
+  "technologies": [
+    "Salesforce CPQ",
+    "Salesforce Sales Cloud",
+    "Automated Workflows",
+    "Approval Processes", 
+    "Quote Tracking",
+    "Address Standardization",
+    "Revenue Tracking"
+  ],
+  "businessValue": [
+    "Significant improvement in quoting accuracy and speed with 46% faster processing",
+    "Enhanced revenue protection through controlled discount approval processes",
+    "Improved operational efficiency through automation and reduced manual dependencies",
+    "Better data quality and reduced duplication through address standardization",
+    "Enhanced compliance and profitability through streamlined approval workflows"
+  ],
+  "duration": "CPQ optimization project",
+  "teamSize": "Salesforce CPQ implementation team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_cpq.md"
+  }
+}

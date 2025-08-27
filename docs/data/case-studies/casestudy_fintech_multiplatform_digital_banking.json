@@ -1,0 +1,66 @@
+{
+  "id": "casestudy_fintech_multiplatform_digital_banking",
+  "type": "casestudy",
+  "name": "Multi-Platform Digital Banking Solution with Azure Automation",
+  "client": "Commercial Bank",
+  "industry": "Financial Services",
+  "description": "Comprehensive digital banking transformation implementing automated Azure Landing Zone, RPA workflows, and data analytics for fraud detection and customer verification to modernize banking operations and enhance security.",
+  "challenge": "Manual processes requiring automation through Azure Landing Zone implementation and RPA/Power Automate workstreams. Need for automated identification of fake customers and addresses to prevent fraud and defaults in the FinTech platform.",
+  "solution": "Implemented automated Azure Landing Zone with web UI and API-based integration reducing manual effort. Deployed Power Automate based automation in HR operations and data processing. Built data analytics solution with automated identification of fake customers, addresses, and information to identify defaults and fraudulent entries.",
+  "outcomes": [
+    "Cost reduction through process optimization and automation",
+    "Process improvement with quick risk identification capabilities",
+    "Automated monthly/quarterly/yearly/ad-hoc reports in risk area",
+    "Automated data quality checks eliminating manual effort",
+    "Significant time savings from previously time-consuming manual processes"
+  ],
+  "technologies": [
+    "Microsoft Azure",
+    "Azure Landing Zone",
+    "Power Automate",
+    "RPA",
+    "Data Analytics",
+    "API Integration",
+    "Web UI Development",
+    "Fraud Detection Systems"
+  ],
+  "duration": "Digital banking transformation engagement",
+  "teamSize": "Azure specialists and data analytics experts",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_azure",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_rpa",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/fintech_multiplatform_digital_banking.md"
+  }
+}

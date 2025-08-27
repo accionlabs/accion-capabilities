@@ -1,0 +1,65 @@
+{
+  "id": "casestudy_rpa_myeyedr",
+  "type": "casestudy",
+  "name": "MyEyeDr RPA Case Study - Receivable Adjustments Automation",
+  "client": "MyEyeDr",
+  "industry": "Healthcare",
+  "description": "Automated receivable adjustments processes for leading eye care provider, transforming manual financial reconciliation workflows into intelligent RPA-driven operations that improved accuracy and reduced processing time significantly.",
+  "challenge": "MyEyeDr faced significant operational challenges with manual receivable adjustments processes that were time-intensive, error-prone, and difficult to scale. The healthcare provider's finance team spent considerable time on repetitive tasks including manual data entry for adjustments, reconciliation of insurance payments, processing of patient account corrections, validation of adjustment codes and amounts, and generation of financial reports. These manual processes resulted in processing delays, increased risk of human error, inconsistent application of adjustment rules, difficulty in maintaining audit trails, and limited ability to handle growing transaction volumes efficiently.",
+  "solution": "Implemented comprehensive RPA automation solution using UiPath to streamline the entire receivable adjustments workflow. The automation included intelligent data extraction from various healthcare systems, automated validation of adjustment codes and business rules, seamless integration with existing EHR and billing systems, automated reconciliation processes for insurance and patient payments, exception handling for complex cases requiring human review, and real-time reporting and monitoring capabilities. The solution incorporated healthcare-specific compliance requirements and integrated with multiple healthcare management systems to ensure seamless data flow.",
+  "outcomes": [
+    "80% reduction in manual processing time for receivable adjustments",
+    "95% improvement in data accuracy and error reduction",
+    "70% faster turnaround time for adjustment processing",
+    "60% reduction in operational costs for finance operations",
+    "Enhanced compliance with healthcare financial regulations",
+    "Improved cash flow management through faster processing",
+    "Better visibility into adjustment patterns and trends",
+    "Scalable solution supporting 4x increase in transaction volume",
+    "Reduced staff workload allowing focus on strategic financial activities",
+    "Automated audit trail generation for compliance reporting"
+  ],
+  "technologies": [
+    "UiPath",
+    "Healthcare EHR Integration",
+    "Database Automation",
+    "OCR Technologies",
+    "Excel Automation",
+    "Web Services Integration",
+    "SQL Server",
+    "REST APIs",
+    "Document Processing",
+    "Email Automation",
+    "Workflow Orchestration",
+    "Exception Handling",
+    "Compliance Monitoring",
+    "Real-time Reporting"
+  ],
+  "duration": "12-month RPA implementation and healthcare integration",
+  "teamSize": "8-person RPA development team with healthcare domain expertise",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_rpa",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_uipath",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/rpa_myeyedr.md"
+  }
+}

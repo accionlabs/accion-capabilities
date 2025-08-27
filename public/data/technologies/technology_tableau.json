@@ -1,0 +1,14 @@
+{
+  "id": "technology_tableau",
+  "name": "Tableau",
+  "description": "Business intelligence and visualization platform",
+  "category": "tool",
+  "vendor": "Salesforce",
+  "isOpenSource": false,
+  "isPartnership": true,
+  "type": "technology",
+  "tags": [
+    "tool"
+  ],
+  "relationships": []
+}

@@ -1,0 +1,319 @@
+{
+  "id": "coe_portfolio_rationalization",
+  "type": "coe",
+  "data": {
+    "name": "Portfolio Rationalization Center of Excellence",
+    "description": "Accion's Portfolio Rationalization Center of Excellence specializes in strategic product portfolio optimization and modernization through systematic rationalization methodologies. The CoE provides comprehensive portfolio analysis, consolidation strategies, and reengineering services to address functional and architectural overlaps across product portfolios. With expertise in QUM (Quantitative Unified Methodology) for measuring overlaps, iterative consolidation processes, and Breeze framework-based modernization, the CoE enables organizations to streamline their product offerings, reduce operational costs, optimize engineering resources, and accelerate time-to-market while maintaining business continuity and customer satisfaction.",
+    "category": "Digital Products",
+    "order": 19,
+    "keyCompetencies": [
+      "Product Portfolio Analysis and Assessment",
+      "Functional and Architectural Overlap Identification",
+      "QUM (Quantitative Unified Methodology) for Overlap Measurement",
+      "Iterative Consolidation Process Implementation",
+      "Rationalization Strategy Development (Consolidate, Migrate, Sunset)",
+      "Architecture Overlap Resolution (Isolate, Share, Reuse)",
+      "Legacy Application Reengineering and Modernization",
+      "Microservices and API-First Architecture Migration",
+      "Business Process Consolidation and Workflow Optimization",
+      "Technology Stack Standardization and Migration",
+      "Customer and Data Migration Planning",
+      "Risk Assessment and Business Continuity Planning",
+      "ROI and Cost-Benefit Analysis",
+      "Release and Change Management",
+      "Breeze Framework Integration for Modernized Architectures"
+    ],
+    "services": [
+      {
+        "name": "Product Portfolio Assessment",
+        "description": "Comprehensive analysis of product portfolios to identify functional overlaps, architectural redundancies, and rationalization opportunities",
+        "deliverables": [
+          "Portfolio inventory and mapping",
+          "Functional overlap analysis using QUM methodology",
+          "Architecture assessment and gap analysis",
+          "Rationalization roadmap and strategy"
+        ]
+      },
+      {
+        "name": "Consolidation Strategy and Implementation",
+        "description": "Strategic consolidation planning with two main approaches: developing new unified products or nominating and enhancing existing products",
+        "deliverables": [
+          "Consolidation approach selection",
+          "Product migration planning",
+          "Feature gap bridging strategy",
+          "Unified product architecture design"
+        ]
+      },
+      {
+        "name": "Legacy Application Reengineering",
+        "description": "Complete modernization of legacy applications using incremental, parallel development, or greenfield approaches with Breeze framework integration",
+        "deliverables": [
+          "Legacy assessment and modernization strategy",
+          "Breeze framework implementation",
+          "Microservices architecture migration",
+          "Cloud-native platform development"
+        ]
+      },
+      {
+        "name": "Architecture Overlap Resolution",
+        "description": "Systematic resolution of architectural overlaps through isolation, sharing, and reuse strategies with shared platform services",
+        "deliverables": [
+          "Shared platform services design",
+          "Microservices and micro frontends architecture",
+          "API integration and service mesh implementation",
+          "DevSecOps automation setup"
+        ]
+      },
+      {
+        "name": "Technology Stack Rationalization",
+        "description": "Standardization and consolidation of technology stacks across the portfolio to reduce maintenance overhead and improve development efficiency",
+        "deliverables": [
+          "Technology assessment and standardization plan",
+          "Migration strategies for polyglot environments",
+          "Shared libraries and reusable components",
+          "Developer toolchain standardization"
+        ]
+      },
+      {
+        "name": "Business Process and Workflow Optimization",
+        "description": "Consolidation and simplification of business processes, workflows, and operational procedures across the rationalized portfolio",
+        "deliverables": [
+          "Process mapping and optimization",
+          "Workflow automation implementation",
+          "Business rules consolidation",
+          "Customer experience unification"
+        ]
+      }
+    ],
+    "technologies": [
+      "Java",
+      "C# .NET",
+      "Python",
+      "Node.js",
+      "React",
+      "Angular",
+      "Vue.js",
+      "PostgreSQL",
+      "MSSQL",
+      "MongoDB",
+      "Redis",
+      "Elasticsearch",
+      "Docker",
+      "Kubernetes",
+      "OpenShift",
+      "Helm",
+      "Apache Spark",
+      "Apache Kafka",
+      "Apache Airflow",
+      "Jenkins",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Terraform",
+      "Ansible",
+      "Spring Boot",
+      "ASP.NET",
+      "Express.js",
+      "NUnit",
+      "JUnit",
+      "Mockito",
+      "Elastic Stack",
+      "Splunk",
+      "Prometheus",
+      "Grafana",
+      "NGINX",
+      "HAProxy",
+      "Istio",
+      "Envoy",
+      "GraphQL",
+      "REST APIs",
+      "gRPC",
+      "WebSockets",
+      "OAuth 2.0",
+      "JWT",
+      "SAML",
+      "LDAP"
+    ],
+    "rationalizationMethodologies": {
+      "functionalOverlap": {
+        "approaches": [
+          "Consolidate",
+          "Migrate",
+          "Sunset"
+        ],
+        "strategies": [
+          "Develop New Unified Product",
+          "Nominate & Enhance Existing Product"
+        ]
+      },
+      "architecturalOverlap": {
+        "approaches": [
+          "Isolate",
+          "Share",
+          "Reuse"
+        ],
+        "strategies": [
+          "Shared Platform Services",
+          "API Integration",
+          "Microservices Architecture",
+          "Micro Frontends"
+        ]
+      },
+      "gapBridging": [
+        "Total Merge of Code Bases",
+        "Shared Libraries and Reusable Components",
+        "Backend Sharing via API Integrations",
+        "Microservices and Micro Frontends Sharing",
+        "Code Development from Scratch"
+      ]
+    },
+    "reengineeringApproaches": [
+      "Tech Debt Addressal (Incremental)",
+      "Parallel Development & Integration",
+      "Incremental Value Delivery (Greenfield)",
+      "Module by Module Modernization"
+    ],
+    "businessValue": "Accion's Portfolio Rationalization CoE delivers significant business value through streamlined product offerings that reduce operational complexity, optimized engineering resources that eliminate duplicate development efforts, reduced infrastructure and maintenance costs through consolidation, improved customer experience through unified interfaces and processes, accelerated time-to-market through shared platforms and standardized development practices, and enhanced system reliability and scalability through modern architecture patterns. Organizations typically achieve 30-50% reduction in maintenance costs, 40% improvement in development efficiency, and 25-40% faster feature delivery through systematic portfolio rationalization.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_portfolio_rationalization.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_media",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_ecommerce",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "COMPLEMENTS",
+      "to": "coe_architecture",
+      "metadata": {
+        "category": "modernization"
+      }
+    },
+    {
+      "type": "COMPLEMENTS",
+      "to": "coe_testing",
+      "metadata": {
+        "category": "quality_assurance"
+      }
+    }
+  ]
+}

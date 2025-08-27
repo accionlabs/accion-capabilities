@@ -1,0 +1,75 @@
+{
+  "id": "framework_collaborative_teams",
+  "name": "Collaborative Teams Model",
+  "category": "framework",
+  "description": "Balanced partnership approach with coordinated SCRUM teams and shared responsibility",
+  "frameworkType": "Engagement Model",
+  "methodology": "Balanced control and efficiency through coordinated team collaboration",
+  "strategicValue": "Optimizes collaboration between client and vendor teams while maintaining established development structures",
+  "clientValue": [
+    "Balanced control and operational efficiency",
+    "Established team structures and processes",
+    "Clear communication channels and protocols",
+    "Shared responsibility and accountability"
+  ],
+  "deliverables": [
+    "Collaborative delivery methodologies",
+    "Team coordination frameworks",
+    "Communication and escalation procedures",
+    "Shared responsibility matrices",
+    "Joint planning and review processes"
+  ],
+  "frameworkComponents": [
+    "SCRUM team coordination",
+    "Cross-team communication protocols",
+    "Shared planning processes",
+    "Joint responsibility models",
+    "Collaborative tooling and platforms"
+  ],
+  "targetScenarios": [
+    "Balanced control requirements",
+    "Standard software development projects",
+    "Mixed team environments",
+    "Medium to long-term engagements"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "engagement",
+    "collaboration",
+    "agile"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "framework_agile_delivery",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_devops",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/collaborative-teams.md"
+  }
+}

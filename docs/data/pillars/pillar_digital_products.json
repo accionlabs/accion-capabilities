@@ -1,0 +1,21 @@
+{
+  "id": "pillar_digital_products",
+  "name": "Digital Products",
+  "description": "Building modern digital products and platforms",
+  "order": 1,
+  "coeCount": 13,
+  "keyFocusAreas": [
+    "Product Engineering",
+    "UX Design",
+    "Mobile Development",
+    "Quality Engineering"
+  ],
+  "type": "pillar",
+  "tags": [
+    "Product Engineering",
+    "UX Design",
+    "Mobile Development",
+    "Quality Engineering"
+  ],
+  "relationships": []
+}

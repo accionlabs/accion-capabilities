@@ -1,0 +1,280 @@
+{
+  "id": "coe_salesforce",
+  "type": "coe",
+  "data": {
+    "name": "Salesforce Center of Excellence",
+    "description": "Accion Labs' Salesforce Center of Excellence delivers comprehensive AI-powered transformation solutions across the entire Salesforce ecosystem. The CoE specializes in Sales Cloud, Service Cloud, Marketing Cloud, Health Cloud, CPQ, Experience Cloud, and Nonprofit Cloud implementations. With deep expertise in healthcare compliance (FHIR), omni-channel customer service, marketing automation, fraud detection, and intelligent business process automation, the CoE enables organizations to achieve measurable digital transformation outcomes with proven ROI across diverse industry verticals.",
+    "category": "Enterprise Automation",
+    "order": 16,
+    "keyCompetencies": [
+      "Salesforce Sales Cloud Implementation",
+      "Salesforce Service Cloud Implementation",
+      "Salesforce Marketing Cloud (SFMC) Implementation",
+      "Salesforce Health Cloud Implementation",
+      "Salesforce CPQ Implementation",
+      "Salesforce Experience Cloud Implementation",
+      "Salesforce Nonprofit Cloud Implementation",
+      "AI-Powered Customer Service Automation",
+      "Omni-Channel Customer Support",
+      "Lead Management and Scoring",
+      "Customer 360-Degree View",
+      "Marketing Automation and Personalization",
+      "FHIR-Compliant Healthcare Integration",
+      "Fraud Detection and Prevention",
+      "Configure Price Quote (CPQ) Automation",
+      "Customer Portal Development",
+      "Self-Service Platform Implementation",
+      "Mobile Studio Development",
+      "Advanced Analytics and Reporting",
+      "Workflow Automation",
+      "Case Management",
+      "Donor Management",
+      "Volunteer Coordination",
+      "Process Optimization",
+      "System Integration and Migration",
+      "Data Synchronization",
+      "Predictive Analytics",
+      "Real-Time Tracking and Monitoring"
+    ],
+    "services": [
+      {
+        "name": "Salesforce Health Cloud Implementation",
+        "description": "Complete Patient Services platform implementation with automated care workflows and healthcare compliance",
+        "deliverables": [
+          "360-degree patient view implementation",
+          "Automated eligibility checks and benefits verification",
+          "FHIR-compliant data exchange integration",
+          "Salesforce Omni-Channel routing setup",
+          "Healthcare workflow automation",
+          "Patient onboarding automation"
+        ]
+      },
+      {
+        "name": "Salesforce Marketing Cloud Implementation",
+        "description": "Marketing automation platform with personalized customer engagement and lead scoring",
+        "deliverables": [
+          "Marketing Cloud and Sales Cloud integration",
+          "Advanced lead scoring implementation",
+          "Mobile Studio automation setup",
+          "Personalized email experience campaigns",
+          "Marketing performance analytics",
+          "Campaign automation workflows"
+        ]
+      },
+      {
+        "name": "Salesforce Service Cloud Implementation",
+        "description": "Service management system with AI-driven case resolution and fraud detection",
+        "deliverables": [
+          "Automated case assignment and routing",
+          "AI-powered fraud detection system",
+          "Real-time case tracking implementation",
+          "Centralized CRM service operations",
+          "Predictive maintenance workflows",
+          "Customer satisfaction optimization"
+        ]
+      },
+      {
+        "name": "Salesforce Sales & Experience Cloud Implementation",
+        "description": "Lead management solution with customer portal and self-service capabilities",
+        "deliverables": [
+          "Intelligent lead scoring automation",
+          "Customer portal for real-time tracking",
+          "Self-service account management",
+          "Order processing automation",
+          "Sales integration workflows",
+          "Customer engagement optimization"
+        ]
+      },
+      {
+        "name": "Salesforce CPQ Implementation",
+        "description": "Configure, Price, Quote automation with streamlined approval processes",
+        "deliverables": [
+          "CPQ process automation",
+          "Quote tracking and status visibility",
+          "Discount approval workflows",
+          "Address standardization system",
+          "Revenue tracking optimization",
+          "Pricing accuracy improvement"
+        ]
+      },
+      {
+        "name": "Salesforce Sales & Service Cloud for Distribution",
+        "description": "Service management system for merchandise distribution and logistics operations",
+        "deliverables": [
+          "Post-sales service automation",
+          "AI-driven predictive maintenance",
+          "Omnichannel support implementation",
+          "Service cost optimization",
+          "Customer satisfaction tracking",
+          "Proactive issue resolution"
+        ]
+      },
+      {
+        "name": "Salesforce Nonprofit Cloud Implementation",
+        "description": "Nonprofit operations management with donor and volunteer coordination",
+        "deliverables": [
+          "Donor management system",
+          "Volunteer coordination platform",
+          "Program tracking and analytics",
+          "Fundraising automation",
+          "Engagement personalization",
+          "Data-driven campaign optimization"
+        ]
+      },
+      {
+        "name": "Salesforce Integration Services",
+        "description": "System integration and data migration services for Salesforce platforms",
+        "deliverables": [
+          "Legacy system integration",
+          "Data migration and synchronization",
+          "Third-party system connectivity",
+          "API development and integration",
+          "Real-time data exchange setup",
+          "Integration testing and validation"
+        ]
+      }
+    ],
+    "technologies": [
+      "Salesforce Sales Cloud",
+      "Salesforce Service Cloud",
+      "Salesforce Marketing Cloud (SFMC)",
+      "Salesforce Health Cloud",
+      "Salesforce CPQ",
+      "Salesforce Experience Cloud",
+      "Salesforce Nonprofit Cloud",
+      "Salesforce Omni-Channel",
+      "Salesforce Mobile Studio",
+      "Salesforce Flow Designer",
+      "Salesforce App Builder",
+      "Salesforce Lightning Platform",
+      "Salesforce Einstein AI",
+      "Salesforce Analytics",
+      "Salesforce Integration Platform",
+      "FHIR Standards",
+      "Healthcare HL7 Standards",
+      "Apex Programming Language",
+      "Visualforce",
+      "Lightning Web Components (LWC)",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "SOAP APIs",
+      "JSON",
+      "XML",
+      "SQL",
+      "SOQL",
+      "SOSL",
+      "Salesforce DX",
+      "Git Version Control",
+      "Jenkins CI/CD",
+      "Docker",
+      "NetSuite Integration",
+      "Microsoft SQL Server",
+      "Oracle Database",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS Cloud Services",
+      "Azure Cloud Services",
+      "Heroku",
+      "MuleSoft",
+      "Dell Boomi",
+      "Informatica",
+      "Tableau",
+      "Power BI"
+    ],
+    "businessValue": "Accion Labs' Salesforce CoE delivers measurable business transformation outcomes across multiple industry verticals. Organizations achieve significant operational improvements including 38% faster patient onboarding, 43% increase in service efficiency, 35% improvement in service resolution time, 35% increase in customer engagement, 25% improvement in conversion rates, 20% boost in marketing efficiency, 58% faster lead response time, 30% improvement in order processing, 48% reduction in support inquiries, 46% faster and more accurate quoting, 40% faster case resolution, 35% increase in customer satisfaction, 30% reduction in service costs, 40% increase in donor engagement, 33% improvement in volunteer management efficiency, and 25% boost in fundraising effectiveness. These measurable outcomes translate to reduced operational costs, improved revenue generation, enhanced customer satisfaction, and accelerated digital transformation ROI.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_salesforce.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_automation",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_javascript",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_sql",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_rest_apis",
+      "metadata": {
+        "category": "integration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_nonprofit",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_distribution_logistics",
+      "metadata": {}
+    }
+  ]
+}

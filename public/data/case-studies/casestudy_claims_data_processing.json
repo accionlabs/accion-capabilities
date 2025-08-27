@@ -1,0 +1,79 @@
+{
+  "id": "casestudy_claims_data_processing",
+  "type": "casestudy",
+  "name": "Claims Data Processing for Pharmacy Benefits Management System",
+  "client": "Multi-billion Dollar Pharmacy Benefits Manager",
+  "clientType": "payer",
+  "industry": "Healthcare",
+  "description": "Developed an advanced claims processing system for a multi-billion dollar PBM to merge acquired platforms, enhance benefits plan management, and improve patient experience using big data analytics and machine learning, processing 100 million transactions with 250+ parameter fields.",
+  "challenge": "A major PBM needed to merge a recently acquired claims adjudication platform while ensuring consistency in claims processing and enhancing benefits plan management to improve patient experience and auto-adjudication rates. The system required processing massive transaction volumes with complex data analysis and anomaly detection.",
+  "solution": "Built a comprehensive claims processing platform using big data analytics blended with high-speed comparison ML algorithms for real-time claims processing and mismatch detection, optimized benefits plan configuration and recommendation engines, advanced feature selection and machine learning techniques, data clustering using unsupervised learning, and automated anomaly detection systems.",
+  "outcomes": [
+    "200% improvement in identifying clusters of similar claims with issues",
+    "50% reduction in OPEX associated with parallel testing and customer onboarding",
+    "80% reduction in rework for testing teams",
+    "100 million transactions processed for certification testing and ML analytics",
+    "1000+ features mapped for anomaly and mismatch detection",
+    "Successful platform consolidation with improved efficiency"
+  ],
+  "technologies": [
+    "Big Data Analytics",
+    "Machine Learning",
+    "Tableau",
+    "Apache Spark",
+    "Apache Storm",
+    "Python",
+    "Hadoop",
+    "Kafka",
+    "Decision Trees",
+    "Logistic Regression"
+  ],
+  "duration": "Multi-year platform integration and optimization",
+  "teamSize": "Large data engineering and ML team",
+  "keyFeatures": [
+    "Real-time claims data processing and analysis",
+    "High-speed ML algorithms for mismatch detection",
+    "Benefits plan configuration optimization",
+    "Automated recommendation engines",
+    "Feature selection for anomaly detection",
+    "Supervised and unsupervised machine learning",
+    "Data clustering and pattern recognition",
+    "Master data management and cleansing"
+  ],
+  "technicalSpecs": [
+    "100 million transactions processed for analytics",
+    "250+ parameter fields for data processing",
+    "1000+ features mapped for anomaly detection",
+    "Real-time processing capabilities",
+    "Scalable big data architecture"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "tech_spark",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "tech_python",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "tech_tableau",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/claims_data_processing.md"
+  }
+}

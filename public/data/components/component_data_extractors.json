@@ -1,0 +1,73 @@
+{
+  "id": "component_data_extractors",
+  "name": "Data Extractors - RDBMS and Flat File Connectors",
+  "category": "component",
+  "description": "Automated data extraction with format normalization and quality validation",
+  "componentType": "Data Processing Component",
+  "strategicValue": "Reusable building blocks for data ingestion and processing workflows",
+  "clientValue": [
+    "60-80% reduction in manual data processing",
+    "Improved data accuracy through validation",
+    "Standardized output formats",
+    "Automated contract analysis and document processing"
+  ],
+  "technicalSpecs": [
+    "NLP integration for document analysis",
+    "OCR capabilities for image processing",
+    "Data transformation tools",
+    "Format normalization engines",
+    "Quality validation frameworks"
+  ],
+  "integrationPoints": [
+    "RDBMS connections",
+    "Flat file systems",
+    "Document management systems",
+    "Data lakes and warehouses"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Processing Speed Improvement",
+      "value": "60-80",
+      "unit": "% reduction in manual processing"
+    },
+    {
+      "name": "Accuracy Rate",
+      "value": "95+",
+      "unit": "% data accuracy"
+    }
+  ],
+  "useCases": [
+    "Contract analysis and extraction",
+    "Legacy system data migration",
+    "Document processing workflows",
+    "Automated data ingestion pipelines"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "data-processing",
+    "extraction",
+    "automation"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_transformation",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_apache_airflow",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/data_extractors.md"
+  }
+}

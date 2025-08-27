@@ -1,0 +1,18 @@
+{
+  "id": "technology_ethereum",
+  "type": "technology",
+  "name": "Ethereum",
+  "description": "Leading blockchain platform for smart contracts and decentralized applications with ERC20/ERC721 token standards",
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "smart-contracts",
+    "ethereum",
+    "web3",
+    "defi",
+    "nft",
+    "erc20",
+    "erc721"
+  ],
+  "relationships": []
+}

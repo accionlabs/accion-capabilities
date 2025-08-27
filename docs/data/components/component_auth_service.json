@@ -1,0 +1,57 @@
+{
+  "id": "component_auth_service",
+  "name": "Enterprise Auth Service",
+  "category": "component",
+  "description": "Reusable authentication and authorization microservice",
+  "componentType": "Security Service",
+  "strategicValue": "Standardizes authentication across applications",
+  "clientValue": [
+    "OAuth 2.0/OIDC compliant",
+    "Multi-factor authentication",
+    "SSO support"
+  ],
+  "technicalSpecs": [
+    "REST API",
+    "JWT tokens",
+    "LDAP/AD integration",
+    "Rate limiting"
+  ],
+  "integrationPoints": [
+    "API Gateway",
+    "User Directory",
+    "Audit System"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Response Time",
+      "value": "50",
+      "unit": "ms"
+    },
+    {
+      "name": "Throughput",
+      "value": "10000",
+      "unit": "req/sec"
+    }
+  ],
+  "type": "component",
+  "tags": [
+    "component"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_nodejs",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_oauth",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/auth_service.md"
+  }
+}

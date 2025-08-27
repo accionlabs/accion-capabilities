@@ -1,0 +1,61 @@
+{
+  "id": "casestudy_wsr_insurance_devops",
+  "type": "casestudy",
+  "name": "WSR Insurance - DevOps Modernization for Agricultural Insurance Provider",
+  "client": "WSR Insurance",
+  "industry": "Insurance & Financial Services",
+  "description": "Modernized DevOps practices and implemented comprehensive CI/CD pipelines for a specialized agricultural insurance provider supporting farmers with PRF, Annual Forage, and Apiculture insurance products, reducing deployment time from weeks to days.",
+  "solution": "Implemented multi-stage CI/CD pipelines in Azure DevOps with automated build and deployment stages using YAML pipelines, aligned with structured branching strategy. Used Azure DevOps libraries, environment variables, and Azure Key Vaults for secure information management. Integrated Azure monitoring tools, implemented PowerShell and Python scripts for automation, configured Web Jobs for multi-process handling, and utilized Azure SQL Databases and Storage Accounts.",
+  "challenge": "The client faced deployment challenges for three applications (CIMS, GRIDPRO, WSR AG CONNECT) with limited resources, manual code build and deployment processes, different technologies across codebase and repository structure, sensitive configuration information security risks, monitoring gaps across environments, lack of deployment notifications and release notes, and complex third-party data integration processes.",
+  "outcomes": [
+    "Reduced deployment time from weeks to days through automated CI/CD pipelines",
+    "Improved product quality and monitoring capability across all environments",
+    "Saved 30% of manual efforts through automation and process optimization",
+    "Enhanced security posture through Azure Key Vaults and secure configuration management",
+    "Streamlined multi-application deployment process with structured branching strategy"
+  ],
+  "technologies": [
+    "Azure DevOps",
+    "Azure App Services",
+    "Azure SQL Database",
+    "Azure Storage Accounts", 
+    "Azure Key Vault",
+    "Azure Application Insights",
+    "Azure API Management (APIM)",
+    "YAML Pipelines",
+    "PowerShell",
+    "Python",
+    "Web Jobs"
+  ],
+  "duration": "8-month modernization project",
+  "teamSize": "6-member DevOps and development team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_azure",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_azure_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_insurance",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/wsr_insurance_devops.md"
+  }
+}

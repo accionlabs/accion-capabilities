@@ -1,0 +1,95 @@
+{
+  "id": "platform_unifiedai",
+  "name": "UnifiedAI Platform",
+  "category": "platform",
+  "description": "Enterprise AI platform for building and deploying ML models at scale",
+  "strategicValue": "Accelerates AI adoption and reduces time-to-market for AI initiatives",
+  "clientValue": [
+    "50% reduction in model development time",
+    "Unified MLOps pipeline",
+    "Enterprise-grade security and governance"
+  ],
+  "maturityLevel": "strategic",
+  "deploymentModels": [
+    "SaaS",
+    "On-premise",
+    "Hybrid Cloud"
+  ],
+  "keyFeatures": [
+    {
+      "name": "AutoML",
+      "description": "Automated machine learning for rapid model development",
+      "businessValue": "Reduces model development time by 70%"
+    },
+    {
+      "name": "MLOps Pipeline",
+      "description": "End-to-end ML lifecycle management",
+      "businessValue": "Ensures reproducibility and governance"
+    },
+    {
+      "name": "Model Registry",
+      "description": "Centralized model versioning and deployment",
+      "businessValue": "Streamlines model deployment and monitoring"
+    }
+  ],
+  "businessImpactMetrics": [
+    {
+      "name": "Time to Market",
+      "value": "3",
+      "unit": "months",
+      "improvement": "50% faster"
+    },
+    {
+      "name": "Model Accuracy",
+      "value": "95",
+      "unit": "%",
+      "improvement": "15% improvement"
+    }
+  ],
+  "content": {
+    "type": "file",
+    "source": "content/platform/unifiedai.md"
+  },
+  "type": "platform",
+  "tags": [
+    "platform"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_kubernetes",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_spark",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_data_analytics",
+        "type": "USES"
+      },
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "case_bank_transformation",
+        "type": "LEVERAGES"
+      }
+    ]
+  }
+}

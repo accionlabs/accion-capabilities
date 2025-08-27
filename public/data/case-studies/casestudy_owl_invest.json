@@ -1,0 +1,44 @@
+{
+  "id": "casestudy_owl_invest",
+  "name": "OWL INVEST - Integrated Wealth Management Portal",
+  "client": "OWL INVEST",
+  "industry": "Financial Services",
+  "description": "Product development for a Top 100 Financial Advisor RIA, creating a scalable solution to address multifold challenges including scalability, transition to modern UX leveraging advanced UI frameworks for superior user experience.",
+  "challenge": "Architecture limiting scalability, ineffective platform transition, and lack of superior user experience with latest UI and UX frameworks. Need for modern, intuitive interface to serve wealth management clients effectively.",
+  "solution": [
+    "Bank linking process with portfolio integration",
+    "Flutter upgrade from Ionic for enhanced mobile experience",
+    "AI Chat bot implementation for customer support",
+    "Advisor and client portals on both web and mobile platforms",
+    "Automation of all paperwork through sophisticated workflows"
+  ],
+  "technologies": [
+    "Figma",
+    "Ionic",
+    "Amazon Web Services",
+    "Angular",
+    "Ruby on Rails",
+    "Flutter"
+  ],
+  "impact": {
+    "contractValue": "$300,000",
+    "userExperienceImprovement": "Significant increase in user experience",
+    "advisorPortals": "Comprehensive web and mobile portals",
+    "workflowAutomation": "Complete automation of paper-based processes"
+  },
+  "outcomes": [
+    "Increased user experience through modern UI/UX frameworks",
+    "Comprehensive advisor and client portals on web and mobile",
+    "Complete automation of paper-based workflows",
+    "Enhanced mobile experience through Flutter upgrade",
+    "AI-powered customer support capabilities"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_ecommerce",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/owl_invest.md"
+  },
+  "type": "casestudy"
+}

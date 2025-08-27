@@ -1,0 +1,21 @@
+{
+  "id": "pillar_automation",
+  "name": "Automation",
+  "description": "Intelligent automation and process optimization",
+  "order": 4,
+  "coeCount": 6,
+  "keyFocusAreas": [
+    "RPA",
+    "Process Automation",
+    "Hyperautomation",
+    "Integration"
+  ],
+  "type": "pillar",
+  "tags": [
+    "RPA",
+    "Process Automation",
+    "Hyperautomation",
+    "Integration"
+  ],
+  "relationships": []
+}

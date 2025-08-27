@@ -1,0 +1,58 @@
+{
+  "id": "casestudy_kindercare",
+  "type": "casestudy",
+  "name": "KinderCare - Legacy Application and Data Platform Modernization",
+  "client": "KinderCare",
+  "industry": "Early Childhood Education",
+  "description": "Digital transformation and integration across all business functions for leading early childhood education provider, improving operational efficiency across 1,500+ decentralized centers and enhancing parent engagement through transparency and streamlined processes.",
+  "challenge": "Legacy platforms and incompatible technology stacks requiring significant investment and change management. Data distribution across legacy and modern systems leading to inconsistencies, complications in data governance and regulatory compliance, and difficulties handling substantial data volume from over 1,500 centers.",
+  "solution": "Implemented seamless communication through integrated messaging and notifications. Created self-service portals for billing, scheduling, and feedback. Integrated CRM for targeted marketing and personalized follow-ups. Developed centralized dashboards providing leadership visibility across all centers and established foundations for forecasting models.",
+  "outcomes": [
+    "25% reduction in support queries on billing, schedules, payments",
+    "30% reduction in manual administrative tasks",
+    "Informed, agile decision-making with data-backed visibility across all centers",
+    "Improved parent engagement and satisfaction",
+    "Enhanced operational efficiency through streamlined processes"
+  ],
+  "technologies": [
+    "Modern Application Frameworks",
+    "Integration Middleware",
+    "Data Consolidation and Governance Frameworks",
+    "Dashboard Development Tools",
+    "Mobile-optimized Interfaces",
+    "Secure Communication Channels",
+    "Database Optimization Techniques",
+    "CRM Integration"
+  ],
+  "duration": "Digital transformation engagement",
+  "teamSize": "Cross-functional teams covering modernization, data integration, and user experience",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_governance",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_ux",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "framework_integrated_teams",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/kindercare.md"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "accelerator_enterprise_agents",
+  "type": "accelerator",
+  "name": "Enterprise Agents",
+  "category": "AI & GenAI Solutions",
+  "description": "Multi-agent orchestration platform for enterprise automation with autonomous workflows and cognitive task automation",
+  "keyFeatures": [
+    "Multi-Agent Orchestration - Coordinated AI agent workflows",
+    "Enterprise System Integration - Seamless connectivity with business systems",
+    "Autonomous Workflows - Self-executing business process automation",
+    "Cognitive Task Automation - Complex decision-making capabilities"
+  ],
+  "clientValue": [
+    "Task Automation - Automation of complex cognitive tasks",
+    "Processing Time Reduction - Significant reduction in manual processing",
+    "Decision Quality Enhancement - Improved consistency and accuracy",
+    "Workflow Optimization - Streamlined business process execution"
+  ],
+  "successStories": [],
+  "techStack": [
+    "LLMs",
+    "Function calling",
+    "Orchestration frameworks"
+  ],
+  "targetIndustries": [
+    "Financial Services",
+    "Healthcare",
+    "Manufacturing"
+  ],
+  "businessImpactMetrics": [
+    "Automation of complex cognitive tasks",
+    "Significant reduction in manual processing time",
+    "Improved decision consistency and accuracy",
+    "Streamlined business process execution"
+  ],
+  "maturityLevel": "developing",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_langchain",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_manufacturing",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_architecture",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/enterprise_agents.md"
+  }
+}

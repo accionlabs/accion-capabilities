@@ -1,0 +1,62 @@
+{
+  "id": "framework_innovation_lifecycle",
+  "name": "Innovation Development Lifecycle",
+  "category": "framework",
+  "description": "End-to-end innovation management from strategy to support with structured approach to digital transformation",
+  "frameworkType": "Process Framework",
+  "methodology": "Comprehensive innovation lifecycle with defined stages and measurable outcomes",
+  "strategicValue": "Enables structured innovation approach with predictable timelines and measurable business outcomes",
+  "clientValue": [
+    "Structured innovation approach and methodology",
+    "Predictable timelines and delivery schedules",
+    "Measurable outcomes and success criteria",
+    "Risk mitigation through proven processes"
+  ],
+  "deliverables": [
+    "Innovation strategy and roadmap",
+    "Solution architecture and design",
+    "Agile execution methodologies",
+    "Solution support and maintenance",
+    "Performance metrics and KPIs"
+  ],
+  "frameworkComponents": [
+    "Strategy & Roadmap: Vision, goals, and planning",
+    "Solution Architecture: Technical design and blueprints",
+    "Agile Execution: Development and implementation",
+    "Solution Support: Maintenance and optimization"
+  ],
+  "targetScenarios": [
+    "Digital transformation initiatives",
+    "Innovation and R&D projects",
+    "Product modernization programs",
+    "Technology adoption and implementation"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "process",
+    "innovation",
+    "digital-transformation"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_genai",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/innovation-lifecycle.md"
+  }
+}

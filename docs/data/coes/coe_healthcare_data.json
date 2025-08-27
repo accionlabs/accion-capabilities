@@ -1,0 +1,126 @@
+{
+  "id": "coe_healthcare_data",
+  "type": "coe",
+  "data": {
+    "name": "Healthcare Data Solutions Center of Excellence",
+    "description": "Accion's Healthcare Data Solutions Center of Excellence provides specialized data management and analytics solutions for the healthcare industry. The CoE focuses on healthcare data interoperability, clinical data analytics, population health management, and regulatory compliance. With expertise in HL7, FHIR, medical coding systems, and healthcare analytics, this CoE enables healthcare organizations to leverage their data for improved patient outcomes, operational efficiency, and regulatory compliance.",
+    "category": "Data",
+    "order": 6,
+    "keyCompetencies": [
+      "Healthcare Data Interoperability",
+      "HL7 and FHIR Implementation",
+      "Clinical Data Analytics",
+      "Population Health Management",
+      "Electronic Health Records (EHR) Integration",
+      "Medical Coding Systems (ICD-10, CPT, SNOMED)",
+      "Healthcare Data Warehousing",
+      "Patient Data Privacy and Security",
+      "Clinical Decision Support Systems",
+      "Healthcare Predictive Analytics",
+      "Real World Evidence Analytics",
+      "Claims Data Processing",
+      "Healthcare Data Governance",
+      "HIPAA Compliance",
+      "Medical Research Data Management"
+    ],
+    "services": [
+      {
+        "name": "Healthcare Data Platform Development",
+        "description": "Comprehensive healthcare data platform design and implementation",
+        "deliverables": [
+          "Data platform architecture",
+          "Interoperability framework",
+          "Data warehouse implementation",
+          "Analytics capabilities"
+        ]
+      },
+      {
+        "name": "Clinical Analytics Solutions",
+        "description": "Advanced clinical data analytics and insights",
+        "deliverables": [
+          "Clinical dashboards",
+          "Quality metrics reporting",
+          "Outcome analytics",
+          "Risk stratification models"
+        ]
+      },
+      {
+        "name": "Healthcare Data Integration",
+        "description": "Integration of disparate healthcare data sources",
+        "deliverables": [
+          "EHR integration",
+          "HIE connectivity",
+          "Data mapping and transformation",
+          "Real-time data pipelines"
+        ]
+      },
+      {
+        "name": "Population Health Analytics",
+        "description": "Population health management and analytics platform",
+        "deliverables": [
+          "Population health dashboards",
+          "Risk prediction models",
+          "Care gap identification",
+          "Health outcome tracking"
+        ]
+      }
+    ],
+    "technologies": [
+      "HL7 FHIR",
+      "Apache Spark",
+      "Databricks Healthcare",
+      "Azure Healthcare APIs",
+      "AWS HealthLake",
+      "Google Healthcare API",
+      "InterSystems IRIS",
+      "Epic",
+      "Cerner",
+      "Snowflake Healthcare",
+      "Python",
+      "R",
+      "SAS",
+      "Tableau Healthcare",
+      "Power BI Healthcare"
+    ],
+    "businessValue": "Accion's Healthcare Data Solutions Center of Excellence enables healthcare organizations to improve patient outcomes by 25%, reduce readmission rates by 30%, achieve 99% regulatory compliance, decrease operational costs by 20%, and enhance clinical decision-making through data-driven insights. The CoE helps transform healthcare data into actionable intelligence for better patient care and operational excellence.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_healthcare_data.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_data_governance",
+      "metadata": {
+        "relationship": "compliance"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_medical_imaging",
+      "metadata": {
+        "relationship": "healthcare_specialization"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_pharma",
+      "metadata": {}
+    }
+  ]
+}

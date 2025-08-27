@@ -1,0 +1,14 @@
+{
+  "id": "technology_mlflow",
+  "name": "MLflow",
+  "description": "ML lifecycle management platform",
+  "category": "platform",
+  "vendor": "Databricks",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

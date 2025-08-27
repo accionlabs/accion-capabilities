@@ -1,0 +1,13 @@
+{
+  "id": "technology_python",
+  "name": "Python",
+  "description": "Programming language for data science and backend development",
+  "category": "language",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "language"
+  ],
+  "relationships": []
+}

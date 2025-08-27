@@ -1,0 +1,102 @@
+{
+  "id": "component_hl7_edi_gateway",
+  "name": "HL7 EDI Gateway - Healthcare Data Exchange",
+  "category": "component",
+  "description": "Standards-compliant healthcare data transformation and exchange supporting interoperability",
+  "componentType": "Healthcare Component",
+  "strategicValue": "Enables seamless healthcare system interoperability through standards-based data exchange",
+  "clientValue": [
+    "Healthcare system interoperability",
+    "Reduced integration costs and complexity",
+    "Regulatory compliance (HL7, FHIR)",
+    "Standardized data exchange protocols"
+  ],
+  "technicalSpecs": [
+    "HL7 v2 and v3 support",
+    "FHIR R4 compliance",
+    "Integration engines and adapters",
+    "Security frameworks and encryption",
+    "Message transformation and routing"
+  ],
+  "integrationPoints": [
+    "Electronic Health Records (EHR)",
+    "Healthcare information systems",
+    "Payer and provider networks",
+    "Life sciences platforms"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Integration Cost Reduction",
+      "value": "40",
+      "unit": "% lower integration costs"
+    },
+    {
+      "name": "Compliance Rate",
+      "value": "100",
+      "unit": "% standards compliance"
+    }
+  ],
+  "useCases": [
+    "Healthcare provider system integration",
+    "Payer-provider data exchange",
+    "Life sciences data interoperability",
+    "Clinical trial data sharing"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "healthcare",
+    "interoperability",
+    "standards"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "SERVES"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "SERVES"
+      },
+      {
+        "to": "coe_medical_imaging",
+        "type": "BELONGS_TO"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "casestudy_belgium_health_ecosystem",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_diagnostic_portal",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_echo_health",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_glucose_monitoring",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_mental_health_ehr",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_telemedicine_platform",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_voice_physician_companion",
+        "type": "LEVERAGES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/hl7_edi_gateway.md"
+  }
+}

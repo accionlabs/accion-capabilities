@@ -1,0 +1,14 @@
+{
+  "id": "technology_kubernetes",
+  "name": "Kubernetes",
+  "description": "Container orchestration platform",
+  "category": "platform",
+  "vendor": "CNCF",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

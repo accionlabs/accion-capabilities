@@ -1,0 +1,65 @@
+{
+  "id": "casestudy_veracode",
+  "type": "casestudy",
+  "name": "Veracode - Cybersecurity Platform R&D Scaling",
+  "client": "Veracode, Inc.",
+  "industry": "Cybersecurity",
+  "description": "Scaled R&D capabilities and modernized AppSec platforms for leading application security partner, enabling accelerated product roadmap and improved global customer service through 24x7 support operations.",
+  "challenge": "Veracode needed to accelerate its aggressive product roadmap and modernize platform architecture while overcoming limited development bandwidth due to rising support demands. Required 24x7 global support, modernization of outdated UI frameworks, and seamless integration of newly acquired platforms.",
+  "solution": "Established global Product/Engineering Teams in Prague and Bangalore (team size: 125). Created specialized engineering and support teams covering SAST, DAST, SCA and Developer Experience. Deployed standardized UI components, built self-service data platform, and reduced L1/L2 support tickets through automation.",
+  "outcomes": [
+    "Improved innovation velocity by 30%",
+    "Reduced time to market by 40% for new features",
+    "Faster response times and enhanced product experience",
+    "Improved developer experience",
+    "Significant reduction in L1/L2 ticket volume"
+  ],
+  "technologies": [
+    "Microservices Architecture",
+    "DevOps CI/CD",
+    "Cloud-native Architecture",
+    "SAST (Static Application Security Testing)",
+    "DAST (Dynamic Application Security Testing)",
+    "SCA (Software Composition Analysis)",
+    "UI/UX Frameworks"
+  ],
+  "duration": "Multi-year engagement",
+  "teamSize": "125 engineers across Prague, Czech Republic and Bangalore, India",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_kubernetes",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "tech_docker",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "platform_breeze",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      },
+      {
+        "to": "framework_edc_model",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "framework_5p_induction",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/veracode.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "technology_jenkins",
+  "name": "Jenkins",
+  "description": "CI/CD automation server",
+  "category": "tool",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "tool"
+  ],
+  "relationships": []
+}

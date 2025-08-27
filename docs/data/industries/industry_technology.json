@@ -1,0 +1,9 @@
+{
+  "id": "industry_technology",
+  "name": "Technology",
+  "description": "Software and technology companies",
+  "segment": "Technology",
+  "type": "industry",
+  "tags": [],
+  "relationships": []
+}

@@ -1,0 +1,276 @@
+{
+  "id": "coe_devops",
+  "type": "coe",
+  "data": {
+    "name": "DevOps Center of Excellence",
+    "description": "Accion's DevOps Center of Excellence focuses on standardizing DevOps and DevSecOps practices to deliver consistent, secure, and scalable deployments. The CoE provides comprehensive services including CI/CD automation, infrastructure as code, containerization, configuration management, and AI/ML-enhanced DevOps capabilities. With 75+ skilled DevOps professionals and 400+ cloud-native engineers, the CoE enables organizations to achieve faster releases, streamlined deployments, and improved development velocity through end-to-end automation and modern DevOps practices.",
+    "category": "Cloud",
+    "order": 1,
+    "keyCompetencies": [
+      "DevOps Standardization and Best Practices",
+      "CI/CD Pipeline Automation",
+      "Infrastructure as Code (IaC)",
+      "DevSecOps Implementation",
+      "Container Orchestration and Cloud-Native Development",
+      "Configuration Management and Drift Detection",
+      "Build Automation and Artifact Management",
+      "Deployment Strategies and Release Management",
+      "GitOps Implementation and Best Practices",
+      "Cloud Services Management (AWS, Azure, GCP)",
+      "AI/ML Integration in DevOps",
+      "Automation and Orchestration",
+      "Security Integration in DevOps Pipeline",
+      "Policy Enforcement and Compliance",
+      "Cost Optimization and Resource Management",
+      "Disaster Recovery and Business Continuity",
+      "Multi-Cloud and Hybrid Cloud Strategies",
+      "FinOps Practices and Cost Management",
+      "DevOps Culture and Team Transformation"
+    ],
+    "services": [
+      {
+        "name": "CI/CD Pipeline Automation",
+        "description": "Automated build, test, and deployment pipelines for faster and reliable software releases",
+        "deliverables": [
+          "Automated build pipelines",
+          "Deployment automation",
+          "Testing integration",
+          "Release management"
+        ]
+      },
+      {
+        "name": "Infrastructure as Code (IaC)",
+        "description": "Automated infrastructure provisioning and management using code-based approaches",
+        "deliverables": [
+          "Terraform templates",
+          "CloudFormation stacks",
+          "Infrastructure automation",
+          "Environment provisioning"
+        ]
+      },
+      {
+        "name": "Cloud-Native Application Development",
+        "description": "Container-based application development and deployment on cloud platforms",
+        "deliverables": [
+          "Containerized applications",
+          "Kubernetes deployments",
+          "Microservices architecture",
+          "Cloud platform integration"
+        ]
+      },
+      {
+        "name": "GitOps Implementation and Management",
+        "description": "Git-based deployment and configuration management with automated synchronization",
+        "deliverables": [
+          "GitOps workflow design",
+          "Automated deployment pipelines",
+          "Configuration drift detection",
+          "Multi-environment management"
+        ]
+      },
+      {
+        "name": "Security Integration in CI/CD",
+        "description": "Integrated security scanning and compliance in development pipelines",
+        "deliverables": [
+          "Security scanning automation",
+          "Vulnerability assessment",
+          "Compliance reporting",
+          "Security policy enforcement"
+        ]
+      },
+      {
+        "name": "Cloud Security Posture Management (CSPM)",
+        "description": "Continuous monitoring and management of cloud security configurations",
+        "deliverables": [
+          "Security posture assessment",
+          "Configuration monitoring",
+          "Compliance dashboards",
+          "Security remediation"
+        ]
+      },
+      {
+        "name": "Vulnerability Scanning and Remediation",
+        "description": "Automated detection and remediation of security vulnerabilities",
+        "deliverables": [
+          "Vulnerability scanning",
+          "Risk assessment",
+          "Remediation workflows",
+          "Security reporting"
+        ]
+      },
+      {
+        "name": "Identity and Access Management (IAM)",
+        "description": "Comprehensive identity and access management solutions",
+        "deliverables": [
+          "IAM policies",
+          "Role-based access control",
+          "Multi-factor authentication",
+          "Access governance"
+        ]
+      },
+      {
+        "name": "Build Automation and Artifact Management",
+        "description": "Automated build processes with comprehensive artifact lifecycle management",
+        "deliverables": [
+          "Build pipeline optimization",
+          "Artifact repository setup",
+          "Dependency management",
+          "Build performance optimization"
+        ]
+      },
+      {
+        "name": "Deployment Strategies and Release Management",
+        "description": "Advanced deployment patterns including blue-green, canary, and rolling deployments",
+        "deliverables": [
+          "Deployment strategy design",
+          "Automated rollback procedures",
+          "Release orchestration",
+          "Progressive delivery implementation"
+        ]
+      },
+      {
+        "name": "Configuration Management and Environment Consistency",
+        "description": "Automated configuration management ensuring consistency across environments",
+        "deliverables": [
+          "Configuration as code implementation",
+          "Environment standardization",
+          "Configuration drift monitoring",
+          "Compliance and policy enforcement"
+        ]
+      },
+      {
+        "name": "Cost Optimization and Resource Management",
+        "description": "Cloud cost optimization and efficient resource utilization",
+        "deliverables": [
+          "Cost analysis",
+          "Resource optimization",
+          "Budget management",
+          "FinOps implementation"
+        ]
+      }
+    ],
+    "technologies": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)",
+      "Jenkins",
+      "GitHub Actions",
+      "Azure DevOps",
+      "CircleCI",
+      "GitLab CI/CD",
+      "ArgoCD",
+      "Flux",
+      "Terraform",
+      "Ansible",
+      "CloudFormation",
+      "ARM Templates",
+      "Pulumi",
+      "AWS CDK",
+      "Puppet",
+      "Chef",
+      "Kubernetes",
+      "Docker",
+      "Podman",
+      "Helm",
+      "Kustomize",
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "Sumo Logic",
+      "New Relic",
+      "ELK Stack",
+      "Fluentd",
+      "Loki",
+      "Mimir",
+      "Tempo",
+      "Thanos",
+      "OpenTelemetry",
+      "Zipkin",
+      "PagerDuty",
+      "OpsGenie",
+      "SonarQube",
+      "Checkmarx",
+      "OWASP ZAP",
+      "Snyk",
+      "Twistlock",
+      "Aqua Security",
+      "Prisma Cloud",
+      "HashiCorp Vault",
+      "CyberArk",
+      "Istio",
+      "Linkerd",
+      "Consul",
+      "Falco",
+      "Kyverno",
+      "cert-manager",
+      "external-dns",
+      "Litmus Chaos",
+      "Gremlin",
+      "Kubeflow",
+      "MLflow",
+      "TensorFlow",
+      "PyTorch",
+      "Breeze.ai",
+      "AWS EKS",
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS EMR",
+      "AWS MSK",
+      "AWS CloudWatch",
+      "Azure App Services",
+      "Azure SQL Database",
+      "Azure Key Vault",
+      "Azure Application Insights",
+      "Azure Monitor",
+      "GKE",
+      "Google Cloud Storage",
+      "BigQuery",
+      "Snowflake"
+    ],
+    "businessValue": "Accion's DevOps CoE delivers significant business value through accelerated deployment times (from weeks to hours), streamlined development workflows (40-60% faster delivery cycles), enhanced security posture with integrated DevSecOps practices, and substantial operational efficiency gains (30-50% reduction in manual tasks). The CoE enables organizations to achieve faster time-to-market, improved development velocity, enhanced collaboration between teams, better resource utilization, and increased developer productivity through automation, standardization, and modern DevOps practices.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_devops.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    }
+  ]
+}

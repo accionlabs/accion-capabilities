@@ -1,0 +1,273 @@
+{
+  "id": "coe_data_analytics",
+  "type": "coe",
+  "data": {
+    "name": "Data and Analytics Center of Excellence",
+    "description": "Accion's Data and Analytics Center of Excellence provides comprehensive data transformation services spanning strategy, modernization, and AI implementation. The CoE enables organizations to unlock data value through advanced analytics, AI/ML capabilities, and modern data architectures. With expertise in 120+ open-source and commercial data platforms, the CoE delivers end-to-end solutions including data strategy and governance, real-time analytics, GenAI capabilities, and Databricks implementations, empowering businesses to make data-driven decisions and drive innovation.",
+    "category": "Data",
+    "order": 1,
+    "keyCompetencies": [
+      "Data Strategy and Roadmap Development",
+      "Data Governance and Management",
+      "Enterprise Data Model Design",
+      "Data Quality Management and Validation",
+      "Real-time Analytics and Streaming",
+      "Generative AI Capabilities and Implementation",
+      "Machine Learning and AI Model Development",
+      "MLOps and AI Operations",
+      "Databricks Platform Expertise",
+      "Data Engineering and Pipeline Automation",
+      "Business Intelligence and Reporting",
+      "Data Fabric and Mesh Architecture",
+      "Data Migration and Modernization",
+      "Data Discovery and Mining",
+      "Natural Language Processing (NLP, NLG, NLQ)",
+      "Data Cataloging and Lineage",
+      "Master Data Management (MDM)",
+      "Data Security and Privacy Compliance",
+      "DataOps and FinOps Implementation",
+      "Self-Service Analytics and GenBI"
+    ],
+    "services": [
+      {
+        "name": "Data Strategy and Roadmap",
+        "description": "Comprehensive data strategy development with maturity assessment, guidance, and roadmap creation",
+        "deliverables": [
+          "Data strategy framework",
+          "Maturity assessment",
+          "Implementation roadmap",
+          "Governance policies"
+        ]
+      },
+      {
+        "name": "Data Governance and Management",
+        "description": "Enterprise data governance framework with policies, regulations, and execution guidelines",
+        "deliverables": [
+          "Data governance framework",
+          "Data ownership matrix",
+          "Access management policies",
+          "Data security standards"
+        ]
+      },
+      {
+        "name": "Enterprise Data Model Design",
+        "description": "Master data model development and application data model integration",
+        "deliverables": [
+          "Master data model",
+          "Application data models",
+          "Data synchronization rules",
+          "Enterprise knowledge graph"
+        ]
+      },
+      {
+        "name": "Data Quality Management",
+        "description": "Data quality validation, standardization, and continuous monitoring solutions",
+        "deliverables": [
+          "Data quality framework",
+          "Quality metrics and thresholds",
+          "Validation rules",
+          "Quality monitoring dashboards"
+        ]
+      },
+      {
+        "name": "Real-time Analytics",
+        "description": "Streaming data processing and real-time analytics implementation",
+        "deliverables": [
+          "Real-time data pipelines",
+          "Streaming analytics",
+          "Event-driven architecture",
+          "Real-time dashboards"
+        ]
+      },
+      {
+        "name": "GenAI and AI/ML Capabilities",
+        "description": "Generative AI implementation, ML model development, and AI operationalization",
+        "deliverables": [
+          "GenAI solutions",
+          "ML models and training",
+          "AI/ML platforms",
+          "Responsible AI frameworks"
+        ]
+      },
+      {
+        "name": "Data Engineering and Automation",
+        "description": "Automated data pipelines, ETL processes, and data engineering solutions",
+        "deliverables": [
+          "Data pipelines",
+          "ETL/ELT processes",
+          "Pipeline automation",
+          "Data orchestration"
+        ]
+      },
+      {
+        "name": "Data Migration and Modernization",
+        "description": "Legacy data migration and platform modernization services",
+        "deliverables": [
+          "Migration strategy",
+          "Data platform modernization",
+          "Legacy system integration",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Business Intelligence and Reporting",
+        "description": "Comprehensive BI solutions with advanced reporting and visualization",
+        "deliverables": [
+          "BI dashboards",
+          "Reporting solutions",
+          "Data visualization",
+          "Self-service analytics"
+        ]
+      },
+      {
+        "name": "Data Fabric and Mesh Implementation",
+        "description": "Modern data architecture with data fabric and mesh patterns",
+        "deliverables": [
+          "Data fabric architecture",
+          "Data mesh implementation",
+          "Distributed data management",
+          "Data product design"
+        ]
+      },
+      {
+        "name": "Databricks Platform Services",
+        "description": "Comprehensive Databricks implementation and optimization",
+        "deliverables": [
+          "Databricks setup",
+          "Lakehouse architecture",
+          "Unity Catalog configuration",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Data Cataloging and Lineage",
+        "description": "Data catalog implementation with lineage tracking and metadata management",
+        "deliverables": [
+          "Data catalog",
+          "Data lineage mapping",
+          "Metadata management",
+          "Data marketplace"
+        ]
+      }
+    ],
+    "technologies": [
+      "Databricks",
+      "Snowflake",
+      "AWS Redshift",
+      "Azure Synapse",
+      "Azure Fabric",
+      "BigQuery",
+      "Apache Spark",
+      "Apache Kafka",
+      "Amazon Kinesis",
+      "Azure Event Hubs",
+      "Confluent",
+      "Tableau",
+      "Power BI",
+      "Qlik",
+      "Looker",
+      "Cognos",
+      "TIBCO Jaspersoft",
+      "Informatica",
+      "Talend",
+      "Fivetran",
+      "Stitch",
+      "Matillion",
+      "dbt",
+      "Airbyte",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "MLflow",
+      "Kubeflow",
+      "H2O.ai",
+      "Amazon SageMaker",
+      "Apache Airflow",
+      "Prefect",
+      "Azure Data Factory",
+      "AWS Glue",
+      "Google Cloud Composer",
+      "Elasticsearch",
+      "Splunk",
+      "AWS CloudWatch",
+      "Azure Monitor",
+      "Grafana",
+      "Prometheus",
+      "Apache Hive",
+      "Apache HBase",
+      "MongoDB",
+      "Cassandra",
+      "Neo4j",
+      "Amazon DynamoDB",
+      "Docker",
+      "Kubernetes",
+      "Apache Zeppelin",
+      "Jupyter",
+      "RStudio",
+      "Anaconda",
+      "Apache Arrow",
+      "Apache Parquet",
+      "Delta Lake",
+      "Apache Iceberg",
+      "Apache Hudi",
+      "Great Expectations",
+      "Apache Atlas",
+      "DataHub",
+      "Alation",
+      "Collibra",
+      "Purview",
+      "Apache Ranger",
+      "HashiCorp Vault",
+      "AWS IAM",
+      "Azure Active Directory",
+      "Okta",
+      "Apache Flink",
+      "Apache Storm",
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Functions",
+      "OpenCV",
+      "NLTK",
+      "spaCy",
+      "Hugging Face",
+      "OpenAI GPT",
+      "Azure OpenAI",
+      "Amazon Bedrock"
+    ],
+    "businessValue": "Accion's Data and Analytics CoE delivers transformational business value by enabling organizations to harness their data assets effectively. The CoE helps reduce data quality issues by 20-30%, improves process efficiency through automated pipelines, and accelerates time-to-insight through real-time analytics. Organizations achieve significant cost savings through optimized data infrastructure, enhanced decision-making capabilities through advanced analytics and AI, and improved operational efficiency through data-driven processes. The CoE's comprehensive approach to data governance and quality ensures regulatory compliance and data trust, while GenAI capabilities enable innovative use cases and competitive advantages.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_data_analytics.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "component_dragonfly",
+  "name": "DragonFly - Data Quality Assessment",
+  "category": "component",
+  "description": "Real-time data quality monitoring with automated validation and proactive issue identification",
+  "componentType": "Data Processing Component",
+  "strategicValue": "Ensures enterprise data reliability and compliance through continuous quality monitoring",
+  "clientValue": [
+    "Real-time data quality monitoring",
+    "Proactive issue identification and alerts",
+    "Demonstrable data quality improvements",
+    "Regulatory compliance support"
+  ],
+  "technicalSpecs": [
+    "Data validation engines",
+    "Configurable business rules engine",
+    "Real-time notification systems",
+    "Quality metrics dashboard",
+    "Anomaly detection algorithms"
+  ],
+  "integrationPoints": [
+    "Data warehouses and lakes",
+    "ETL/ELT pipelines",
+    "Business intelligence systems",
+    "Data governance platforms"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Quality Issue Detection",
+      "value": "95+",
+      "unit": "% issue identification rate"
+    },
+    {
+      "name": "Response Time",
+      "value": "<5",
+      "unit": "minutes for alerts"
+    }
+  ],
+  "useCases": [
+    "Data warehouse quality assurance",
+    "Regulatory compliance monitoring",
+    "Data governance initiatives",
+    "ETL pipeline validation"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "data-processing",
+    "quality",
+    "monitoring"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_governance",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_apache_airflow",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/dragonfly.md"
+  }
+}

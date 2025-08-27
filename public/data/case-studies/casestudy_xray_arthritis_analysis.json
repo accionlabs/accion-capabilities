@@ -1,0 +1,77 @@
+{
+  "id": "casestudy_xray_arthritis_analysis",
+  "type": "casestudy",
+  "name": "Machine Learning X-Ray Analysis for Arthritis Evaluation",
+  "client": "Healthcare Imaging Provider",
+  "clientType": "provider",
+  "industry": "Healthcare",
+  "description": "Developed an advanced machine learning system using Convolutional Neural Networks (CNN) for automated X-ray analysis to assess arthritis extent in chronic patients, achieving over 95% accuracy while significantly reducing manual effort for healthcare professionals.",
+  "challenge": "Healthcare providers needed an automated solution to process large volumes of X-ray images for arthritis assessment in chronic patients. Manual analysis was time-consuming, prone to variability, and required significant radiologist time. The system needed to accurately identify regions of interest and classify arthritis severity across multiple anatomical areas.",
+  "solution": "Built a comprehensive ML-powered imaging analysis system with automated region of interest (ROI) identification, Convolutional Neural Network models for arthritis classification, multi-level severity assessment (Normal, Moderate, Near End Stage, End Stage), support for multiple anatomical regions (knee medial/lateral, kneecap, pelvis), physician validation workflow, and integration with existing radiology systems.",
+  "outcomes": [
+    "95%+ accuracy in arthritis classification across all regions",
+    "Significant reduction in manual analysis time for radiologists",
+    "Consistent and objective arthritis severity assessment",
+    "Support for knee (medial & lateral), kneecap, and pelvis analysis",
+    "Improved diagnostic workflow efficiency",
+    "Enhanced patient care through faster diagnosis"
+  ],
+  "technologies": [
+    "Convolutional Neural Networks (CNN)",
+    "Machine Learning",
+    "Medical Image Processing",
+    "Python",
+    "TensorFlow/PyTorch",
+    "Computer Vision",
+    "DICOM Integration",
+    "Cloud Computing"
+  ],
+  "duration": "ML model development and validation phases",
+  "teamSize": "AI/ML specialists with medical imaging experts",
+  "keyFeatures": [
+    "Automated bulk X-ray processing capabilities",
+    "Intelligent region of interest (ROI) detection",
+    "CNN-based arthritis severity classification",
+    "Multi-level severity assessment (4 categories plus Missing ROI)",
+    "Multi-anatomical region support",
+    "Physician review and validation workflow",
+    "Integration with existing radiology information systems",
+    "Batch processing for high-volume analysis"
+  ],
+  "medicalImpact": [
+    "Faster arthritis diagnosis and staging",
+    "Reduced radiologist workload",
+    "Standardized assessment criteria",
+    "Earlier intervention opportunities",
+    "Improved patient throughput"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "tech_tensorflow",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "tech_python",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_medical_imaging",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "coe_genai",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/xray_arthritis_analysis.md"
+  }
+}

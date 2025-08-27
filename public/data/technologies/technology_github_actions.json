@@ -1,0 +1,14 @@
+{
+  "id": "technology_github_actions",
+  "name": "GitHub Actions",
+  "description": "CI/CD platform integrated with GitHub",
+  "category": "platform",
+  "vendor": "GitHub",
+  "isOpenSource": false,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

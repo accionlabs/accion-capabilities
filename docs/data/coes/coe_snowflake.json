@@ -1,0 +1,293 @@
+{
+  "id": "coe_snowflake",
+  "type": "coe",
+  "data": {
+    "name": "Snowflake Center of Excellence",
+    "description": "Accion's Snowflake Center of Excellence specializes in comprehensive cloud data warehouse implementations, enterprise data transformation, and modern data analytics solutions. As a certified Snowflake partner, the CoE delivers end-to-end Snowflake services from data platform consolidation and migration to advanced analytics and AI-powered data insights. The CoE enables organizations to harness the power of Snowflake's cloud-native architecture for scalable data warehousing, real-time analytics, streaming data processing, and GenAI-enhanced data analytics across multiple cloud platforms.",
+    "category": "Data",
+    "order": 4,
+    "keyCompetencies": [
+      "Snowflake Cloud Data Warehouse Implementation",
+      "Enterprise Data Platform Consolidation",
+      "Legacy Data Platform Migration",
+      "Data Governance and Data Quality",
+      "Real-time Data Processing and Streaming",
+      "Advanced Analytics and Business Intelligence",
+      "Customer Data Platform (CDP) Development",
+      "GenAI-Powered Data Analytics",
+      "Data Mesh Architecture Implementation",
+      "Multi-Cloud Snowflake Deployment",
+      "Performance Optimization and Query Tuning",
+      "Data Pipeline Orchestration and Automation",
+      "Self-Service Analytics Enablement",
+      "Data Monetization and ROI Optimization",
+      "IoT Data Analytics and Device Management"
+    ],
+    "services": [
+      {
+        "name": "Enterprise Data Platform Consolidation",
+        "description": "Consolidate multiple disparate data platforms onto unified Snowflake architecture with comprehensive migration planning and execution",
+        "deliverables": [
+          "Data platform assessment",
+          "Migration roadmap",
+          "Unified data architecture",
+          "Data governance framework",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Legacy Data Migration and Modernization",
+        "description": "Migrate from legacy platforms like Teradata and AWS Redshift to Snowflake with automated testing and validation frameworks",
+        "deliverables": [
+          "Migration strategy",
+          "Automated testing framework",
+          "Data validation",
+          "Performance tuning",
+          "Go-live support"
+        ]
+      },
+      {
+        "name": "Customer Data Platform Development",
+        "description": "Build comprehensive customer 360-degree view platforms with real-time data integration and advanced analytics",
+        "deliverables": [
+          "Customer data model",
+          "Real-time data ingestion",
+          "360-degree analytics",
+          "Self-service dashboards",
+          "ML/AI integration"
+        ]
+      },
+      {
+        "name": "Snowflake Data Mesh Implementation",
+        "description": "Implement decentralized data architecture using Snowflake as the core platform with domain-oriented data products",
+        "deliverables": [
+          "Data mesh architecture",
+          "Domain data products",
+          "Self-serve platform",
+          "Data governance",
+          "Service mesh integration"
+        ]
+      },
+      {
+        "name": "Real-time Streaming Analytics",
+        "description": "Process high-volume streaming data with Snowflake for real-time insights and immediate decision making",
+        "deliverables": [
+          "Streaming data pipelines",
+          "Real-time dashboards",
+          "Event processing",
+          "Alerting systems",
+          "Performance monitoring"
+        ]
+      },
+      {
+        "name": "Advanced Analytics and GenAI Integration",
+        "description": "Implement machine learning models and GenAI capabilities integrated with Snowflake for intelligent data insights",
+        "deliverables": [
+          "ML model development",
+          "GenAI integration",
+          "Predictive analytics",
+          "Automated insights",
+          "Conversational analytics"
+        ]
+      },
+      {
+        "name": "Data Governance and Quality Management",
+        "description": "Establish comprehensive data governance with quality monitoring, lineage tracking, and compliance frameworks",
+        "deliverables": [
+          "Governance policies",
+          "Data catalog",
+          "Quality monitoring",
+          "Lineage tracking",
+          "Compliance reporting"
+        ]
+      },
+      {
+        "name": "Performance and Cost Optimization",
+        "description": "Optimize Snowflake performance and costs through query optimization, resource management, and automated scaling",
+        "deliverables": [
+          "Performance analysis",
+          "Query optimization",
+          "Cost monitoring",
+          "Resource optimization",
+          "Scaling automation"
+        ]
+      },
+      {
+        "name": "IoT and Device Data Analytics",
+        "description": "Process and analyze massive IoT device data streams for operational insights and predictive maintenance",
+        "deliverables": [
+          "IoT data ingestion",
+          "Device analytics",
+          "Predictive models",
+          "Operational dashboards",
+          "Maintenance optimization"
+        ]
+      }
+    ],
+    "technologies": [
+      "Snowflake",
+      "SnowSQL",
+      "Snowflake Data Cloud",
+      "Snowpark",
+      "Snowpipe",
+      "Apache Kafka",
+      "Apache Spark",
+      "dbt",
+      "Fivetran",
+      "Matillion",
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "Databricks",
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "Google Looker Studio",
+      "Apache Superset",
+      "Python",
+      "SQL",
+      "Java",
+      "Scala",
+      "R",
+      "Apache Airflow",
+      "Prefect",
+      "Azure Data Factory",
+      "AWS Glue",
+      "Terraform",
+      "Kubernetes",
+      "Docker",
+      "Apache Flink",
+      "Apache Kafka Connect",
+      "AWS Kinesis",
+      "Azure Event Hubs",
+      "Pub/Sub",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "ElasticSearch",
+      "Redis",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "MLflow",
+      "Hugging Face",
+      "OpenAI",
+      "Azure OpenAI",
+      "LangChain",
+      "Amazon SageMaker",
+      "Collibra",
+      "Alation",
+      "Microsoft Purview",
+      "Apache Atlas",
+      "Apache NiFi",
+      "Talend",
+      "Informatica",
+      "SSIS",
+      "Pentaho"
+    ],
+    "businessValue": "Accion's Snowflake CoE delivers transformational business value through unified cloud data platforms that eliminate data silos, reduce infrastructure costs by 40-60%, and accelerate time-to-insight by 70%. Organizations achieve seamless data sharing across OpCos and partners, automated data quality management, and real-time decision-making capabilities. The CoE's expertise in enterprise-scale implementations enables handling of 1M+ devices, 160M+ daily messages, and petabyte-scale data processing. With proven success across loyalty management, healthcare, travel, and manufacturing industries, the CoE ensures scalable, secure, and cost-effective data platforms that drive digital transformation and business innovation.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_snowflake.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    }
+  ]
+}

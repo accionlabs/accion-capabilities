@@ -1,0 +1,22 @@
+{
+  "id": "technology_unity",
+  "name": "Unity",
+  "description": "Real-time 3D development platform",
+  "category": "platform",
+  "vendor": "Unity Technologies",
+  "isOpenSource": false,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "proto_ar_field_service",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

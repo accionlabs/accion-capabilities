@@ -1,0 +1,84 @@
+{
+  "id": "accelerator_support_bots",
+  "type": "accelerator",
+  "name": "Support Bots",
+  "category": "Enterprise Automation",
+  "description": "AI-powered support automation with intelligent conversational capabilities for customer service",
+  "keyFeatures": [
+    "Conversational AI - Natural language interaction capabilities",
+    "Multi-Channel Integration - Support across chat, email, and web portals",
+    "Knowledge Base Integration - Automated access to enterprise knowledge",
+    "Escalation Management - Intelligent routing to human agents when needed"
+  ],
+  "clientValue": [
+    "24/7 Availability - Continuous customer support coverage",
+    "Response Time Reduction - Instant responses to common queries",
+    "Agent Productivity - Free up human agents for complex issues",
+    "Consistent Service Quality - Standardized responses and quality"
+  ],
+  "successStories": [],
+  "techStack": [
+    "Conversational AI",
+    "NLP models",
+    "Integration APIs"
+  ],
+  "targetIndustries": [
+    "Customer Service",
+    "Retail",
+    "Healthcare",
+    "Financial Services"
+  ],
+  "businessImpactMetrics": [
+    "24/7 continuous customer support coverage",
+    "Instant responses to common queries",
+    "Improved agent productivity for complex issues",
+    "Standardized response quality"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_langchain",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_rpa",
+        "type": "USES"
+      },
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_ux",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/support_bots.md"
+  }
+}

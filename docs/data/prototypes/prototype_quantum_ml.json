@@ -1,0 +1,36 @@
+{
+  "id": "prototype_quantum_ml",
+  "name": "Quantum ML Optimizer",
+  "category": "prototype",
+  "description": "Quantum computing integration for ML optimization problems",
+  "marketOpportunity": "First-mover advantage in quantum-enhanced ML",
+  "readinessLevel": "prototype",
+  "potentialImpact": "100x speedup for certain optimization problems",
+  "strategicValue": "Positions as leader in quantum computing applications",
+  "clientValue": [
+    "Breakthrough performance for optimization",
+    "Novel solutions to intractable problems"
+  ],
+  "futureRoadmap": "Production-ready quantum algorithms by Q4 2025",
+  "type": "prototype",
+  "tags": [
+    "prototype"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_qiskit",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/prototype/quantum_ml.md"
+  }
+}

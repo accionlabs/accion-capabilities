@@ -1,0 +1,199 @@
+{
+  "id": "coe_gcp",
+  "type": "coe",
+  "data": {
+    "name": "Google Cloud Platform (GCP) Center of Excellence",
+    "description": "Accion's GCP Center of Excellence provides comprehensive Google Cloud Platform services, specializing in data analytics, AI/ML innovation, and cloud-native application development. The CoE focuses on GCP's advanced data and analytics capabilities, machine learning platforms, Kubernetes orchestration, and serverless computing. With expertise in BigQuery, Vertex AI, Anthos, and Google Cloud's data-first approach, the GCP CoE enables organizations to leverage Google's cutting-edge cloud technologies for data-driven innovation, scalable analytics, and intelligent automation.",
+    "category": "Cloud",
+    "order": 4,
+    "keyCompetencies": [
+      "Google Cloud Architecture and Best Practices",
+      "Google Cloud Infrastructure as Code (Deployment Manager, Terraform)",
+      "Google Cloud CI/CD and Cloud Build Automation",
+      "BigQuery Data Warehousing and Analytics",
+      "Vertex AI and Machine Learning Implementation",
+      "Google Kubernetes Engine (GKE) Management",
+      "Google Cloud Security and Identity Management",
+      "Google Cloud Cost Optimization and Billing",
+      "Anthos Hybrid and Multi-Cloud Management",
+      "Google Cloud Serverless Computing (Functions, Run)",
+      "Google Cloud Data Pipeline and ETL Automation",
+      "Google Cloud Monitoring and Operations Suite",
+      "Google Cloud Networking and Load Balancing",
+      "Google Cloud Storage and Database Solutions",
+      "Google Cloud Migration and Application Modernization"
+    ],
+    "services": [
+      {
+        "name": "GCP Cloud Migration and Modernization",
+        "description": "Comprehensive migration services leveraging GCP's data and analytics capabilities",
+        "deliverables": [
+          "Migration strategy",
+          "Data migration pipelines",
+          "Application modernization",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "BigQuery Data Platform Implementation",
+        "description": "Enterprise data warehousing and analytics using BigQuery and related services",
+        "deliverables": [
+          "Data warehouse design",
+          "ETL pipeline development",
+          "Analytics dashboards",
+          "Data governance framework"
+        ]
+      },
+      {
+        "name": "Vertex AI and ML Platform Development",
+        "description": "End-to-end machine learning solutions using Google's AI/ML platform",
+        "deliverables": [
+          "ML model development",
+          "AutoML implementations",
+          "ML pipeline automation",
+          "AI governance"
+        ]
+      },
+      {
+        "name": "Google Kubernetes Engine (GKE) Solutions",
+        "description": "Container orchestration and cloud-native application development",
+        "deliverables": [
+          "GKE cluster setup",
+          "Microservices architecture",
+          "CI/CD automation",
+          "Security hardening"
+        ]
+      },
+      {
+        "name": "Google Cloud Infrastructure Architecture",
+        "description": "Scalable and secure GCP infrastructure design and implementation",
+        "deliverables": [
+          "Infrastructure blueprints",
+          "Security configurations",
+          "Network architecture",
+          "Disaster recovery setup"
+        ]
+      },
+      {
+        "name": "Anthos Hybrid Cloud Management",
+        "description": "Multi-cloud and hybrid cloud management using Anthos platform",
+        "deliverables": [
+          "Anthos setup",
+          "Multi-cloud strategy",
+          "Workload management",
+          "Service mesh implementation"
+        ]
+      },
+      {
+        "name": "Google Cloud Cost Optimization",
+        "description": "Cloud cost management and optimization using GCP tools and best practices",
+        "deliverables": [
+          "Cost analysis",
+          "Resource optimization",
+          "Billing optimization",
+          "FinOps implementation"
+        ]
+      }
+    ],
+    "technologies": [
+      "Google Cloud Platform (GCP)",
+      "Google Compute Engine",
+      "Google App Engine",
+      "Google Cloud Functions",
+      "Google Cloud Run",
+      "Google Kubernetes Engine (GKE)",
+      "Google Cloud Storage",
+      "Google Cloud SQL",
+      "Google Cloud Spanner",
+      "Google Bigtable",
+      "Google Firestore",
+      "BigQuery",
+      "Google Cloud Dataflow",
+      "Google Cloud Dataproc",
+      "Google Cloud Composer",
+      "Google Cloud Pub/Sub",
+      "Vertex AI",
+      "AutoML",
+      "TensorFlow",
+      "Google Cloud Vision API",
+      "Google Cloud Natural Language API",
+      "Google Cloud Translation API",
+      "Google Cloud Speech-to-Text",
+      "Anthos",
+      "Istio",
+      "Google Cloud Build",
+      "Google Cloud Deploy",
+      "Google Cloud Source Repositories",
+      "Google Cloud Monitoring",
+      "Google Cloud Logging",
+      "Google Cloud Trace",
+      "Google Cloud Security Command Center",
+      "Google Cloud Identity",
+      "Google Cloud IAM",
+      "Google Cloud Load Balancing",
+      "Google Cloud CDN",
+      "Google Cloud DNS",
+      "Google Cloud VPC",
+      "Google Cloud Interconnect",
+      "Looker",
+      "Data Studio"
+    ],
+    "businessValue": "Accion's GCP Center of Excellence delivers significant business value through advanced data analytics capabilities (60-80% faster insights), AI/ML-powered innovation (40-60% improvement in decision-making), cost-effective data processing (30-50% cost reduction), enhanced scalability with global infrastructure, and accelerated development cycles (50-70% faster deployment). The CoE enables organizations to leverage Google's data-first approach and cutting-edge AI technologies for competitive advantage, operational efficiency, and data-driven business transformation.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_gcp.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_gcp",
+      "metadata": {
+        "category": "cloud_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_bigquery",
+      "metadata": {
+        "category": "data_warehouse",
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    }
+  ]
+}

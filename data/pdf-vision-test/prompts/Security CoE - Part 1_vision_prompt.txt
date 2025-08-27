@@ -1,0 +1,537 @@
+
+You are tasked with analyzing a PDF document about a Center of Excellence (CoE) using both the extracted text and visual content.
+
+CONTEXT:
+- PDF File: Security CoE - Part 1.pdf
+- Category: Cloud
+- Number of pages with visuals: 0
+- Document contains information about a specific CoE including diagrams, charts, and visual representations
+
+IMPORTANT: You have access to both:
+1. The extracted text content (provided below)
+2. Visual images of each PDF page (will be provided separately)
+
+TASK:
+1. Analyze BOTH the text content AND the visual elements in the PDF pages
+2. Extract information from diagrams, charts, architecture diagrams, and any visual content
+3. Identify all technologies, frameworks, and tools shown in visuals
+4. Note any relationships or connections shown in diagrams
+5. Extract metrics, KPIs, or data points from charts and graphs
+6. Create a complete JSON configuration file combining insights from both text and visuals
+
+
+
+VISUAL ANALYSIS INSTRUCTIONS:
+- Look for architecture diagrams showing technology stacks
+- Identify logos and technology icons in the visuals
+- Extract process flows and workflow diagrams
+- Note any metrics or statistics shown in charts
+- Identify team structures or organizational charts
+- Look for roadmaps or timeline visuals
+- Extract any visual representations of services or capabilities
+
+EXTRACTED PDF TEXT:
+================================================================================
+
+
+1
+© 2024 Accion Labs© 2024 Accion Labs
+Digital Security Services
+
+2
+© 2024 Accion Labs© 2024 Accion Labs
+Risk assessment, analyze 
+& document the business-
+criticalprocesses
+Threat Modelling, 
+analyze & document the 
+attack surface, conduct 
+Attack Simulation​
+InfoSecCompliance and Accreditation 
+readiness, Security Frameworks 
+Adherence
+Creation/Revision 
+of Business 
+Continuity 
+Disaster Recovery 
+Plan &Conduct 
+Tabletop 
+exercises
+IT Health Check, 
+Security assessment 
+and Security 
+testing(VAPT)
+RiskMitigationand 
+Threat Impact 
+Reduction
+Risk
+Threat
+Mitigation
+Compliance/
+Adherence
+BCDR
+ITHC
+●Risk Assessment and Management
+●Security Review/Assessment, Security Testing, 
+Security Audit
+●Security Review against Frameworks (NIST, CIS, 
+CAF)
+●Advisory/Resources to implement/address gap 
+against Frameworks (NIST, CIS, CAF)
+●IT Heath Check
+▪Vulnerability Assessment and Management
+▪Penetration Testing
+●Compliance, Accreditation Readiness review, Gap 
+Analysis and Gap mitigation
+●Threat Analysis and Management
+●Business Continuity Plan, Review and 
+Management
+Our Security Services and Framework
+
+3
+© 2024 Accion Labs© 2024 Accion Labs
+Enterprise Security
+•Risk Assessment and Management
+•Security Review against Frameworks 
+(NIST, CIS, CAF)
+•IT Perimeter Security Assessment
+•Network Security and Assessment
+•BCDR Plan, Review, Test, Tabletop 
+Exercise 
+•Compliance Readiness
+•Monitoring and Auditing Services
+•SOC 1/SOC 2 and related Support
+Software/Product Security
+•System Security Operations Procedures 
+Creation/revision
+•DevSecOps
+•Security Review, Architecture/Design 
+Review
+•Security Best practice Recommendations 
+•Source Code Analysis, Vulnerability 
+Assessment, Penetration Testing
+•Secure software development & Support
+Cloud Security
+•CSA Security Framework
+•Cloud Security Best Practices
+•Security Services by Certified 
+Cloud Engineers
+•Cloud Vulnerability Assessment 
+•Cloud Governance 
+Recommendations
+•Compliance Readiness
+Our Security Services Offerings
+
+4
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Managed Security / 
+Periodic Engagement
+Ongoing Periodic, Quarterly 
+or Annual engagement that 
+will provide continual 
+assessment and remediation 
+cycles
+Fixed Objective 
+Engagement
+One off, fixed engagement 
+that focuses on a set of 
+specific targets/objectives.
+As well as Resource/Staff 
+Augmentation or SME pool 
+provision
+Project 
+BasedEngagement
+Covers all information 
+security elements of a 
+project, starting with the 
+initiation phase all the way 
+culminating in a final ITHC 
+before or at Go-Live
+Engagement Models
+
+5
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Our Industry CertificationsOur Security Team
+▪PCI DSS compliant
+▪HIPAA compliant
+▪CMMI v2.0 L3 certified
+▪ISO 9001:2015 certified 
+▪ISO 27001:2013 certified
+▪ISO 27701:2019 certified
+▪30+ Core Consultants, 200+ 
+Security Resources Across the 
+Globe
+▪ISC
+2
+Certifiedprofessionals
+▪Certified Internal/external 
+Auditors
+▪Certified Ethical Hackers
+▪Certified DevSecOps
+Our Competencies and Team Overview
+
+6
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Our Security Toolkit
+Non-exhaustive list
+Security Testing Toolset
+Security Standards, Frameworks 
+&Accreditations
+Security Monitoring
+Security focused DevOps 
+Tools
+CAF
+by
+
+7
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+●Information Security Management System with over 150 Security controls from 
+ISO, PCI-DSS, HIPAA 
+●Robust Security Awareness Training Program and Assessments
+●Periodic reviewing Risk Assessment Plan, Risk Mitigation Plan and Business 
+Continuity Plan
+●Protection of client and client’s information 
+▪Designated Secure PCI-DSS Section with Physical Security Controls
+▪Site to Site VPN, Strong Firewalls with modern Rulesets
+▪Virtual Desktops, IP Whitelisting
+▪Benchmarked OS images, centralized Security Updates, Remote Wiping where necessary
+●Annual Business Continuity and Disaster Recovery Exercise
+●Quarterly internal audits and annual third-party audits​
+●Quarterly Vulnerability Assessments and Penetration Tests​
+●Continues self monitoring and maintaining Security Posture enables us to 
+achieve and maintain Excellent Security rating
+7
+Our Controls and Practices
+
+8
+© 2024 Accion Labs© 2024 Accion Labs
+Success Stories
+
+9
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+EDC model for an Application Security Giant -VERACODE
+SecurityChallenge/Objective
+●VERACODS’s legacy Dynamic 
+Analysis App test platform 
+(DAST) had monolithic 
+architecture without optimized 
+value delivery & observability 
+implementation. 
+●Customer was not able to scale 
+the software teams thus slow 
+down delivery cycles.
+Solution
+●Utilisation of our Program 
+Security with EDC approach
+●With integrated partnership, 
+Accion’s engineering and cloud 
+native teams were put in place in 
+short amount of time.
+●Key part of the solution worked 
+by teams included: 
+▪optimal use of cloud capabilities 
+(use of managed EKS, KMS) 
+▪microservices architecture & 
+development process 
+optimization.  
+▪monitoring/observability 
+platform (Datadog) 
+implementation
+Business Impact
+●As a result, shorter time to 
+market for the product features 
+via rapid scaling and faster 
+delivery.
+●Reduced 
+operational/maintenance cost of 
+the platform technology by 
+leveraging industry standard 
+toolset. 
+●Reduced risk by simplified 
+processes
+
+10
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Security Compliance for a Mental Health provider -MindWeal
+SecurityChallenge/Objective
+●Build a HIPAA Compliant 
+Platform for a North American 
+mental health provider with 
+required Security Controls.
+●Security Objective –Provide 
+Appropriate organizational, 
+administrative, physical & 
+technical safeguards and 
+procedures to be implemented 
+to protect the security of ePHI, to 
+prevent unauthorized or 
+accidental access, damage, loss 
+or other risks presented by data 
+processing
+●Provide and Maintain Security & 
+Quality Process documentation
+Solution
+●Utilising our Software Security 
+offering
+●Designed Security Architecture 
+in Accordance with 
+HIPAASecurity Requirements
+●Defined Cryptography  
+Standards for handling & 
+transporting PII and ePHI.
+●Conducted SAST/DAST &HIPAA 
+assessment of the platform for 
+HIPAA Audit Attestation.
+●Analyzedand confirmed PCI DSS 
+compliance in handling 
+CreditCard data flow.
+●Configured appropriate 
+monitoring systems to identify 
+and alert threat on the platform.
+Business Impact
+●Platform achieved HIPAA 
+compliance with a very few low 
+numbered observations
+●Advantage over similar competitor 
+businesses
+●Client’s business plan progressed 
+without deviation
+●With this HIPAA compliance for the 
+MindWeal as Organization has a 
+strong foundation
+
+11
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Security Advisory –World Health Organisation
+SecurityChallenge/Objective
+●Secure the data Processing for a 
+United Nations agency that 
+connects nations, partners and 
+people to promote health so 
+everyone, everywhere can attain 
+the highest level of health
+●Security Objective -Appropriate 
+organizational, administrative, 
+physical & technical safeguards 
+and procedures to be 
+implemented to protect the 
+security of personal data, to 
+prevent unauthorized or 
+accidental access, damage, loss 
+or other risks presented by data 
+processing
+Solution
+●Utilisation of our Program 
+Security and Cloud Security 
+offering
+●Dedicated Security SME
+●Security Review 
+ofCloudArchitecture
+●Conduct Risk Assessment and 
+Outline Risk 
+ManagementStrategy
+●Prioritizing mitigation 
+strategiesbased onrisk of the 
+Vulnerabilities.
+●Update CI/CD pipelines with 
+enhanced Security Controls 
+●Update DevOps pipelines to add 
+Security Tools
+Business Impact
+●Five folds increase in compliance 
+with WHO Information 
+Management and Technology 
+(IMT) policies and guidelines
+●Lowered the risk of a security 
+breach
+●Increased communication 
+integrity
+●Significantly reduced attack 
+surface
+●Reduced the exposure to the 
+public networks
+
+12
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Security Posture Management –a British Fintech 
+SecurityChallenge/Objective
+●A health insurance platform’s 
+Security assessed to provide the 
+status of the Web application’s 
+Security Posture
+●Security Posture Management 
+via Complete Vulnerability 
+Assessment.
+Solution
+●Utilising our Software Security 
+offering
+●Security Architectural review
+●Attack surface analysis and 
+Threat modelling
+●Vulnerability Assessment with 
+Penetration testing based on the 
+Prepared threat models
+●Conducted Regulatory 
+Compliance readiness review
+Business Impact
+●Improved the stack holder's 
+confidence in the product
+●Laid the foundation for future 
+regulatory and compliance 
+audits
+●Provided much needed time and 
+resources bandwidth before go 
+live for the client.
+●Reduced the risk of a security 
+breach and the associated costs 
+and damages
+
+13
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Security Posture Management -IAEA
+SecurityChallenge/Objective
+●Provide Security Assurance to 
+IAEA for a digital platform that is 
+an Regulatory Inventory 
+Management and Audit System 
+for machines that uses 
+radioactive material
+●Analyze Security Posture 
+followed by Security 
+Enhancements and 
+Improvement in Security Posture
+Solution
+●Utilising our Software Security 
+offering
+●Architectural review
+●Provided assistance to improve 
+security design
+●Implemented Cryptographic 
+controls
+●Attack surface analysis and 
+Threat modelling
+●Vulnerability Assessment with 
+Penetration testing based on the 
+Prepared threat models
+●Provide mitigation Strategy for 
+the observed vulnerabilities
+Business Impact
+●Improved Security Posture
+●Increased confidence of the IAEA 
+participating countries 
+●Timely release of the Inventory 
+Management and Audit Platform
+
+14
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Security Testing -UNICEF
+SecurityChallenge/Objective
+●Complete Security Assessment 
+for Various Web Applications for 
+UNICEF:
+▪Country Portal 
+▪Supply Chain management
+▪Malaria Toolkit
+▪Health Account Production Tools
+▪Covid-19 Dashboard
+●Improve Security Posture
+Solution
+●Utilising our Software Security 
+offering
+●Architectural Security review
+●Attack surface analysis and 
+Threat modelling
+●Vulnerability Assessment with 
+Penetration testing based on the 
+Prepared threat models
+Business Impact
+●Improved Security Posture
+●Increased confidence of the IAEA 
+participating countries 
+●Timely release of the Inventory 
+Management and Audit Platform
+●Reduced the risk of a security 
+breaches and the associated 
+costs and damages
+
+16
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+16
+Industry Segments
+BFSI / FintechMedia & Entertainment 
+Technology
+Retail / Supply Chain
+Services 
+(Legal, Real Estate etc.)
+Energy & Utilities
+Healthcare / Healthtech
+High-tech, Platforms 
+/ SaaS 
+Impact Organizations 
+
+17
+© 2024 Accion Labs© 2024 Accion Labs
+17
+Talent at Accion
+Focused ESG initiatives that help us do the business “right way”making our business purposeful, ensuring long term successes and wins
+Talent presence 
+Europe
+110+
+Asia
+4290+
+Americas 
+600+
+Gender Diversity
+Male: Female 
+72       28
+Number of 
+Nationalities
+20+
+Learning in CY24
+Instructor led Total person 
+learning hours:  
+Udemy Total person 
+learning hours:  
+Voluntary attrition 
+is around
+20%
+63193.27
+44891.48
+Amber, our Chief 
+Listening Officer
+Employee 
+Engagement Score
+%age of Accionites who have 
+given positive mood score
+Accion Labs India –
+Great Places to Work certified
+89%
+of Accionites say this is a 
+great place to work!
+8  2
+88.11%
+
+18
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Partnerships 
+and Alliances
+
+19
+© 2024 Accion Labs© 2024 Accion Labs© 2024 Accion Labs
+Thank You
+For more info please visit  www.accionlabs.com
+================================================================================
+
+IMAGE FILES AVAILABLE FOR ANALYSIS:
+
+
+OUTPUT REQUIREMENTS:
+1. Create a valid JSON object with all required fields
+2. Combine information from both text AND visual elements
+3. When technologies are shown visually but not mentioned in text, include them
+4. Extract actual content from both text and visuals
+5. Include relationships visible in architecture diagrams
+6. Note any metrics or KPIs shown in charts
+7. Generate tags based on all technologies visible in text and images
+
+Please analyze both the text and visual content to create a comprehensive JSON configuration for this CoE.

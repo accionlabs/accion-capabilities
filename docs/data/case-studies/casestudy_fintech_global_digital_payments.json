@@ -1,0 +1,75 @@
+{
+  "id": "casestudy_fintech_global_digital_payments",
+  "type": "casestudy",
+  "name": "Global Digital Payments Platform Innovation and Development",
+  "client": "Global Payments Technology Company",
+  "industry": "Financial Services",
+  "description": "Comprehensive platform development for world's fastest payments processing network, enabling cutting-edge payment technologies and digital innovation to support cashless world initiatives across 210+ countries and territories.",
+  "challenge": "Set up offshore development team for building digital innovation and payments platforms. Address shortage of skilled resources in payments and platform development space. Enable quick ramp-up of specialized resources at regular intervals to support global expansion.",
+  "solution": "Provided comprehensive technology resources including Business Analysts, Web UI developers, Backend developers, Testers, System Analysts, Engineering Services Members, Scrum Masters, Team Leads, and Project Managers. Implemented core activities including merchant registration, developer account management, sandbox creation, services integration, production migration, and comprehensive testing frameworks.",
+  "outcomes": [
+    "Successfully established innovative digital infrastructure platform",
+    "Enabled development of cutting-edge payment technologies for cashless world",
+    "Established largest Tech Hub outside US for client",
+    "Quick ramp-up of specialized payment technology resources",
+    "Comprehensive merchant and developer onboarding capabilities",
+    "End-to-end payments platform development and testing",
+    "Global scale payment processing infrastructure"
+  ],
+  "technologies": [
+    "Java",
+    "J2EE",
+    "JSF",
+    "Spring Framework",
+    "Hibernate",
+    "Web Services",
+    "JSF",
+    "PrimeFaces",
+    "AngularJS",
+    "HTML5",
+    "CSS3",
+    "jQuery",
+    "Android UI",
+    "iOS UI",
+    "Oracle Database",
+    "MySQL",
+    "SQL Server",
+    "Selenium",
+    "SOAP UI",
+    "JBehave",
+    "Dynatrace",
+    "Splunk",
+    "Bamboo"
+  ],
+  "duration": "Multi-year platform development and innovation engagement",
+  "teamSize": "Large offshore development team with specialized payment technology expertise",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_testing",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/fintech_global_digital_payments.md"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "accelerator_midas",
+  "type": "accelerator",
+  "name": "MIDAS",
+  "category": "Specialized Solutions",
+  "description": "AI-powered medical image diagnostics assistance system with advanced machine learning for healthcare",
+  "keyFeatures": [
+    "DICOM & JPEG Support - Comprehensive medical image format compatibility",
+    "Advanced Image Preprocessing - Sophisticated image enhancement capabilities",
+    "ROI Extraction Algorithms - Automated region of interest identification",
+    "CNN & SVM Classification - Advanced machine learning for diagnosis support"
+  ],
+  "clientValue": [
+    "Diagnostic Time Reduction - Faster image analysis and interpretation",
+    "Detection Accuracy Enhancement - Improved diagnostic precision",
+    "Patient Outcome Improvement - Better healthcare delivery through AI assistance",
+    "Workflow Integration - Seamless integration with existing radiology workflows"
+  ],
+  "successStories": [],
+  "techStack": [
+    "Machine learning",
+    "Image processing",
+    "DICOM standards",
+    "CNN"
+  ],
+  "targetIndustries": [
+    "Healthcare",
+    "Radiology",
+    "Diagnostic Imaging"
+  ],
+  "businessImpactMetrics": [
+    "Faster image analysis and interpretation",
+    "Improved diagnostic precision",
+    "Better healthcare delivery through AI assistance",
+    "Seamless integration with existing radiology workflows"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_tensorflow",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_pytorch",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_medical_imaging",
+        "type": "USES"
+      },
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/midas.md"
+  }
+}

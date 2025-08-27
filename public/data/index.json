@@ -1,0 +1,858 @@
+{
+  "version": "1.2.0",
+  "lastUpdated": "2025-08-27T01:20:00.457Z",
+  "entities": {
+    "pillars": [
+      {
+        "id": "pillar_automation",
+        "name": "Automation"
+      },
+      {
+        "id": "pillar_cloud",
+        "name": "Cloud"
+      },
+      {
+        "id": "pillar_data",
+        "name": "Data"
+      },
+      {
+        "id": "pillar_digital_products",
+        "name": "Digital Products"
+      }
+    ],
+    "centersOfExcellence": [
+      {
+        "id": "coe_architecture",
+        "name": "Architecture Center of Excellence"
+      },
+      {
+        "id": "coe_blockchain",
+        "name": "Blockchain and Decentralized Applications Center of Excellence"
+      },
+      {
+        "id": "coe_data_analytics",
+        "name": "Data and Analytics Center of Excellence"
+      },
+      {
+        "id": "coe_data_governance",
+        "name": "Data Governance Center of Excellence"
+      },
+      {
+        "id": "coe_data_mesh",
+        "name": "Data Mesh Center of Excellence"
+      },
+      {
+        "id": "coe_data_roi",
+        "name": "Data ROI Center of Excellence"
+      },
+      {
+        "id": "coe_data_streaming",
+        "name": "Data Streaming Center of Excellence"
+      },
+      {
+        "id": "coe_data_transformation",
+        "name": "Data Transformation Center of Excellence"
+      },
+      {
+        "id": "coe_databricks",
+        "name": "Databricks Center of Excellence"
+      },
+      {
+        "id": "coe_ecommerce",
+        "name": "E-Commerce & Content Management Center of Excellence"
+      },
+      {
+        "id": "coe_financial_analytics",
+        "name": "Financial Analytics Center of Excellence"
+      },
+      {
+        "id": "coe_genai",
+        "name": "Generative AI CoE"
+      },
+      {
+        "id": "coe_iot",
+        "name": "Internet of Things (IoT) Center of Excellence"
+      },
+      {
+        "id": "coe_mdm",
+        "name": "Master Data Management Center of Excellence"
+      },
+      {
+        "id": "coe_medical_imaging",
+        "name": "Medical Imaging Center of Excellence"
+      },
+      {
+        "id": "coe_portfolio_rationalization",
+        "name": "Portfolio Rationalization Center of Excellence"
+      },
+      {
+        "id": "coe_testing",
+        "name": "Quality Engineering Center of Excellence"
+      },
+      {
+        "id": "coe_security",
+        "name": "Security Services Center of Excellence"
+      },
+      {
+        "id": "coe_servicenow",
+        "name": "ServiceNow Center of Excellence"
+      },
+      {
+        "id": "coe_devops",
+        "name": "DevOps Center of Excellence"
+      },
+      {
+        "id": "coe_sre",
+        "name": "Site Reliability Engineering Center of Excellence"
+      },
+      {
+        "id": "coe_snowflake",
+        "name": "Snowflake Center of Excellence"
+      },
+      {
+        "id": "coe_reengineering",
+        "name": "Technology Modernization & Application Reengineering Center of Excellence"
+      },
+      {
+        "id": "coe_ux",
+        "name": "User Experience (UX) Center of Excellence"
+      },
+      {
+        "id": "coe_salesforce",
+        "name": "Salesforce Center of Excellence"
+      },
+      {
+        "id": "coe_rpa",
+        "name": "Robotic Process Automation (RPA) Center of Excellence"
+      },
+      {
+        "id": "coe_observability",
+        "name": "Observability Center of Excellence"
+      },
+      {
+        "id": "coe_experience_design",
+        "name": "Experience Design Center of Excellence"
+      },
+      {
+        "id": "coe_azure",
+        "name": "Azure Center of Excellence"
+      },
+      {
+        "id": "coe_aws",
+        "name": "AWS Center of Excellence"
+      },
+      {
+        "id": "coe_gcp",
+        "name": "Google Cloud Platform (GCP) Center of Excellence"
+      },
+      {
+        "id": "coe_aiml",
+        "name": "AI/ML Center of Excellence"
+      },
+      {
+        "id": "coe_finops",
+        "name": "FinOps Center of Excellence"
+      },
+      {
+        "id": "coe_product_management",
+        "name": "Product Management Center of Excellence"
+      },
+      {
+        "id": "coe_application_integration",
+        "name": "Application Integration Center of Excellence"
+      },
+      {
+        "id": "coe_modern_ui",
+        "name": "Modern UI Development Center of Excellence"
+      },
+      {
+        "id": "coe_ai_powered_products",
+        "name": "AI-Powered Products Center of Excellence"
+      },
+      {
+        "id": "coe_healthcare_data",
+        "name": "Healthcare Data Solutions Center of Excellence"
+      },
+      {
+        "id": "coe_multicloud",
+        "name": "Multi-Cloud Management Center of Excellence"
+      },
+      {
+        "id": "coe_devsecops",
+        "name": "DevSecOps Center of Excellence"
+      },
+      {
+        "id": "coe_agentic_ai",
+        "name": "Agentic AI Solutions Center of Excellence"
+      }
+    ],
+    "platforms": [
+      {
+        "id": "platform_breeze",
+        "name": "BREEZE - Containerized Microservices Architecture"
+      },
+      {
+        "id": "platform_breeze_ai",
+        "name": "Breeze.AI - AI-Driven SDLC Transformation"
+      },
+      {
+        "id": "platform_dataops",
+        "name": "DataOps - Data Lake Platform Blueprint"
+      },
+      {
+        "id": "platform_digitalhub",
+        "name": "Digital Experience Hub"
+      },
+      {
+        "id": "platform_ezebenefits",
+        "name": "eZeBenefits - Healthcare Innovation Blueprint"
+      },
+      {
+        "id": "platform_kaps",
+        "name": "KAPS - GenAI Adoption Framework"
+      },
+      {
+        "id": "platform_unifiedai",
+        "name": "UnifiedAI Platform"
+      },
+      {
+        "id": "platform_unity",
+        "name": "UNITY - GCC Management Solution"
+      },
+      {
+        "id": "platform_accion_connect",
+        "name": "Accion Connect"
+      }
+    ],
+    "accelerators": [
+      {
+        "id": "accelerator_ai_sre_agent",
+        "name": "AI SRE Agent"
+      },
+      {
+        "id": "accelerator_autonomous_support",
+        "name": "Autonomous Support"
+      },
+      {
+        "id": "accelerator_cicd_accelerator",
+        "name": "CI/CD Accelerator"
+      },
+      {
+        "id": "accelerator_cloud_map",
+        "name": "Cloud Map"
+      },
+      {
+        "id": "accelerator_code_migration_assistant",
+        "name": "Code Migration Assistant"
+      },
+      {
+        "id": "accelerator_data_transformation_toolkit",
+        "name": "Data Transformation Toolkit"
+      },
+      {
+        "id": "accelerator_data_orchestrator",
+        "name": "DataFlow Orchestrator"
+      },
+      {
+        "id": "accelerator_enterprise_agents",
+        "name": "Enterprise Agents"
+      },
+      {
+        "id": "accelerator_gen_ai_in_a_box",
+        "name": "Gen AI in a Box"
+      },
+      {
+        "id": "accelerator_genai_studio",
+        "name": "GenAI Studio"
+      },
+      {
+        "id": "accelerator_infoundry",
+        "name": "Infoundry"
+      },
+      {
+        "id": "accelerator_legacy_migration",
+        "name": "Legacy Migration Accelerator"
+      },
+      {
+        "id": "accelerator_midas",
+        "name": "MIDAS"
+      },
+      {
+        "id": "accelerator_nexial",
+        "name": "Nexial"
+      },
+      {
+        "id": "accelerator_support_bots",
+        "name": "Support Bots"
+      },
+      {
+        "id": "accelerator_azuresmart",
+        "name": "AzureSmart"
+      },
+      {
+        "id": "accelerator_knowledgemesh",
+        "name": "KnowledgeMesh"
+      },
+      {
+        "id": "accelerator_bizbrain",
+        "name": "BizBrain"
+      },
+      {
+        "id": "accelerator_semantic_ai",
+        "name": "Semantic.AI"
+      },
+      {
+        "id": "accelerator_icd10_migration",
+        "name": "ICD-10 Migration Accelerator"
+      }
+    ],
+    "components": [
+      {
+        "id": "component_axtract",
+        "name": "AxTract - Healthcare Data Mart Framework"
+      },
+      {
+        "id": "component_benefits_triage",
+        "name": "Benefits Triage - Claims Requirements Configurator"
+      },
+      {
+        "id": "component_change_data_capture",
+        "name": "Change Data Capture Tools"
+      },
+      {
+        "id": "component_cognitive_search",
+        "name": "Cognitive Search - Enterprise Search Engine"
+      },
+      {
+        "id": "component_data_extractors",
+        "name": "Data Extractors - RDBMS and Flat File Connectors"
+      },
+      {
+        "id": "component_devops_playbook",
+        "name": "DevOps Playbook - Implementation Framework"
+      },
+      {
+        "id": "component_dragonfly",
+        "name": "DragonFly - Data Quality Assessment"
+      },
+      {
+        "id": "component_auth_service",
+        "name": "Enterprise Auth Service"
+      },
+      {
+        "id": "component_hl7_edi_gateway",
+        "name": "HL7 EDI Gateway - Healthcare Data Exchange"
+      },
+      {
+        "id": "component_qum_quide",
+        "name": "QUM/QUIDE - UI & Usability Testing"
+      },
+      {
+        "id": "component_semantic_layer",
+        "name": "Semantic Layer - Unified Data Access APIs"
+      },
+      {
+        "id": "component_streaming_data",
+        "name": "Streaming Data - Real-time Processing"
+      }
+    ],
+    "frameworks": [
+      {
+        "id": "framework_5p_induction",
+        "name": "5P Induction Process"
+      },
+      {
+        "id": "framework_agile_delivery",
+        "name": "Agile Delivery Framework"
+      },
+      {
+        "id": "framework_agile_governance",
+        "name": "Agile Framework and Governance"
+      },
+      {
+        "id": "framework_architecture_value_board",
+        "name": "Architecture Value Board (AVB)"
+      },
+      {
+        "id": "framework_bizcontinuity",
+        "name": "BizContinuity Framework"
+      },
+      {
+        "id": "framework_collaborative_teams",
+        "name": "Collaborative Teams Model"
+      },
+      {
+        "id": "framework_devops_maturity",
+        "name": "DevOps Maturity Framework"
+      },
+      {
+        "id": "framework_edc_model",
+        "name": "EDC Model - Extended Delivery Center Framework"
+      },
+      {
+        "id": "framework_information_security",
+        "name": "Information Security Framework"
+      },
+      {
+        "id": "framework_innovation_lifecycle",
+        "name": "Innovation Development Lifecycle"
+      },
+      {
+        "id": "framework_integrated_teams",
+        "name": "Integrated Teams Model"
+      },
+      {
+        "id": "framework_lifecycle_ownership",
+        "name": "Lifecycle Ownership Model"
+      },
+      {
+        "id": "framework_program_value_board",
+        "name": "Program Value Board (PVB)"
+      }
+    ],
+    "prototypes": [
+      {
+        "id": "prototype_ar_field_service",
+        "name": "AR Field Service Assistant"
+      },
+      {
+        "id": "prototype_custom_copilots",
+        "name": "Custom Copilots - AI-Enhanced Development"
+      },
+      {
+        "id": "prototype_healthscribe",
+        "name": "HealthScribe - Voice-to-Medical-Record Platform"
+      },
+      {
+        "id": "prototype_quantum_ml",
+        "name": "Quantum ML Optimizer"
+      },
+      {
+        "id": "prototype_strategic_guardrails",
+        "name": "Strategic Guardrails - AI Governance Framework"
+      }
+    ],
+    "technologies": [
+      {
+        "id": "technology_apache_airflow",
+        "name": "Apache Airflow"
+      },
+      {
+        "id": "technology_spark",
+        "name": "Apache Spark"
+      },
+      {
+        "id": "technology_arcore",
+        "name": "ARCore"
+      },
+      {
+        "id": "technology_arkit",
+        "name": "ARKit"
+      },
+      {
+        "id": "technology_bitcoin",
+        "name": "Bitcoin"
+      },
+      {
+        "id": "technology_cardano",
+        "name": "Cardano"
+      },
+      {
+        "id": "technology_docker",
+        "name": "Docker"
+      },
+      {
+        "id": "technology_ethereum",
+        "name": "Ethereum"
+      },
+      {
+        "id": "technology_github_actions",
+        "name": "GitHub Actions"
+      },
+      {
+        "id": "technology_hashicorp_vault",
+        "name": "HashiCorp Vault"
+      },
+      {
+        "id": "technology_huggingface",
+        "name": "Hugging Face"
+      },
+      {
+        "id": "technology_hyperledger",
+        "name": "Hyperledger Fabric"
+      },
+      {
+        "id": "technology_ipfs",
+        "name": "IPFS"
+      },
+      {
+        "id": "technology_jenkins",
+        "name": "Jenkins"
+      },
+      {
+        "id": "technology_jwt",
+        "name": "JWT"
+      },
+      {
+        "id": "technology_kubernetes",
+        "name": "Kubernetes"
+      },
+      {
+        "id": "technology_langchain",
+        "name": "LangChain"
+      },
+      {
+        "id": "technology_mlflow",
+        "name": "MLflow"
+      },
+      {
+        "id": "technology_mongodb",
+        "name": "MongoDB"
+      },
+      {
+        "id": "technology_nessus",
+        "name": "Nessus"
+      },
+      {
+        "id": "technology_nodejs",
+        "name": "Node.js"
+      },
+      {
+        "id": "technology_oauth",
+        "name": "OAuth 2.0"
+      },
+      {
+        "id": "technology_openai",
+        "name": "OpenAI"
+      },
+      {
+        "id": "technology_openvas",
+        "name": "OpenVAS"
+      },
+      {
+        "id": "technology_powerbi",
+        "name": "Power BI"
+      },
+      {
+        "id": "technology_python",
+        "name": "Python"
+      },
+      {
+        "id": "technology_pytorch",
+        "name": "PyTorch"
+      },
+      {
+        "id": "technology_qiskit",
+        "name": "Qiskit"
+      },
+      {
+        "id": "technology_react",
+        "name": "React"
+      },
+      {
+        "id": "technology_sonarqube",
+        "name": "SonarQube"
+      },
+      {
+        "id": "technology_splunk",
+        "name": "Splunk"
+      },
+      {
+        "id": "technology_tableau",
+        "name": "Tableau"
+      },
+      {
+        "id": "technology_tensorflow",
+        "name": "TensorFlow"
+      },
+      {
+        "id": "technology_terraform",
+        "name": "Terraform"
+      },
+      {
+        "id": "technology_unity",
+        "name": "Unity"
+      }
+    ],
+    "industries": [
+      {
+        "id": "industry_ecommerce",
+        "name": "E-commerce"
+      },
+      {
+        "id": "industry_financial_services",
+        "name": "Financial Services"
+      },
+      {
+        "id": "industry_healthcare",
+        "name": "Healthcare"
+      },
+      {
+        "id": "industry_manufacturing",
+        "name": "Manufacturing"
+      },
+      {
+        "id": "industry_media",
+        "name": "Media & Entertainment"
+      },
+      {
+        "id": "industry_pharma",
+        "name": "Pharmaceuticals"
+      },
+      {
+        "id": "industry_retail",
+        "name": "Retail"
+      },
+      {
+        "id": "industry_technology",
+        "name": "Technology"
+      },
+      {
+        "id": "industry_utilities",
+        "name": "Utilities"
+      }
+    ],
+    "caseStudies": [
+      {
+        "id": "casestudy_abbott",
+        "name": "Abbott Laboratories - eCommerce Test Automation and Content Management"
+      },
+      {
+        "id": "casestudy_ana",
+        "name": "American Nurses Association - Accreditation Platform & Data Analytics"
+      },
+      {
+        "id": "casestudy_american_water_apps_showcase",
+        "name": "American Water - Digital Innovation Apps Showcase"
+      },
+      {
+        "id": "casestudy_cancer_care_platform",
+        "name": "Cancer Care Platform for Patient Communication and Support"
+      },
+      {
+        "id": "casestudy_value_based_care",
+        "name": "Care Management Platform for Value-Based Care Transition"
+      },
+      {
+        "id": "casestudy_cbc",
+        "name": "CBC Companies - Scalable Modernization with Messaging-Based Microservices"
+      },
+      {
+        "id": "casestudy_cinch",
+        "name": "Cinch Home Services - Technology Modernization for Growth"
+      },
+      {
+        "id": "casestudy_cision",
+        "name": "Cision - Distribution Platform Re-engineering and GEO Optimization"
+      },
+      {
+        "id": "casestudy_claims_data_processing",
+        "name": "Claims Data Processing for Pharmacy Benefits Management System"
+      },
+      {
+        "id": "casestudy_clinical_trial_management",
+        "name": "Clinical Trial and Quality Management Platform for European ISV"
+      },
+      {
+        "id": "casestudy_belgium_health_ecosystem",
+        "name": "Connected Care Coordination Platform for Belgium's Health Ecosystem"
+      },
+      {
+        "id": "casestudy_covid19_vaccine_supply",
+        "name": "COVID-19 Vaccine Supply Chain Management Platform"
+      },
+      {
+        "id": "casestudy_ddi",
+        "name": "DDI - Learner Portal & Analytics Platform Development"
+      },
+      {
+        "id": "casestudy_dell_technologies",
+        "name": "Dell Technologies - Enterprise Modernization Platform"
+      },
+      {
+        "id": "case_retailer_devops",
+        "name": "DevOps Transformation for Fortune 500 Retailer"
+      },
+      {
+        "id": "case_bank_transformation",
+        "name": "Digital Transformation for Major US Bank"
+      },
+      {
+        "id": "casestudy_pharma_ecommerce",
+        "name": "Direct-to-Consumer eCommerce Platform for Global Pharmaceutical Company"
+      },
+      {
+        "id": "casestudy_echo_health",
+        "name": "Echo Health Inc. - Digital Payment Solutions Platform"
+      },
+      {
+        "id": "casestudy_finvi",
+        "name": "Finvi Case Study - Velosidy Collections Innovation"
+      },
+      {
+        "id": "casestudy_harris",
+        "name": "Harris - Court Recording and Case Management Platform"
+      },
+      {
+        "id": "casestudy_healthcare_payment_gateway",
+        "name": "Healthcare Payment Gateway Platform Engineering"
+      },
+      {
+        "id": "casestudy_iaea",
+        "name": "International Atomic Energy Agency - Electronic Safety Standards Platform"
+      },
+      {
+        "id": "casestudy_johnson_matthey",
+        "name": "Johnson Matthey - Digital Transformation for PGMS Division"
+      },
+      {
+        "id": "casestudy_kindercare",
+        "name": "KinderCare - Legacy Application and Data Platform Modernization"
+      },
+      {
+        "id": "casestudy_leadventure",
+        "name": "Leadventure - Digital Dealership Platform & Virtual Showroom"
+      },
+      {
+        "id": "casestudy_xray_arthritis_analysis",
+        "name": "Machine Learning X-Ray Analysis for Arthritis Evaluation"
+      },
+      {
+        "id": "casestudy_msa",
+        "name": "Management Science Associates - Data Engineering and Test Automation"
+      },
+      {
+        "id": "casestudy_mental_health_ehr",
+        "name": "Mental Health EHR Platform for Behavioral Healthcare"
+      },
+      {
+        "id": "casestudy_neurological_wearable",
+        "name": "Neurological Wearable Device for Mood Alteration and Treatment"
+      },
+      {
+        "id": "casestudy_owl_invest",
+        "name": "OWL INVEST - Integrated Wealth Management Portal"
+      },
+      {
+        "id": "casestudy_patent_research_repository",
+        "name": "Patent Research Repository for Leading Pharmaceutical Company"
+      },
+      {
+        "id": "casestudy_patient_flow_management",
+        "name": "Patient Flow Management and Doctor Scheduling Application"
+      },
+      {
+        "id": "casestudy_pollard",
+        "name": "Pollard - PlayOn + iLottery Platform Integration"
+      },
+      {
+        "id": "casestudy_rotary_international",
+        "name": "Rotary International - Digital Transformation and Modernization"
+      },
+      {
+        "id": "casestudy_diagnostic_portal",
+        "name": "Secure Portal for Diagnostic Test Results Access and Sharing"
+      },
+      {
+        "id": "casestudy_syndigo",
+        "name": "SYNDIGO - AI-Powered Image Attribute Extraction and Anomaly Detection"
+      },
+      {
+        "id": "casestudy_telemedicine_platform",
+        "name": "TeleMedicine Platform with integrated eRx, Labs, Clinical Notes and Ordering Capabilities"
+      },
+      {
+        "id": "casestudy_veracode",
+        "name": "Veracode - Cybersecurity Platform R&D Scaling"
+      },
+      {
+        "id": "casestudy_voice_physician_companion",
+        "name": "Voice-Assisted Physician Companion Platform"
+      },
+      {
+        "id": "casestudy_glucose_monitoring",
+        "name": "World's First Cellular-based Continuous Glucose Monitoring Product"
+      },
+      {
+        "id": "casestudy_salesforce_health_cloud",
+        "name": "Healthcare Provider - Salesforce Health Cloud Transformation"
+      },
+      {
+        "id": "casestudy_salesforce_marketing_cloud",
+        "name": "Employee Benefits Provider - Marketing Cloud Implementation"
+      },
+      {
+        "id": "casestudy_salesforce_service_cloud_hardware",
+        "name": "Computer Hardware Manufacturer - Service Cloud Transformation"
+      },
+      {
+        "id": "casestudy_salesforce_sales_service_security",
+        "name": "Software Security Company - Sales & Service Cloud Implementation"
+      },
+      {
+        "id": "casestudy_salesforce_cpq",
+        "name": "Software Security Company - CPQ Implementation"
+      },
+      {
+        "id": "casestudy_salesforce_distribution",
+        "name": "Merchandise Distribution Company - Sales & Service Cloud"
+      },
+      {
+        "id": "casestudy_salesforce_nonprofit",
+        "name": "Youth-Focused Organization - Nonprofit Cloud Implementation"
+      },
+      {
+        "id": "casestudy_rpa_finvi",
+        "name": "Finvi - AI-Powered Collection Process Automation"
+      },
+      {
+        "id": "casestudy_rpa_myeyedr",
+        "name": "MyEyeDr - Receivable Adjustments Automation"
+      },
+      {
+        "id": "casestudy_rpa_cision",
+        "name": "Cision - L0 Support Bot Implementation"
+      },
+      {
+        "id": "casestudy_clinical_trials_observability",
+        "name": "Clinical Trials Company - Cloud Observability Platform"
+      },
+      {
+        "id": "casestudy_digital_advertising_monitoring",
+        "name": "Digital Advertising Platform - Monitoring & Cost Optimization"
+      },
+      {
+        "id": "casestudy_wsr_insurance_devops",
+        "name": "WSR Insurance - DevOps Modernization"
+      },
+      {
+        "id": "casestudy_american_water_apps_showcase",
+        "name": "American Water - Apps Showcase"
+      },
+      {
+        "id": "casestudy_fintech_multiplatform_digital_banking",
+        "name": "Multi-Platform Digital Banking Solution with Azure Automation"
+      },
+      {
+        "id": "casestudy_fintech_nextgen_wealth_management",
+        "name": "NextGen Wealth Management and Banking App with Advanced Security"
+      },
+      {
+        "id": "casestudy_fintech_global_digital_payments",
+        "name": "Global Digital Payments Platform Innovation and Development"
+      },
+      {
+        "id": "casestudy_fintech_honeydue_couples_finance",
+        "name": "Honeydue - Personal Financial Planning App for Couples"
+      },
+      {
+        "id": "casestudy_fintech_kinara_msme_lending",
+        "name": "Kinara Capital - Collateral-Free Business Loans for MSMEs"
+      },
+      {
+        "id": "casestudy_fintech_fraudulent_claims_processing",
+        "name": "Fraudulent Claims Processing Platform for Insurance Analytics"
+      }
+    ]
+  }
+}

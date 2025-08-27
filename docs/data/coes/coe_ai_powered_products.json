@@ -1,0 +1,128 @@
+{
+  "id": "coe_ai_powered_products",
+  "type": "coe",
+  "data": {
+    "name": "AI-Powered Products Center of Excellence",
+    "description": "Accion's AI-Powered Products Center of Excellence specializes in integrating artificial intelligence and machine learning capabilities into digital products and services. The CoE focuses on embedding AI features such as intelligent recommendations, predictive analytics, natural language interfaces, and computer vision into applications. With expertise in AI/ML integration, model deployment, and edge AI, this CoE enables organizations to create intelligent, adaptive products that deliver personalized user experiences and automated decision-making.",
+    "category": "Digital Products",
+    "order": 11,
+    "keyCompetencies": [
+      "AI Feature Integration",
+      "Intelligent Recommendation Systems",
+      "Predictive Analytics in Products",
+      "Natural Language Interfaces",
+      "Computer Vision Integration",
+      "Edge AI Implementation",
+      "Real-time ML Inference",
+      "Personalization Engines",
+      "Chatbot and Virtual Assistant Development",
+      "AI-Driven Automation",
+      "Sentiment Analysis Integration",
+      "Anomaly Detection Systems",
+      "AI Model Deployment",
+      "MLOps for Products",
+      "Responsible AI Implementation"
+    ],
+    "services": [
+      {
+        "name": "AI Product Strategy",
+        "description": "Strategic planning for AI integration into products",
+        "deliverables": [
+          "AI integration roadmap",
+          "Use case identification",
+          "ROI analysis",
+          "Technical feasibility assessment"
+        ]
+      },
+      {
+        "name": "Intelligent Feature Development",
+        "description": "Development of AI-powered features for applications",
+        "deliverables": [
+          "AI feature implementation",
+          "Model integration",
+          "API development",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Recommendation Engine Implementation",
+        "description": "Custom recommendation systems for products",
+        "deliverables": [
+          "Recommendation algorithms",
+          "Personalization engine",
+          "A/B testing framework",
+          "Analytics dashboard"
+        ]
+      },
+      {
+        "name": "Conversational AI Integration",
+        "description": "Chatbot and voice assistant integration",
+        "deliverables": [
+          "Conversational interface",
+          "NLP integration",
+          "Dialog management",
+          "Multi-channel support"
+        ]
+      }
+    ],
+    "technologies": [
+      "TensorFlow Lite",
+      "ONNX Runtime",
+      "Core ML",
+      "OpenAI API",
+      "Anthropic Claude",
+      "LangChain",
+      "Hugging Face",
+      "PyTorch Mobile",
+      "TensorFlow.js",
+      "ML Kit",
+      "Amazon Personalize",
+      "Azure Cognitive Services",
+      "Google AI Platform",
+      "Rasa",
+      "Dialogflow"
+    ],
+    "businessValue": "Accion's AI-Powered Products Center of Excellence enables organizations to increase user engagement by 45%, improve conversion rates by 35%, reduce manual processes by 60%, and deliver personalized experiences that drive customer satisfaction scores up by 30%. The CoE helps transform traditional products into intelligent, adaptive solutions that provide competitive advantage in the market.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_ai_powered_products.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_aiml",
+      "metadata": {
+        "relationship": "ai_capabilities"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_genai",
+      "metadata": {
+        "relationship": "generative_ai"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "purpose": "ml_framework"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "purpose": "ai_services"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "technology_oauth",
+  "name": "OAuth 2.0",
+  "description": "Authorization framework",
+  "category": "framework",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "framework"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "comp_auth_service",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

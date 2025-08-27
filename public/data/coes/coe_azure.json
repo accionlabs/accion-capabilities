@@ -1,0 +1,189 @@
+{
+  "id": "coe_azure",
+  "type": "coe",
+  "data": {
+    "name": "Azure Center of Excellence",
+    "description": "Accion's Azure Center of Excellence provides comprehensive Microsoft Azure cloud services, focusing on enterprise-grade cloud transformation, hybrid cloud solutions, and Azure-native application development. The CoE specializes in Azure infrastructure, platform services, AI and machine learning capabilities, security, and DevOps automation. With deep expertise in Azure architecture patterns, governance, and cost optimization, the Azure CoE enables organizations to leverage the full potential of Microsoft's cloud platform for digital transformation and business innovation.",
+    "category": "Cloud",
+    "order": 2,
+    "keyCompetencies": [
+      "Azure Cloud Architecture and Design",
+      "Azure Infrastructure as Code (ARM Templates, Bicep)",
+      "Azure DevOps and CI/CD Automation",
+      "Azure AI and Cognitive Services",
+      "Azure Data Platform and Analytics",
+      "Azure Security and Identity Management",
+      "Azure Kubernetes Service (AKS) Management",
+      "Azure Cost Optimization and FinOps",
+      "Azure Governance and Policy Management",
+      "Azure Hybrid and Multi-Cloud Solutions",
+      "Azure Migration and Modernization",
+      "Azure Monitoring and Observability",
+      "Azure Networking and Connectivity",
+      "Azure Storage and Data Management",
+      "Azure Serverless Computing (Functions, Logic Apps)"
+    ],
+    "services": [
+      {
+        "name": "Azure Cloud Migration and Modernization",
+        "description": "Comprehensive migration services to move workloads to Azure with modernization strategies",
+        "deliverables": [
+          "Migration assessment",
+          "Migration roadmap",
+          "Automated migration tools",
+          "Post-migration optimization"
+        ]
+      },
+      {
+        "name": "Azure Infrastructure Design and Implementation",
+        "description": "Scalable and secure Azure infrastructure architecture and deployment",
+        "deliverables": [
+          "Infrastructure blueprints",
+          "ARM/Bicep templates",
+          "Security configurations",
+          "Disaster recovery setup"
+        ]
+      },
+      {
+        "name": "Azure DevOps and Automation",
+        "description": "End-to-end DevOps implementation using Azure DevOps services",
+        "deliverables": [
+          "CI/CD pipelines",
+          "Release automation",
+          "Infrastructure automation",
+          "Quality gates"
+        ]
+      },
+      {
+        "name": "Azure AI and Machine Learning Solutions",
+        "description": "AI-powered solutions using Azure Cognitive Services and Machine Learning",
+        "deliverables": [
+          "AI/ML models",
+          "Cognitive services integration",
+          "Data science workflows",
+          "AI governance framework"
+        ]
+      },
+      {
+        "name": "Azure Data Platform Implementation",
+        "description": "Modern data platform solutions using Azure data services",
+        "deliverables": [
+          "Data architecture",
+          "ETL/ELT pipelines",
+          "Data governance",
+          "Analytics dashboards"
+        ]
+      },
+      {
+        "name": "Azure Security and Compliance",
+        "description": "Comprehensive security implementation and compliance management",
+        "deliverables": [
+          "Security architecture",
+          "Identity management",
+          "Compliance frameworks",
+          "Security monitoring"
+        ]
+      },
+      {
+        "name": "Azure Cost Optimization and FinOps",
+        "description": "Cloud cost optimization and financial operations management",
+        "deliverables": [
+          "Cost analysis",
+          "Optimization recommendations",
+          "Budget management",
+          "FinOps processes"
+        ]
+      }
+    ],
+    "technologies": [
+      "Microsoft Azure",
+      "Azure Virtual Machines",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Container Instances",
+      "Azure Service Fabric",
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Storage",
+      "Azure Data Factory",
+      "Azure Synapse Analytics",
+      "Azure Analysis Services",
+      "Azure Machine Learning",
+      "Azure Cognitive Services",
+      "Azure Bot Service",
+      "Azure DevOps",
+      "Azure Resource Manager",
+      "ARM Templates",
+      "Bicep",
+      "Azure PowerShell",
+      "Azure CLI",
+      "Azure Active Directory",
+      "Azure Key Vault",
+      "Azure Security Center",
+      "Azure Sentinel",
+      "Azure Monitor",
+      "Azure Application Insights",
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "Azure CDN",
+      "Azure API Management",
+      "Azure Service Bus",
+      "Azure Event Hubs",
+      "Azure Stream Analytics",
+      "Power BI",
+      "Power Platform",
+      "Microsoft 365"
+    ],
+    "businessValue": "Accion's Azure Center of Excellence delivers significant business value through accelerated cloud adoption (60-80% faster migration timelines), reduced infrastructure costs (25-40% cost savings), improved scalability and reliability (99.9% uptime), enhanced security posture (enterprise-grade security), and increased development velocity (40-60% faster deployment cycles). The CoE enables organizations to leverage Azure's comprehensive platform capabilities for digital transformation, innovation, and competitive advantage while ensuring cost optimization and governance compliance.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_azure.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_azure",
+      "metadata": {
+        "category": "cloud_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    }
+  ]
+}

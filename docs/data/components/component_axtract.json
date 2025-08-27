@@ -1,0 +1,73 @@
+{
+  "id": "component_axtract",
+  "name": "AxTract - Healthcare Data Mart Framework",
+  "category": "component",
+  "description": "Self-service healthcare data sharing with automated scheduling and business user empowerment",
+  "componentType": "Healthcare Component",
+  "strategicValue": "Enables business user self-service for healthcare data sharing while reducing IT backlog",
+  "clientValue": [
+    "Business user self-service data access",
+    "Reduced IT backlog and dependency",
+    "Consistent partner data sharing workflows",
+    "Automated scheduling and delivery"
+  ],
+  "technicalSpecs": [
+    "Data transformation pipelines",
+    "Automated scheduling engines",
+    "Security controls and encryption",
+    "Self-service user interfaces",
+    "Data mart architecture"
+  ],
+  "integrationPoints": [
+    "Healthcare data systems",
+    "Partner data sharing platforms",
+    "Business intelligence tools",
+    "Scheduling and workflow systems"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "IT Backlog Reduction",
+      "value": "50",
+      "unit": "% reduction in data requests"
+    },
+    {
+      "name": "User Adoption",
+      "value": "75+",
+      "unit": "% self-service adoption"
+    }
+  ],
+  "useCases": [
+    "Healthcare data sharing with partners",
+    "PBM data distribution",
+    "Life sciences research data",
+    "Provider network data exchange"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "healthcare",
+    "self-service",
+    "data-sharing"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "SERVES"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "SERVES"
+      },
+      {
+        "to": "coe_data_transformation",
+        "type": "BELONGS_TO"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/axtract.md"
+  }
+}

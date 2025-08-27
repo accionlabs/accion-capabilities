@@ -1,0 +1,49 @@
+{
+  "id": "casestudy_cbc",
+  "name": "CBC Companies - Scalable Modernization with Messaging-Based Microservices",
+  "client": "CBC Companies",
+  "industry": "Financial Services",
+  "description": "Modernization of legacy application using messaging-based microservices architecture to provide automated risk mitigation system that identifies fraud and misrepresentation in the loan origination process.",
+  "challenge": "Outdated legacy systems with limited integration capabilities, complex stakeholder ecosystem with shifting priorities, low code reusability increasing development effort, reliance on outdated technologies like .NET Framework 4.8, and absence of documentation impacting onboarding.",
+  "solution": [
+    "Highly scalable messaging-based microservices oriented architecture",
+    "Modular APIs enabling easier future enhancements and integration",
+    "Seamless user experience maintained during transition",
+    "Zero downtime ensured throughout module replacement",
+    "Plug-play architecture to switch between old and new applications during transition",
+    "Phased rollouts enabling faster user adoption"
+  ],
+  "technologies": [
+    "Microsoft .NET",
+    ".NET Core",
+    "Angular",
+    "Java",
+    "Apache Kafka",
+    "SQL Server",
+    "ActiveMQ",
+    "Oracle Database",
+    "Okta",
+    "HashiCorp Vault"
+  ],
+  "impact": {
+    "securityImprovement": "Strengthened security measures increased customer trust and confidence",
+    "developmentAcceleration": "Accelerated development cycles through reusable components",
+    "codeStandardization": "Standardized code practices across development teams",
+    "riskMitigation": "Automated fraud and misrepresentation identification in loan origination"
+  },
+  "outcomes": [
+    "Improved loan quality through automated risk mitigation",
+    "Overall cost reduction in loan origination process",
+    "Seamless transition from legacy to modern architecture",
+    "Enhanced security posture and customer confidence",
+    "Accelerated development cycles with reusable components"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_architecture",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/cbc.md"
+  },
+  "type": "casestudy"
+}

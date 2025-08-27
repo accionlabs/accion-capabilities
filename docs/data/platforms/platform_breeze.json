@@ -1,0 +1,136 @@
+{
+  "id": "platform_breeze",
+  "type": "platform",
+  "name": "BREEZE - Containerized Microservices Architecture",
+  "category": "Development & Architecture",
+  "description": "Event-driven microservices architecture platform",
+  "investment": "Not specified",
+  "roi": "50%+ of converted deals influenced",
+  "keyFeatures": [
+    {
+      "name": "Event-Driven Architecture",
+      "description": "Scalable, responsive system design using event streaming",
+      "businessValue": "Enhanced system responsiveness and scalability"
+    },
+    {
+      "name": "API/Forms/Templates Engines",
+      "description": "Comprehensive development toolkit for rapid application development",
+      "businessValue": "Accelerated development cycles and consistent implementation patterns"
+    },
+    {
+      "name": "Multi-Device UX",
+      "description": "Consistent experience across platforms and devices",
+      "businessValue": "Unified user experience reducing development and maintenance costs"
+    },
+    {
+      "name": "Build-for-Change Capabilities",
+      "description": "Adaptable architecture for evolving business requirements",
+      "businessValue": "Future-proof solutions that adapt to changing business needs"
+    }
+  ],
+  "businessImpactMetrics": [
+    {
+      "name": "Market Influence",
+      "value": "50%+",
+      "improvement": "of converted deals influenced by BREEZE"
+    },
+    {
+      "name": "Time-to-Market",
+      "value": "35%",
+      "improvement": "faster delivery"
+    },
+    {
+      "name": "Quality Enhancement",
+      "value": "47%",
+      "improvement": "fewer defects"
+    },
+    {
+      "name": "Communication Efficiency",
+      "value": "44%",
+      "improvement": "less translation loss between teams"
+    }
+  ],
+  "techStack": [
+    "Microservices",
+    "Kafka",
+    "Docker",
+    "Kubernetes"
+  ],
+  "clientValue": [
+    "Delivery Acceleration - Proven framework for faster project delivery",
+    "Quality Assurance - Consistent, high-quality outcomes",
+    "Client Confidence - Established track record of success",
+    "Competitive Advantage - Proprietary architecture approach"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_kubernetes",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_docker",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_apache_airflow",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_architecture",
+        "type": "USES"
+      },
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      },
+      {
+        "from": "coe_reengineering",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_cinch",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_cision",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_dell_technologies",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_johnson_matthey",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_rotary_international",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "casestudy_veracode",
+        "type": "LEVERAGES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/platform/breeze.md"
+  }
+}

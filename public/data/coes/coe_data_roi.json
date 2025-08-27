@@ -1,0 +1,247 @@
+{
+  "id": "coe_data_roi",
+  "type": "coe",
+  "data": {
+    "name": "Data ROI Center of Excellence",
+    "description": "Accion's Data ROI Center of Excellence specializes in measuring and maximizing the return on investment of data products and data initiatives. The CoE bridges the gap between business leaders, data teams, and data scientists by establishing comprehensive ROI measurement frameworks that track financial, operational, risk reduction, and intrinsic data value across all data investments. With expertise in data mesh architectures, AI-enhanced ROI optimization, and multi-dimensional value assessment, the CoE enables organizations to transform data from a cost center into a strategic asset while ensuring measurable business outcomes and sustainable data product value creation.",
+    "category": "Data",
+    "order": 9,
+    "keyCompetencies": [
+      "Data ROI Measurement and Framework Development",
+      "Multi-dimensional Value Assessment (Financial, Operational, Risk, Intrinsic)",
+      "Data Product Value Attribution and Tracking",
+      "ROI-Driven Data Strategy Development",
+      "Data Mesh ROI Optimization",
+      "AI-Enhanced Data ROI Analytics",
+      "Business-IT Alignment for Data Value",
+      "Data Investment Portfolio Management",
+      "Continuous ROI Monitoring and Improvement",
+      "Data Asset Valuation and Management",
+      "Value Compounding Strategy Implementation",
+      "Data Product Performance Metrics",
+      "ROI-Based Data Governance",
+      "Data Value Stream Mapping",
+      "Cost-Benefit Analysis for Data Initiatives"
+    ],
+    "services": [
+      {
+        "name": "Data ROI Assessment and Strategy",
+        "description": "Comprehensive assessment of current data investments and development of ROI-focused data strategy using proven measurement frameworks",
+        "deliverables": [
+          "Current data investment audit",
+          "ROI baseline assessment",
+          "Multi-dimensional value measurement framework",
+          "Strategic ROI roadmap",
+          "Investment optimization recommendations"
+        ]
+      },
+      {
+        "name": "Data Product ROI Framework Implementation",
+        "description": "Implementation of comprehensive ROI tracking frameworks for data products with clear value attribution and measurement",
+        "deliverables": [
+          "Data product value attribution models",
+          "ROI measurement dashboards",
+          "Business value tracking systems",
+          "Performance metrics frameworks",
+          "Value realization reporting"
+        ]
+      },
+      {
+        "name": "Financial ROI Measurement and Optimization",
+        "description": "Implementation of financial ROI tracking including cost savings, revenue impact, and monetary value optimization",
+        "deliverables": [
+          "Financial impact measurement systems",
+          "Cost-benefit analysis frameworks",
+          "Revenue attribution models",
+          "Investment tracking dashboards",
+          "Financial performance reports"
+        ]
+      },
+      {
+        "name": "Operational ROI Assessment and Improvement",
+        "description": "Measurement and optimization of operational efficiency gains, time savings, and process improvements from data investments",
+        "deliverables": [
+          "Efficiency metrics tracking",
+          "Time-to-value measurement",
+          "Process improvement analytics",
+          "Operational performance dashboards",
+          "Productivity gain reports"
+        ]
+      },
+      {
+        "name": "Risk Reduction ROI Quantification",
+        "description": "Assessment and quantification of risk mitigation value including compliance improvements, security enhancements, and business continuity",
+        "deliverables": [
+          "Risk reduction metrics",
+          "Compliance value assessment",
+          "Security ROI measurement",
+          "Business continuity impact analysis",
+          "Risk mitigation reporting"
+        ]
+      },
+      {
+        "name": "Intrinsic Data Value Assessment",
+        "description": "Evaluation and measurement of strategic insights, competitive advantage, and organizational capability enhancement from data assets",
+        "deliverables": [
+          "Strategic value assessment frameworks",
+          "Competitive advantage metrics",
+          "Innovation enablement tracking",
+          "Capability maturity measurement",
+          "Strategic impact reporting"
+        ]
+      },
+      {
+        "name": "Data Mesh ROI Optimization",
+        "description": "Specialized ROI optimization for data mesh implementations including decentralized ownership value and federated governance benefits",
+        "deliverables": [
+          "Data mesh ROI frameworks",
+          "Domain ownership value tracking",
+          "Self-service platform ROI measurement",
+          "Federated governance value assessment",
+          "Mesh transformation impact analysis"
+        ]
+      },
+      {
+        "name": "AI-Enhanced ROI Analytics",
+        "description": "Implementation of AI-powered ROI analytics and optimization with automated value tracking and predictive ROI modeling",
+        "deliverables": [
+          "AI-powered ROI analytics platforms",
+          "Predictive value modeling",
+          "Automated ROI reporting",
+          "Machine learning ROI optimization",
+          "Intelligent value attribution systems"
+        ]
+      }
+    ],
+    "technologies": [
+      "Databricks",
+      "Snowflake",
+      "Microsoft Fabric",
+      "Apache Spark",
+      "Apache Airflow",
+      "Power BI",
+      "Tableau",
+      "Looker",
+      "Qlik Sense",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Python",
+      "R",
+      "SQL",
+      "TensorFlow",
+      "PyTorch",
+      "MLflow",
+      "OpenAI",
+      "LangChain",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Jenkins",
+      "GitHub Actions",
+      "Prometheus",
+      "Grafana",
+      "Splunk",
+      "MongoDB",
+      "PostgreSQL",
+      "Apache Kafka",
+      "HashiCorp Vault",
+      "OAuth 2.0",
+      "JWT",
+      "SonarQube",
+      "Unity Catalog",
+      "Delta Lake"
+    ],
+    "businessValue": "Accion's Data ROI CoE delivers transformative business value by enabling organizations to measure, track, and maximize the return on investment from their data initiatives. Organizations achieve clear visibility into data value creation, optimized data investment portfolios, and sustainable ROI improvement through comprehensive measurement frameworks. The CoE's multi-dimensional approach ensures that both direct and indirect value is captured, enabling data transformation from cost center to strategic asset. With proven frameworks for Data Mesh ROI optimization and AI-enhanced analytics, organizations achieve measurable business outcomes, improved decision-making capabilities, and continuous value improvement from their data investments.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_data_roi.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "category": "ai_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mlflow",
+      "metadata": {
+        "category": "ml_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    }
+  ]
+}

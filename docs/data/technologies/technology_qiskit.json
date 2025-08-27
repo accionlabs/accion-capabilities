@@ -1,0 +1,22 @@
+{
+  "id": "technology_qiskit",
+  "name": "Qiskit",
+  "description": "Quantum computing SDK",
+  "category": "framework",
+  "vendor": "IBM",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "framework"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "proto_quantum_ml",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

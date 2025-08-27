@@ -1,0 +1,254 @@
+{
+  "id": "coe_medical_imaging",
+  "type": "coe",
+  "data": {
+    "name": "Medical Imaging Center of Excellence",
+    "description": "Accion's Medical Imaging Center of Excellence specializes in AI-powered medical image diagnostics through the MIDAS (Medical Image Diagnostics Assistance System) platform. The CoE delivers comprehensive medical imaging solutions spanning image preprocessing, ROI extraction, and object classification using advanced machine learning techniques. With expertise in DICOM and medical image formats, convolutional neural networks, and diagnostic accuracy optimization, the CoE enables healthcare organizations to enhance diagnostic capabilities, improve patient outcomes, and accelerate medical imaging workflows through intelligent automation and AI-driven analysis.",
+    "category": "Data",
+    "order": 13,
+    "keyCompetencies": [
+      "Medical Image Processing and Enhancement",
+      "DICOM and Medical Image Format Support",
+      "AI-Powered Diagnostic Assistance",
+      "Convolutional Neural Networks (CNN) for Medical Imaging",
+      "Support Vector Machine (SVM) Classification",
+      "Region of Interest (ROI) Extraction",
+      "Histogram of Oriented Gradient (HOG) Feature Extraction",
+      "Medical Image Preprocessing and Transformation",
+      "Histogram Equalization and Enhancement",
+      "Morphological Transformations (Erosion, Dilation, Opening, Closing)",
+      "Alpha and Beta Image Transformations",
+      "Edge Detection and Segmentation",
+      "Image Contouring and Boundary Detection",
+      "Object Localization in Medical Images",
+      "Multi-class Medical Condition Classification",
+      "Real-time Medical Image Analysis",
+      "Healthcare Data Security and Compliance",
+      "Integration with Healthcare Information Systems",
+      "Native and Cloud-based Deployment",
+      "Medical Imaging Workflow Optimization"
+    ],
+    "services": [
+      {
+        "name": "MIDAS Platform Implementation",
+        "description": "Comprehensive deployment of Medical Image Diagnostics Assistance System for healthcare organizations",
+        "deliverables": [
+          "MIDAS platform setup",
+          "Healthcare system integration",
+          "User training and support",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Medical Image Preprocessing",
+        "description": "Advanced image enhancement and transformation services for optimal diagnostic accuracy",
+        "deliverables": [
+          "Histogram equalization",
+          "Morphological transformations",
+          "Alpha-beta transformations",
+          "Edge detection and segmentation"
+        ]
+      },
+      {
+        "name": "ROI Extraction and Localization",
+        "description": "Automated region of interest extraction using Histogram of Oriented Gradient feature analysis",
+        "deliverables": [
+          "HOG descriptor generation",
+          "Patch extraction algorithms",
+          "Match score optimization",
+          "Object localization systems"
+        ]
+      },
+      {
+        "name": "AI-Powered Classification",
+        "description": "Machine learning-based medical condition classification and diagnostic assistance",
+        "deliverables": [
+          "CNN model development",
+          "SVM classifier implementation",
+          "Multi-class diagnostic models",
+          "Accuracy validation frameworks"
+        ]
+      },
+      {
+        "name": "Medical Image Format Integration",
+        "description": "Comprehensive support for DICOM, JPEG, and other medical imaging formats",
+        "deliverables": [
+          "DICOM processing capabilities",
+          "Multi-format compatibility",
+          "Metadata extraction",
+          "Image standardization"
+        ]
+      },
+      {
+        "name": "Healthcare System Integration",
+        "description": "Seamless integration with existing healthcare information systems and workflows",
+        "deliverables": [
+          "HIS/PACS integration",
+          "Workflow automation",
+          "API development",
+          "Security compliance"
+        ]
+      },
+      {
+        "name": "Cloud and Native Deployment",
+        "description": "Flexible deployment options supporting both cloud-based and on-premise installations",
+        "deliverables": [
+          "Cloud architecture design",
+          "On-premise deployment",
+          "Hybrid solutions",
+          "Scalability optimization"
+        ]
+      },
+      {
+        "name": "Medical Imaging Analytics",
+        "description": "Advanced analytics and reporting for medical imaging operations and outcomes",
+        "deliverables": [
+          "Diagnostic accuracy metrics",
+          "Performance dashboards",
+          "Usage analytics",
+          "Clinical outcome tracking"
+        ]
+      },
+      {
+        "name": "Compliance and Security",
+        "description": "Healthcare data security and regulatory compliance for medical imaging systems",
+        "deliverables": [
+          "HIPAA compliance",
+          "Data encryption",
+          "Access controls",
+          "Audit trails"
+        ]
+      },
+      {
+        "name": "Training and Support",
+        "description": "Comprehensive training programs and ongoing support for medical imaging professionals",
+        "deliverables": [
+          "User training programs",
+          "Technical documentation",
+          "24/7 support services",
+          "Continuous optimization"
+        ]
+      }
+    ],
+    "technologies": [
+      "DICOM",
+      "JPEG",
+      "PNG",
+      "TIFF",
+      "Medical Image Formats",
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Scikit-learn",
+      "Convolutional Neural Networks (CNN)",
+      "Support Vector Machine (SVM)",
+      "Histogram of Oriented Gradient (HOG)",
+      "Computer Vision Libraries",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "PIL/Pillow",
+      "Apache Spark",
+      "Apache Kafka",
+      "Apache Airflow",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "PACS Systems",
+      "Healthcare Information Systems",
+      "REST APIs",
+      "GraphQL",
+      "JSON",
+      "XML",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Elasticsearch",
+      "Jupyter Notebooks",
+      "MLflow",
+      "Weights & Biases",
+      "CUDA",
+      "GPU Computing",
+      "NVIDIA RAPIDS"
+    ],
+    "businessValue": "Accion's Medical Imaging CoE delivers transformational value to healthcare organizations by enhancing diagnostic accuracy, reducing interpretation time, and improving patient outcomes through AI-powered medical image analysis. The CoE helps healthcare providers achieve 20-30% improvement in diagnostic efficiency, reduces false positives/negatives through advanced ML algorithms, and accelerates time-to-diagnosis through automated image processing. Organizations benefit from improved workflow efficiency, reduced radiologist workload, enhanced diagnostic consistency, and better resource utilization. The MIDAS platform's comprehensive approach to medical imaging ensures regulatory compliance, data security, and seamless integration with existing healthcare systems while enabling innovative diagnostic capabilities and competitive advantages in medical care delivery.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_medical_imaging.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_pharma",
+      "metadata": {
+        "primary": true
+      }
+    }
+  ]
+}

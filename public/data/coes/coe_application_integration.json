@@ -1,0 +1,131 @@
+{
+  "id": "coe_application_integration",
+  "type": "coe",
+  "data": {
+    "name": "Application Integration Center of Excellence",
+    "description": "Accion's Application Integration Center of Excellence provides comprehensive integration services for connecting enterprise applications, systems, and data sources. The CoE specializes in API development, middleware solutions, event-driven architectures, and integration patterns. With expertise in modern integration platforms, microservices, and cloud-native integration technologies, the Application Integration CoE enables organizations to create seamless, scalable, and secure connections across their technology ecosystem.",
+    "category": "Digital Products",
+    "order": 6,
+    "keyCompetencies": [
+      "API Design and Development",
+      "Enterprise Service Bus (ESB)",
+      "Microservices Integration",
+      "Event-Driven Architecture",
+      "Message Queue Management",
+      "Data Integration Patterns",
+      "B2B Integration",
+      "Cloud Integration Services",
+      "Legacy System Integration",
+      "Real-time Data Synchronization",
+      "Integration Security",
+      "API Gateway Management",
+      "Service Orchestration",
+      "Integration Testing",
+      "Error Handling and Recovery"
+    ],
+    "services": [
+      {
+        "name": "Integration Strategy and Architecture",
+        "description": "Enterprise integration strategy and architecture design",
+        "deliverables": [
+          "Integration architecture blueprint",
+          "API strategy document",
+          "Integration patterns guide",
+          "Technology selection"
+        ]
+      },
+      {
+        "name": "API Development and Management",
+        "description": "RESTful and GraphQL API development with full lifecycle management",
+        "deliverables": [
+          "API design and documentation",
+          "API gateway setup",
+          "Developer portal",
+          "API monitoring dashboard"
+        ]
+      },
+      {
+        "name": "Legacy System Modernization",
+        "description": "Integration of legacy systems with modern applications",
+        "deliverables": [
+          "Legacy system assessment",
+          "Integration adapters",
+          "Data migration pipelines",
+          "Modernization roadmap"
+        ]
+      },
+      {
+        "name": "Event-Driven Integration",
+        "description": "Implementation of event-driven and messaging architectures",
+        "deliverables": [
+          "Event streaming platform",
+          "Message broker setup",
+          "Event sourcing implementation",
+          "Real-time processing pipelines"
+        ]
+      }
+    ],
+    "technologies": [
+      "MuleSoft",
+      "Apache Kafka",
+      "RabbitMQ",
+      "Azure Service Bus",
+      "AWS API Gateway",
+      "Kong",
+      "Apigee",
+      "Apache Camel",
+      "Spring Integration",
+      "IBM MQ",
+      "Redis",
+      "GraphQL",
+      "REST APIs",
+      "SOAP/XML",
+      "webhook"
+    ],
+    "businessValue": "Accion's Application Integration Center of Excellence delivers seamless system connectivity that reduces integration time by 50%, improves data consistency by 90%, enables real-time data flow across systems, and reduces operational costs by 35% through automated integration processes. The CoE helps organizations break down data silos and create a unified, agile technology ecosystem.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_application_integration.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_automation",
+      "metadata": {
+        "primary": false
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_architecture",
+      "metadata": {
+        "relationship": "architectural_alignment"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_kafka",
+      "metadata": {
+        "purpose": "event_streaming"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    }
+  ]
+}

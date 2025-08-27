@@ -1,0 +1,105 @@
+{
+  "id": "accelerator_autonomous_support",
+  "type": "accelerator",
+  "name": "Autonomous Support",
+  "category": "Enterprise Automation",
+  "description": "Comprehensive AI-driven support across voice, chat, and email channels with automated issue resolution",
+  "keyFeatures": [
+    "Self Heal BOT - Automated issue resolution capabilities",
+    "Assisted Heal BOT - AI-assisted support agent tools",
+    "Knowledge Integration - Comprehensive knowledge base connectivity",
+    "Multi-Channel Support - Voice, chat, email, and portal integration"
+  ],
+  "clientValue": [
+    "Resolution Rate - 90% resolution rate for documented issues",
+    "Response Time - 60% reduction in resolution times",
+    "Team Efficiency - 35% increase in support team efficiency",
+    "24/7 Availability - Continuous support capabilities"
+  ],
+  "successStories": [
+    {
+      "client": "Abbott",
+      "outcome": "Customer support with multimodal capabilities and self-healing",
+      "impact": "Comprehensive automated customer support implementation"
+    },
+    {
+      "client": "WHO",
+      "outcome": "HR and travel desk support with automated resolution",
+      "impact": "Streamlined HR operations and travel management"
+    },
+    {
+      "client": "Veracode",
+      "outcome": "SecOps automation and intelligent support",
+      "impact": "Enhanced security operations automation"
+    },
+    {
+      "client": "Dell",
+      "outcome": "Ticket resolution optimization and workflow automation",
+      "impact": "Optimized support ticket handling and resolution"
+    },
+    {
+      "client": "Assura Protect",
+      "outcome": "Agent assistance for enhanced support team performance",
+      "impact": "Improved support agent productivity and effectiveness"
+    }
+  ],
+  "techStack": [
+    "LLMs",
+    "Conversational AI",
+    "Knowledge bases"
+  ],
+  "targetIndustries": [
+    "IT Services",
+    "Healthcare",
+    "Retail"
+  ],
+  "businessImpactMetrics": [
+    "90% resolution rate for documented issues",
+    "60% reduction in resolution times",
+    "35% increase in support team efficiency",
+    "24/7 continuous support capabilities"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_langchain",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_rpa",
+        "type": "USES"
+      },
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_servicenow",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/autonomous_support.md"
+  }
+}

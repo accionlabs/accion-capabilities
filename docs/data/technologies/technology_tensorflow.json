@@ -1,0 +1,17 @@
+{
+  "id": "technology_tensorflow",
+  "name": "TensorFlow",
+  "description": "Open-source machine learning framework for building and deploying ML models",
+  "category": "framework",
+  "vendor": "Google",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "machine learning",
+    "deep learning",
+    "AI",
+    "framework"
+  ],
+  "relationships": []
+}

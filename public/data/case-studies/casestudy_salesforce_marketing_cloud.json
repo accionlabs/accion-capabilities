@@ -1,0 +1,56 @@
+{
+  "id": "casestudy_salesforce_marketing_cloud",
+  "type": "casestudy",
+  "name": "Employee Benefits Provider - Marketing Cloud Implementation",
+  "client": "Employee Benefits Provider",
+  "industry": "Financial Services",
+  "description": "Integrated and implemented a new Salesforce Marketing Cloud instance, enabling seamless data transfer to Sales Cloud, optimized lead scoring, and enhanced marketing automation for improved customer engagement.",
+  "challenge": "The employee benefits provider faced significant marketing challenges: disconnected systems with lack of seamless data transfer between Marketing Cloud and Sales Cloud hindering lead nurturing, ineffective lead scoring with manual and inconsistent lead qualification reducing conversion efficiency, limited marketing automation with inefficient workflows leading to missed engagement opportunities, low customer engagement due to generic messaging failing to drive meaningful interactions, and limited insights with inadequate reporting restricting campaign optimization and performance tracking.",
+  "solution": "Implemented a comprehensive Salesforce Marketing Cloud solution with seamless integration to Sales Cloud for improved lead management, advanced lead scoring and qualification system for better conversion rates, Mobile Studio automation for enhanced marketing efficiency, personalized email experience capabilities for better customer engagement, and advanced reporting and analytics for campaign optimization and performance tracking.",
+  "outcomes": [
+    "35% increase in customer engagement through personalized email experiences",
+    "25% improvement in conversion rates with enhanced lead qualification and advanced scoring",
+    "20% boost in marketing efficiency using Mobile Studio's automation and advanced reporting",
+    "Seamless data flow between Marketing Cloud and Sales Cloud improving lead nurturing",
+    "Enhanced campaign optimization through advanced reporting capabilities",
+    "Automated workflows eliminating missed engagement opportunities"
+  ],
+  "technologies": [
+    "Salesforce Marketing Cloud",
+    "Salesforce Sales Cloud Integration", 
+    "Mobile Studio",
+    "Advanced Lead Scoring",
+    "Email Automation",
+    "Campaign Analytics"
+  ],
+  "businessValue": [
+    "Significant improvement in customer engagement and conversion rates",
+    "Enhanced marketing ROI through better lead qualification and automated processes",
+    "Improved operational efficiency with 20% boost in marketing efficiency",
+    "Better customer insights through advanced reporting and analytics",
+    "Streamlined marketing operations through automation and integration"
+  ],
+  "duration": "Implementation project",
+  "teamSize": "Salesforce Marketing Cloud implementation team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_marketing_cloud.md"
+  }
+}

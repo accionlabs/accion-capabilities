@@ -1,0 +1,58 @@
+{
+  "id": "casestudy_johnson_matthey",
+  "type": "casestudy",
+  "name": "Johnson Matthey - Digital Transformation for PGMS Division",
+  "client": "Johnson Matthey Plc UK",
+  "industry": "Manufacturing & Refining",
+  "description": "Comprehensive digital transformation spanning Microsoft Dynamics Business Central implementation, future roadmap assessment, and refining process optimization using automation for the 200+ year old sustainable technologies leader.",
+  "challenge": "Replace legacy refining systems while handling complex business landscape requiring alignment of transformation programs. Existing structure lacked scalability, had inefficient ERP processes, manual workflows, and multiple bespoke systems requiring integration across Asia Pacific operations.",
+  "solution": "Implemented unified Microsoft Dynamics Business Central platform with Azure integration services. Conducted comprehensive 3-to-5-year transformation roadmap assessment covering business processes, technology landscape, enterprise architecture, and AI/GenAI strategy. Automated refining processes to reduce manual intervention.",
+  "outcomes": [
+    "10x increase in visibility to business data accelerating decision-making",
+    "50% faster integration with bespoke systems",
+    "Significant operational efficiency improvements through standardized processes",
+    "$10 million total ACV for CY24",
+    "Identified automation opportunities reducing manual effort by approximately 40%"
+  ],
+  "technologies": [
+    "Microsoft Dynamics Business Central",
+    "Azure APIM",
+    "Azure Integration Services",
+    "IoT Sensors",
+    "Cloud-based Refining Platform",
+    "Process Mining",
+    "AI/GenAI",
+    "RPA (Robotic Process Automation)"
+  ],
+  "duration": "Multi-phase engagement spanning multiple years",
+  "teamSize": "Cross-functional teams covering business transformation, technology, and process optimization",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "platform_breeze",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_transformation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_manufacturing",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/johnson_matthey.md"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "framework_5p_induction",
+  "name": "5P Induction Process",
+  "category": "framework",
+  "description": "Comprehensive onboarding framework covering People, Platforms, Process, Products, and Projects",
+  "frameworkType": "Process Framework",
+  "methodology": "Structured five-pillar approach to team onboarding and knowledge transfer",
+  "strategicValue": "Accelerates team productivity and reduces knowledge gaps through systematic onboarding",
+  "clientValue": [
+    "Accelerated team productivity and effectiveness",
+    "Consistent onboarding quality and standards",
+    "Reduced knowledge gaps and ramp-up time",
+    "Improved knowledge retention and transfer"
+  ],
+  "deliverables": [
+    "Comprehensive induction guides and materials",
+    "Learning pathways and curricula",
+    "Knowledge verification assessments",
+    "Mentorship and buddy system frameworks",
+    "Progress tracking and reporting tools"
+  ],
+  "frameworkComponents": [
+    "People: Team structure, roles, and culture",
+    "Platforms: Technology stack and tools",
+    "Process: Workflows and methodologies",
+    "Products: Domain knowledge and specifications",
+    "Projects: Current initiatives and objectives"
+  ],
+  "targetScenarios": [
+    "New team formation and onboarding",
+    "Project transitions and handovers",
+    "Knowledge preservation initiatives",
+    "Organizational change management"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "process",
+    "onboarding",
+    "knowledge-transfer"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_devops",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "casestudy_veracode",
+        "type": "LEVERAGES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/5p-induction.md"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "casestudy_value_based_care",
+  "type": "casestudy",
+  "name": "Care Management Platform for Value-Based Care Transition",
+  "client": "Healthcare Payer",
+  "clientType": "payer",
+  "industry": "Healthcare",
+  "description": "Built an advanced care management platform using OCR, NLP, and machine learning to help healthcare payers transition from traditional fee-for-service to risk-adjusted value-based care plans, achieving 15-20% improvement in Risk Adjustment Factor (RAF) and 19x return on investment.",
+  "challenge": "Healthcare payers needed to transition from traditional 'one size fits all' benefit plans to personalized, risk-adjusted value-based care models. This required analyzing massive volumes of unstructured clinical data from various sources including clinical progress notes, electronic prescriptions, and handwritten notes to build accurate patient risk profiles.",
+  "solution": "Developed a comprehensive AI-powered platform with OCR and NLP capabilities for document processing, machine learning pipelines for text-to-clinical-code mapping, semantic text to concept mapping systems, patient risk profile generation using clinical code combinations, ML algorithms for personalized benefit plan engagement, and automated taxonomy concept binding.",
+  "outcomes": [
+    "15-20% improvement in Risk Adjustment Factor (RAF) for client customers",
+    "19x return on investment through improved risk assessment",
+    "Successful transition from manual to automated risk profiling",
+    "Enhanced accuracy in patient risk stratification",
+    "Personalized benefit plan optimization",
+    "Significant reduction in administrative overhead"
+  ],
+  "technologies": [
+    "Optical Character Recognition (OCR)",
+    "Natural Language Processing (NLP)",
+    "Machine Learning Pipelines",
+    "Semantic Text Analysis",
+    "Clinical Coding Systems",
+    "Risk Adjustment Algorithms",
+    "Healthcare Data Analytics",
+    "Concept Mapping Technologies"
+  ],
+  "duration": "Multi-phase implementation and optimization",
+  "teamSize": "AI/ML specialists with healthcare domain experts",
+  "keyFeatures": [
+    "OCR processing of diverse clinical documents",
+    "NLP extraction of contextual clinical content and terms",
+    "ML pipelines for text-to-clinical-code mapping",
+    "Patient risk profile generation from clinical concepts",
+    "Personalized benefit plan recommendation algorithms",
+    "Semantic text to concept mapping workflows",
+    "Automated taxonomy and concept binding",
+    "Risk adjustment factor optimization"
+  ],
+  "healthcareImpact": [
+    "Improved patient risk assessment accuracy",
+    "Enhanced personalized care plan development",
+    "Better resource allocation for high-risk patients",
+    "Reduced healthcare costs through prevention",
+    "Improved patient health outcomes"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_genai",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/value_based_care.md"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "casestudy_finvi",
+  "type": "casestudy",
+  "name": "Finvi Case Study - Velosidy Collections Innovation",
+  "client": "Finvi",
+  "industry": "Financial Services",
+  "description": "Transforming collection strategies through AI-driven predictive analytics and cloud modernization, achieving 10% revenue increase and significant operational cost reduction through the Velosidy platform.",
+  "challenge": "Despite an existing suite of collection products, Finvi critically needed to develop an ultimate collection tool to significantly boost revenue by optimizing payment likelihood across diverse customer segments. The project faced complex cloud migration (AWS to OCI), development of highly accurate AI/ML predictive models for varied customer payment behaviors, complete rewrite and modernization of a critical legacy product, and seamless integration of advanced AI into a SaaS platform.",
+  "solution": "Developed Velosidy, an AI-powered SaaS platform that modernized the legacy parity product into the Finvi Advanced Segmentation product. Successfully integrated advanced AI capabilities, established robust EDI parser data collection for healthcare analytics, and transformed manual job processing into a fully automated system. Implemented propensity-to-pay models for both consumer and medical segments with best time/channel optimization.",
+  "outcomes": [
+    "10% increase in revenue through Velosidy SaaS AI integration",
+    "Significant reduction in operational costs through automation and modernization",
+    "Enhanced payment predictions with highly accurate propensity to pay models",
+    "Successful modernization of legacy product infrastructure for scalability",
+    "Automated operations eliminating manual job processing dependencies",
+    "Established robust data collection capabilities for healthcare analytics"
+  ],
+  "technologies": [
+    "AWS",
+    "OCI (Oracle Cloud Infrastructure)",
+    "Kubernetes",
+    "PySpark",
+    "XGBoost",
+    "LightGBM",
+    "Parquet",
+    "AI/ML Predictive Analytics",
+    "EDI File Processing",
+    "SaaS Platform Architecture"
+  ],
+  "duration": "Multi-year engagement",
+  "teamSize": "Product Engineering team with AI/ML specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_kubernetes",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/finvi.md"
+  }
+}

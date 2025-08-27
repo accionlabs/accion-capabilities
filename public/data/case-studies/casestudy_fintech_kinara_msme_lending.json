@@ -1,0 +1,64 @@
+{
+  "id": "casestudy_fintech_kinara_msme_lending",
+  "type": "casestudy",
+  "name": "Kinara Capital - Collateral-Free Business Loans for MSMEs",
+  "client": "Kinara Capital",
+  "industry": "Financial Services",
+  "description": "Digital transformation of NBFC to FinTech platform enabling collateral-free business loans for MSMEs through fully digitized processes, automated loan disbursement within 24 hours, and comprehensive quality assurance of lending applications.",
+  "challenge": "Transform Kinara Capital from NBFC to FinTech company. Provide platform for customers to check eligibility criteria, complete KYC, and sign loan documents without manual intervention. Completely digitize document workflow and automate loan disbursement process within 24 hours.",
+  "solution": "Built comprehensive testing framework for myKinara Application and PERDIX system. Developed in-house APIs supporting both Loan Origination System (LOS) and Loan Management System (LMS). Implemented end-to-end automated processes for eligibility checking, KYC completion, document signing, and 24-hour loan disbursement.",
+  "outcomes": [
+    "Successfully disbursed loans to 36,000+ MSMEs",
+    "Automated loan disbursement within 24 hours",
+    "Completely digitized document workflow",
+    "4,000+ crores disbursed across 3,400 pincodes",
+    "300+ MSME sub-sectors supported",
+    "Eliminated manual intervention in lending process",
+    "Comprehensive quality assurance implementation"
+  ],
+  "technologies": [
+    "HTML",
+    "CSS", 
+    "Bootstrap",
+    "SQL Server 2016",
+    "REST APIs",
+    "GitHub",
+    "AWS Cloud Infrastructure",
+    "Loan Origination System (LOS)",
+    "Loan Management System (LMS)",
+    "Digital KYC Systems",
+    "Document Management Systems",
+    "Automated Testing Frameworks"
+  ],
+  "duration": "FinTech transformation and quality assurance engagement",
+  "teamSize": "8-member team including Lead, DotNet developers, QA engineers, and Business Analysts",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_testing",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_aws",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/fintech_kinara_msme_lending.md"
+  }
+}

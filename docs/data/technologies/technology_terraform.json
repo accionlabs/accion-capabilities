@@ -1,0 +1,14 @@
+{
+  "id": "technology_terraform",
+  "name": "Terraform",
+  "description": "Infrastructure as Code tool",
+  "category": "tool",
+  "vendor": "HashiCorp",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "tool"
+  ],
+  "relationships": []
+}

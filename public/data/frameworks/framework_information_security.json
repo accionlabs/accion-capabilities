@@ -1,0 +1,67 @@
+{
+  "id": "framework_information_security",
+  "name": "Information Security Framework",
+  "category": "framework",
+  "description": "Comprehensive security methodology with endpoint and peripheral controls for data protection",
+  "frameworkType": "Specialized Framework",
+  "methodology": "End-to-end security framework with comprehensive controls and compliance management",
+  "strategicValue": "Provides comprehensive data protection assurance and regulatory compliance through systematic security management",
+  "clientValue": [
+    "Comprehensive data protection assurance",
+    "Regulatory compliance and audit readiness",
+    "Reduced security incidents and breaches",
+    "Enhanced risk management and mitigation"
+  ],
+  "deliverables": [
+    "Security policy templates and procedures",
+    "Control frameworks and implementation guides",
+    "Compliance checklists and assessment tools",
+    "Audit methodologies and reporting templates",
+    "Incident response and recovery procedures"
+  ],
+  "frameworkComponents": [
+    "Security Policy Templates: Comprehensive policy framework",
+    "Control Frameworks: Technical and operational controls",
+    "Compliance Checklists: Regulatory requirement mapping",
+    "Audit Methodologies: Security assessment procedures"
+  ],
+  "targetScenarios": [
+    "Regulated industry operations",
+    "Sensitive data handling environments",
+    "Security-focused engagements",
+    "Compliance transformation projects"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "specialized",
+    "security",
+    "compliance"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "framework_bizcontinuity",
+        "type": "COMPLEMENTS"
+      },
+      {
+        "to": "coe_security",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "tech_hashicorp_vault",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "framework_bizcontinuity",
+        "type": "COMPLEMENTS"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/information-security.md"
+  }
+}

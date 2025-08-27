@@ -1,0 +1,266 @@
+{
+  "id": "coe_rpa",
+  "type": "coe",
+  "data": {
+    "name": "Robotic Process Automation (RPA) Center of Excellence",
+    "description": "Accion's RPA Center of Excellence specializes in delivering comprehensive robotic process automation solutions that transform business processes through intelligent automation. With 2500+ bots deployed, 60+ RPA engineers across global locations, and 25+ client engagements, the CoE provides end-to-end automation services including bot development, cognitive automation, infrastructure management, and cloud migration. The team operates with a structured CoE framework built on six core pillars: Governance & Compliance, Strategy & Value Realization, Technology & Scalability, Development Excellence, People & Enablement, and Innovation & Expansion. The CoE excels in delivering high-quality, custom RPA solutions using leading platforms like UiPath, Automation Anywhere, Blue Prism, Power Automate, and Pega, driving significant business value through cost reduction, improved accuracy, and operational efficiency.",
+    "category": "Automation",
+    "order": 1,
+    "keyCompetencies": [
+      "RPA Bot Development and Implementation",
+      "Cognitive Automation and AI Integration",
+      "Process Discovery and Assessment",
+      "RPA Infrastructure Management",
+      "Attended and Unattended Automation",
+      "Cloud Migration and Deployment",
+      "RPA Governance and Compliance",
+      "Bot Performance Monitoring and Analytics",
+      "Legacy System Integration",
+      "Business Process Reengineering",
+      "RPA Testing and Quality Assurance",
+      "Change Management and Training",
+      "API Integration and Web Services",
+      "Database Integration and Management",
+      "Document Processing and OCR",
+      "Workflow Orchestration",
+      "Security and Access Management",
+      "Cost-Benefit Analysis and ROI Measurement",
+      "Re-Framework Implementation and Best Practices",
+      "Reusable Component Development and Library Management",
+      "Multi-Platform RPA Tool Expertise",
+      "Citizen Developer Enablement and Training",
+      "Intelligent Process Discovery and Assessment"
+    ],
+    "services": [
+      {
+        "name": "RPA Assessment and Strategy",
+        "description": "Comprehensive process discovery, feasibility analysis, and automation roadmap development",
+        "deliverables": [
+          "Process assessment reports",
+          "Automation roadmap",
+          "ROI analysis",
+          "Technology selection guidance"
+        ]
+      },
+      {
+        "name": "Bot Development and Implementation",
+        "description": "End-to-end bot development using industry-leading RPA platforms with best practices",
+        "deliverables": [
+          "Attended and unattended bots",
+          "Custom automation workflows",
+          "Exception handling mechanisms",
+          "Integration with enterprise systems"
+        ]
+      },
+      {
+        "name": "Cognitive Automation Solutions",
+        "description": "Advanced automation combining RPA with AI, ML, and cognitive technologies",
+        "deliverables": [
+          "Document processing bots",
+          "Intelligent data extraction",
+          "Natural language processing",
+          "Computer vision integration"
+        ]
+      },
+      {
+        "name": "RPA Infrastructure Management",
+        "description": "Complete infrastructure setup, management, and optimization for RPA deployments",
+        "deliverables": [
+          "RPA orchestrator setup",
+          "Bot runner configuration",
+          "Security implementation",
+          "Performance monitoring"
+        ]
+      },
+      {
+        "name": "Cloud Migration and Modernization",
+        "description": "Migration of RPA infrastructure and bots from on-premises to cloud platforms",
+        "deliverables": [
+          "Cloud infrastructure assessment",
+          "Migration planning and execution",
+          "High availability setup",
+          "Cost optimization strategies"
+        ]
+      },
+      {
+        "name": "RPA Governance and Compliance",
+        "description": "Establishment of governance frameworks and compliance monitoring for RPA programs",
+        "deliverables": [
+          "Governance policies and procedures",
+          "Compliance monitoring dashboards",
+          "Audit trail implementation",
+          "Risk management frameworks"
+        ]
+      },
+      {
+        "name": "Bot Maintenance and Support",
+        "description": "Ongoing maintenance, monitoring, and support for deployed RPA solutions",
+        "deliverables": [
+          "24/7 monitoring and alerting",
+          "Proactive maintenance",
+          "Performance optimization",
+          "Issue resolution and support"
+        ]
+      },
+      {
+        "name": "RPA Testing and Quality Assurance",
+        "description": "Comprehensive testing frameworks and quality assurance for RPA implementations",
+        "deliverables": [
+          "Automated testing frameworks",
+          "Quality assurance processes",
+          "Performance testing",
+          "User acceptance testing"
+        ]
+      },
+      {
+        "name": "Training and Knowledge Transfer",
+        "description": "Comprehensive training programs for RPA technologies and citizen developer enablement",
+        "deliverables": [
+          "Technical training programs",
+          "Citizen developer enablement",
+          "Best practices documentation",
+          "Knowledge transfer sessions"
+        ]
+      },
+      {
+        "name": "Business Process Optimization",
+        "description": "Process reengineering and optimization to maximize automation benefits",
+        "deliverables": [
+          "Process optimization recommendations",
+          "Workflow redesign",
+          "Efficiency improvement strategies",
+          "Performance metrics definition"
+        ]
+      }
+    ],
+    "technologies": [
+      "UiPath",
+      "Automation Anywhere",
+      "Blue Prism",
+      "Microsoft Power Automate",
+      "Pega Robotic Automation",
+      "WorkFusion",
+      "OpenSpan",
+      "Nice RPA",
+      "Kryon",
+      "AutomationEdge",
+      "Python",
+      "Java",
+      "C#",
+      ".NET Framework",
+      "JavaScript",
+      "VBA",
+      "PowerShell",
+      "REST APIs",
+      "SOAP Web Services",
+      "JSON",
+      "XML",
+      "SQL Server",
+      "Oracle Database",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "SAP",
+      "Salesforce",
+      "ServiceNow",
+      "SharePoint",
+      "Dynamics 365",
+      "QuickBooks",
+      "Excel",
+      "Outlook",
+      "Adobe Acrobat",
+      "OCR Technologies",
+      "Tesseract",
+      "ABBYY",
+      "Azure Cognitive Services",
+      "AWS Textract",
+      "Google Cloud Vision",
+      "TensorFlow",
+      "PyTorch",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Computer Vision",
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "GitHub Actions",
+      "Azure DevOps",
+      "Ansible",
+      "Terraform",
+      "Pega Robotic Automation",
+      "OpenSpan",
+      "Beautiful Soup",
+      "Scrapy",
+      "SMTP/IMAP",
+      "SSH Commands",
+      "Multi-Factor Authentication",
+      "OAUTH",
+      "OTP",
+      "Data Studio",
+      "DASH Reports",
+      "GIF Creators",
+      "Resume Scanning",
+      "JIRA",
+      "Assembla",
+      "TFS",
+      "Remote Server Management",
+      "File Management Systems",
+      "Chatbot Integration",
+      "Data Encryption Libraries",
+      "Monitoring and Logging Tools"
+    ],
+    "businessValue": "Accion's RPA CoE delivers transformative business value through significant cost reduction (30-70% operational cost savings), improved accuracy (99%+ error-free processing), enhanced productivity (5-10x faster processing times), and accelerated digital transformation. The CoE operates on core principles of high value delivery including cost reduction, improved processes, quicker time-to-value realization, easier rollout and remediation, and non-invasive implementation with low risk. Organizations benefit from faster time-to-value, improved compliance and audit trails, enhanced customer experience, better employee satisfaction through elimination of repetitive tasks, and scalable automation capabilities that grow with business needs. The CoE's proven execution model includes discovery workshops, phase-0 implementation, and full project implementation using Re-Framework methodology for enterprise-scale deployments with parallel bot execution and queue systems.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_rpa.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_automation",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_uipath",
+      "metadata": {
+        "category": "rpa_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_automation_anywhere",
+      "metadata": {
+        "category": "rpa_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_blue_prism",
+      "metadata": {
+        "category": "rpa_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_power_automate",
+      "metadata": {
+        "category": "rpa_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "industry_financial_services",
+  "name": "Financial Services",
+  "description": "Banking, insurance, and financial technology",
+  "segment": "BFSI",
+  "type": "industry",
+  "tags": [],
+  "relationships": []
+}

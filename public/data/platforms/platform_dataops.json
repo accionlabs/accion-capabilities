@@ -1,0 +1,134 @@
+{
+  "id": "platform_dataops",
+  "type": "platform",
+  "name": "DataOps - Data Lake Platform Blueprint",
+  "category": "Data & Analytics",
+  "description": "Comprehensive data lake platform with integrated tools",
+  "investment": "$100K",
+  "roi": "$200K projected returns",
+  "keyFeatures": [
+    {
+      "name": "eZeDataOps Integration",
+      "description": "Streamlined data operations with automated workflows",
+      "businessValue": "Reduced manual data processing effort and improved operational efficiency"
+    },
+    {
+      "name": "DragonFly Quality Monitoring",
+      "description": "Real-time data quality assessment and alerting",
+      "businessValue": "Proactive data quality management and issue prevention"
+    },
+    {
+      "name": "AxTract Data Sharing",
+      "description": "Secure, automated data distribution across systems",
+      "businessValue": "Enhanced data accessibility and reduced data silos"
+    },
+    {
+      "name": "DataBots Automation",
+      "description": "Intelligent data processing automation with machine learning",
+      "businessValue": "Autonomous data pipeline management and optimization"
+    }
+  ],
+  "businessImpactMetrics": [
+    {
+      "name": "Business Influence",
+      "value": "50%",
+      "improvement": "of data LOB business influenced"
+    },
+    {
+      "name": "Research Efficiency",
+      "value": "40%",
+      "improvement": "cost savings on research efforts"
+    },
+    {
+      "name": "Quality Enhancement",
+      "value": "30%",
+      "improvement": "improvement in data quality"
+    },
+    {
+      "name": "Operational Efficiency",
+      "value": "Automated",
+      "improvement": "data pipeline management"
+    }
+  ],
+  "techStack": [
+    "Azure",
+    "AWS",
+    "Snowflake",
+    "Databricks",
+    "Apache Spark",
+    "Apache Airflow"
+  ],
+  "clientValue": [
+    "Enterprise Data Management - Centralized data lake architecture",
+    "Analytics Acceleration - Faster insights generation",
+    "Data Governance - Comprehensive quality and compliance controls",
+    "Self-Service Analytics - Business user empowerment"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_spark",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_apache_airflow",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_mongodb",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_data_analytics",
+        "type": "USES"
+      },
+      {
+        "from": "coe_data_governance",
+        "type": "USES"
+      },
+      {
+        "from": "coe_databricks",
+        "type": "USES"
+      },
+      {
+        "from": "coe_data_mesh",
+        "type": "USES"
+      },
+      {
+        "from": "coe_data_transformation",
+        "type": "USES"
+      },
+      {
+        "from": "coe_snowflake",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/platform/dataops.md"
+  }
+}

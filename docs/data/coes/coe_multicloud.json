@@ -1,0 +1,142 @@
+{
+  "id": "coe_multicloud",
+  "type": "coe",
+  "data": {
+    "name": "Multi-Cloud Management Center of Excellence",
+    "description": "Accion's Multi-Cloud Management Center of Excellence provides comprehensive strategies and solutions for managing workloads across multiple cloud platforms. The CoE specializes in cloud-agnostic architectures, workload portability, unified cloud governance, and cost optimization across AWS, Azure, GCP, and other cloud providers. With expertise in cloud orchestration, hybrid cloud management, and multi-cloud security, this CoE enables organizations to leverage the best of each cloud platform while maintaining control, security, and cost efficiency.",
+    "category": "Cloud",
+    "order": 6,
+    "keyCompetencies": [
+      "Multi-Cloud Architecture Design",
+      "Cloud-Agnostic Solutions",
+      "Workload Portability",
+      "Unified Cloud Governance",
+      "Cross-Cloud Networking",
+      "Multi-Cloud Security Management",
+      "Cloud Cost Optimization",
+      "Hybrid Cloud Integration",
+      "Cloud Orchestration",
+      "Disaster Recovery Across Clouds",
+      "Cloud Vendor Management",
+      "Infrastructure as Code (Multi-Cloud)",
+      "Container Orchestration (Multi-Cloud)",
+      "Cloud Service Mesh",
+      "Multi-Cloud Monitoring"
+    ],
+    "services": [
+      {
+        "name": "Multi-Cloud Strategy and Architecture",
+        "description": "Comprehensive multi-cloud strategy development and architecture design",
+        "deliverables": [
+          "Multi-cloud strategy roadmap",
+          "Architecture blueprints",
+          "Cloud selection framework",
+          "Migration planning"
+        ]
+      },
+      {
+        "name": "Cloud Management Platform Implementation",
+        "description": "Unified platform for managing multiple cloud environments",
+        "deliverables": [
+          "Management platform setup",
+          "Unified dashboard",
+          "Automation workflows",
+          "Policy enforcement"
+        ]
+      },
+      {
+        "name": "Multi-Cloud Security and Compliance",
+        "description": "Security and compliance across multiple cloud platforms",
+        "deliverables": [
+          "Security architecture",
+          "Compliance framework",
+          "Identity federation",
+          "Security monitoring"
+        ]
+      },
+      {
+        "name": "Cloud Cost Optimization Services",
+        "description": "Cost optimization across multiple cloud providers",
+        "deliverables": [
+          "Cost analysis reports",
+          "Optimization recommendations",
+          "Reserved capacity planning",
+          "Chargeback models"
+        ]
+      }
+    ],
+    "technologies": [
+      "Terraform",
+      "Kubernetes",
+      "Anthos",
+      "Azure Arc",
+      "AWS Outposts",
+      "VMware Cloud",
+      "HashiCorp Vault",
+      "Istio",
+      "Prometheus",
+      "Grafana",
+      "CloudHealth",
+      "Cloudability",
+      "Ansible",
+      "Pulumi",
+      "CrossPlane"
+    ],
+    "businessValue": "Accion's Multi-Cloud Management Center of Excellence enables organizations to reduce cloud vendor lock-in risk by 80%, optimize cloud costs by 35%, improve disaster recovery capabilities by 60%, and increase operational flexibility by 50%. The CoE helps organizations leverage the best features of each cloud platform while maintaining unified governance, security, and cost control.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_multicloud.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_aws",
+      "metadata": {
+        "relationship": "cloud_platform"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_azure",
+      "metadata": {
+        "relationship": "cloud_platform"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_gcp",
+      "metadata": {
+        "relationship": "cloud_platform"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_finops",
+      "metadata": {
+        "relationship": "cost_management"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "purpose": "infrastructure_as_code"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "purpose": "container_orchestration"
+      }
+    }
+  ]
+}

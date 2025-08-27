@@ -1,0 +1,62 @@
+{
+  "id": "casestudy_fintech_fraudulent_claims_processing",
+  "type": "casestudy", 
+  "name": "Fraudulent Claims Processing Platform for Insurance Analytics",
+  "client": "Long-Term Care Insurance Data Analytics Company",
+  "industry": "Financial Services",
+  "description": "Web-based case management solution with custom business rules engine for automated fraud scoring, investigation tracking, and case workflow management, transforming manual claims analysis into intelligent automated system for LTC insurance industry.",
+  "challenge": "Manual and rigorous screening of 12,000-15,000 open claims with lack of automated process for claims analysis. Basic portal without multi-tenancy or collaboration features, no risk analysis for potential fraud detection, and very basic case investigation management capabilities.",
+  "solution": "Developed comprehensive web-based case management solution with custom business rules engine for scoring and prioritizing claims based on fraud likelihood. Implemented centralized, workflow-driven solution for investigations, automated claim routing over threshold limits, multi-tenancy SaaS architecture with enhanced security and collaborative environment.",
+  "outcomes": [
+    "Automated fraud scoring and prioritization for 12,000-15,000 claims",
+    "Centralized workflow-driven investigation management",
+    "Automated claim routing for follow-up actions",
+    "Enhanced security through data isolation for each client",
+    "Multi-tenancy SaaS architecture implementation",
+    "Collaborative environment with notes, attachments, and task delegation",
+    "Custom business rules engine with XML format flexibility"
+  ],
+  "technologies": [
+    "HTML5",
+    "CSS",
+    "JavaScript", 
+    "jQuery",
+    "Bootstrap",
+    "Java",
+    "J2EE",
+    "Groovy",
+    "SQL Server",
+    "Teradata",
+    "Private Cloud (Expedient)",
+    "Business Rules Engine",
+    "XML Configuration",
+    "Multi-tenant Architecture"
+  ],
+  "duration": "Insurance fraud detection platform development",
+  "teamSize": "Java development specialists and insurance domain experts",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products", 
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/fintech_fraudulent_claims_processing.md"
+  }
+}

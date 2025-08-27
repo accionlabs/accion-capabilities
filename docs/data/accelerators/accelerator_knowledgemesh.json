@@ -1,0 +1,118 @@
+{
+  "id": "accelerator_knowledgemesh",
+  "type": "accelerator",
+  "data": {
+    "name": "KnowledgeMesh",
+    "description": "KnowledgeMesh is an AI-powered knowledge management and discovery platform that creates an intelligent, interconnected web of organizational knowledge. Using advanced NLP, semantic search, and knowledge graph technologies, KnowledgeMesh automatically captures, organizes, and surfaces relevant information across disparate data sources, enabling intelligent knowledge discovery, expertise location, and collaborative learning within organizations.",
+    "category": "Knowledge Management",
+    "status": "Active",
+    "version": "3.0",
+    "lastUpdated": "2025-08-20",
+    "keyFeatures": [
+      "AI-Powered Knowledge Extraction",
+      "Semantic Search and Discovery",
+      "Knowledge Graph Visualization",
+      "Expert Identification System",
+      "Automated Content Tagging",
+      "Multi-source Data Integration",
+      "Intelligent Q&A System",
+      "Collaborative Knowledge Building",
+      "Real-time Knowledge Updates",
+      "Contextual Recommendations",
+      "Knowledge Gap Analysis",
+      "Expertise Mapping"
+    ],
+    "technologies": [
+      "OpenAI GPT",
+      "Elasticsearch",
+      "Neo4j",
+      "Apache Kafka",
+      "Python",
+      "TensorFlow",
+      "Hugging Face Transformers",
+      "LangChain",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "GraphQL"
+    ],
+    "benefits": [
+      "70% reduction in information discovery time",
+      "50% improvement in knowledge sharing",
+      "85% accuracy in expert identification",
+      "60% reduction in duplicate work",
+      "Real-time knowledge updates",
+      "Cross-functional collaboration enhancement",
+      "Institutional knowledge preservation",
+      "Accelerated onboarding process"
+    ],
+    "useCases": [
+      "Enterprise knowledge management",
+      "Expert location and collaboration",
+      "Research and development insights",
+      "Customer support knowledge base",
+      "Employee onboarding and training",
+      "Compliance documentation management",
+      "Technical documentation discovery",
+      "Innovation management"
+    ],
+    "industries": [
+      "Technology",
+      "Consulting",
+      "Healthcare",
+      "Financial Services",
+      "Pharmaceuticals",
+      "Manufacturing"
+    ],
+    "deliveryMethod": "Platform Deployment",
+    "timeline": "4-8 weeks implementation",
+    "documentation": {
+      "overview": "content/accelerators/accelerator_knowledgemesh.md",
+      "technicalGuide": "docs/accelerators/knowledgemesh-technical.md",
+      "userManual": "docs/accelerators/knowledgemesh-user.md"
+    },
+    "metrics": {
+      "deployments": "30+",
+      "knowledgeArticles": "1M+",
+      "activeUsers": "10,000+",
+      "searchAccuracy": "92%"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": false
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_aiml",
+      "metadata": {
+        "relationship": "uses_ai_capabilities"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "purpose": "nlp_processing"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_langchain",
+      "metadata": {
+        "purpose": "llm_orchestration"
+      }
+    }
+  ]
+}

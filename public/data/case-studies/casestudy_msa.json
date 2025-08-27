@@ -1,0 +1,64 @@
+{
+  "id": "casestudy_msa",
+  "type": "casestudy",
+  "name": "Management Science Associates - Data Engineering and Test Automation",
+  "client": "Management Science Associates (MSA)",
+  "industry": "Retail Analytics",
+  "description": "Enhanced data-driven decision-making platforms through ETL automation, critical jobs optimization processing massive datasets (20 billion records, 2TB), and comprehensive test automation implementation for retail analytics leader.",
+  "challenge": "Critical weekly jobs taking 10+ hours to execute with risk of late delivery and client reputation damage. Massive source data volume with data skewness issues. Need for ETL automation across multiple client implementations and comprehensive test coverage for continuous deployment.",
+  "solution": "Bifurcated critical jobs into data preparation and computation phases, reducing execution time to 2 hours. Developed semi-automated ETL solution with schema-aware script generation. Implemented comprehensive API-based test automation with 100% test coverage and integration with CI/CD pipeline.",
+  "outcomes": [
+    "80% reduction in execution time (from 10+ hours to 2 hours)",
+    "100% job success and on-time completion rate in last 1 year",
+    "0% data spillage compared to previous terabyte-scale issues",
+    "Reduced job failure recovery time from hours to 30-90 minutes",
+    "100% test coverage with eliminated manual intervention",
+    "Accelerated onboarding of new clients"
+  ],
+  "technologies": [
+    "Feature Extraction",
+    "Batch Ingestion",
+    "Advanced Data Platform Optimizations",
+    "KPI Extraction",
+    "Operational Analytics & Monitoring",
+    "Schema-aware Script Generation",
+    "API Testing Frameworks",
+    "CI/CD Pipeline Integration",
+    "Data Validation Frameworks"
+  ],
+  "duration": "Performance optimization and automation engagement",
+  "teamSize": "Data engineering and quality engineering specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_spark",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_testing",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/msa.md"
+  }
+}

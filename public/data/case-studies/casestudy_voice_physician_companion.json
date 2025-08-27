@@ -1,0 +1,80 @@
+{
+  "id": "casestudy_voice_physician_companion",
+  "type": "casestudy",
+  "name": "Voice-Assisted Physician Companion Platform",
+  "client": "Healthcare Technology Provider",
+  "clientType": "healthcare_technology",
+  "industry": "Healthcare",
+  "description": "Developed a voice-enabled mobile application that reduces physician administrative burden by 15% through automated clinical notes and billing, featuring FHIR R4 integration with major EMR systems and natural language voice commands for seamless workflow integration.",
+  "challenge": "Healthcare physicians faced significant administrative burden from non-clinical tasks including clinical note documentation and billing processes. The solution needed to provide hands-free operation through voice commands while maintaining integration with existing hospital EMR systems and ensuring secure, compliant data handling.",
+  "solution": "Built a comprehensive voice-assisted platform with mobile app pulling patient history, vitals, and clinical notes from hospital EMRs, FHIR R4 integration with major systems (Cerner, Epic, eCW, Allscripts), conversational voice interface similar to Alexa/Siri, voice-activated order and clinical note dictation, automated EMR upload capabilities, and natural language processing for medical terminology.",
+  "outcomes": [
+    "15% reduction in physician post-operative administrative time",
+    "Seamless voice-activated clinical workflow",
+    "FHIR R4 integration with major EMR systems",
+    "Automated clinical note and order entry",
+    "Enhanced physician productivity and satisfaction",
+    "Reduced documentation errors through voice recognition"
+  ],
+  "technologies": [
+    "FHIR R4 Standards",
+    "EMR Integration (Cerner, Epic, eCW, Allscripts)",
+    "Voice Recognition Technology",
+    "Natural Language Processing",
+    "Mobile App Development",
+    "Speech-to-Text Processing",
+    "Healthcare API Integration",
+    "Conversational AI"
+  ],
+  "duration": "Full platform development and EMR integrations",
+  "teamSize": "Voice technology specialists with healthcare integration experts",
+  "keyFeatures": [
+    "Voice-activated patient information retrieval",
+    "Hands-free clinical note dictation and entry",
+    "Voice-commanded order placement (e.g., 'create diet order for Mary Smith')",
+    "FHIR R4 compliant EMR integration",
+    "Conversational interface with natural language understanding",
+    "Automated upload of voice-generated content to EMRs",
+    "Patient history, vitals, and clinical data access",
+    "Multi-EMR platform support with extensible architecture"
+  ],
+  "voiceCapabilities": [
+    "Natural language medical terminology recognition",
+    "Voice-activated navigation and commands",
+    "Speech-to-text accuracy for clinical documentation",
+    "Hands-free operation for sterile environments",
+    "Multi-language support for diverse physician populations"
+  ],
+  "clinicalImpact": [
+    "Reduced time spent on administrative tasks",
+    "Improved clinical documentation accuracy",
+    "Enhanced physician focus on patient care",
+    "Streamlined post-operative workflows",
+    "Better work-life balance for healthcare providers"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "component_hl7_edi_gateway",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "prototype_healthscribe",
+        "type": "RELATED_TO"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/voice_physician_companion.md"
+  }
+}

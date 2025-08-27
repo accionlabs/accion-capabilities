@@ -1,0 +1,385 @@
+{
+  "id": "coe_security",
+  "type": "coe",
+  "data": {
+    "name": "Security Services Center of Excellence",
+    "description": "Accion's Security Services Center of Excellence is a comprehensive cybersecurity practice providing end-to-end security services across Cloud Security, Generative AI Security, Application Security, DevSecOps, and Governance Risk & Compliance (GRC). The CoE delivers enterprise-grade security solutions including risk assessment and management, security testing and audits, compliance frameworks adherence (NIST, CIS, CAF, HIPAA, PCI-DSS), threat analysis and management, business continuity planning, and advanced security services. With 30+ core consultants, 200+ security resources globally, and industry certifications including PCI DSS, HIPAA, CMMI v2.0 L3, and ISO standards, the CoE enables organizations to achieve robust security posture, regulatory compliance, and risk mitigation.",
+    "category": "Cloud",
+    "order": 5,
+    "keyCompetencies": [
+      "Cloud Security Posture Management (CSPM)",
+      "Cloud Native Application Protection Platform (CNAPP)",
+      "Cloud Governance Risk & Compliance",
+      "Secure LLM Engineering",
+      "Model & Prompt Injection Defense",
+      "AI & Access Security",
+      "Monitoring & Abuse Prevention",
+      "SAST, DAST & SCA (Software Composition Analysis)",
+      "Vulnerability Assessment and Penetration Testing (VAPT)",
+      "API Security Testing",
+      "Runtime Application Self Protection (RASP)",
+      "Infrastructure as Code Scanning",
+      "Shift Left Security",
+      "Security as Code",
+      "Automated Security Gates",
+      "Gap Assessment & Readiness Review",
+      "Policy & Procedure Development",
+      "Security Control Implementation",
+      "Risk Assessments & Evidence Gathering",
+      "Audit Support & Remediation",
+      "Identity & Access Management (IAM)",
+      "Data Security & Privacy",
+      "Network & Infrastructure Security",
+      "Endpoint & Mobile Security",
+      "Threat Management",
+      "Incident Response & Forensics",
+      "Managed Security Services (MSS)",
+      "Secure Software Engineering",
+      "Security Framework Implementation (NIST, CIS, CAF)",
+      "Business Continuity & Disaster Recovery Planning"
+    ],
+    "services": [
+      {
+        "name": "Risk Assessment and Management",
+        "description": "Comprehensive risk assessment, analysis and documentation of business-critical processes",
+        "deliverables": [
+          "Risk assessment reports",
+          "Risk mitigation strategies",
+          "Risk management frameworks",
+          "Business impact analysis"
+        ]
+      },
+      {
+        "name": "Security Review and Assessment",
+        "description": "Security testing, audit, and review services against industry frameworks",
+        "deliverables": [
+          "Security assessment reports",
+          "Framework compliance analysis",
+          "Gap analysis",
+          "Security recommendations"
+        ]
+      },
+      {
+        "name": "Threat Analysis and Management",
+        "description": "Threat modeling, attack surface analysis, and attack simulation",
+        "deliverables": [
+          "Threat models",
+          "Attack surface documentation",
+          "Attack simulation results",
+          "Threat mitigation strategies"
+        ]
+      },
+      {
+        "name": "IT Health Check (ITHC)",
+        "description": "Security assessment and security testing including vulnerability assessment and penetration testing",
+        "deliverables": [
+          "Vulnerability assessment reports",
+          "Penetration testing results",
+          "Security posture analysis",
+          "Remediation recommendations"
+        ]
+      },
+      {
+        "name": "Compliance and Accreditation Readiness",
+        "description": "InfoSec compliance and accreditation readiness, security frameworks adherence",
+        "deliverables": [
+          "Compliance readiness reports",
+          "Framework gap analysis",
+          "Accreditation support",
+          "Policy documentation"
+        ]
+      },
+      {
+        "name": "Business Continuity and Disaster Recovery",
+        "description": "Creation/revision of BCDR plans and conduct tabletop exercises",
+        "deliverables": [
+          "BCDR plans",
+          "Tabletop exercise reports",
+          "Recovery procedures",
+          "Business continuity strategies"
+        ]
+      },
+      {
+        "name": "Cloud Security Services",
+        "description": "CSA security framework, cloud security best practices, and cloud governance",
+        "deliverables": [
+          "Cloud security architecture",
+          "CSPM implementation",
+          "Cloud compliance reports",
+          "Security governance frameworks"
+        ]
+      },
+      {
+        "name": "Application Security Testing",
+        "description": "SAST, DAST, SCA, API security testing, and runtime application protection",
+        "deliverables": [
+          "Security testing reports",
+          "Code analysis results",
+          "API security assessments",
+          "RASP implementations"
+        ]
+      },
+      {
+        "name": "DevSecOps Integration",
+        "description": "Infrastructure as code scanning, shift-left security, security as code, and automated security gates",
+        "deliverables": [
+          "Secure CI/CD pipelines",
+          "IaC security templates",
+          "Automated security controls",
+          "DevSecOps playbooks"
+        ]
+      },
+      {
+        "name": "Generative AI Security",
+        "description": "Secure LLM engineering, model protection, prompt injection defense, and AI monitoring",
+        "deliverables": [
+          "AI security frameworks",
+          "LLM security implementations",
+          "AI threat models",
+          "AI governance policies"
+        ]
+      },
+      {
+        "name": "Identity and Access Management",
+        "description": "Privileged access management, federated identity, MFA, and identity governance",
+        "deliverables": [
+          "IAM implementations",
+          "PAM solutions",
+          "Identity governance frameworks",
+          "Access control policies"
+        ]
+      },
+      {
+        "name": "Managed Security Services",
+        "description": "MDR, vulnerability scanning as-a-service, managed firewall/IDS, and compliance monitoring",
+        "deliverables": [
+          "24/7 security monitoring",
+          "Managed security solutions",
+          "Security operations center (SOC)",
+          "Incident response services"
+        ]
+      }
+    ],
+    "engagementModels": [
+      {
+        "name": "Managed Security / Periodic Engagement",
+        "description": "Ongoing periodic, quarterly or annual engagement that provides continual assessment and remediation cycles"
+      },
+      {
+        "name": "Fixed Objective Engagement",
+        "description": "One-off, fixed engagement that focuses on a set of specific targets/objectives, as well as resource/staff augmentation or SME pool provision"
+      },
+      {
+        "name": "Project Based Engagement",
+        "description": "Covers all information security elements of a project, starting with the initiation phase all the way culminating in a final ITHC before or at Go-Live"
+      }
+    ],
+    "securityFrameworks": [
+      "NIST Cybersecurity Framework",
+      "CIS Controls",
+      "Cloud Adoption Framework (CAF)",
+      "HIPAA",
+      "PCI-DSS",
+      "SOC 1/SOC 2",
+      "ISO 27001:2013",
+      "ISO 27701:2019",
+      "ISO 9001:2015",
+      "CMMI v2.0 L3",
+      "GDPR",
+      "CCPA",
+      "EU AI Act",
+      "NIST AI RMF",
+      "OWASP",
+      "FISMA"
+    ],
+    "technologies": [
+      "AWS Security Hub",
+      "Azure Security Center",
+      "Google Cloud Security Command Center",
+      "Kubernetes",
+      "Docker",
+      "Ansible",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI/CD",
+      "Terraform",
+      "Chef",
+      "Puppet",
+      "Vagrant",
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "New Relic",
+      "ELK Stack",
+      "Splunk",
+      "Nagios",
+      "PRTG",
+      "SolarWinds",
+      "Zabbix",
+      "OpenNMS",
+      "Qualys",
+      "Elastic",
+      "ServiceNow",
+      "WhatsUp Gold",
+      "Sensu",
+      "Wazuh",
+      "SonarQube",
+      "Checkmarx",
+      "Veracode",
+      "OWASP ZAP",
+      "Burp Suite",
+      "Nessus",
+      "OpenVAS",
+      "Rapid7",
+      "Snyk",
+      "BlackDuck",
+      "Prisma Cloud",
+      "Twistlock",
+      "Aqua Security",
+      "HashiCorp Vault",
+      "CyberArk",
+      "MITRE ATT&CK",
+      "Threat Stack",
+      "CloudMAG",
+      "Metasploit"
+    ],
+    "businessValue": "Accion's Security Services CoE delivers comprehensive security value through risk mitigation, threat impact reduction, regulatory compliance, and security posture enhancement. The CoE enables organizations to achieve robust security frameworks, reduced security incidents, improved compliance posture, enhanced threat detection and response capabilities, and cost-effective security operations. Key benefits include shortened time to market with security-by-design, reduced operational and maintenance costs, simplified security processes, and strengthened security foundations for business growth.",
+    "teamStructure": {
+      "cybersecurityPracticeHead": 1,
+      "deliveryManager": 1,
+      "cloudAndDevSecOpsEngineers": 4,
+      "genAiSecurityTeam": 4,
+      "applicationSecurityTesters": 2,
+      "governanceRiskComplianceOfficers": 3,
+      "genAiTestEngineers": 3,
+      "salesLeader": 1
+    },
+    "industryExperience": [
+      "Financial Services (BFSI/Fintech)",
+      "Healthcare/Healthtech",
+      "Technology",
+      "Media & Entertainment",
+      "Retail/Supply Chain",
+      "Energy & Utilities",
+      "High-tech, Platforms/SaaS",
+      "Services (Legal, Real Estate)",
+      "Impact Organizations"
+    ],
+    "successStories": [
+      {
+        "client": "Veracode",
+        "challenge": "Legacy Dynamic Analysis App test platform (DAST) had monolithic architecture without optimized value delivery & observability",
+        "solution": "EDC approach with cloud native teams, microservices architecture, and monitoring/observability platform implementation",
+        "impact": "Shorter time to market, reduced operational costs, reduced risk through simplified processes"
+      },
+      {
+        "client": "MindWeal",
+        "challenge": "Build a HIPAA Compliant Platform for a North American mental health provider with required Security Controls",
+        "solution": "Security architecture design, cryptography standards, SAST/DAST & HIPAA assessment, PCI DSS compliance",
+        "impact": "Platform achieved HIPAA compliance with minimal observations, competitive advantage, business plan progression without deviation"
+      },
+      {
+        "client": "World Health Organisation",
+        "challenge": "Secure data processing for UN agency with organizational, administrative, physical & technical safeguards",
+        "solution": "Security architecture review, risk assessment, CI/CD pipeline security controls, DevOps security tools",
+        "impact": "Five-fold increase in WHO IMT policy compliance, lowered security breach risk, reduced attack surface"
+      },
+      {
+        "client": "British Fintech",
+        "challenge": "Health insurance platform security posture assessment and vulnerability management",
+        "solution": "Security architectural review, attack surface analysis, threat modeling, VAPT, regulatory compliance review",
+        "impact": "Improved stakeholder confidence, foundation for regulatory audits, reduced security breach risk"
+      },
+      {
+        "client": "IAEA",
+        "challenge": "Security assurance for regulatory inventory management and audit system for radioactive material",
+        "solution": "Architectural review, cryptographic controls, attack surface analysis, threat modeling, VAPT",
+        "impact": "Improved security posture, increased participating countries confidence, timely platform release"
+      },
+      {
+        "client": "UNICEF",
+        "challenge": "Complete security assessment for various web applications including Country Portal, Supply Chain management, Malaria Toolkit",
+        "solution": "Architectural security review, attack surface analysis, threat modeling, VAPT",
+        "impact": "Improved security posture, reduced security breach risk, enhanced application security"
+      }
+    ],
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_security.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_github_actions",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_utilities",
+      "metadata": {}
+    }
+  ]
+}

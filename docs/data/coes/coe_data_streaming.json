@@ -1,0 +1,251 @@
+{
+  "id": "coe_data_streaming",
+  "type": "coe",
+  "data": {
+    "name": "Data Streaming Center of Excellence",
+    "description": "Accion's Data Streaming Center of Excellence specializes in real-time data processing, streaming analytics, and event-driven architectures. The CoE enables organizations to harness the power of streaming data through advanced streaming platforms, real-time analytics, and streaming ETL solutions. With expertise in modern streaming technologies and proven success in implementing large-scale streaming solutions across various industries, the CoE delivers comprehensive streaming capabilities that enable real-time insights, immediate data processing, and responsive business operations.",
+    "category": "Data",
+    "order": 9,
+    "keyCompetencies": [
+      "Real-time Data Streaming Architecture",
+      "Streaming ETL and Data Processing",
+      "Event-Driven Architecture Design",
+      "Change Data Capture (CDC) Implementation",
+      "Stream Processing and Analytics",
+      "Real-time Dashboard and Visualization",
+      "IoT Data Streaming Solutions",
+      "Streaming Data Lake and Lakehouse",
+      "Apache Kafka and Confluent Platform",
+      "Apache Spark Streaming and Structured Streaming",
+      "Real-time ML and AI Model Serving",
+      "Time Series Data Processing",
+      "Pub/Sub and Message Queue Systems",
+      "Streaming Data Quality and Monitoring",
+      "Multi-cloud Streaming Solutions",
+      "Streaming Data Governance",
+      "Low-latency Data Pipelines",
+      "Real-time Fraud Detection",
+      "Dynamic Pricing Analytics",
+      "Audience Projection and Forecasting"
+    ],
+    "services": [
+      {
+        "name": "Streaming Architecture Design",
+        "description": "Design and implementation of scalable streaming data architectures with fault tolerance and high availability",
+        "deliverables": [
+          "Streaming architecture blueprints",
+          "Technology selection and design",
+          "Scalability and performance planning",
+          "Integration patterns"
+        ]
+      },
+      {
+        "name": "Real-time Data Processing",
+        "description": "Implementation of streaming ETL pipelines and real-time data processing solutions",
+        "deliverables": [
+          "Streaming ETL pipelines",
+          "Real-time data transformation",
+          "Stream processing applications",
+          "Data enrichment services"
+        ]
+      },
+      {
+        "name": "Event-Driven Solutions",
+        "description": "Event-driven architecture implementation with message queues and event streaming platforms",
+        "deliverables": [
+          "Event streaming platforms",
+          "Message queue systems",
+          "Event sourcing patterns",
+          "CQRS implementations"
+        ]
+      },
+      {
+        "name": "Change Data Capture (CDC)",
+        "description": "Real-time data synchronization and change data capture implementations",
+        "deliverables": [
+          "CDC solutions",
+          "Database replication",
+          "Real-time sync mechanisms",
+          "Data consistency frameworks"
+        ]
+      },
+      {
+        "name": "Streaming Analytics",
+        "description": "Real-time analytics and streaming data analysis with immediate insights",
+        "deliverables": [
+          "Real-time analytics engines",
+          "Streaming dashboards",
+          "Alert and notification systems",
+          "Real-time KPI monitoring"
+        ]
+      },
+      {
+        "name": "IoT Data Streaming",
+        "description": "IoT data ingestion, processing, and analytics for sensor and device data",
+        "deliverables": [
+          "IoT data ingestion platforms",
+          "Sensor data processing",
+          "Device telemetry analytics",
+          "IoT data visualization"
+        ]
+      },
+      {
+        "name": "Streaming Data Lakes",
+        "description": "Implementation of streaming data lakes and lakehouse architectures",
+        "deliverables": [
+          "Streaming data lake architecture",
+          "Delta Lake streaming",
+          "Real-time data storage",
+          "Streaming data catalog"
+        ]
+      },
+      {
+        "name": "Real-time ML and AI",
+        "description": "Real-time machine learning model serving and streaming AI applications",
+        "deliverables": [
+          "Real-time ML pipelines",
+          "Model serving platforms",
+          "Streaming feature stores",
+          "Online learning systems"
+        ]
+      },
+      {
+        "name": "Streaming Data Quality",
+        "description": "Real-time data quality monitoring and validation for streaming data",
+        "deliverables": [
+          "Streaming data quality frameworks",
+          "Real-time validation rules",
+          "Data anomaly detection",
+          "Quality monitoring dashboards"
+        ]
+      },
+      {
+        "name": "Multi-cloud Streaming",
+        "description": "Multi-cloud and hybrid streaming solutions with cloud-agnostic architectures",
+        "deliverables": [
+          "Multi-cloud streaming architectures",
+          "Cloud-native streaming solutions",
+          "Hybrid integration patterns",
+          "Cross-cloud data replication"
+        ]
+      }
+    ],
+    "technologies": [
+      "Apache Kafka",
+      "Confluent Platform",
+      "Amazon Kinesis",
+      "Azure Event Hubs",
+      "Google Cloud Pub/Sub",
+      "Apache Spark Streaming",
+      "Apache Flink",
+      "Apache Storm",
+      "Akka Streams",
+      "Apache Pulsar",
+      "Databricks Delta Live Tables",
+      "Apache Druid",
+      "ClickHouse",
+      "TimescaleDB",
+      "InfluxDB",
+      "Redis Streams",
+      "Apache Beam",
+      "Google Dataflow",
+      "Azure Stream Analytics",
+      "AWS Kinesis Analytics",
+      "ScyllaDB",
+      "Apache Cassandra",
+      "MongoDB",
+      "Amazon DynamoDB",
+      "HBase",
+      "Elasticsearch",
+      "Apache Solr",
+      "Grafana",
+      "Prometheus",
+      "Jaeger",
+      "Zipkin",
+      "Docker",
+      "Kubernetes",
+      "Apache Airflow",
+      "Prefect",
+      "Dagster",
+      "NATS",
+      "RabbitMQ",
+      "Apache ActiveMQ",
+      "Amazon SQS",
+      "Azure Service Bus",
+      "Snowflake Streaming",
+      "BigQuery Streaming",
+      "Redshift Streaming",
+      "Synapse Analytics",
+      "TensorFlow Serving",
+      "MLflow",
+      "Seldon",
+      "KServe",
+      "Apache Superset",
+      "Tableau",
+      "Apache NiFi",
+      "Fluentd",
+      "Logstash",
+      "Vector",
+      "Telegraf",
+      "Terraform",
+      "Helm",
+      "ArgoCD",
+      "Jenkins",
+      "GitHub Actions",
+      "Apache Zookeeper"
+    ],
+    "businessValue": "Accion's Data Streaming CoE delivers transformational business value by enabling organizations to process and analyze data in real-time, leading to immediate insights and faster decision-making. The CoE helps reduce data latency from hours to milliseconds, enables real-time fraud detection and prevention, supports dynamic pricing strategies, and improves customer experience through immediate responsiveness. Organizations achieve significant competitive advantages through real-time analytics, reduced operational costs through automated streaming processes, and enhanced scalability through cloud-native streaming architectures. The CoE's expertise in streaming technologies ensures high availability, fault tolerance, and the ability to handle millions of events per day with sub-second latency.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_data_streaming.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "streaming_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    }
+  ]
+}

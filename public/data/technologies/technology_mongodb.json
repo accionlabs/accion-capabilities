@@ -1,0 +1,14 @@
+{
+  "id": "technology_mongodb",
+  "name": "MongoDB",
+  "description": "NoSQL document database",
+  "category": "database",
+  "vendor": "MongoDB Inc",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "database"
+  ],
+  "relationships": []
+}

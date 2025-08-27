@@ -1,0 +1,242 @@
+{
+  "id": "coe_blockchain",
+  "type": "coe",
+  "data": {
+    "name": "Blockchain and Decentralized Applications Center of Excellence",
+    "description": "Accion's Blockchain Center of Excellence specializes in comprehensive blockchain solutions and decentralized application (dApp) development across multiple blockchain platforms. The CoE provides end-to-end blockchain services including blockchain application design, technology stack development, operational network engineering, business value modeling, and infrastructure management. With expertise in private and public blockchain infrastructure, smart contracts, NFTs, cryptocurrency solutions, and proprietary frameworks like Maze, the CoE enables organizations to leverage blockchain technology for enhanced security, transparency, and decentralization while delivering measurable business outcomes.",
+    "category": "Digital Products",
+    "order": 16,
+    "keyCompetencies": [
+      "Blockchain Application Design and UI/UX Development",
+      "Technology Stack Planning and Custom Solution Development",
+      "Blockchain Operational Network Engineering",
+      "Business Value and Monetization Modeling",
+      "Infrastructure Management and Operations",
+      "Private and Public Blockchain Infrastructure",
+      "Smart Contract Development and Implementation",
+      "Cryptocurrency Exchange and Wallet Solutions",
+      "NFT Implementation and Management",
+      "Decentralized Application (dApp) Development",
+      "Data Replication and Security Standards",
+      "Peer-to-Peer Network Management",
+      "Supply Chain and Asset Tracking Solutions",
+      "Decentralized Identity and Access Management",
+      "Blockchain Integration with Legacy Systems"
+    ],
+    "services": [
+      {
+        "name": "Blockchain Application Design and Development",
+        "description": "End-to-end blockchain application design with comprehensive UI/UX approaches based on business requirements",
+        "deliverables": [
+          "Blockchain use case assessment",
+          "UI/UX design for blockchain applications",
+          "Smart contract architecture",
+          "User experience optimization"
+        ]
+      },
+      {
+        "name": "Technology Stack Development and Integration",
+        "description": "Technology stack selection, custom solution development, and rapid prototyping for blockchain implementations",
+        "deliverables": [
+          "Technology stack evaluation",
+          "Custom blockchain solutions",
+          "Integration planning",
+          "Rapid prototyping frameworks"
+        ]
+      },
+      {
+        "name": "Blockchain Operational Network Engineering",
+        "description": "Engineering operational models for business blockchain networks with peer management and consensus mechanisms",
+        "deliverables": [
+          "Network architecture design",
+          "Consensus mechanism implementation",
+          "Node management systems",
+          "Network scalability solutions"
+        ]
+      },
+      {
+        "name": "Business Value and Monetization Modeling",
+        "description": "Building network business models with appropriate monetization strategies and incentive mechanisms",
+        "deliverables": [
+          "Business model design",
+          "Monetization strategies",
+          "Incentive mechanism development",
+          "Network effects optimization"
+        ]
+      },
+      {
+        "name": "Infrastructure Management and Operations",
+        "description": "Management and operations of blockchain networks and ecosystems using proven functional expertise",
+        "deliverables": [
+          "Infrastructure monitoring",
+          "Network maintenance",
+          "Performance optimization",
+          "Disaster recovery planning"
+        ]
+      },
+      {
+        "name": "Cryptocurrency and Digital Asset Solutions",
+        "description": "Comprehensive cryptocurrency exchange platforms, wallet solutions, and digital asset management",
+        "deliverables": [
+          "Cryptocurrency exchange platforms",
+          "Cold and hot wallet solutions",
+          "Digital asset custody",
+          "Trading platform development"
+        ]
+      },
+      {
+        "name": "NFT and Digital Collectibles Implementation",
+        "description": "Implementation of ERC721 non-fungible tokens and digital collectibles platforms",
+        "deliverables": [
+          "NFT smart contracts",
+          "Digital collectibles platforms",
+          "Marketplace development",
+          "Token standards implementation"
+        ]
+      },
+      {
+        "name": "Supply Chain and Asset Tracking",
+        "description": "Blockchain-based asset tracking and supply chain transparency solutions",
+        "deliverables": [
+          "Asset tracking systems",
+          "Supply chain transparency",
+          "Provenance verification",
+          "Anti-counterfeiting solutions"
+        ]
+      }
+    ],
+    "technologies": [
+      "Bitcoin",
+      "Ethereum",
+      "Hyperledger Fabric",
+      "Amazon QLDB",
+      "Quorum",
+      "Cardano",
+      "ERC20 Protocol",
+      "ERC721 Protocol",
+      "Smart Contracts",
+      "Solidity",
+      "IPFS (InterPlanetary File System)",
+      "BigchainDB",
+      "OrbitDB",
+      "Maze Framework",
+      "GoLang",
+      "Python",
+      "JavaScript",
+      "Node.js",
+      "React",
+      "Web3.js",
+      "Truffle",
+      "Hardhat",
+      "Docker",
+      "Kubernetes",
+      "Raspberry Pi",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Cosmos",
+      "Rust",
+      "MySQL",
+      "ElasticSearch"
+    ],
+    "businessValue": "Accion's Blockchain CoE delivers transformative business value through enhanced security and transparency, reduced transaction costs and intermediary dependencies, improved audit trails and compliance, decentralized data management, and innovative business model creation. The CoE enables organizations to achieve trustless transactions, immutable record keeping, supply chain transparency, digital identity management, and new revenue streams through tokenization and DeFi solutions, while ensuring regulatory compliance and scalable blockchain infrastructure.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_blockchain.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_ethereum",
+      "metadata": {
+        "category": "blockchain_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_bitcoin",
+      "metadata": {
+        "category": "blockchain_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_hyperledger",
+      "metadata": {
+        "category": "blockchain_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_cardano",
+      "metadata": {
+        "category": "blockchain_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_ipfs",
+      "metadata": {
+        "category": "decentralized_storage",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend_framework"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "casestudy_fintech_nextgen_wealth_management",
+  "type": "casestudy",
+  "name": "NextGen Wealth Management and Banking App with Advanced Security",
+  "client": "Digital Banking and Wealth Management Provider",
+  "industry": "Financial Services",
+  "description": "Development of next-generation hybrid mobile and web applications for digital banking and wealth management featuring advanced biometric security, AI-enabled portfolio management, and groundbreaking user experience design.",
+  "challenge": "Need for mobile and web applications with fully loaded security features and advanced UX platform to provide best-in-class client experiences for next-generation users in banking and wealth management.",
+  "solution": "Developed hybrid mobile apps for iOS and Android plus web platform with key digital features including mobile onboarding, biometric authentication, face recognition, digital assets trading, and AI-enabled wealth management. Implemented advanced security with 4-finger touchless ID, FaceID/TouchID login, device management, and document verification.",
+  "outcomes": [
+    "Next-generation user experience with groundbreaking design",
+    "Advanced security implementation with biometric authentication",
+    "AI-enabled wealth management capabilities",
+    "Seamless cross-platform functionality (iOS, Android, Web)",
+    "Digital asset trading integration",
+    "Enhanced mobile onboarding experience",
+    "Comprehensive device security and management"
+  ],
+  "technologies": [
+    "React Native",
+    "Unity3D",
+    "MongoDB",
+    "AWS",
+    "Kafka",
+    "Kong API Gateway",
+    "NewGen",
+    "Finacle",
+    "SIX",
+    "CleverTap",
+    "Biometric Authentication",
+    "FaceID/TouchID",
+    "Digital Asset Trading Platforms",
+    "AI/ML for Wealth Management"
+  ],
+  "duration": "Mobile and web application development engagement",
+  "teamSize": "Full-stack mobile and web development team with security specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_security",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_aiml",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_ux",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/fintech_nextgen_wealth_management.md"
+  }
+}

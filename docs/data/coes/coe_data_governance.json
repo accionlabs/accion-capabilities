@@ -1,0 +1,197 @@
+{
+  "id": "coe_data_governance",
+  "type": "coe",
+  "data": {
+    "name": "Data Governance Center of Excellence",
+    "description": "Accion's Data Governance Center of Excellence provides comprehensive data governance services spanning strategy, frameworks, and implementation. The CoE enables organizations to establish robust data governance foundations through structured approaches including Top-down, Bottom-up, and Hybrid methodologies. With expertise in data cataloging, quality management, lineage tracking, and compliance frameworks, the CoE delivers end-to-end governance solutions that ensure data integrity, regulatory compliance, and business value. The CoE follows a proven maturity journey from current state assessment to full enterprise data governance implementation, enabling organizations to achieve optimized data landscapes and modernized analytics platforms.",
+    "category": "Data",
+    "order": 7,
+    "keyCompetencies": [
+      "Data Governance Strategy and Framework Design",
+      "Data Catalog Implementation and Management",
+      "Data Quality Assessment and Optimization",
+      "Master Data Management (MDM)",
+      "Data Lineage Tracking and Documentation",
+      "Data Security and Privacy Compliance",
+      "Data Discovery and Search Solutions",
+      "Data Collaboration and Stakeholder Management",
+      "Data Rules, Policies and Process Definition",
+      "Governance Maturity Assessment and Roadmapping",
+      "Multi-Platform Data Governance Implementation",
+      "Business Glossary and Metadata Management",
+      "Data Classification and Sensitivity Management",
+      "Regulatory Compliance (GDPR, HIPAA, PCI-DSS)",
+      "Cross-Application Data Reconciliation"
+    ],
+    "services": [
+      {
+        "name": "Data Governance Approach Selection and Strategy",
+        "description": "Comprehensive approach selection for implementing data governance including Top-down, Bottom-up, and Hybrid methodologies",
+        "deliverables": [
+          "Governance approach assessment",
+          "Strategic roadmap",
+          "Implementation methodology",
+          "Stakeholder alignment",
+          "Change management strategy"
+        ]
+      },
+      {
+        "name": "Current Data Landscape Assessment",
+        "description": "Thorough evaluation of existing data ecosystem to identify core applications, data flows, and reconciliation requirements",
+        "deliverables": [
+          "Application ecosystem mapping",
+          "Core applications identification",
+          "Data exchange scenario analysis",
+          "Impact assessment",
+          "Reconciliation problem identification"
+        ]
+      },
+      {
+        "name": "Data Governance Framework Establishment",
+        "description": "Creation of comprehensive governance frameworks with roles, responsibilities, and processes",
+        "deliverables": [
+          "Governance body establishment",
+          "Business glossary and taxonomy",
+          "Change management processes",
+          "Communication frameworks",
+          "Quality standards definition"
+        ]
+      },
+      {
+        "name": "Data Quality Management and Optimization",
+        "description": "Implementation of data quality assessment, monitoring, and improvement processes",
+        "deliverables": [
+          "Core attribute identification",
+          "Quality assessment and profiling",
+          "Quality standards definition",
+          "Quality leakage identification",
+          "Improvement methodology"
+        ]
+      },
+      {
+        "name": "Master Data Management (MDM) Implementation",
+        "description": "Comprehensive MDM strategy and solution implementation with common data definitions",
+        "deliverables": [
+          "MDM strategy development",
+          "Common master data models",
+          "MDM hub implementation",
+          "Data synchronization solutions",
+          "Cross-system integration"
+        ]
+      },
+      {
+        "name": "Data Catalog and Discovery Solutions",
+        "description": "Implementation of enterprise data catalogs with comprehensive metadata management and discovery capabilities",
+        "deliverables": [
+          "Data catalog implementation",
+          "Metadata harvesting",
+          "Search and discovery interfaces",
+          "Data lineage visualization",
+          "Business glossary integration"
+        ]
+      },
+      {
+        "name": "Data Lineage and Impact Analysis",
+        "description": "End-to-end data lineage tracking with impact analysis for change management",
+        "deliverables": [
+          "Lineage mapping and documentation",
+          "Impact analysis frameworks",
+          "Change impact assessment",
+          "Dependency tracking",
+          "Automated lineage capture"
+        ]
+      },
+      {
+        "name": "Data Privacy and Security Governance",
+        "description": "Implementation of data privacy controls, security policies, and compliance frameworks",
+        "deliverables": [
+          "Privacy policy frameworks",
+          "Data classification schemes",
+          "Access control implementation",
+          "Compliance monitoring",
+          "Security governance processes"
+        ]
+      },
+      {
+        "name": "Data Collaboration and Stakeholder Management",
+        "description": "Frameworks for cross-functional data collaboration and stakeholder engagement",
+        "deliverables": [
+          "Collaboration platforms",
+          "Stakeholder engagement models",
+          "Data stewardship programs",
+          "Communication strategies",
+          "Training and adoption programs"
+        ]
+      }
+    ],
+    "technologies": [
+      "Alation",
+      "Collibra",
+      "Microsoft Purview",
+      "Atlan",
+      "Informatica",
+      "AWS Glue Catalog",
+      "AWS Lake Formation",
+      "GoodData",
+      "Atacama",
+      "Snowflake",
+      "Teradata",
+      "Amazon S3",
+      "Amazon Redshift",
+      "Azure Purview",
+      "Azure Active Directory",
+      "Azure Synapse",
+      "Azure Data Factory",
+      "Databricks",
+      "Apache Spark",
+      "Apache Kafka",
+      "Power BI",
+      "Tableau",
+      "Python",
+      "SQL",
+      "Scala",
+      "R",
+      "Java",
+      "dbt",
+      "Fivetran",
+      "Okta",
+      "Splunk",
+      "MongoDB"
+    ],
+    "businessValue": "Accion's Data Governance CoE delivers transformative business value by establishing trusted data foundations that enable confident decision-making and regulatory compliance. Organizations achieve improved data quality, reduced reconciliation efforts, and faster time-to-insight through standardized governance frameworks. The CoE's structured maturity approach ensures sustainable governance practices that scale with business growth, while comprehensive data cataloging and lineage capabilities provide transparency and trust in data assets. With proven implementations across multiple industries, the CoE enables organizations to unlock data value while maintaining security, privacy, and compliance requirements.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_data_governance.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language"
+      }
+    }
+  ]
+}

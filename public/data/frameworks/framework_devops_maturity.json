@@ -1,0 +1,38 @@
+{
+  "id": "framework_devops_maturity",
+  "name": "DevOps Maturity Framework",
+  "category": "framework",
+  "description": "Comprehensive framework for assessing and improving DevOps maturity",
+  "frameworkType": "process",
+  "methodology": "Continuous improvement through staged maturity levels",
+  "strategicValue": "Provides roadmap for DevOps transformation",
+  "clientValue": [
+    "Clear maturity assessment",
+    "Actionable improvement roadmap",
+    "Industry benchmarking"
+  ],
+  "deliverables": [
+    "Maturity Assessment Report",
+    "Improvement Roadmap",
+    "KPI Dashboard",
+    "Best Practices Guide"
+  ],
+  "maturityModel": "5-level model from Initial to Optimized",
+  "type": "framework",
+  "tags": [
+    "framework"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/devops-maturity.md"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "framework_agile_delivery",
+  "name": "Agile Delivery Framework",
+  "category": "framework",
+  "description": "Scalable agile framework for enterprise delivery",
+  "frameworkType": "engagement",
+  "methodology": "SAFe-based scaled agile approach",
+  "strategicValue": "Enables agile at scale for large enterprises",
+  "clientValue": [
+    "Predictable delivery",
+    "Improved quality",
+    "Faster time-to-market"
+  ],
+  "deliverables": [
+    "Agile Playbook",
+    "Team Charter",
+    "Sprint Ceremonies",
+    "Metrics Dashboard"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework"
+  ],
+  "content": {
+    "type": "file",
+    "source": "content/framework/agile-delivery.md"
+  },
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "pillar_automation",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "framework_agile_governance",
+        "type": "EXTENDS"
+      },
+      {
+        "from": "framework_collaborative_teams",
+        "type": "LEVERAGES"
+      }
+    ]
+  }
+}

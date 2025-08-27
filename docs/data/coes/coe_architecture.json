@@ -1,0 +1,288 @@
+{
+  "id": "coe_architecture",
+  "type": "coe",
+  "data": {
+    "name": "Architecture Center of Excellence",
+    "description": "Accion's Architecture Center of Excellence specializes in enterprise-grade digital product architecture through the innovative Breeze framework. The CoE provides comprehensive architecture design and development services including microservices architecture, cloud-native platforms, API design, event-driven systems, and scalable infrastructure. With expertise in modern technology stacks, containerization, and DevOps practices, the CoE enables organizations to build robust, scalable, and maintainable digital products that accelerate time-to-market while ensuring architectural excellence and operational efficiency.",
+    "category": "Digital Products",
+    "order": 17,
+    "keyCompetencies": [
+      "Breeze Digital Product Blueprint Framework",
+      "Microservices Architecture Design and Implementation",
+      "Cloud-Native Platform Development",
+      "API Gateway and GraphQL Implementation",
+      "Event-Driven Architecture and Messaging",
+      "Containerization and Orchestration with Kubernetes",
+      "DevOps and CI/CD Pipeline Architecture",
+      "Data Architecture and Analytics Platform Design",
+      "Security Architecture and Identity Management",
+      "Mobile and Frontend Architecture",
+      "Integration Architecture and Enterprise Service Bus",
+      "Performance Optimization and Scalability",
+      "Architecture Governance and Best Practices",
+      "Technology Stack Selection and Evaluation",
+      "Legacy System Modernization and Migration"
+    ],
+    "services": [
+      {
+        "name": "Breeze Framework Implementation",
+        "description": "Complete implementation of the Breeze Digital Product Blueprint with scalable architecture patterns and technology recommendations",
+        "deliverables": [
+          "Architecture blueprints",
+          "Technology stack recommendations",
+          "Implementation roadmap",
+          "Development lifecycle framework"
+        ]
+      },
+      {
+        "name": "Microservices Architecture Design",
+        "description": "Design and implementation of microservices architectures with containerization and orchestration",
+        "deliverables": [
+          "Microservices design patterns",
+          "Service decomposition strategy",
+          "Container orchestration setup",
+          "API design and documentation"
+        ]
+      },
+      {
+        "name": "Cloud-Native Platform Development",
+        "description": "Development of cloud-native platforms with scalability, reliability, and performance optimization",
+        "deliverables": [
+          "Cloud platform architecture",
+          "Scalability frameworks",
+          "Performance optimization",
+          "Cloud migration strategies"
+        ]
+      },
+      {
+        "name": "API Gateway and Integration Services",
+        "description": "Implementation of API gateways, GraphQL endpoints, and enterprise integration patterns",
+        "deliverables": [
+          "API gateway configuration",
+          "GraphQL schema design",
+          "Integration patterns",
+          "API security implementation"
+        ]
+      },
+      {
+        "name": "Event-Driven Architecture Implementation",
+        "description": "Design and implementation of event-driven systems with messaging and streaming capabilities",
+        "deliverables": [
+          "Event sourcing patterns",
+          "Message queue architecture",
+          "Real-time processing systems",
+          "Event catalog management"
+        ]
+      },
+      {
+        "name": "Data Architecture and Analytics Platform",
+        "description": "Comprehensive data architecture with data lakes, analytics platforms, and AI/ML integration",
+        "deliverables": [
+          "Data lake architecture",
+          "Analytics platform design",
+          "Data pipeline implementation",
+          "AI/ML platform integration"
+        ]
+      },
+      {
+        "name": "DevOps Architecture and Automation",
+        "description": "DevOps architecture with CI/CD pipelines, infrastructure as code, and automated deployment",
+        "deliverables": [
+          "CI/CD pipeline architecture",
+          "Infrastructure automation",
+          "Deployment strategies",
+          "Monitoring and observability"
+        ]
+      },
+      {
+        "name": "Security Architecture and Governance",
+        "description": "Enterprise security architecture with identity management, access control, and compliance",
+        "deliverables": [
+          "Security architecture design",
+          "Identity and access management",
+          "Compliance frameworks",
+          "Security monitoring systems"
+        ]
+      }
+    ],
+    "technologies": [
+      "Spring Boot",
+      "React",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Python",
+      "Java",
+      ".NET Core",
+      "Docker",
+      "Kubernetes",
+      "OpenShift",
+      "Helm",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Elasticsearch",
+      "Apache Kafka",
+      "RabbitMQ",
+      "Apache Spark",
+      "Apache Flink",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "IBM Cloud",
+      "Jenkins",
+      "GitLab CI",
+      "GitHub Actions",
+      "Azure DevOps",
+      "Terraform",
+      "Ansible",
+      "Chef",
+      "Puppet",
+      "NGINX",
+      "Apache HTTP Server",
+      "HAProxy",
+      "Istio",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack",
+      "Jaeger",
+      "OAuth 2.0",
+      "JWT",
+      "SAML",
+      "LDAP",
+      "GraphQL",
+      "REST APIs",
+      "gRPC",
+      "WebSockets",
+      "Swagger",
+      "OpenAPI",
+      "AsyncAPI"
+    ],
+    "businessValue": "Accion's Architecture CoE delivers transformative business value through accelerated time-to-market with standardized architecture blueprints, reduced development costs through reusable patterns and frameworks, improved system reliability and scalability through proven architectural designs, enhanced security and compliance through built-in security patterns, and future-proof technology foundations that enable rapid adaptation to changing business requirements. The Breeze framework enables organizations to achieve 40% faster development cycles, 60% reduction in architecture decision time, and 50% improvement in system maintainability.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_architecture.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "backend_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_github_actions",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_ecommerce",
+      "metadata": {}
+    }
+  ]
+}

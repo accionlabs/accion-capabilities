@@ -1,0 +1,69 @@
+{
+  "id": "accelerator_data_transformation_toolkit",
+  "type": "accelerator",
+  "name": "Data Transformation Toolkit",
+  "category": "Data & Analytics",
+  "description": "Comprehensive data transformation and analysis automation with self-service analytics capabilities",
+  "keyFeatures": [
+    "Data Quality Tools - Automated data cleansing and validation",
+    "Analytics Automation - Self-service analytics capabilities",
+    "Extraction Services - Automated data extraction from multiple sources",
+    "Visualization Integration - Built-in reporting and dashboard capabilities"
+  ],
+  "clientValue": [
+    "Data Preparation Time - 40% reduction in data preparation time",
+    "Data Accuracy - Improved data quality and consistency",
+    "Insights Generation - Faster time-to-insights for business users",
+    "Self-Service Analytics - Reduced IT backlog for reporting requests"
+  ],
+  "successStories": [],
+  "techStack": [
+    "Data processing",
+    "AI models",
+    "Visualization"
+  ],
+  "targetIndustries": [
+    "All data-intensive industries"
+  ],
+  "businessImpactMetrics": [
+    "40% reduction in data preparation time",
+    "Improved data quality and consistency",
+    "Faster time-to-insights for business users",
+    "Reduced IT backlog for reporting requests"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_spark",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_tableau",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_powerbi",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_data_analytics",
+        "type": "USES"
+      },
+      {
+        "from": "coe_data_transformation",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/data_transformation_toolkit.md"
+  }
+}

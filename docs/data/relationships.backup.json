@@ -1,0 +1,281 @@
+{
+  "relationships": [
+    {
+      "from": "coe_data_analytics",
+      "to": "pillar_data",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "platform_unifiedai",
+      "type": "USES"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "acc_data_orchestrator",
+      "type": "USES"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "tech_tableau",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "tech_powerbi",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    
+    {
+      "from": "coe_devops",
+      "to": "pillar_automation",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "coe_devops",
+      "to": "acc_cicd_accelerator",
+      "type": "USES"
+    },
+    {
+      "from": "coe_devops",
+      "to": "framework_devops_maturity",
+      "type": "USES"
+    },
+    {
+      "from": "coe_devops",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_devops",
+      "to": "tech_docker",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_devops",
+      "to": "tech_jenkins",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_devops",
+      "to": "tech_terraform",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "coe_genai",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "coe_genai",
+      "to": "acc_genai_studio",
+      "type": "USES"
+    },
+    {
+      "from": "coe_genai",
+      "to": "platform_unifiedai",
+      "type": "USES"
+    },
+    {
+      "from": "coe_genai",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_genai",
+      "to": "tech_tensorflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "coe_genai",
+      "to": "tech_pytorch",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "platform_unifiedai",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    
+    {
+      "from": "platform_digitalhub",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    
+    {
+      "from": "acc_data_orchestrator",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "acc_data_orchestrator",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "acc_data_orchestrator",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "acc_cicd_accelerator",
+      "to": "tech_jenkins",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "acc_cicd_accelerator",
+      "to": "tech_docker",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "acc_cicd_accelerator",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "acc_genai_studio",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "acc_genai_studio",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "acc_genai_studio",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "comp_auth_service",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "comp_auth_service",
+      "to": "tech_oauth",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "proto_quantum_ml",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "proto_quantum_ml",
+      "to": "tech_qiskit",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "proto_ar_field_service",
+      "to": "tech_unity",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "proto_ar_field_service",
+      "to": "tech_arcore",
+      "type": "IMPLEMENTS"
+    },
+    
+    {
+      "from": "case_bank_transformation",
+      "to": "coe_data_analytics",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_bank_transformation",
+      "to": "platform_unifiedai",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_bank_transformation",
+      "to": "industry_financial_services",
+      "type": "DELIVERS"
+    },
+    
+    {
+      "from": "case_retailer_devops",
+      "to": "coe_devops",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_retailer_devops",
+      "to": "acc_cicd_accelerator",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_retailer_devops",
+      "to": "industry_retail",
+      "type": "DELIVERS"
+    }
+  ]
+}

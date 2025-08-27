@@ -1,0 +1,116 @@
+{
+  "id": "casestudy_torrens_university_admission_automation",
+  "type": "casestudy",
+  "data": {
+    "name": "Admission Process Automation - Torrens University Australia",
+    "description": "Comprehensive automation of domestic admission processes including enrollment analysis, document verification, and automated offer letter generation for Australia's leading university institution.",
+    "category": "Education Process Automation",
+    "industry": "Education",
+    "client": "Torrens University Australia",
+    "clientDescription": "Leading Australian university institution specializing in business, design, health, hospitality, and education programs",
+    "order": 3,
+    "challenge": {
+      "summary": "Manual enrollment and admission processes creating bottlenecks and inefficiencies",
+      "details": [
+        "Time-intensive manual review of enrollment applications",
+        "Manual document verification and validation processes",
+        "Complex admission criteria evaluation across multiple program categories",
+        "Manual offer letter generation and distribution",
+        "Inconsistent processing times affecting student experience",
+        "High administrative workload during peak admission periods"
+      ]
+    },
+    "solution": {
+      "summary": "Automated admission processing system with intelligent document analysis and automated offer generation",
+      "approach": [
+        "Automated analysis of enrollment requests and applications",
+        "Intelligent document verification using RPA capabilities",
+        "Automated admission criteria evaluation for each program category",
+        "Automated offer letter generation and distribution",
+        "Integration with Salesforce for seamless workflow management",
+        "Queue-based processing for scalable application handling"
+      ],
+      "technologies": [
+        "RPA Automation Platform",
+        "Salesforce Integration",
+        "Document Processing Systems",
+        "Queue Management Framework",
+        "Automated Communication Systems",
+        "Business Rules Engine"
+      ]
+    },
+    "results": {
+      "summary": "Achieved dramatic reduction in processing time with error-free automation",
+      "metrics": [
+        {
+          "metric": "Processing Time Reduction",
+          "value": "80%",
+          "description": "Significant reduction in manual effort and processing time"
+        },
+        {
+          "metric": "Error Elimination",
+          "value": "100%",
+          "description": "Complete elimination of manual processing errors"
+        },
+        {
+          "metric": "Automation Coverage",
+          "value": "100%",
+          "description": "Full automation of admission criteria evaluation"
+        },
+        {
+          "metric": "Document Processing",
+          "value": "Automated",
+          "description": "Intelligent document verification and validation"
+        }
+      ],
+      "benefits": [
+        "Dramatically reduced manual effort in admission processes",
+        "Error-free processing of applications and documents",
+        "Consistent application of admission criteria across all categories",
+        "Faster turnaround times for prospective students",
+        "Improved student experience through timely communications",
+        "Scalable processing capability for peak admission periods",
+        "Enhanced audit trails for compliance and reporting"
+      ]
+    },
+    "implementation": {
+      "duration": "3-4 months",
+      "phases": [
+        "Admission process analysis and workflow mapping",
+        "Business rules definition for admission criteria",
+        "RPA bot development for document processing",
+        "Salesforce integration and workflow automation",
+        "Automated offer letter generation system",
+        "Testing and validation across program categories"
+      ],
+      "methodology": "Agile development with continuous stakeholder feedback"
+    },
+    "content": {
+      "type": "file",
+      "source": "content/casestudy/casestudy_torrens_university_admission_automation.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "DEMONSTRATES",
+      "to": "coe_rpa",
+      "metadata": {
+        "category": "education_automation"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_salesforce",
+      "metadata": {
+        "category": "crm_integration"
+      }
+    },
+    {
+      "type": "BELONGS_TO",
+      "to": "industry_education",
+      "metadata": {
+        "vertical": "higher_education"
+      }
+    }
+  ]
+}

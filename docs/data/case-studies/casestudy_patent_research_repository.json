@@ -1,0 +1,69 @@
+{
+  "id": "casestudy_patent_research_repository",
+  "type": "casestudy",
+  "name": "Patent Research Repository for Leading Pharmaceutical Company",
+  "client": "International Pharmaceutical Company",
+  "clientType": "pharma",
+  "industry": "Pharmaceuticals",
+  "description": "Built a sophisticated patent search platform consolidating multiple data sources to accelerate patent discovery and analysis for pharmaceutical research, improving patent discovery rates by 33% and reducing response times from 30 seconds to under 5 seconds.",
+  "challenge": "A leading international pharmaceutical company needed a centralized patent search platform for their research division that could handle advanced search operations, graph traversal queries, and process large volumes of documents in different formats while guaranteeing fast response times for multiple client applications accessing the repository.",
+  "solution": "Developed a comprehensive patent research platform using Polyglot Persistence architecture with Oodebe Synchronization Engine, specialized data engines for search and graph traversal operations, advanced document processing capabilities for multiple formats, guaranteed performance optimization for complex queries, and seamless integration with multiple data sources.",
+  "outcomes": [
+    "33% improvement in patent discovery rates through additional data source integration",
+    "Response time reduction from 30 seconds to under 5 seconds",
+    "Seamless consolidation of multiple pharmaceutical patent data sources",
+    "Advanced search and graph traversal capabilities",
+    "Guaranteed performance for complex research queries",
+    "Enhanced research efficiency and patent analysis speed"
+  ],
+  "technologies": [
+    "Polyglot Persistence Architecture",
+    "Oodebe Synchronization Engine",
+    "Graph Database Technologies",
+    "Advanced Search Engines",
+    "Document Processing Systems",
+    "Performance Optimization",
+    "Data Integration Platforms",
+    "Patent Database APIs"
+  ],
+  "duration": "Multi-phase platform development and optimization",
+  "teamSize": "Data architects with pharmaceutical domain specialists",
+  "keyFeatures": [
+    "Advanced patent search with multiple filter criteria",
+    "Graph traversal operations for patent relationship analysis",
+    "Multi-format document processing and indexing",
+    "Polyglot persistence for optimized data storage",
+    "Real-time synchronization across data sources",
+    "Performance-guaranteed query processing",
+    "Comprehensive patent analytics and reporting",
+    "Integration with existing research workflows"
+  ],
+  "researchImpact": [
+    "Accelerated patent discovery and prior art searches",
+    "Enhanced patent landscape analysis",
+    "Improved research decision-making speed",
+    "Reduced time-to-market for pharmaceutical products",
+    "Better intellectual property strategy development"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_pharma",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/patent_research_repository.md"
+  }
+}

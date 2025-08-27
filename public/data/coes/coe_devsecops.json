@@ -1,0 +1,135 @@
+{
+  "id": "coe_devsecops",
+  "type": "coe",
+  "data": {
+    "name": "DevSecOps Center of Excellence",
+    "description": "Accion's DevSecOps Center of Excellence integrates security practices throughout the software development lifecycle, enabling organizations to build secure applications at speed. The CoE specializes in security automation, vulnerability management, compliance as code, and secure CI/CD pipelines. With expertise in security scanning tools, container security, and cloud-native security practices, the DevSecOps CoE ensures that security is embedded from code to cloud, reducing vulnerabilities while maintaining development velocity.",
+    "category": "Automation",
+    "order": 2,
+    "keyCompetencies": [
+      "Security Automation",
+      "Secure CI/CD Pipelines",
+      "Static Application Security Testing (SAST)",
+      "Dynamic Application Security Testing (DAST)",
+      "Software Composition Analysis (SCA)",
+      "Container Security Scanning",
+      "Infrastructure Security as Code",
+      "Compliance as Code",
+      "Secret Management",
+      "Vulnerability Management",
+      "Security Orchestration",
+      "Threat Modeling",
+      "Security Policy Enforcement",
+      "Cloud Security Posture Management",
+      "Security Monitoring and Response"
+    ],
+    "services": [
+      {
+        "name": "DevSecOps Transformation",
+        "description": "End-to-end DevSecOps implementation and culture transformation",
+        "deliverables": [
+          "DevSecOps maturity assessment",
+          "Transformation roadmap",
+          "Process implementation",
+          "Team training and enablement"
+        ]
+      },
+      {
+        "name": "Secure Pipeline Implementation",
+        "description": "Security integration into CI/CD pipelines",
+        "deliverables": [
+          "Secure CI/CD pipeline",
+          "Security gate implementation",
+          "Automated security testing",
+          "Compliance checks"
+        ]
+      },
+      {
+        "name": "Security Automation Platform",
+        "description": "Automated security testing and remediation platform",
+        "deliverables": [
+          "Security automation framework",
+          "Vulnerability scanning integration",
+          "Automated remediation workflows",
+          "Security dashboard"
+        ]
+      },
+      {
+        "name": "Container and Cloud Security",
+        "description": "Container and cloud-native security implementation",
+        "deliverables": [
+          "Container security scanning",
+          "Kubernetes security policies",
+          "Cloud security controls",
+          "Runtime protection"
+        ]
+      }
+    ],
+    "technologies": [
+      "Jenkins",
+      "GitLab Security",
+      "GitHub Advanced Security",
+      "SonarQube",
+      "Checkmarx",
+      "Veracode",
+      "Snyk",
+      "Aqua Security",
+      "Twistlock",
+      "HashiCorp Vault",
+      "OWASP ZAP",
+      "Burp Suite",
+      "Trivy",
+      "Falco",
+      "Open Policy Agent"
+    ],
+    "businessValue": "Accion's DevSecOps Center of Excellence enables organizations to reduce security vulnerabilities by 70%, decrease time to remediation by 80%, achieve continuous compliance, reduce security incidents by 60%, and accelerate secure software delivery by 40%. The CoE helps organizations shift security left, making it an integral part of the development process rather than a bottleneck.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_devsecops.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_automation",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": false
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_devops",
+      "metadata": {
+        "relationship": "security_integration"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_security",
+      "metadata": {
+        "relationship": "security_practices"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_sonarqube",
+      "metadata": {
+        "purpose": "code_quality"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_hashicorp_vault",
+      "metadata": {
+        "purpose": "secret_management"
+      }
+    }
+  ]
+}

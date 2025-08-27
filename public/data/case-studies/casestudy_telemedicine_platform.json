@@ -1,0 +1,61 @@
+{
+  "id": "casestudy_telemedicine_platform",
+  "type": "casestudy",
+  "name": "TeleMedicine Platform with integrated eRx, Labs, Clinical Notes and Ordering Capabilities",
+  "client": "Healthcare Provider",
+  "clientType": "provider",
+  "industry": "Healthcare",
+  "description": "Developed a comprehensive telemedicine platform with fully immersive audio and video teleconsultation capabilities, integrated electronic prescriptions, lab ordering, and clinical notes management to improve customer retention and physician productivity.",
+  "challenge": "Healthcare providers needed a complete telemedicine solution that could handle the full patient care workflow remotely, including scheduling, consultation, prescribing, lab ordering, and clinical documentation. The platform needed to provide a fully immersive experience for both providers and patients while maintaining security and compliance.",
+  "solution": "Built an integrated telemedicine platform featuring patient scheduling and service selection, automated payment and appointment reminders, fully immersive audio/video teleconsultation interface, integrated electronic prescriptions (eRx), lab ordering capabilities, clinical notes management, and secure patient-provider communication tools.",
+  "outcomes": [
+    "Improved customer retention through enhanced user experience",
+    "Increased physician productivity with streamlined workflow",
+    "Fully immersive teleconsultation experience for providers and patients",
+    "Integrated clinical workflow from scheduling to prescription",
+    "Enhanced patient engagement through automated reminders",
+    "Secure and compliant telemedicine platform"
+  ],
+  "technologies": [
+    "Audio/Video Conferencing",
+    "Electronic Health Records (EHR)",
+    "Electronic Prescriptions (eRx)",
+    "Lab Information Systems (LIS)",
+    "Payment Processing",
+    "HIPAA Compliance",
+    "Real-time Communication",
+    "Mobile Applications"
+  ],
+  "duration": "Multi-phase implementation",
+  "teamSize": "Full-stack development team",
+  "keyFeatures": [
+    "Patient service identification and scheduling",
+    "Automated payment and appointment reminders",
+    "Immersive audio/video teleconsultation",
+    "Electronic prescription management",
+    "Lab ordering and results integration",
+    "Clinical notes documentation",
+    "Patient history and vitals tracking"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_medical_imaging",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "component_hl7_edi_gateway",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/telemedicine_platform.md"
+  }
+}

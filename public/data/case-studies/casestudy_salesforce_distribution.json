@@ -1,0 +1,57 @@
+{
+  "id": "casestudy_salesforce_distribution",
+  "type": "casestudy",
+  "name": "Large Merchandise Distribution & Logistics - Service Transformation",
+  "client": "Large Merchandise Distribution & Logistics Company",
+  "industry": "Retail",
+  "description": "Implementation of a comprehensive service management system to streamline post-sales service operations, enhance customer support, and optimize service management for products through Salesforce Sales and Service Clouds.",
+  "challenge": "The merchandise distribution company faced significant service challenges: inefficient case resolution with manual tracking and lack of automation leading to delayed case resolutions and affected customer satisfaction, high service costs where without predictive maintenance issues were often resolved reactively increasing operational costs, and poor customer engagement due to lack of omnichannel support making it difficult to provide seamless and integrated service experience for customers.",
+  "solution": "Implemented comprehensive Salesforce Sales and Service Clouds solution featuring automated case tracking and resolution workflows, AI-driven predictive maintenance capabilities for proactive issue resolution, omnichannel support platform for seamless customer experience across all touchpoints, automated service management processes to optimize post-sales operations, and integrated customer support system for enhanced service delivery.",
+  "outcomes": [
+    "40% faster case resolution with automated tracking and workflows",
+    "35% increase in customer satisfaction through seamless omnichannel support",
+    "30% reduction in service costs with AI-driven predictive maintenance and proactive issue resolution",
+    "Enhanced operational efficiency through automated service management processes",
+    "Improved customer experience through integrated omnichannel support platform",
+    "Proactive issue prevention reducing reactive maintenance costs and downtime"
+  ],
+  "technologies": [
+    "Salesforce Sales Cloud",
+    "Salesforce Service Cloud",
+    "AI-Driven Predictive Maintenance",
+    "Automated Workflows",
+    "Omnichannel Support",
+    "Case Tracking",
+    "Service Management Automation"
+  ],
+  "businessValue": [
+    "Significant improvement in operational efficiency with 40% faster case resolution",
+    "Enhanced customer satisfaction with 35% increase through better service delivery", 
+    "Substantial cost savings with 30% reduction in service costs through predictive maintenance",
+    "Improved service quality through omnichannel support and automated processes",
+    "Better resource utilization through proactive maintenance and automated workflows"
+  ],
+  "duration": "Service transformation project",
+  "teamSize": "Salesforce Sales and Service Cloud implementation team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_retail",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_distribution.md"
+  }
+}

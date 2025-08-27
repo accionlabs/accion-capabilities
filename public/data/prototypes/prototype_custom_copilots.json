@@ -1,0 +1,86 @@
+{
+  "id": "prototype_custom_copilots",
+  "type": "prototype",
+  "name": "Custom Copilots - AI-Enhanced Development",
+  "category": "Development Enhancement",
+  "description": "AI-powered development assistance with contextual code generation, automated documentation, and quality validation for enterprise development teams",
+  "innovationFocus": "LLMs, code generation, development workflows, IDE integration, enterprise security",
+  "marketOpportunity": "Enterprise software development productivity market targeting enterprise development teams, software companies, and IT departments",
+  "keyFeatures": [
+    "Contextual Code Generation - AI-assisted coding based on project context",
+    "Documentation Automation - Automated code documentation and commenting",
+    "Quality Validation - AI-powered code review and quality assessment",
+    "Development Workflow Integration - Seamless IDE and development tool integration"
+  ],
+  "potentialClientValue": [
+    "Developer Productivity - 30-50% boost in developer productivity",
+    "Code Standards - Consistent code quality and adherence to best practices",
+    "Onboarding Acceleration - Reduced time for new developer onboarding",
+    "Technical Debt Reduction - Proactive identification and prevention of technical debt"
+  ],
+  "techStack": [
+    "Large Language Models (LLMs)",
+    "Code Analysis Tools",
+    "IDE Plugins",
+    "Security Scanning",
+    "Version Control Integration"
+  ],
+  "targetIndustries": [
+    "industry_technology",
+    "industry_financial_services",
+    "industry_retail",
+    "industry_manufacturing"
+  ],
+  "readinessLevel": "proof-of-concept",
+  "maturityLevel": "emerging",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_langchain",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_github_actions",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_sonarqube",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      },
+      {
+        "from": "coe_testing",
+        "type": "USES"
+      },
+      {
+        "from": "coe_security",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/prototype/custom_copilots.md"
+  }
+}

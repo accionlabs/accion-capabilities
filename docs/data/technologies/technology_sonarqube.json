@@ -1,0 +1,64 @@
+{
+  "id": "technology_sonarqube",
+  "type": "technology",
+  "data": {
+    "name": "SonarQube",
+    "description": "Code quality and security analysis platform for continuous inspection of code quality",
+    "category": "security",
+    "subcategory": "static_analysis",
+    "vendor": "SonarSource",
+    "type": "tool",
+    "useCases": [
+      "Static Application Security Testing (SAST)",
+      "Code quality analysis",
+      "Security vulnerability detection",
+      "Technical debt management",
+      "DevSecOps integration"
+    ],
+    "keyFeatures": [
+      "Multi-language code analysis",
+      "Security hotspot detection",
+      "Quality gate enforcement",
+      "CI/CD pipeline integration",
+      "Vulnerability management"
+    ],
+    "supportedLanguages": [
+      "Java",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "C/C++",
+      "Go",
+      "Kotlin",
+      "Ruby",
+      "PHP",
+      "HTML",
+      "CSS"
+    ],
+    "integrations": [
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI",
+      "Azure DevOps",
+      "Bitbucket Pipelines"
+    ],
+    "businessValue": "Enables organizations to maintain high code quality, identify security vulnerabilities early in the development cycle, and ensure compliance with coding standards."
+  },
+  "relationships": [
+    {
+      "type": "INTEGRATES_WITH",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd_integration"
+      }
+    },
+    {
+      "type": "INTEGRATES_WITH",
+      "to": "technology_github_actions",
+      "metadata": {
+        "category": "ci_cd_integration"
+      }
+    }
+  ]
+}

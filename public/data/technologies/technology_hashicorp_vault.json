@@ -1,0 +1,57 @@
+{
+  "id": "technology_hashicorp_vault",
+  "type": "technology",
+  "data": {
+    "name": "HashiCorp Vault",
+    "description": "Identity-based secrets and encryption management system for securing, storing and protecting secrets and other sensitive data",
+    "category": "security",
+    "subcategory": "secrets_management",
+    "vendor": "HashiCorp",
+    "type": "platform",
+    "useCases": [
+      "Secrets Management",
+      "Data Encryption",
+      "Identity and Access Management",
+      "Certificate Management",
+      "Key Management"
+    ],
+    "keyFeatures": [
+      "Dynamic secrets generation",
+      "Data encryption at rest and in transit",
+      "Identity-based access",
+      "Audit logging",
+      "Multi-cloud support",
+      "API-driven configuration"
+    ],
+    "deploymentModels": [
+      "On-premises",
+      "Cloud",
+      "Hybrid"
+    ],
+    "integrations": [
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Jenkins",
+      "Terraform"
+    ],
+    "businessValue": "Centralized secrets management reduces security risks, improves compliance posture, and enables secure automation across multi-cloud environments."
+  },
+  "relationships": [
+    {
+      "type": "INTEGRATES_WITH",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "secrets_management"
+      }
+    },
+    {
+      "type": "INTEGRATES_WITH",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_automation"
+      }
+    }
+  ]
+}

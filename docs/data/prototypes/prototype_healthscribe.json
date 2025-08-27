@@ -1,0 +1,80 @@
+{
+  "id": "prototype_healthscribe",
+  "type": "prototype",
+  "name": "HealthScribe - Voice-to-Medical-Record Platform",
+  "category": "Healthcare Innovation",
+  "description": "AI-powered voice recognition system for medical documentation with specialized speech-to-text for medical terminology and automated clinical documentation creation",
+  "innovationFocus": "Speech recognition, medical NLP, secure cloud infrastructure, HIPAA compliance",
+  "marketOpportunity": "$5B+ healthcare documentation market targeting healthcare providers, medical practitioners, and hospital systems",
+  "keyFeatures": [
+    "Medical Voice Recognition - Specialized speech-to-text for medical terminology",
+    "SOAP Note Generation - Automated clinical documentation creation",
+    "Coding Assistance - AI-powered medical coding support",
+    "Compliance Integration - HIPAA and healthcare regulatory compliance"
+  ],
+  "potentialClientValue": [
+    "Documentation Time Reduction - 40-60% reduction in clinical documentation time",
+    "Documentation Quality - Improved accuracy and completeness of medical records",
+    "Provider Experience Enhancement - Reduced administrative burden on healthcare providers",
+    "Workflow Integration - Seamless integration with existing EMR systems"
+  ],
+  "techStack": [
+    "Speech Recognition APIs",
+    "Medical Natural Language Processing",
+    "Cloud Infrastructure",
+    "HIPAA-Compliant Storage",
+    "EMR Integration APIs"
+  ],
+  "targetIndustries": [
+    "industry_healthcare",
+    "industry_pharma"
+  ],
+  "readinessLevel": "concept",
+  "maturityLevel": "emerging",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_langchain",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_medical_imaging",
+        "type": "USES"
+      },
+      {
+        "from": "coe_security",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_voice_physician_companion",
+        "type": "RELATED_TO"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/prototype/healthscribe.md"
+  }
+}

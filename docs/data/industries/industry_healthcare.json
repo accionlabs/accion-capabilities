@@ -1,0 +1,9 @@
+{
+  "id": "industry_healthcare",
+  "name": "Healthcare",
+  "description": "Healthcare and life sciences",
+  "segment": "Healthcare & Life Sciences",
+  "type": "industry",
+  "tags": [],
+  "relationships": []
+}

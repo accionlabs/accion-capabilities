@@ -1,0 +1,56 @@
+{
+  "id": "casestudy_echo_health",
+  "type": "casestudy",
+  "name": "Echo Health Inc. - Digital Payment Solutions Platform",
+  "client": "Echo Health Inc.",
+  "industry": "Healthcare Payments",
+  "description": "Developed comprehensive digital payment solutions for healthcare industry leader processing hundreds of millions of payments annually, enabling transition from paper checks to secure digital payment modalities with enhanced data interfaces.",
+  "challenge": "Supplier/vendor readiness to adopt digital payment methods, cost and ROI uncertainty for digital transformation, data quality issues across diverse systems, online fraud and security concerns, and resistance to change from legacy dependencies.",
+  "solution": "Ensured HIPAA compliance with anonymized data handling and secure migration. Designed scalable systems for effortless onboarding. Integrated GIACT services for patient identity verification and fraud mitigation. Implemented automated workflows from claims to payments with email notifications and redesigned user interfaces across multiple platforms.",
+  "outcomes": [
+    "500+ million payments processed annually",
+    "130+ billion USD worth of payments processed annually",
+    "Complete visibility for users/payers into current and future payments",
+    "Choice of six different payment modalities including Direct bank deposit, e-Check, ACH, V-Card",
+    "Per month: ICR processes $21M in premiums and B2B processes more than $10M in payments"
+  ],
+  "technologies": [
+    "HIPAA Compliance",
+    "GIACT Integration",
+    "Email Notification Systems",
+    "Modern UI Frameworks",
+    "Automated Workflow Engines",
+    "Data Extraction and Reporting",
+    "Identity Verification",
+    "Healthcare Data Standards (835s and 837s)",
+    "Angular",
+    "Blazor"
+  ],
+  "duration": "Partnership-based multi-year engagement",
+  "teamSize": "Healthcare payment systems specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "component_hl7_edi_gateway",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_security",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/echo_health.md"
+  }
+}

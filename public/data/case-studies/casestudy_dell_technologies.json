@@ -1,0 +1,61 @@
+{
+  "id": "casestudy_dell_technologies",
+  "type": "casestudy",
+  "name": "Dell Technologies - Enterprise Modernization Platform",
+  "client": "Dell Technologies",
+  "industry": "Enterprise IT",
+  "description": "Enterprise modernization initiative transitioning from vertical silos to an innovation platform, helping drive efficiency, agility, and strategic decision-making while enabling AI adoption and IT/OT alignment.",
+  "challenge": "Traditional IT silos impeded digital transformation and critical initiatives like zero trust. Fast-paced evolution of modern IT infrastructure created uncertainty and pressure on IT leaders. Need to integrate new and legacy technologies seamlessly while determining best use of emerging technologies.",
+  "solution": "Provided guidance on AI adoption strategies complementing modern business operations. Implemented organizational approaches for breaking down IT silos to accelerate digital transformation. Developed integration patterns connecting modern infrastructure with legacy systems and established collaboration frameworks.",
+  "outcomes": [
+    "Improved efficiency, agility, and strategic decision-making",
+    "Significant cost reduction and better resource allocation",
+    "Enhanced risk mitigation through improved monitoring",
+    "Accelerated digital transformation",
+    "Created a culture of continuous innovation"
+  ],
+  "technologies": [
+    "Kafka",
+    "Playwright",
+    "Containerization Technologies",
+    "Integration Patterns",
+    "Cloud-native Architecture",
+    "AI Adoption Strategies",
+    "Zero Trust Security"
+  ],
+  "duration": "Strategic partnership engagement",
+  "teamSize": "Collaborative teams integrated with Dell scrum teams",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_kubernetes",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "tech_docker",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "platform_breeze",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/dell_technologies.md"
+  }
+}

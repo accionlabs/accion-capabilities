@@ -1,0 +1,18 @@
+{
+  "pillar_automation": {
+    "name": "Automation",
+    "description": "Intelligent automation and process optimization"
+  },
+  "pillar_cloud": {
+    "name": "Cloud",
+    "description": "Cloud transformation and modernization"
+  },
+  "pillar_data": {
+    "name": "Data",
+    "description": "Harnessing data for intelligent decision making"
+  },
+  "pillar_digital_products": {
+    "name": "Digital Products",
+    "description": "Building modern digital products and platforms"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "casestudy_choice_bank_ach_automation",
+  "type": "casestudy",
+  "data": {
+    "name": "ACH Processing Automation - Choice Bank",
+    "description": "Comprehensive automation of ACH incoming and outgoing processes with OFAC compliance monitoring, file handling, and exception management for a leading consumer banking institution.",
+    "category": "Financial Process Automation",
+    "industry": "Banking",
+    "client": "Choice Bank",
+    "clientDescription": "Consumer banking institution specializing in digital financial services",
+    "order": 2,
+    "challenge": {
+      "summary": "Manual ACH processing with complex OFAC compliance requirements and exception handling",
+      "details": [
+        "Manual processing of ACH files in four different time slots",
+        "Complex OFAC suspect monitoring and clearance procedures",
+        "Manual file upload to Horizon portal with 10-minute monitoring cycles",
+        "Manual exception handling for compliance violations",
+        "Time-intensive pre-deposit processes with multiple validation steps",
+        "Risk of human error in regulatory compliance procedures"
+      ]
+    },
+    "solution": {
+      "summary": "Automated ACH processing system with integrated OFAC monitoring and exception management",
+      "approach": [
+        "Automated file pickup and processing across four time slots",
+        "Integration with Horizon portal for seamless file uploads",
+        "Automated OFAC monitoring with 10-minute check cycles",
+        "Intelligent exception handling and workflow routing",
+        "Automated customer status validation and updates",
+        "Integration with Verafin folder for compliance processing"
+      ],
+      "technologies": [
+        "RPA Bot Framework",
+        "Horizon Portal Integration",
+        "Verafin Compliance Platform",
+        "OFAC Validation Systems",
+        "File Processing Automation",
+        "Exception Management Workflows"
+      ]
+    },
+    "results": {
+      "summary": "Achieved complete automation of ACH processing with enhanced compliance monitoring",
+      "metrics": [
+        {
+          "metric": "Processing Automation",
+          "value": "100%",
+          "description": "Complete automation of ACH file processing"
+        },
+        {
+          "metric": "Compliance Monitoring",
+          "value": "24/7",
+          "description": "Continuous OFAC monitoring and validation"
+        },
+        {
+          "metric": "Error Reduction",
+          "value": "95%",
+          "description": "Significant reduction in manual processing errors"
+        },
+        {
+          "metric": "Processing Speed",
+          "value": "80%",
+          "description": "Faster processing of ACH transactions"
+        }
+      ],
+      "benefits": [
+        "Automated file processing eliminates manual intervention",
+        "Enhanced regulatory compliance through systematic OFAC monitoring",
+        "Reduced operational risk through consistent processing",
+        "Improved accuracy in customer status validation",
+        "24/7 processing capability without human supervision",
+        "Streamlined exception handling and resolution",
+        "Enhanced audit trails for regulatory reporting"
+      ]
+    },
+    "implementation": {
+      "duration": "4-5 months",
+      "phases": [
+        "ACH process analysis and workflow mapping",
+        "Integration design for Horizon portal and Verafin",
+        "Bot development for file processing and validation",
+        "OFAC monitoring and exception handling implementation",
+        "Testing across all ACH scenarios and edge cases",
+        "Production deployment with monitoring setup"
+      ],
+      "methodology": "Phased implementation with parallel testing and validation"
+    },
+    "content": {
+      "type": "file",
+      "source": "content/casestudy/casestudy_choice_bank_ach_automation.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "DEMONSTRATES",
+      "to": "coe_rpa",
+      "metadata": {
+        "category": "financial_automation"
+      }
+    },
+    {
+      "type": "BELONGS_TO",
+      "to": "industry_banking",
+      "metadata": {
+        "vertical": "consumer_banking"
+      }
+    }
+  ]
+}

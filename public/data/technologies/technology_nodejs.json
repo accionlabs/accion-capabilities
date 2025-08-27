@@ -1,0 +1,13 @@
+{
+  "id": "technology_nodejs",
+  "name": "Node.js",
+  "description": "JavaScript runtime for server-side development",
+  "category": "platform",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

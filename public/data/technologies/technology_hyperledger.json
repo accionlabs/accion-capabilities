@@ -1,0 +1,16 @@
+{
+  "id": "technology_hyperledger",
+  "type": "technology",
+  "name": "Hyperledger Fabric",
+  "description": "Enterprise-grade permissioned blockchain platform for business networks with modular architecture and privacy features",
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "hyperledger",
+    "enterprise",
+    "permissioned",
+    "business-networks",
+    "privacy"
+  ],
+  "relationships": []
+}

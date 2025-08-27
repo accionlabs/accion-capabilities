@@ -1,0 +1,14 @@
+{
+  "id": "technology_spark",
+  "name": "Apache Spark",
+  "description": "Distributed computing framework",
+  "category": "platform",
+  "vendor": "Apache",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

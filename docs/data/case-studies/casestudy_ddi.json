@@ -1,0 +1,53 @@
+{
+  "id": "casestudy_ddi",
+  "name": "DDI - Learner Portal & Analytics Platform Development",
+  "client": "Development Dimensions International (DDI)",
+  "industry": "Human Resources Services",
+  "description": "Integrated learning and HR services portal with unified analytics platform addressing data engineering needs for one of the biggest human resources and leadership development consultancy in USA.",
+  "challenge": "Lack of application and process-related documentation, limited flexibility in customizing assessments and development journeys, lack of consistency in Agile development processes across projects, and need for scalable data infrastructure.",
+  "solution": [
+    "Unified URL for all clients with SSO and credential-based login",
+    "Content flagging system to notify users of new or outdated materials",
+    "Automated expired subscription renewal process",
+    "Unified Analytics Platform on Azure Databricks with multiple data sources",
+    "Power BI dashboards for data visualization across all sources",
+    "360-degree view of clients, products, and interactions"
+  ],
+  "technologies": [
+    "Microsoft .NET",
+    "Angular",
+    "Microsoft Azure",
+    "Figma",
+    "Kontent.ai",
+    "GitHub",
+    "Atlassian Jira",
+    "Oracle",
+    "Azure Databricks",
+    "PySpark",
+    "SparkSQL",
+    "Azure Data Factory",
+    "Power BI"
+  ],
+  "impact": {
+    "manualEffortReduction": "40%",
+    "dataAccuracy": "10x improved with faster execution of data pipelines",
+    "infrastructureCostReduction": "30%",
+    "scalabilityImprovement": "On demand and auto scalable execution",
+    "partnershipDuration": "5+ years strategic partnership"
+  },
+  "outcomes": [
+    "Reduced manual effort by 40% through unified URL access and automation",
+    "Minimized risk of overlooking essential trainings",
+    "10x improvement in data accuracy with faster pipeline execution",
+    "30% reduction in data infrastructure costs using serverless compute",
+    "Unified analytics platform enhanced with integrated data sources"
+  ],
+  "serviceType": "Product Engineering & Data",
+  "pillar": "pillar_data",
+  "coe": "coe_data_analytics",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/ddi.md"
+  },
+  "type": "casestudy"
+}

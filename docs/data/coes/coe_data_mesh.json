@@ -1,0 +1,227 @@
+{
+  "id": "coe_data_mesh",
+  "type": "coe",
+  "data": {
+    "name": "Data Mesh Center of Excellence",
+    "description": "Accion's Data Mesh Center of Excellence specializes in designing and implementing decentralized data architectures that enable domain-oriented data ownership and federated computational governance. The CoE provides comprehensive Data Mesh strategies that leverage existing technology investments while implementing the four core pillars: Domain-Oriented Ownership, Data as a Product, Self-Serve Data Platform, and Federated Computational Governance. With expertise in sociotechnical paradigm optimization, the CoE enables organizations to transition from centralized to decentralized and democratized data platforms, supporting multiple data sources, real-time integration, and AI-enhanced data processing.",
+    "category": "Data",
+    "order": 8,
+    "keyCompetencies": [
+      "Data Mesh Architecture Design and Strategy",
+      "Domain-Oriented Data Ownership Implementation",
+      "Data Product Development and Management",
+      "Self-Serve Data Platform Engineering",
+      "Federated Computational Governance",
+      "Data Mesh Maturity Assessment and Roadmapping",
+      "Multi-Platform Data Mesh Integration",
+      "Sociotechnical Paradigm Optimization",
+      "Data Domain Identification and Modeling",
+      "Data Product Catalog Implementation",
+      "Cross-Domain Data Integration",
+      "Data Mesh Strategy Triangle Assessment",
+      "Computational Technical Governance with AI",
+      "Data Integration Pipeline Automation",
+      "Real-Time Data Processing and Streaming"
+    ],
+    "services": [
+      {
+        "name": "Data Mesh Strategy Assessment and Design",
+        "description": "Comprehensive assessment of current data architecture and design of Data Mesh strategy using the Data Mesh Strategy Triangle framework",
+        "deliverables": [
+          "Current state vs desired state analysis",
+          "Data Mesh readiness assessment",
+          "Strategic roadmap development",
+          "Technology leverage strategy",
+          "Investment optimization plan"
+        ]
+      },
+      {
+        "name": "Domain-Oriented Data Architecture",
+        "description": "Implementation of domain-driven data architecture with decentralized ownership and governance",
+        "deliverables": [
+          "Data domain identification and modeling",
+          "Domain team structure design",
+          "Ownership frameworks",
+          "Cross-domain integration patterns",
+          "Domain data product definitions"
+        ]
+      },
+      {
+        "name": "Data Product Development and Management",
+        "description": "End-to-end data product lifecycle management with focus on discoverability, consumability, and reusability",
+        "deliverables": [
+          "Data product catalog implementation",
+          "Data product templates",
+          "Quality and SLA frameworks",
+          "Consumer interface design",
+          "Usage analytics and monitoring"
+        ]
+      },
+      {
+        "name": "Self-Serve Data Platform Implementation",
+        "description": "Development of self-service data platform capabilities enabling domain teams to independently manage their data products",
+        "deliverables": [
+          "Platform infrastructure setup",
+          "Self-service tooling configuration",
+          "Developer experience optimization",
+          "Automated provisioning systems",
+          "Platform monitoring and observability"
+        ]
+      },
+      {
+        "name": "Federated Computational Governance",
+        "description": "Implementation of distributed governance frameworks with computational enforcement and automation",
+        "deliverables": [
+          "Governance policy frameworks",
+          "Automated compliance systems",
+          "Cross-domain governance coordination",
+          "Policy as code implementation",
+          "Governance metrics and reporting"
+        ]
+      },
+      {
+        "name": "Multi-Platform Data Integration",
+        "description": "Integration across existing data platforms including Snowflake, Databricks, Microsoft Fabric, and business platforms",
+        "deliverables": [
+          "Platform interoperability solutions",
+          "Data pipeline automation",
+          "Cross-platform governance",
+          "Hybrid architecture implementation",
+          "Vendor lock-in mitigation strategies"
+        ]
+      },
+      {
+        "name": "AI-Enhanced Data Integration",
+        "description": "Implementation of computational technical governance with embedded AI agents for automated data processing and quality management",
+        "deliverables": [
+          "AI agent integration",
+          "Automated data exploration",
+          "Quality validation systems",
+          "Real-time processing pipelines",
+          "Intelligent data transformation"
+        ]
+      },
+      {
+        "name": "Data Mesh Maturity and Optimization",
+        "description": "Continuous improvement of Data Mesh implementations with maturity assessment and optimization strategies",
+        "deliverables": [
+          "Maturity assessment frameworks",
+          "Performance optimization",
+          "Scaling strategies",
+          "Best practices documentation",
+          "Change management support"
+        ]
+      }
+    ],
+    "technologies": [
+      "Snowflake",
+      "Databricks",
+      "Microsoft Fabric",
+      "Salesforce Data Cloud",
+      "Microsoft D365 Dataverse",
+      "Apache Spark",
+      "Apache Kafka",
+      "Apache Airflow",
+      "Unity Catalog",
+      "Delta Lake",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Jenkins",
+      "GitHub Actions",
+      "MLflow",
+      "ezeData",
+      "Python",
+      "Scala",
+      "SQL",
+      "Power BI",
+      "Tableau",
+      "MongoDB",
+      "PostgreSQL",
+      "Prometheus",
+      "Grafana",
+      "Splunk",
+      "HashiCorp Vault",
+      "OAuth 2.0",
+      "JWT",
+      "SonarQube",
+      "Nessus"
+    ],
+    "businessValue": "Accion's Data Mesh CoE delivers transformative business value by enabling organizations to scale their data capabilities through decentralized architecture while maintaining governance and quality standards. Organizations achieve faster time-to-market with pre-built domain models, optimized costs through leveraging existing vendor investments, and improved autonomy with enhanced global compliance. The CoE's approach leverages rather than replaces existing technology investments, enabling quick adoption of Data Mesh principles while minimizing disruption. With proven implementations across multiple data platforms and domains, the CoE enables organizations to achieve truly democratized data access and innovation.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_data_mesh.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization"
+      }
+    }
+  ]
+}

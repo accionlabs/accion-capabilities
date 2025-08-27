@@ -1,0 +1,73 @@
+{
+  "id": "component_change_data_capture",
+  "name": "Change Data Capture Tools",
+  "category": "component",
+  "description": "Real-time data synchronization and event processing with minimal system impact",
+  "componentType": "Data Processing Component",
+  "strategicValue": "Enables real-time data integration and system decoupling for modern architectures",
+  "clientValue": [
+    "Near real-time data updates",
+    "Reduced dependency on batch processing",
+    "System decoupling and flexibility",
+    "Minimal impact on source systems"
+  ],
+  "technicalSpecs": [
+    "CDC tools and connectors",
+    "Streaming data frameworks",
+    "Event-driven architecture support",
+    "Data integration pipelines",
+    "Low-latency processing engines"
+  ],
+  "integrationPoints": [
+    "Operational databases",
+    "Data warehouses",
+    "Streaming platforms",
+    "Event processing systems"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Latency Reduction",
+      "value": "90+",
+      "unit": "% faster than batch processing"
+    },
+    {
+      "name": "System Impact",
+      "value": "<5",
+      "unit": "% overhead on source systems"
+    }
+  ],
+  "useCases": [
+    "Real-time data warehousing",
+    "System integration and migration",
+    "Event-driven microservices",
+    "Operational analytics platforms"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "data-processing",
+    "real-time",
+    "integration"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_streaming",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "tech_apache_airflow",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/change_data_capture.md"
+  }
+}

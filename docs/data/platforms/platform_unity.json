@@ -1,0 +1,101 @@
+{
+  "id": "platform_unity",
+  "type": "platform",
+  "name": "UNITY - GCC Management Solution",
+  "category": "Enterprise Management",
+  "description": "Comprehensive Global Capability Center management solution",
+  "investment": "$100K",
+  "roi": "$2M+ total operational savings",
+  "keyFeatures": [
+    {
+      "name": "Talent Module",
+      "description": "Comprehensive resource management and talent planning system",
+      "businessValue": "Optimized resource allocation and improved talent utilization"
+    },
+    {
+      "name": "Timesheet Functionality",
+      "description": "Integrated time tracking and reporting with project alignment",
+      "businessValue": "Accurate project costing and improved billing transparency"
+    },
+    {
+      "name": "Quality Management",
+      "description": "Performance monitoring and continuous improvement tracking",
+      "businessValue": "Enhanced service quality and client satisfaction"
+    },
+    {
+      "name": "COMMAND Integration",
+      "description": "Seamless workflow orchestration across all GCC operations",
+      "businessValue": "Streamlined operations and improved process efficiency"
+    }
+  ],
+  "businessImpactMetrics": [
+    {
+      "name": "Cost Savings",
+      "value": "$200K",
+      "improvement": "annual licensing cost savings"
+    },
+    {
+      "name": "Total Operational Savings",
+      "value": "$2M+",
+      "improvement": "across all functions"
+    },
+    {
+      "name": "Process Standardization",
+      "value": "23 entities",
+      "improvement": "consistent processes across all entities"
+    },
+    {
+      "name": "Efficiency Gains",
+      "value": "Streamlined",
+      "improvement": "GCC operations"
+    }
+  ],
+  "techStack": [
+    "Custom web platform",
+    "Workflow automation",
+    "Database management",
+    "Reporting engine",
+    "Integration APIs"
+  ],
+  "clientValue": [
+    "Resource Optimization - Better talent utilization and planning",
+    "Process Standardization - Consistent operational approaches",
+    "Data-Driven Decisions - Analytics-based management insights",
+    "Scalable Operations - Platform ready for organizational growth"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_nodejs",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_react",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_mongodb",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_servicenow",
+        "type": "USES"
+      },
+      {
+        "from": "coe_portfolio_rationalization",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/platform/unity.md"
+  }
+}

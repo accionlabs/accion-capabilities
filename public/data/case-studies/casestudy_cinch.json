@@ -1,0 +1,59 @@
+{
+  "id": "casestudy_cinch",
+  "type": "casestudy",
+  "name": "Cinch Home Services - Technology Modernization for Growth",
+  "client": "Cinch Home Services",
+  "industry": "Home Warranty and Services",
+  "description": "Technology modernization initiative to support growth objectives, improve performance, and increase speed to market for leading home warranty provider with 45+ years of experience, focusing on migration from Mendix low-code platform to Angular-based architecture.",
+  "challenge": "Mendix low-code platform dependencies creating substantial licensing costs. Need for 24x7 uptime of key systems, outdated applications requiring modernization, technical debt in microservices architecture, and high severity tickets affecting user satisfaction while balancing cost optimization with transformation pace.",
+  "solution": "Migrated critical Agent, SP Web, and Cinch Pro Mobile applications from Mendix to Angular. Modernized My Account customer-facing application UI/UX. Refactored microservices by upgrading Java and Springboot. Migrated field service management tools and implemented CCaaS migration with standard UI components.",
+  "outcomes": [
+    "Savings of > $1.2 million yearly on Mendix low code platform licensing",
+    "Reduction in Severity 1 issues from users post-migration",
+    "Increased user adoption rate (exceeding 80%)",
+    "Reduction in technical debt",
+    "Excellent user experience with modern interfaces",
+    "99% uptime for critical systems",
+    "Enhanced flexibility with Angular-based architecture"
+  ],
+  "technologies": [
+    "Angular Framework",
+    "Java and Springboot",
+    "AWS API Gateway",
+    "Lambda",
+    "Redis",
+    "Oracle",
+    "Postgres",
+    "Kafka",
+    "Snowflake",
+    "Auth0",
+    "DevOps Automation"
+  ],
+  "duration": "Strategic multi-year partnership",
+  "teamSize": "Angular Center of Excellence and modernization specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "platform_breeze",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/cinch.md"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "framework_agile_governance",
+  "name": "Agile Framework and Governance",
+  "category": "framework",
+  "description": "Delivery predictability model with defined success criteria and KPIs for agile transformations",
+  "frameworkType": "Process Framework",
+  "methodology": "Comprehensive agile governance with maturity models and continuous improvement",
+  "strategicValue": "Ensures predictable delivery outcomes with measurable performance and continuous improvement",
+  "clientValue": [
+    "Predictable delivery outcomes and timelines",
+    "Measurable performance metrics and KPIs",
+    "Continuous improvement processes",
+    "Standardized agile practices and ceremonies"
+  ],
+  "deliverables": [
+    "Agile maturity models and assessments",
+    "Productivity metrics and dashboards",
+    "Ceremony templates and guidelines",
+    "Improvement frameworks and processes",
+    "Performance tracking and reporting tools"
+  ],
+  "frameworkComponents": [
+    "Maturity Models: Agile capability assessment",
+    "Productivity Metrics: Performance measurement",
+    "Ceremony Templates: Standardized agile practices",
+    "Improvement Frameworks: Continuous optimization"
+  ],
+  "targetScenarios": [
+    "Agile transformation initiatives",
+    "Delivery standardization programs",
+    "Team performance optimization",
+    "Process improvement projects"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "process",
+    "agile",
+    "governance"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "framework_agile_delivery",
+        "type": "EXTENDS"
+      },
+      {
+        "to": "coe_devops",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/agile-governance.md"
+  }
+}

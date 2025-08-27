@@ -1,0 +1,243 @@
+{
+  "id": "coe_databricks",
+  "type": "coe",
+  "data": {
+    "name": "Databricks Center of Excellence",
+    "description": "Accion's Databricks Center of Excellence specializes in comprehensive Databricks lakehouse implementations, data platform modernization, and advanced analytics solutions. With 15 certified professionals, 65 trained technical experts, and 30 lakehouses built across 20 clients, the CoE delivers end-to-end Databricks services from greenfield platform builds to complex data migrations and AI/ML implementations. The CoE enables organizations to harness the power of unified data and AI platforms for real-time analytics, streaming applications, and generative AI solutions.",
+    "category": "Data",
+    "order": 3,
+    "keyCompetencies": [
+      "Databricks Lakehouse Platform Implementation",
+      "Unity Catalog Configuration and Management",
+      "Delta Lake Architecture and Optimization",
+      "Data Engineering and Pipeline Development",
+      "Streaming Applications with Structured Streaming",
+      "ML/AI Model Development and MLOps",
+      "Data Modernization and Migration",
+      "Workflow Orchestration and Automation",
+      "Performance Optimization and Tuning",
+      "Data Governance and Security",
+      "Real-time Data Processing",
+      "Advanced Analytics and GenAI Integration",
+      "Multi-cloud Databricks Deployment",
+      "Data Quality and Lineage Management",
+      "Self-Service Analytics Enablement"
+    ],
+    "services": [
+      {
+        "name": "Greenfield Data Platform Build and Sustenance",
+        "description": "Build comprehensive data platforms from scratch with iterative development and ongoing sustenance",
+        "deliverables": [
+          "Requirements gathering",
+          "Roadmap development",
+          "Layered data platform",
+          "Data quality framework",
+          "Governance policies"
+        ]
+      },
+      {
+        "name": "Data Lake/DW Modernization and Sustenance",
+        "description": "Modernize existing data warehouses to Databricks lakehouse with accelerated migration",
+        "deliverables": [
+          "Fit gap analysis",
+          "Migration roadmap",
+          "Accelerated build using tools",
+          "Downstream compatibility",
+          "Application delivery"
+        ]
+      },
+      {
+        "name": "Advanced Analytics Solution Build and Sustenance",
+        "description": "Develop and maintain advanced analytics models and applications",
+        "deliverables": [
+          "Dataset curation",
+          "Analytics models",
+          "Application development",
+          "Data platform integration",
+          "Sustenance support"
+        ]
+      },
+      {
+        "name": "Unity Catalog Implementation",
+        "description": "Comprehensive Unity Catalog setup with cross-workspace governance and security",
+        "deliverables": [
+          "Metastore configuration",
+          "Cross-workspace binding",
+          "Admin delegation",
+          "Storage isolation",
+          "Access control policies"
+        ]
+      },
+      {
+        "name": "Streaming Applications Development",
+        "description": "Real-time streaming applications using Structured Streaming for event processing",
+        "deliverables": [
+          "Streaming ingestion",
+          "Event processing",
+          "ML inference",
+          "Live dashboards",
+          "Real-time alerts"
+        ]
+      },
+      {
+        "name": "Machine Learning and AI Operations",
+        "description": "End-to-end ML lifecycle management with automation and governance",
+        "deliverables": [
+          "Model building and training",
+          "Model tracking and registry",
+          "Runtime libraries",
+          "Automation frameworks",
+          "Governance policies"
+        ]
+      },
+      {
+        "name": "Data Ingestion and Integration",
+        "description": "Self-served data ingestion from multiple sources with automated processing",
+        "deliverables": [
+          "Data connectors",
+          "Ingestion pipelines",
+          "Data transformation",
+          "Quality validation",
+          "Monitoring systems"
+        ]
+      },
+      {
+        "name": "Workflow Orchestration",
+        "description": "Complex workflow orchestration across platforms with Databricks Workflows",
+        "deliverables": [
+          "Workflow design",
+          "Multi-platform integration",
+          "Task automation",
+          "Monitoring and alerting",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Modern Data Engineering",
+        "description": "Medallion architecture implementation with bronze, silver, and gold layers",
+        "deliverables": [
+          "Bronze zone setup",
+          "Silver zone processing",
+          "Gold zone optimization",
+          "Data lineage",
+          "Performance tuning"
+        ]
+      }
+    ],
+    "technologies": [
+      "Databricks",
+      "Apache Spark",
+      "Delta Lake",
+      "Unity Catalog",
+      "MLflow",
+      "Apache Airflow",
+      "Structured Streaming",
+      "Apache Kafka",
+      "Delta Live Tables",
+      "Python",
+      "Scala",
+      "SQL",
+      "PySpark",
+      "Spark SQL",
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "OneLake",
+      "Photon Engine",
+      "Auto Loader",
+      "Databricks SQL",
+      "Databricks Workflows",
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "dbt",
+      "Fivetran",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "Scikit-learn",
+      "Hugging Face",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Azure Data Factory",
+      "AWS Glue",
+      "Apache Hive",
+      "Apache Parquet",
+      "JSON",
+      "Avro",
+      "REST APIs",
+      "Jupyter Notebooks",
+      "Apache Zeppelin",
+      "R",
+      "Node.js",
+      "Java"
+    ],
+    "businessValue": "Accion's Databricks CoE delivers significant business value through unified data and AI platforms that reduce data silos, accelerate analytics delivery, and enable real-time decision making. Organizations achieve 50-90% reduction in time-to-insight, improved data quality through automated validation, and cost optimization through efficient resource utilization. The CoE's expertise in lakehouse architecture enables seamless data sharing across teams, reduces infrastructure complexity, and provides a foundation for advanced AI/ML initiatives. With proven success across 20+ clients and 30 lakehouses built, the CoE ensures reliable, scalable, and secure data platforms that drive business innovation.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_databricks.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mlflow",
+      "metadata": {
+        "category": "ml_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    }
+  ]
+}

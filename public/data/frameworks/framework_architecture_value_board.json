@@ -1,0 +1,67 @@
+{
+  "id": "framework_architecture_value_board",
+  "name": "Architecture Value Board (AVB)",
+  "category": "framework",
+  "description": "Technical excellence framework with architecture maturity evaluation and value-oriented assessment",
+  "frameworkType": "Governance Framework",
+  "methodology": "Comprehensive architecture governance with maturity models and technical ROI assessment",
+  "strategicValue": "Standardizes technical excellence and provides objective architecture capability assessment",
+  "clientValue": [
+    "Technical excellence standardization",
+    "Objective architecture capability assessment",
+    "Value-oriented architecture decisions",
+    "Improved technical ROI and outcomes"
+  ],
+  "deliverables": [
+    "Architecture maturity models",
+    "Architecture review frameworks",
+    "Technical ROI assessment tools",
+    "Design standards and guidelines",
+    "Architecture decision records"
+  ],
+  "frameworkComponents": [
+    "Maturity Models: Architecture capability assessment",
+    "Review Frameworks: Systematic architecture evaluation",
+    "Technical ROI Assessment: Value measurement",
+    "Standards and Guidelines: Technical excellence criteria"
+  ],
+  "targetScenarios": [
+    "Complex architecture initiatives",
+    "Architectural transformation programs",
+    "Legacy system modernization",
+    "Technology standardization projects"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "governance",
+    "architecture",
+    "technical-excellence"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "framework_program_value_board",
+        "type": "COMPLEMENTS"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "framework_program_value_board",
+        "type": "COMPLEMENTS"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/architecture-value-board.md"
+  }
+}

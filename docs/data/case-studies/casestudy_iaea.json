@@ -1,0 +1,44 @@
+{
+  "id": "casestudy_iaea",
+  "name": "International Atomic Energy Agency - Electronic Safety Standards Platform",
+  "client": "International Atomic Energy Agency (IAEA)",
+  "industry": "Government/Nuclear Safety",
+  "description": "Streamlined the creation and maintenance of Nuclear Safety Standards (NSS) documentation through a secure, collaborative platform with centralized governance and standardized publishing workflows.",
+  "challenge": "Manual document creation lacked collaboration, version control, and modular review capabilities, with no integration between safety standards and centralized repositories, leading to inefficiencies and missing key publications.",
+  "solution": [
+    "Secure, audit-cleared platform designed per IAEA guidelines with centralized governance",
+    "User-friendly, collaborative publishing and review capabilities",
+    "Standardized, configurable publishing system with consistent styling and formatting",
+    "Workflow-based revisions to streamline content creation and approvals",
+    "Scalable solution with strong reporting engine"
+  ],
+  "technologies": [
+    "CSS3",
+    "JavaScript",
+    "Microsoft .NET",
+    "HTML5",
+    "SharePoint",
+    "Azure DevOps",
+    "PDF Export"
+  ],
+  "impact": {
+    "operationalCostReduction": "40%",
+    "adoptedByTenants": "NS and NE tenants with more onboarding",
+    "securityCompliance": "Designed per stringent IAEA security guidelines",
+    "businessValue": "Positioned Accion as preferred choice for solution delivery"
+  },
+  "outcomes": [
+    "40% reduction in operational cost",
+    "Established Accion's Penetration Testing practice",
+    "Positioned as preferred provider among competitors",
+    "Built robust cybersecurity framework from ground up"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_security",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/iaea.md"
+  },
+  "type": "casestudy"
+}

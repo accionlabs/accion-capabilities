@@ -1,0 +1,249 @@
+{
+  "id": "coe_reengineering",
+  "type": "coe",
+  "data": {
+    "name": "Technology Modernization & Application Reengineering Center of Excellence",
+    "description": "Accion's Application Reengineering Center of Excellence specializes in transforming legacy monolithic applications into modern, scalable digital platforms using innovative engineering principles. The CoE provides comprehensive reengineering services including legacy UI to digital experiences transformation, monolithic to microservices migration, infrastructure modernization from servers to containers on cloud, and waterfall to CI/CD automation. Utilizing the proprietary Breeze framework, the CoE enables organizations to achieve faster feature delivery, reduced technical debt, and improved user experiences through systematic application modernization.",
+    "category": "Digital Products",
+    "order": 8,
+    "keyCompetencies": [
+      "Application Reengineering and Modernization",
+      "Legacy UI to Digital Experiences Transformation",
+      "Monolithic to Microservices Architecture Migration",
+      "Transactional to Big Data Systems Conversion",
+      "Infrastructure Modernization (Servers to Containers on Cloud)",
+      "Waterfall to CI/CD Automation Transformation",
+      "Breeze Framework Implementation",
+      "Time-Boxed Release Methodology",
+      "Containerized Platform Development",
+      "API Layer Design and Implementation",
+      "Data Lake and AI/ML Integration",
+      "UX/UI Reengineering and Design",
+      "Technology Modernization Strategy",
+      "Incremental Value Delivery",
+      "Parallel Development and Integration",
+      "Module-by-Module Migration",
+      "Tech Debt Addressal",
+      "Cloud-Native Application Development",
+      "Event-Driven Architecture",
+      "Platform Services Integration"
+    ],
+    "services": [
+      {
+        "name": "Legacy Application Assessment and Planning",
+        "description": "Comprehensive analysis of legacy systems to create modernization roadmaps and migration strategies",
+        "deliverables": [
+          "Legacy system assessment",
+          "Technology modernization roadmap",
+          "Migration strategy",
+          "Risk analysis and mitigation plan"
+        ]
+      },
+      {
+        "name": "UI/UX Modernization",
+        "description": "Transform legacy user interfaces into modern, responsive digital experiences with improved usability",
+        "deliverables": [
+          "Modern UI/UX designs",
+          "Responsive web applications",
+          "Mobile-optimized interfaces",
+          "User experience optimization"
+        ]
+      },
+      {
+        "name": "Microservices Architecture Migration",
+        "description": "Decompose monolithic applications into loosely coupled, containerized microservices",
+        "deliverables": [
+          "Microservices design",
+          "Container orchestration",
+          "Service mesh implementation",
+          "API gateway configuration"
+        ]
+      },
+      {
+        "name": "Cloud Infrastructure Modernization",
+        "description": "Migrate from legacy server infrastructure to cloud-native containerized platforms",
+        "deliverables": [
+          "Cloud migration strategy",
+          "Containerized deployments",
+          "Auto-scaling configurations",
+          "High availability architecture"
+        ]
+      },
+      {
+        "name": "CI/CD Pipeline Implementation",
+        "description": "Transform manual waterfall processes into automated continuous integration and deployment pipelines",
+        "deliverables": [
+          "Automated build pipelines",
+          "Testing automation",
+          "Deployment orchestration",
+          "Release management"
+        ]
+      },
+      {
+        "name": "Data Architecture Modernization",
+        "description": "Convert traditional transactional systems to big data analytics platforms with AI/ML capabilities",
+        "deliverables": [
+          "Data lake architecture",
+          "Real-time analytics",
+          "Machine learning integration",
+          "Data governance framework"
+        ]
+      },
+      {
+        "name": "Breeze Framework Integration",
+        "description": "Implement Accion's proprietary Breeze framework for accelerated platform development",
+        "deliverables": [
+          "Framework configuration",
+          "Pre-built components",
+          "Platform services",
+          "Integration services"
+        ]
+      },
+      {
+        "name": "Time-Boxed Incremental Development",
+        "description": "Structured release methodology with iterative development cycles for continuous value delivery",
+        "deliverables": [
+          "Release planning",
+          "Sprint execution",
+          "Continuous testing",
+          "Iterative deployment"
+        ]
+      }
+    ],
+    "technologies": [
+      "React",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Python",
+      "Java",
+      "C#",
+      ".NET",
+      "Docker",
+      "Kubernetes",
+      "OpenShift",
+      "Helm",
+      "Istio",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)",
+      "AWS EKS",
+      "Azure AKS",
+      "GKE",
+      "Jenkins",
+      "GitHub Actions",
+      "Azure DevOps",
+      "GitLab CI/CD",
+      "CircleCI",
+      "Terraform",
+      "Ansible",
+      "CloudFormation",
+      "ARM Templates",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Elasticsearch",
+      "Apache Kafka",
+      "RabbitMQ",
+      "Apache Spark",
+      "Hadoop",
+      "Snowflake",
+      "Spring Boot",
+      "Express.js",
+      "FastAPI",
+      "ASP.NET Core",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack",
+      "Datadog",
+      "New Relic",
+      "Nginx",
+      "Apache",
+      "API Gateway",
+      "Kong",
+      "Zuul",
+      "TensorFlow",
+      "PyTorch",
+      "MLflow",
+      "Apache Airflow",
+      "Breeze Framework",
+      "Microservices Platform Services"
+    ],
+    "businessValue": "Accion's Application Reengineering CoE delivers transformational business value through reduced time-to-market (from months to weeks for new features), enhanced system performance and scalability, improved user experiences with modern interfaces, and significant cost optimization through cloud-native architectures. The CoE enables organizations to eliminate technical debt, achieve faster deployment cycles, improve system reliability and availability, reduce infrastructure costs by 20-80%, and enhance team productivity through modern development practices and automation.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_reengineering.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "backend_runtime",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "data_orchestration"
+      }
+    }
+  ]
+}

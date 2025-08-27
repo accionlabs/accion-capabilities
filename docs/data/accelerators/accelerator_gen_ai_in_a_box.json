@@ -1,0 +1,71 @@
+{
+  "id": "accelerator_gen_ai_in_a_box",
+  "type": "accelerator",
+  "name": "Gen AI in a Box",
+  "category": "AI & GenAI Solutions",
+  "description": "Secure on-premise AI deployment solution for enterprise environments with complete data sovereignty and control",
+  "keyFeatures": [
+    "KAPS Framework Integration - Built on proven GenAI adoption framework",
+    "Pluggable LLM Models - Flexible model selection and deployment",
+    "Enterprise Security Controls - Comprehensive security and compliance features",
+    "Hardware Partnership - Optimized for Dell/Lenovo enterprise hardware"
+  ],
+  "clientValue": [
+    "On-Premise AI Deployment - Complete data sovereignty and control",
+    "Data Sovereignty Compliance - Meet regulatory requirements for sensitive data",
+    "Reduced Cloud Dependency Costs - Lower ongoing operational expenses",
+    "Enhanced Security Posture - Air-gapped AI capabilities for sensitive environments"
+  ],
+  "successStories": [],
+  "techStack": [
+    "On-premise LLMs",
+    "Security frameworks",
+    "Dell/Lenovo hardware"
+  ],
+  "targetIndustries": [
+    "Healthcare",
+    "Financial Services",
+    "Government"
+  ],
+  "businessImpactMetrics": [
+    "Complete data sovereignty and control",
+    "Regulatory compliance for sensitive data",
+    "Lower ongoing operational expenses",
+    "Air-gapped AI capabilities"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_security",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/gen_ai_in_a_box.md"
+  }
+}

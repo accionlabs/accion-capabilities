@@ -1,0 +1,63 @@
+{
+  "id": "case_bank_transformation",
+  "name": "Digital Transformation for Major US Bank",
+  "description": "Complete digital transformation of retail banking operations",
+  "clientName": "Major US Bank",
+  "challenge": "Legacy systems limiting digital innovation and customer experience",
+  "solution": "Implemented cloud-native microservices architecture with AI-powered customer insights",
+  "outcomes": [
+    {
+      "description": "Reduced transaction processing time",
+      "impact": "Critical for customer satisfaction",
+      "measuredValue": "75% reduction"
+    },
+    {
+      "description": "Improved customer satisfaction scores",
+      "impact": "Key business metric",
+      "measuredValue": "NPS increased by 40 points"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Processing Time",
+      "value": "75",
+      "unit": "%",
+      "improvement": "reduction"
+    },
+    {
+      "name": "Customer Satisfaction",
+      "value": "40",
+      "unit": "NPS points",
+      "improvement": "increase"
+    },
+    {
+      "name": "Cost Savings",
+      "value": "5",
+      "unit": "million USD",
+      "improvement": "annual savings"
+    }
+  ],
+  "type": "casestudy",
+  "tags": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "platform_unifiedai",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "DELIVERS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/bank_transformation.md"
+  }
+}

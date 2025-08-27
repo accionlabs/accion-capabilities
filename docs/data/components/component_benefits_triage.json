@@ -1,0 +1,73 @@
+{
+  "id": "component_benefits_triage",
+  "name": "Benefits Triage - Claims Requirements Configurator",
+  "category": "component",
+  "description": "Healthcare benefits configuration with validation logic and regulatory compliance",
+  "componentType": "Healthcare Component",
+  "strategicValue": "Accelerates healthcare benefits administration with automated validation and compliance",
+  "clientValue": [
+    "Accelerated benefits setup and configuration",
+    "Reduced configuration errors and manual processing",
+    "Built-in regulatory compliance validation",
+    "Streamlined claims processing workflows"
+  ],
+  "technicalSpecs": [
+    "Configurable business rules engine",
+    "Healthcare standards compliance (HIPAA, ACA)",
+    "Validation frameworks and logic",
+    "Claims processing automation",
+    "Integration with benefits systems"
+  ],
+  "integrationPoints": [
+    "Healthcare payer systems",
+    "Benefits administration platforms",
+    "PBM (Pharmacy Benefit Management) solutions",
+    "Claims processing systems"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Setup Time Reduction",
+      "value": "60",
+      "unit": "% faster benefits configuration"
+    },
+    {
+      "name": "Error Reduction",
+      "value": "80",
+      "unit": "% fewer configuration errors"
+    }
+  ],
+  "useCases": [
+    "Healthcare payer benefits management",
+    "Employee benefits administration",
+    "PBM solution configuration",
+    "Claims requirements validation"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "healthcare",
+    "benefits",
+    "compliance"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "SERVES"
+      },
+      {
+        "to": "platform_ezebenefits",
+        "type": "INTEGRATES_WITH"
+      },
+      {
+        "to": "coe_medical_imaging",
+        "type": "BELONGS_TO"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/benefits_triage.md"
+  }
+}

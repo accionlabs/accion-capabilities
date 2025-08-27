@@ -1,0 +1,80 @@
+{
+  "id": "accelerator_data_orchestrator",
+  "name": "DataFlow Orchestrator",
+  "category": "accelerator",
+  "description": "Automated data pipeline orchestration and management solution",
+  "solutionType": "Data Pipeline Automation",
+  "strategicValue": "Reduces data pipeline development time by 60%",
+  "clientValue": [
+    "Pre-built connectors for 50+ data sources",
+    "Visual pipeline designer",
+    "Built-in data quality checks"
+  ],
+  "keyFeatures": [
+    {
+      "name": "Visual Pipeline Designer",
+      "description": "Drag-and-drop interface for building data pipelines",
+      "businessValue": "Reduces development time by 60%"
+    },
+    {
+      "name": "Data Quality Framework",
+      "description": "Automated data validation and cleansing",
+      "businessValue": "Improves data quality by 40%"
+    }
+  ],
+  "clientValueMetrics": [
+    {
+      "name": "Pipeline Development Time",
+      "value": "60",
+      "unit": "%",
+      "improvement": "reduction"
+    },
+    {
+      "name": "Data Quality Score",
+      "value": "95",
+      "unit": "%"
+    }
+  ],
+  "successStories": [
+    {
+      "client": "Major US Bank",
+      "outcome": "Reduced data pipeline development from 3 months to 3 weeks",
+      "metrics": [
+        {
+          "name": "Development Time",
+          "value": "75",
+          "unit": "%",
+          "improvement": "reduction"
+        }
+      ]
+    }
+  ],
+  "deploymentTime": "2-4 weeks",
+  "costSavings": "$500K annually",
+  "type": "accelerator",
+  "tags": [
+    "accelerator"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_spark",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_apache_airflow",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_data_analytics",
+        "type": "USES"
+      }
+    ]
+  }
+}

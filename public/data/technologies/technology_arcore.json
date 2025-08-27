@@ -1,0 +1,22 @@
+{
+  "id": "technology_arcore",
+  "name": "ARCore",
+  "description": "Google's AR development platform",
+  "category": "platform",
+  "vendor": "Google",
+  "isOpenSource": false,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "proto_ar_field_service",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

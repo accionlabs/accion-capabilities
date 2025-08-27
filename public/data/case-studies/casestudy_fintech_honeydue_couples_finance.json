@@ -1,0 +1,52 @@
+{
+  "id": "casestudy_fintech_honeydue_couples_finance",
+  "type": "casestudy",
+  "name": "Honeydue - Personal Financial Planning App for Couples",
+  "client": "Honeydue (Personal Finance Startup)",
+  "industry": "Financial Services",
+  "description": "Native mobile application development for couples' personal finance management, enabling partners to track bills, bank account balances, and spending together while maintaining privacy control over shared financial information.",
+  "challenge": "Couples relied on spreadsheets to manage and share financial activities. Constant need for proactively checking upcoming bills across multiple bank accounts with messy statements. Need for native mobile apps supporting both user types (User and Partner) with configurable privacy sharing options.",
+  "solution": "Developed native iOS and Android applications with 5 core modules for dual user types. Features include configurable information sharing with partners, consolidated transaction tracking, unified bank account balance views, automatic spending categorization with graphical displays, bill reminder notifications, and personalized offers for credit cards, investments, loans, and insurance.",
+  "outcomes": [
+    "Revolutionary couples' finance management platform",
+    "Eliminated spreadsheet dependency for financial tracking",
+    "Unified view of multiple bank accounts and transactions",
+    "Automated bill reminders and notifications",
+    "Advanced spending categorization and visualization",
+    "Personalized financial product recommendations",
+    "Enhanced financial transparency and collaboration between partners"
+  ],
+  "technologies": [
+    "Swift 3.0",
+    "Objective-C",
+    "Native iOS Development",
+    "Native Android Development",
+    "MPAndroidChart Library",
+    "iOS Charts Framework",
+    "Bank API Integrations",
+    "Financial Data Aggregation",
+    "Push Notifications",
+    "GitHub",
+    "XCode",
+    "Trello Project Management"
+  ],
+  "duration": "Mobile application development engagement",
+  "teamSize": "Mobile development specialists and financial technology experts",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/fintech_honeydue_couples_finance.md"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "casestudy_leadventure",
+  "name": "Leadventure - Digital Dealership Platform & Virtual Showroom",
+  "client": "Leadventure",
+  "industry": "Automotive Technology",
+  "description": "Comprehensive product development and maintenance for the market-leading provider of digital solutions for vehicle dealerships, including virtual showroom experiences and modernized distribution center operations.",
+  "challenge": "Legacy codebase on deprecated technology created maintenance challenges, with limited skills availability and lack of proper knowledge repository. Building new applications that needed to integrate with legacy systems while providing virtual walkaround experiences.",
+  "solution": [
+    "Virtual showroom platform with 360° vehicle visualization directly from mobile",
+    "Built 12-member pilot team growing to 30 people in 18 months",
+    "Created reusable training materials for 30-year old legacy tech stack",
+    "Established knowledge repository within client network",
+    "Complete automation of path-to-production for ten workstreams",
+    "Infrastructure-as-code implementation for efficient resource utilization"
+  ],
+  "technologies": [
+    "CLARION",
+    "Classic ASP",
+    "PostgreSQL",
+    "Android",
+    "iOS",
+    "Figma",
+    "Laravel",
+    "Node.js",
+    "TFS",
+    "Azure DevOps",
+    "Terraform",
+    "Bitbucket"
+  ],
+  "impact": {
+    "teamGrowth": "30 people in 18 months from 12-member pilot",
+    "trainingEfficiency": "New resources fully trained within 2 weeks",
+    "margins": "40% margins through retrained resources and reusable framework",
+    "attrition": "No attrition in 2 years",
+    "automation": "Complete path-to-production automation for all workstreams"
+  },
+  "outcomes": [
+    "Delivered modernization exercise for DMS software",
+    "Anyone can capture 360° view using mobile app without special equipment",
+    "Extended functionality to interior design and other visualization use-cases",
+    "Reduced infrastructure spend leading to client commendation",
+    "Ensured system uptime SLA adherence and predictability"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_devops",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/leadventure.md"
+  },
+  "type": "casestudy"
+}

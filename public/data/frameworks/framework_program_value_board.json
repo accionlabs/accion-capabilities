@@ -1,0 +1,63 @@
+{
+  "id": "framework_program_value_board",
+  "name": "Program Value Board (PVB)",
+  "category": "framework",
+  "description": "Program governance framework with PM best practices assessment and objective evaluation",
+  "frameworkType": "Governance Framework",
+  "methodology": "Structured program governance with maturity scoring and quality metrics",
+  "strategicValue": "Ensures consistent program delivery through objective evaluation and early risk identification",
+  "clientValue": [
+    "Consistent program delivery standards",
+    "Objective evaluation and assessment",
+    "Early risk identification and mitigation",
+    "Improved program success rates"
+  ],
+  "deliverables": [
+    "Program governance templates",
+    "Maturity scoring frameworks",
+    "Quality metrics and KPIs",
+    "Action tracking and remediation plans",
+    "Best practices documentation"
+  ],
+  "frameworkComponents": [
+    "Governance Templates: Standardized program structures",
+    "Maturity Scoring: Objective capability assessment",
+    "Quality Metrics: Performance measurement",
+    "Action Tracking: Issue resolution and improvement"
+  ],
+  "targetScenarios": [
+    "Large-scale program management",
+    "Enterprise transformation initiatives",
+    "Strategic partnership programs",
+    "Multi-project portfolio management"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "governance",
+    "program-management",
+    "quality"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "framework_architecture_value_board",
+        "type": "COMPLEMENTS"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "framework_architecture_value_board",
+        "type": "COMPLEMENTS"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/program-value-board.md"
+  }
+}

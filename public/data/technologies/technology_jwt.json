@@ -1,0 +1,12 @@
+{
+  "id": "technology_jwt",
+  "name": "JWT",
+  "description": "JSON Web Token standard",
+  "category": "framework",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "framework"
+  ]
+}

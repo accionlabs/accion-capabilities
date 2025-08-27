@@ -1,0 +1,65 @@
+{
+  "id": "accelerator_cloud_map",
+  "type": "accelerator",
+  "name": "Cloud Map",
+  "category": "Cloud & Infrastructure",
+  "description": "Multi-cloud management and cost optimization platform with comprehensive resource tracking",
+  "keyFeatures": [
+    "Resource Tracking - Comprehensive cloud resource monitoring",
+    "Cost Optimization - Automated cost reduction recommendations",
+    "Governance Enforcement - Policy compliance and security controls",
+    "Multi-Cloud Support - Unified management across cloud providers"
+  ],
+  "clientValue": [
+    "Cloud Cost Reduction - 15-30% reduction in cloud costs",
+    "Resource Utilization - Improved efficiency and optimization",
+    "Security Compliance - Enhanced security posture and governance",
+    "Operational Visibility - Comprehensive cloud infrastructure insights"
+  ],
+  "successStories": [],
+  "techStack": [
+    "Multi-cloud monitoring",
+    "FinOps tools",
+    "Governance frameworks"
+  ],
+  "targetIndustries": [
+    "All cloud-using industries"
+  ],
+  "businessImpactMetrics": [
+    "15-30% reduction in cloud costs",
+    "Improved efficiency and optimization",
+    "Enhanced security posture and governance",
+    "Comprehensive cloud infrastructure insights"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_terraform",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_kubernetes",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      },
+      {
+        "from": "coe_architecture",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/cloud_map.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "technology_bitcoin",
+  "type": "technology",
+  "name": "Bitcoin",
+  "description": "Pioneer cryptocurrency and blockchain platform providing decentralized digital currency and peer-to-peer transactions",
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "cryptocurrency",
+    "bitcoin",
+    "digital-currency",
+    "peer-to-peer"
+  ],
+  "relationships": []
+}

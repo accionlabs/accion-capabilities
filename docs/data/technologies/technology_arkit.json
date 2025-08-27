@@ -1,0 +1,13 @@
+{
+  "id": "technology_arkit",
+  "name": "ARKit",
+  "description": "Apple's AR development framework",
+  "category": "framework",
+  "vendor": "Apple",
+  "isOpenSource": false,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "framework"
+  ]
+}

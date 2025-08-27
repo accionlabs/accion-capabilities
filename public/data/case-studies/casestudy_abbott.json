@@ -1,0 +1,60 @@
+{
+  "id": "casestudy_abbott",
+  "type": "casestudy",
+  "name": "Abbott Laboratories - eCommerce Test Automation and Content Management",
+  "client": "Abbott Laboratories",
+  "industry": "Healthcare & Pharmaceuticals",
+  "description": "Automated testing for eCommerce platforms and enhanced content management capabilities for global healthcare leader, enabling better digital experiences through comprehensive test coverage and streamlined content workflows.",
+  "challenge": "Manual regression cycles repeated for every deployment across multiple eCommerce platforms. Limited test coverage due to manual constraints, manual test data creation, and risk of human error leading to production defects. Complex content management dependencies and limited SEO optimization in existing AEM implementation.",
+  "solution": "Developed reusable, robust test automation framework for eCommerce website with complete end-to-end automated test cases. Implemented Adobe Experience Manager (AEM) as CMS with site structure and information architecture to build and migrate 40 websites. Automated test data setup and established governance processes.",
+  "outcomes": [
+    "Testing time reduced from 24 hours to 4 hours (83% improvement)",
+    "Enhanced scalability and reusability of testing assets",
+    "Increased test coverage improving application quality",
+    "Eliminated probability of human error and defect leakage",
+    "SEO-optimized websites with latest best practices",
+    "Robust website architectures with single source for managing content",
+    "Simplified multilingual content management"
+  ],
+  "technologies": [
+    "Test Automation Framework",
+    "End-to-end Test Cases",
+    "Test Data Generation",
+    "Adobe Experience Manager (AEM)",
+    "Content Migration Frameworks",
+    "SEO Optimization",
+    "Multilingual Content Management",
+    "Governance Workflow Templates"
+  ],
+  "duration": "eCommerce and content management optimization engagement",
+  "teamSize": "Quality engineering and content management specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_testing",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/abbott.md"
+  }
+}

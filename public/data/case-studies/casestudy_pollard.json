@@ -1,0 +1,46 @@
+{
+  "id": "casestudy_pollard",
+  "name": "Pollard - PlayOn + iLottery Platform Integration",
+  "client": "Pollard Banknote",
+  "industry": "Gaming/Lottery",
+  "description": "Enhancing player engagement and retention through PlayOn+iLottery platform, developing loyalty platform with real-time analytics, loyalty integration, responsible gaming tools, and personalized marketing for lottery operators.",
+  "challenge": "Integration of new iLottery platform with existing Loyalty Platform, backward compatibility for client's existing clients, aggressive delivery timeline, and team had to upskill on new tech stack.",
+  "solution": [
+    "Real-money online play implementation for first time with new iLottery platform",
+    "80% code coverage (SonarQube) and QA automation achieved",
+    "Team worked 1000+ hours of overtime for 5 months to meet delivery milestone",
+    "Quick understanding of requirements with efficient parallel task management",
+    "Seamless integration enabling quality delivery on time"
+  ],
+  "technologies": [
+    "Java",
+    "Spring Boot",
+    "React.js",
+    "Nexus",
+    "TypeScript",
+    "Contentful",
+    "GraphQL",
+    "Docker",
+    "Kubernetes"
+  ],
+  "impact": {
+    "instantTicketSales": "55,000 einstant ticket sales",
+    "revenue": "$150k in less than 24 hours of launch",
+    "marginAchieved": "41%",
+    "codeQuality": "80% code coverage with automated testing"
+  },
+  "outcomes": [
+    "Application supported 55,000 einstant ticket sales and $150k revenue in less than 24 hours",
+    "41% margin achieved on project delivery",
+    "Successfully implemented real-money online play for first time",
+    "Recognized by Pollard leadership for successful go-live with first-time integration"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_ecommerce",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/pollard.md"
+  },
+  "type": "casestudy"
+}

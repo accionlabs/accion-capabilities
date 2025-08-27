@@ -1,0 +1,122 @@
+{
+  "id": "platform_accion_connect",
+  "type": "platform",
+  "data": {
+    "name": "Accion Connect",
+    "description": "Accion Connect is a comprehensive digital workplace platform that unifies communication, collaboration, and productivity tools into a single integrated ecosystem. The platform provides secure messaging, video conferencing, document collaboration, project management, and workflow automation capabilities, enabling seamless remote and hybrid work experiences while maintaining enterprise-grade security and compliance.",
+    "category": "Collaboration Platform",
+    "status": "Active",
+    "version": "4.2",
+    "lastUpdated": "2025-08-22",
+    "keyCapabilities": [
+      "Unified Communications Hub",
+      "Real-time Collaboration Tools",
+      "Video Conferencing and Screen Sharing",
+      "Document Management System",
+      "Project and Task Management",
+      "Workflow Automation Engine",
+      "Employee Directory and Profiles",
+      "Knowledge Base Integration",
+      "Mobile-First Experience",
+      "AI-Powered Virtual Assistant",
+      "Analytics and Insights Dashboard",
+      "Third-party App Integration"
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "WebRTC",
+      "Socket.io",
+      "MongoDB",
+      "Redis",
+      "Elasticsearch",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Microsoft Graph API",
+      "OAuth 2.0"
+    ],
+    "benefits": [
+      "40% improvement in team collaboration",
+      "35% reduction in meeting time",
+      "50% faster project completion",
+      "60% reduction in email volume",
+      "Enterprise-grade security and compliance",
+      "Seamless integration with existing tools",
+      "Real-time collaboration across time zones",
+      "Centralized knowledge management"
+    ],
+    "targetMarket": [
+      "Enterprise organizations",
+      "Distributed teams",
+      "Remote-first companies",
+      "Professional services firms",
+      "Technology companies"
+    ],
+    "deploymentOptions": [
+      "Cloud SaaS",
+      "On-premises",
+      "Hybrid deployment",
+      "Private cloud"
+    ],
+    "integrations": [
+      "Microsoft 365",
+      "Google Workspace",
+      "Salesforce",
+      "Slack",
+      "Jira",
+      "ServiceNow",
+      "SAP",
+      "Oracle"
+    ],
+    "security": {
+      "encryption": "End-to-end encryption",
+      "compliance": ["SOC 2", "ISO 27001", "GDPR", "HIPAA"],
+      "authentication": "Multi-factor authentication, SSO",
+      "dataResidency": "Regional data centers"
+    },
+    "metrics": {
+      "activeUsers": "100,000+",
+      "dailyMessages": "5M+",
+      "videoMinutes": "10M+ monthly",
+      "uptime": "99.99%"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_experience_design",
+      "metadata": {
+        "relationship": "user_experience"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "purpose": "frontend_development"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "purpose": "backend_services"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "purpose": "orchestration"
+      }
+    }
+  ]
+}

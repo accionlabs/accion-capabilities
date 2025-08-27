@@ -1,0 +1,70 @@
+{
+  "id": "casestudy_digital_advertising_monitoring",
+  "type": "casestudy",
+  "name": "Digital Advertising Platform - 24×7 System Monitoring and Alert Response",
+  "client": "Leading Cloud-Based Digital Advertising Platform",
+  "industry": "Digital Marketing & Advertising",
+  "description": "Implemented comprehensive 24×7 monitoring and alert response system for a recognized leader in cloud-based data-driven platform delivering personalized digital advertising and marketing solutions, achieving 90% reduction in advertisement downtime.",
+  "challenge": "The client had multiple workloads across multiple environments requiring 24/7 monitoring, needed AWS-skilled resources to track and maintain infrastructure around the clock, had problems overseeing digitized ads and videos, and required crucial platform monitoring to support expanding advertising operations.",
+  "solution": "Built comprehensive observability platforms to collect all parameters requiring end-to-end monitoring in infrastructure and applications. Implemented Prometheus and Grafana for centralized insights, structured dashboards for understanding and alerting mechanisms through Datadog. Integrated critical parameter alerts in Slack and mail, defined SLAs with proactive measures, established L1/L2/L3 support models, planned enhanced architecture with automation, conducted cost optimization, and provided periodic security assessments with monthly reporting.",
+  "outcomes": [
+    "Detection of issues through log alerts and security-related monitoring reduced advertisement downtime by 90%",
+    "Infrastructure observability leads to peak performance and reliability",
+    "Infrastructure cost was optimized by 30%",
+    "Integration of alerts in slack channel and mail increased the productivity and compliance by 70%",
+    "End-to-End observability solution continuously tracked and ensured higher uptime and improved user experience"
+  ],
+  "technologies": [
+    "AWS",
+    "EC2",
+    "S3",
+    "Lambda",
+    "ELB",
+    "Redshift",
+    "RDS",
+    "EMR",
+    "EKS",
+    "Datadog",
+    "Prometheus",
+    "Grafana",
+    "AWS MSK",
+    "Snowflake",
+    "Slack",
+    "PagerDuty"
+  ],
+  "duration": "12-month implementation and ongoing managed services",
+  "teamSize": "8-member dedicated monitoring and SRE team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_datadog",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_prometheus",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_grafana",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_observability",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_digital_marketing",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/digital_advertising_monitoring.md"
+  }
+}

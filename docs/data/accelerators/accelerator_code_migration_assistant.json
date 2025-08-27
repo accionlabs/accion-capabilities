@@ -1,0 +1,70 @@
+{
+  "id": "accelerator_code_migration_assistant",
+  "type": "accelerator",
+  "name": "Code Migration Assistant",
+  "category": "Development Tools",
+  "description": "AI-powered code transformation and developer productivity tools with systematic technical debt reduction",
+  "keyFeatures": [
+    "Code Transformation - Automated code modernization and migration",
+    "Developer Productivity Tools - AI-assisted development capabilities",
+    "Technical Debt Reduction - Systematic code quality improvement",
+    "Integration Ready - Seamless integration with development workflows"
+  ],
+  "clientValue": [
+    "Developer Productivity - 35-50% increase in developer efficiency",
+    "Code Quality - Consistent, high-quality code generation",
+    "Maintenance Cost Reduction - Lower long-term maintenance expenses",
+    "Knowledge Transfer - Reduced dependency on legacy system expertise"
+  ],
+  "successStories": [],
+  "techStack": [
+    "LLMs",
+    "Code analysis",
+    "Version control integration"
+  ],
+  "targetIndustries": [
+    "Software Development",
+    "IT Services"
+  ],
+  "businessImpactMetrics": [
+    "35-50% increase in developer efficiency",
+    "Consistent, high-quality code generation",
+    "Lower long-term maintenance expenses",
+    "Reduced dependency on legacy expertise"
+  ],
+  "maturityLevel": "developing",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_github_actions",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      },
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/code_migration_assistant.md"
+  }
+}

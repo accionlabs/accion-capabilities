@@ -1,0 +1,238 @@
+{
+  "id": "coe_sre",
+  "type": "coe",
+  "data": {
+    "name": "Site Reliability Engineering Center of Excellence",
+    "description": "Accion's Site Reliability Engineering (SRE) Center of Excellence focuses on bridging the gap between development and operations by applying software engineering principles to operations problems. The CoE provides comprehensive services including SLI/SLO/SLA management, error budget implementation, incident management, reliability engineering, chaos engineering, and performance optimization. With 50+ dedicated SRE professionals and proven methodologies, the CoE enables organizations to achieve exceptional system reliability, proactive issue resolution, and sustainable operational excellence through data-driven approaches and automation.",
+    "category": "Cloud",
+    "order": 3,
+    "keyCompetencies": [
+      "SLI/SLO/SLA Management and Implementation",
+      "Error Budget Management and Burn Rate Analysis",
+      "Incident Management and Response",
+      "Post-Mortem Culture and Blameless Analysis",
+      "Reliability Engineering and Design",
+      "Chaos Engineering and Resilience Testing",
+      "Performance Optimization and Capacity Planning",
+      "On-Call Practices and Escalation Management",
+      "Toil Reduction and Automation",
+      "Mean Time to Recovery (MTTR) Optimization",
+      "Service Level Management",
+      "Risk Assessment and Mitigation",
+      "Release Engineering and Deployment Safety",
+      "System Architecture for Reliability",
+      "Operational Readiness Reviews",
+      "Disaster Recovery and Business Continuity",
+      "Alert Fatigue Reduction",
+      "Reliability Metrics and KPIs",
+      "Change Management and Risk Analysis",
+      "Production Readiness and Launch Reviews"
+    ],
+    "services": [
+      {
+        "name": "SLO/SLI Framework Implementation",
+        "description": "Design and implement comprehensive Service Level Objectives and Indicators for measuring and improving service reliability",
+        "deliverables": [
+          "SLI definition and measurement setup",
+          "SLO targets and error budget calculation",
+          "SLA compliance monitoring",
+          "Reliability dashboards and reporting"
+        ]
+      },
+      {
+        "name": "Error Budget Management",
+        "description": "Implement error budget policies and burn rate analysis for balancing reliability with feature velocity",
+        "deliverables": [
+          "Error budget policies and thresholds",
+          "Burn rate alerting and escalation",
+          "Feature freeze decision frameworks",
+          "Release velocity optimization"
+        ]
+      },
+      {
+        "name": "Incident Management and Response",
+        "description": "Structured incident response processes with clear escalation paths and resolution procedures",
+        "deliverables": [
+          "Incident response playbooks",
+          "On-call rotation and escalation procedures",
+          "Incident commander training",
+          "Real-time incident dashboards"
+        ]
+      },
+      {
+        "name": "Post-Mortem and Learning Culture",
+        "description": "Blameless post-mortem processes focused on learning and continuous improvement",
+        "deliverables": [
+          "Post-mortem templates and processes",
+          "Root cause analysis frameworks",
+          "Action item tracking and follow-up",
+          "Learning and knowledge sharing sessions"
+        ]
+      },
+      {
+        "name": "Chaos Engineering and Resilience Testing",
+        "description": "Proactive reliability testing through controlled chaos experiments and resilience validation",
+        "deliverables": [
+          "Chaos engineering experiments",
+          "Resilience testing frameworks",
+          "Failure mode analysis",
+          "System hardening recommendations"
+        ]
+      },
+      {
+        "name": "Performance Optimization and Capacity Planning",
+        "description": "Systematic performance analysis and capacity planning for sustainable system growth",
+        "deliverables": [
+          "Performance benchmarking and profiling",
+          "Capacity forecasting models",
+          "Resource utilization optimization",
+          "Scalability testing and recommendations"
+        ]
+      },
+      {
+        "name": "On-Call Excellence and Alert Management",
+        "description": "Optimized on-call practices with intelligent alerting and minimal toil",
+        "deliverables": [
+          "On-call rotation schedules",
+          "Alert quality improvement",
+          "Escalation policies and procedures",
+          "On-call health and wellness metrics"
+        ]
+      },
+      {
+        "name": "Toil Reduction and Automation",
+        "description": "Systematic identification and elimination of repetitive manual work through automation",
+        "deliverables": [
+          "Toil identification and measurement",
+          "Automation opportunity analysis",
+          "Self-healing system implementation",
+          "Operational task automation"
+        ]
+      },
+      {
+        "name": "Production Readiness Reviews",
+        "description": "Comprehensive assessments of service readiness for production deployment",
+        "deliverables": [
+          "Production readiness checklists",
+          "Architecture review and recommendations",
+          "Operational requirement validation",
+          "Go-live approval and sign-off"
+        ]
+      },
+      {
+        "name": "Reliability Engineering Consulting",
+        "description": "Expert consulting on system design and architecture for optimal reliability",
+        "deliverables": [
+          "Reliability architecture reviews",
+          "Design pattern recommendations",
+          "Failure mode analysis",
+          "Reliability best practices implementation"
+        ]
+      }
+    ],
+    "technologies": [
+      "Prometheus",
+      "Grafana",
+      "PagerDuty",
+      "OpsGenie",
+      "Datadog",
+      "New Relic",
+      "Sumo Logic",
+      "Splunk",
+      "OpenTelemetry",
+      "Jaeger",
+      "Zipkin",
+      "AlertManager",
+      "Kubernetes",
+      "Docker",
+      "Istio",
+      "Linkerd",
+      "Consul",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI/CD",
+      "ArgoCD",
+      "Flux",
+      "Litmus Chaos",
+      "Gremlin",
+      "Chaos Monkey",
+      "AWS CloudWatch",
+      "AWS X-Ray",
+      "AWS Systems Manager",
+      "Azure Monitor",
+      "Azure Application Insights",
+      "Google Cloud Monitoring",
+      "Google Cloud Logging",
+      "ELK Stack",
+      "Fluentd",
+      "Loki",
+      "Tempo",
+      "Thanos",
+      "Mimir",
+      "ServiceNow",
+      "Jira",
+      "Slack",
+      "Microsoft Teams",
+      "HashiCorp Vault",
+      "cert-manager",
+      "external-dns",
+      "Falco",
+      "Trivy",
+      "kube-bench",
+      "Load Testing Tools (k6, JMeter, Gatling)",
+      "Apache Kafka",
+      "Redis",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Elasticsearch"
+    ],
+    "businessValue": "Accion's SRE CoE delivers exceptional business value through dramatic improvements in system reliability (99.9%+ uptime), significant reduction in incident response times (70% improvement in MTTR), proactive issue detection (90% of issues resolved before customer impact), and substantial operational cost savings (30-50% reduction in operational overhead). Organizations achieve enhanced customer satisfaction, increased developer productivity, improved business continuity, reduced revenue loss from downtime, and a culture of continuous improvement and learning.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_sre.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_prometheus",
+      "metadata": {
+        "category": "monitoring",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_grafana",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pagerduty",
+      "metadata": {
+        "category": "incident_management"
+      }
+    }
+  ]
+}

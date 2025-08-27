@@ -1,0 +1,73 @@
+{
+  "id": "casestudy_glucose_monitoring",
+  "type": "casestudy",
+  "name": "World's First Cellular-based Continuous Glucose Monitoring Product",
+  "client": "Medical Device Company",
+  "clientType": "provider",
+  "industry": "Healthcare",
+  "description": "Developed the world's first cellular-based continuous glucose monitoring (CGM) product with companion mobile app, enabling real-time diabetes management and remote patient monitoring with significant improvement in patient adherence.",
+  "challenge": "Creating an innovative CGM solution that could operate independently without requiring smartphone proximity, while providing comprehensive data sharing capabilities with healthcare providers, family members, and clinical services. The system needed multi-language support and integration with various third-party health portals.",
+  "solution": "Built a revolutionary cellular-enabled CGM device with companion mobile application featuring real-time glucose monitoring, automated data sharing with approved healthcare professionals and family networks, multi-language support (Spanish and French), integration with multiple third-party health portals for value-based care plans, and comprehensive diabetes management tools.",
+  "outcomes": [
+    "World's first cellular-based CGM technology",
+    "Significant improvement in diabetes management and patient adherence",
+    "Enhanced remote patient monitoring capabilities",
+    "Improved care coordination between patients and providers",
+    "Multi-language accessibility increasing patient adoption",
+    "Seamless integration with value-based care programs"
+  ],
+  "technologies": [
+    "Cellular IoT Technology",
+    "Continuous Glucose Monitoring",
+    "Mobile App Development",
+    "Real-time Data Transmission",
+    "Healthcare API Integration",
+    "Multi-language Localization",
+    "Remote Patient Monitoring",
+    "Cloud Data Processing"
+  ],
+  "duration": "Multi-year product development",
+  "teamSize": "Cross-functional product development team",
+  "keyFeatures": [
+    "Cellular-enabled CGM device for independent operation",
+    "Real-time glucose data transmission and alerts",
+    "Companion mobile app with comprehensive dashboards",
+    "Automated data sharing with healthcare networks",
+    "Multi-language support (English, Spanish, French)",
+    "Integration with third-party health portals",
+    "Family and caregiver access controls",
+    "Value-based care program integration"
+  ],
+  "healthcareImpact": [
+    "Improved diabetes self-management",
+    "Enhanced clinical decision-making",
+    "Reduced hospital readmissions",
+    "Better medication adherence",
+    "Proactive intervention capabilities"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_iot",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "component_hl7_edi_gateway",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_medical_imaging",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/glucose_monitoring.md"
+  }
+}

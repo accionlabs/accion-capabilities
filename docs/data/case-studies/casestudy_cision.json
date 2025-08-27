@@ -1,0 +1,65 @@
+{
+  "id": "casestudy_cision",
+  "type": "casestudy",
+  "name": "Cision - Distribution Platform Re-engineering and GEO Optimization",
+  "client": "Cision",
+  "industry": "Media & Communications",
+  "description": "Modernized distribution platform and implemented Generative Engine Optimization (GEO) for leading media communications solutions provider, optimizing content for emerging digital platforms and AI-driven content discovery.",
+  "challenge": "Legacy distribution platform with multiple technology stacks, fragile infrastructure requiring manual intervention, dated UI/UX, and manual deployment processes. Rising need to optimize content for Large Language Models (LLMs) and understand AI-driven traffic patterns.",
+  "solution": "Re-engineered distribution platform with loosely coupled components, event-driven integrations, and containerized cloud-agnostic infrastructure. Implemented API abstraction, automated CI/CD, and centralized monitoring. Researched and implemented GEO strategies for LLM content optimization and AI-driven PR content approval workflows.",
+  "outcomes": [
+    "60% reduction in average production release rollout time with zero downtime",
+    "Platform handled 35% more orders than previously possible",
+    "Smooth AWS to GCP transition with just one week effort",
+    "99% correct prediction rate for AI content relevance",
+    "250 articles observed ranking high in GEO over 6-8 months",
+    "Approximately $113K savings on annual basis from automation"
+  ],
+  "technologies": [
+    "Containerization",
+    "Cloud-agnostic Infrastructure",
+    "API Gateway",
+    "CI/CD Automation",
+    "Event-driven Architecture",
+    "Machine Learning",
+    "Generative Engine Optimization",
+    "Content Classification",
+    "AWS",
+    "GCP"
+  ],
+  "duration": "Multi-phase platform modernization engagement",
+  "teamSize": "Cloud-native engineering teams with AI/ML specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_kubernetes",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "tech_docker",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "platform_breeze",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_media",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/cision.md"
+  }
+}

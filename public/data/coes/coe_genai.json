@@ -1,0 +1,55 @@
+{
+  "id": "coe_genai",
+  "type": "coe",
+  "data": {
+    "name": "Generative AI CoE",
+    "description": "Harnesses the power of generative AI for innovative solutions",
+    "category": "Data",
+    "order": 1,
+    "keyCompetencies": [
+      "LLM Integration",
+      "Prompt Engineering",
+      "AI Safety",
+      "Multi-modal AI"
+    ],
+    "services": [
+      {
+        "name": "GenAI Strategy & Implementation",
+        "description": "Define and implement generative AI strategies",
+        "deliverables": [
+          "AI Strategy",
+          "Use Case Identification",
+          "Implementation Roadmap"
+        ]
+      }
+    ],
+    "technologies": [
+      "OpenAI GPT",
+      "Anthropic Claude",
+      "LangChain",
+      "Hugging Face",
+      "Vector Databases"
+    ],
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_genai.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {}
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {}
+    },
+    {
+      "type": "USES",
+      "to": "technology_langchain",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "industry_pharma",
+  "name": "Pharmaceuticals",
+  "description": "Pharmaceutical and biotech companies",
+  "segment": "Life Sciences",
+  "type": "industry",
+  "tags": [],
+  "relationships": []
+}

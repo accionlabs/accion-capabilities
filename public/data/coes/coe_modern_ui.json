@@ -1,0 +1,131 @@
+{
+  "id": "coe_modern_ui",
+  "type": "coe",
+  "data": {
+    "name": "Modern UI Development Center of Excellence",
+    "description": "Accion's Modern UI Development Center of Excellence specializes in creating cutting-edge user interfaces using the latest frontend technologies and frameworks. The CoE focuses on responsive design, progressive web applications, mobile-first development, and component-based architectures. With expertise in React, Angular, Vue.js, and modern CSS frameworks, the Modern UI CoE delivers high-performance, accessible, and visually stunning user interfaces that enhance user engagement and satisfaction.",
+    "category": "Digital Products",
+    "order": 8,
+    "keyCompetencies": [
+      "React/Angular/Vue.js Development",
+      "Progressive Web Applications (PWA)",
+      "Responsive Web Design",
+      "Mobile-First Development",
+      "Component Library Development",
+      "State Management Solutions",
+      "Frontend Performance Optimization",
+      "CSS-in-JS and Modern Styling",
+      "Micro-Frontend Architecture",
+      "Accessibility (WCAG) Compliance",
+      "Cross-Browser Compatibility",
+      "Frontend Testing Strategies",
+      "Design System Implementation",
+      "Real-time UI Updates",
+      "WebSocket Integration"
+    ],
+    "services": [
+      {
+        "name": "Frontend Architecture Design",
+        "description": "Modern frontend architecture and framework selection",
+        "deliverables": [
+          "Frontend architecture blueprint",
+          "Technology stack recommendation",
+          "Component structure design",
+          "Performance optimization strategy"
+        ]
+      },
+      {
+        "name": "Design System Development",
+        "description": "Comprehensive design system and component library creation",
+        "deliverables": [
+          "Design system documentation",
+          "Reusable component library",
+          "Style guide and tokens",
+          "Storybook implementation"
+        ]
+      },
+      {
+        "name": "Progressive Web App Development",
+        "description": "PWA development for enhanced mobile experiences",
+        "deliverables": [
+          "PWA implementation",
+          "Offline functionality",
+          "Push notifications",
+          "App-like experience"
+        ]
+      },
+      {
+        "name": "Frontend Modernization",
+        "description": "Legacy UI modernization and migration",
+        "deliverables": [
+          "Migration strategy",
+          "Incremental upgrade plan",
+          "Modern UI implementation",
+          "Performance improvements"
+        ]
+      }
+    ],
+    "technologies": [
+      "React",
+      "Angular",
+      "Vue.js",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Material-UI",
+      "Webpack",
+      "Vite",
+      "Redux",
+      "MobX",
+      "GraphQL",
+      "Storybook",
+      "Jest",
+      "Cypress"
+    ],
+    "businessValue": "Accion's Modern UI Development Center of Excellence delivers exceptional user experiences that increase user engagement by 60%, improve conversion rates by 40%, reduce page load times by 70%, and enhance mobile user satisfaction by 50%. The CoE enables organizations to create modern, scalable, and maintainable frontend applications that drive business success.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_modern_ui.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_experience_design",
+      "metadata": {
+        "relationship": "design_implementation"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_ux",
+      "metadata": {
+        "relationship": "user_experience"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "purpose": "frontend_framework"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_ecommerce",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_media",
+      "metadata": {}
+    }
+  ]
+}

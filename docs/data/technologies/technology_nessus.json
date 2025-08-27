@@ -1,0 +1,51 @@
+{
+  "id": "technology_nessus",
+  "type": "technology",
+  "data": {
+    "name": "Nessus",
+    "description": "Comprehensive vulnerability scanner for identifying security vulnerabilities, configuration issues, and malware",
+    "category": "security",
+    "subcategory": "vulnerability_scanning",
+    "vendor": "Tenable",
+    "type": "tool",
+    "useCases": [
+      "Vulnerability Assessment",
+      "Network Security Scanning",
+      "Web Application Scanning",
+      "Compliance Auditing",
+      "Malware Detection"
+    ],
+    "keyFeatures": [
+      "Comprehensive vulnerability database",
+      "Network and web application scanning",
+      "Configuration auditing",
+      "Malware detection",
+      "Compliance reporting",
+      "Risk-based vulnerability management"
+    ],
+    "complianceFrameworks": [
+      "PCI DSS",
+      "HIPAA",
+      "SOX",
+      "FISMA",
+      "NIST",
+      "CIS"
+    ],
+    "integrations": [
+      "Splunk",
+      "ServiceNow",
+      "IBM QRadar",
+      "Microsoft SIEM"
+    ],
+    "businessValue": "Provides comprehensive vulnerability assessment capabilities, enabling organizations to identify and remediate security risks before they can be exploited by attackers."
+  },
+  "relationships": [
+    {
+      "type": "COMPLEMENTS",
+      "to": "technology_openvas",
+      "metadata": {
+        "category": "vulnerability_scanning"
+      }
+    }
+  ]
+}

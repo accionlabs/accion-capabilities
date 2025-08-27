@@ -1,0 +1,24 @@
+{
+  "types": [
+    "BELONGS_TO",
+    "USES",
+    "IMPLEMENTS",
+    "TARGETS",
+    "LEVERAGES",
+    "DELIVERS",
+    "DEPENDS_ON",
+    "RELATED_TO",
+    "INVOLVED_IN"
+  ],
+  "descriptions": {
+    "BELONGS_TO": "Entity is part of or owned by another entity (e.g., CoE belongs to Pillar)",
+    "USES": "Entity uses or depends on another entity (e.g., CoE uses Technology)",
+    "IMPLEMENTS": "Entity implements or realizes another entity (e.g., Platform implements Framework)",
+    "TARGETS": "Entity is designed for or targets another entity (e.g., Accelerator targets Industry)",
+    "LEVERAGES": "Entity leverages or builds upon another entity",
+    "DELIVERS": "Entity delivers or provides another entity",
+    "DEPENDS_ON": "Entity has a dependency on another entity",
+    "RELATED_TO": "General relationship between entities",
+    "INVOLVED_IN": "Entity is involved in or participates in another entity (e.g., Technology involved in Case Study)"
+  }
+}

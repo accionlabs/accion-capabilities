@@ -1,0 +1,67 @@
+{
+  "id": "casestudy_rpa_finvi",
+  "type": "casestudy",
+  "name": "Finvi RPA Case Study - Collection Process Automation with AI/ML Integration",
+  "client": "Finvi",
+  "industry": "Financial Services",
+  "description": "Implemented comprehensive RPA solution for collection process automation integrated with AI/ML capabilities, transforming manual collection workflows into intelligent automated processes that significantly improved operational efficiency and revenue recovery.",
+  "challenge": "Finvi's collection processes were heavily manual and time-intensive, requiring significant human intervention for routine tasks such as account processing, payment tracking, communication workflows, and data entry. The manual processes led to inconsistent execution, delayed responses to customer inquiries, increased operational costs, and limited scalability. The challenge was compounded by the need to integrate advanced AI/ML capabilities for predictive analytics while maintaining compliance with financial services regulations.",
+  "solution": "Deployed end-to-end RPA automation for collection processes using UiPath platform with integrated AI/ML components. The solution automated account processing workflows, payment tracking and reconciliation, customer communication sequences, data entry and validation processes, and compliance reporting. Advanced AI/ML integration enabled predictive propensity-to-pay modeling, intelligent routing of collection cases, automated decision-making for payment arrangements, and real-time analytics for collection strategy optimization.",
+  "outcomes": [
+    "75% reduction in manual processing time for collection workflows",
+    "90% improvement in data accuracy through automated validation",
+    "50% faster response time to customer payment inquiries",
+    "35% increase in collection recovery rates through AI-optimized strategies",
+    "60% reduction in operational costs for collection processes",
+    "Enhanced compliance monitoring with automated audit trails",
+    "Improved customer experience through consistent and timely communications",
+    "Scalable infrastructure supporting 3x increase in collection volume capacity"
+  ],
+  "technologies": [
+    "UiPath",
+    "AI/ML Integration",
+    "Predictive Analytics",
+    "Python",
+    "REST APIs",
+    "SQL Server",
+    "OCR Technologies",
+    "Azure Cognitive Services",
+    "Workflow Orchestration",
+    "Database Integration",
+    "Document Processing",
+    "Email Automation",
+    "Web Services Integration",
+    "Real-time Monitoring"
+  ],
+  "duration": "18-month RPA implementation and optimization",
+  "teamSize": "12-person RPA development and AI integration team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_rpa",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_uipath",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_python",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/rpa_finvi.md"
+  }
+}

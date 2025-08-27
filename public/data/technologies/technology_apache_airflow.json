@@ -1,0 +1,14 @@
+{
+  "id": "technology_apache_airflow",
+  "name": "Apache Airflow",
+  "description": "Workflow orchestration platform",
+  "category": "platform",
+  "vendor": "Apache",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

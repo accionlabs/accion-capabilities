@@ -1,0 +1,67 @@
+{
+  "id": "framework_bizcontinuity",
+  "name": "BizContinuity Framework",
+  "category": "framework",
+  "description": "Business resilience methodology with disaster recovery planning and operational reliability",
+  "frameworkType": "Specialized Framework",
+  "methodology": "Comprehensive business continuity planning with risk assessment and disaster recovery",
+  "strategicValue": "Minimizes business disruption and enhances operational reliability through proactive planning",
+  "clientValue": [
+    "Minimized business disruption and downtime",
+    "Enhanced operational reliability and resilience",
+    "Regulatory compliance and audit readiness",
+    "Reduced financial and reputational risk"
+  ],
+  "deliverables": [
+    "Business impact analysis reports",
+    "Disaster recovery plans and procedures",
+    "Risk assessment frameworks",
+    "Crisis communication templates",
+    "Recovery testing and validation procedures"
+  ],
+  "frameworkComponents": [
+    "Business Impact Analysis: Risk and dependency assessment",
+    "Disaster Recovery Plans: Recovery procedures and protocols",
+    "Risk Assessment Frameworks: Threat identification and mitigation",
+    "Crisis Management: Communication and coordination procedures"
+  ],
+  "targetScenarios": [
+    "Mission-critical system operations",
+    "Regulated industry compliance",
+    "High-availability requirements",
+    "Enterprise risk management"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "specialized",
+    "business-continuity",
+    "disaster-recovery"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "framework_information_security",
+        "type": "COMPLEMENTS"
+      },
+      {
+        "to": "coe_security",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "framework_information_security",
+        "type": "COMPLEMENTS"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/bizcontinuity.md"
+  }
+}

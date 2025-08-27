@@ -1,0 +1,13 @@
+{
+  "id": "technology_langchain",
+  "name": "LangChain",
+  "description": "Framework for building LLM applications",
+  "category": "framework",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "framework"
+  ],
+  "relationships": []
+}

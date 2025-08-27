@@ -1,0 +1,89 @@
+{
+  "id": "accelerator_cicd_accelerator",
+  "name": "CI/CD Accelerator",
+  "category": "accelerator",
+  "description": "Pre-configured CI/CD pipeline templates with security scanning",
+  "solutionType": "DevOps Automation",
+  "strategicValue": "Accelerates DevOps adoption with enterprise-ready pipelines",
+  "clientValue": [
+    "20+ pipeline templates",
+    "Built-in security scanning",
+    "Multi-cloud support"
+  ],
+  "keyFeatures": [
+    {
+      "name": "Pipeline Templates",
+      "description": "Pre-built templates for common scenarios",
+      "businessValue": "Reduces setup time by 80%"
+    },
+    {
+      "name": "Security Scanning",
+      "description": "Integrated SAST, DAST, and dependency scanning",
+      "businessValue": "Reduces security vulnerabilities by 70%"
+    }
+  ],
+  "clientValueMetrics": [
+    {
+      "name": "Deployment Frequency",
+      "value": "10x",
+      "improvement": "increase"
+    },
+    {
+      "name": "Lead Time",
+      "value": "85",
+      "unit": "%",
+      "improvement": "reduction"
+    }
+  ],
+  "successStories": [
+    {
+      "client": "Fortune 500 Retailer",
+      "outcome": "Achieved 10x increase in deployment frequency",
+      "metrics": [
+        {
+          "name": "Deployment Frequency",
+          "value": "10x",
+          "improvement": "increase"
+        },
+        {
+          "name": "MTTR",
+          "value": "90",
+          "unit": "%",
+          "improvement": "reduction"
+        }
+      ]
+    }
+  ],
+  "deploymentTime": "1-2 weeks",
+  "costSavings": "$300K annually",
+  "type": "accelerator",
+  "tags": [
+    "accelerator"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_jenkins",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_docker",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_kubernetes",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_devops",
+        "type": "USES"
+      },
+      {
+        "from": "case_retailer_devops",
+        "type": "LEVERAGES"
+      }
+    ]
+  }
+}

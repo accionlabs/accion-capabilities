@@ -1,0 +1,61 @@
+{
+  "id": "casestudy_patient_flow_management",
+  "type": "casestudy",
+  "name": "Patient Flow Management and Doctor Scheduling Application",
+  "client": "Hospital System",
+  "clientType": "provider",
+  "industry": "Healthcare",
+  "description": "Developed the industry's first mobile application for patient flow monitoring and physician scheduling optimization, achieving 22% reduction in patient waiting time and 16% increase in hospital resource productivity through automated scheduling and gap identification.",
+  "challenge": "Hospitals faced significant inefficiencies in patient flow management and physician scheduling, leading to long patient wait times, underutilized resources, and poor patient satisfaction. Manual scheduling processes were inefficient and failed to optimize physician time allocation and patient flow throughout the facility.",
+  "solution": "Created a comprehensive mobile-first solution with real-time patient flow monitoring, automated physician scheduling with Google Calendar integration, intelligent gap identification and continuous slot allocation, patient flow problem identification and alerts, resource optimization algorithms, and automated scheduling efficiency improvements.",
+  "outcomes": [
+    "22% reduction in patient waiting time across hospital systems",
+    "16% increase in hospital resource productivity including nurse and physician time",
+    "Industry-first mobile application for comprehensive patient flow management",
+    "Seamless integration with existing physician scheduling systems",
+    "Automated scheduling optimization reducing manual intervention",
+    "Improved patient satisfaction through reduced wait times"
+  ],
+  "technologies": [
+    "Mobile App Development",
+    "Google Calendar API",
+    "Real-time Analytics",
+    "Scheduling Algorithms",
+    "Push Notifications",
+    "Hospital Information Systems Integration",
+    "Workflow Automation",
+    "Resource Optimization"
+  ],
+  "duration": "Full development and deployment cycle",
+  "teamSize": "Mobile development team with healthcare workflow specialists",
+  "keyFeatures": [
+    "Real-time patient flow monitoring and alerts",
+    "Mobile-first interface for healthcare staff",
+    "Automated physician scheduling optimization",
+    "Google Calendar seamless integration",
+    "Intelligent gap identification in schedules",
+    "Continuous slot allocation algorithms",
+    "Patient flow bottleneck identification",
+    "Resource utilization analytics and reporting"
+  ],
+  "operationalImpact": [
+    "Reduced patient waiting times",
+    "Optimized physician utilization",
+    "Improved nurse productivity",
+    "Enhanced patient satisfaction",
+    "Streamlined hospital operations"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/patient_flow_management.md"
+  }
+}

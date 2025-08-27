@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Print styles */
+@media print {
+  /* Hide navigation panel */
+  .print\\:hidden {
+    display: none !important;
+  }
+  
+  /* Hide specific elements for print */
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Ensure content takes full width when printing */
+  .print\\:w-full {
+    width: 100% !important;
+  }
+  
+  /* Remove margins for print */
+  .print\\:m-0 {
+    margin: 0 !important;
+  }
+  
+  /* Ensure relationships appear at the end */
+  .print\\:block {
+    display: block !important;
+  }
+  
+  /* Remove borders for cleaner print */
+  .print\\:border-0 {
+    border: 0 !important;
+  }
+  
+  /* Remove overflow and ensure full content visibility */
+  body {
+    overflow: visible !important;
+  }
+  
+  .print\\:overflow-visible {
+    overflow: visible !important;
+  }
+  
+  /* Add proper margins for print content */
+  .print\\:p-8 {
+    padding: 2rem !important;
+  }
+  
+  /* Ensure no scrollbars and full height */
+  .print\\:h-auto {
+    height: auto !important;
+  }
+  
+  /* Remove overflow restrictions for most elements */
+  body, main, article, section, div:not(.mermaid-container) {
+    overflow: visible !important;
+  }
+  
+  /* Ensure proper height for content containers */
+  .print\\:h-auto {
+    height: auto !important;
+    max-height: none !important;
+  }
+  
+  /* Preserve mermaid diagram container styles */
+  .mermaid-container {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    background-color: #f9fafb !important;
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+  }
+  
+  /* Ensure mermaid SVG elements are properly styled for print */
+  .mermaid-container svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Fix mermaid diagram elements visibility */
+  .mermaid-container rect,
+  .mermaid-container path,
+  .mermaid-container circle,
+  .mermaid-container polygon,
+  .mermaid-container line,
+  .mermaid-container text {
+    fill-opacity: 1 !important;
+    stroke-opacity: 1 !important;
+    opacity: 1 !important;
+  }
+  
+  /* Ensure mermaid text is visible */
+  .mermaid-container text {
+    fill: black !important;
+  }
+  
+  /* Ensure mermaid backgrounds are visible */
+  .mermaid-container .node rect,
+  .mermaid-container .node circle,
+  .mermaid-container .node ellipse,
+  .mermaid-container .node polygon {
+    fill: white !important;
+    stroke: #333 !important;
+    stroke-width: 1.5px !important;
+  }
+  
+  /* Mind map specific styles */
+  .mermaid-container g.mindmap-node > circle,
+  .mermaid-container g.mindmap-node > rect,
+  .mermaid-container g.mindmap-node > ellipse,
+  .mermaid-container g.mindmap-node > polygon {
+    fill: white !important;
+    stroke: #333 !important;
+    stroke-width: 1.5px !important;
+  }
+  
+  /* Ensure flowchart elements are visible */
+  .mermaid-container .flowchart-link,
+  .mermaid-container .mindmap-edge,
+  .mermaid-container path.edge-path {
+    stroke: #333 !important;
+    fill: none !important;
+  }
+  
+  /* Override inline styles for consistency */
+  .mermaid-container svg [style*="fill:"]:not(text) {
+    fill: white !important;
+  }
+  
+  .mermaid-container svg [style*="stroke:"]:not(text) {
+    stroke: #333 !important;
+  }
+}

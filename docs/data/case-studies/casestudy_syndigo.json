@@ -1,0 +1,42 @@
+{
+  "id": "casestudy_syndigo",
+  "name": "SYNDIGO - AI-Powered Image Attribute Extraction and Anomaly Detection",
+  "client": "SYNDIGO",
+  "industry": "Retail Technology/Master Data Management",
+  "description": "AI-powered solution to minimize errors and reduce time users spend entering product details based on information found in product images, helping speed up the go-to-market process through automatic attribute extraction and anomaly detection.",
+  "challenge": "Users manually entering image attribute data was time-consuming and delayed product market launch. Risk of errors increased with manual entry, and the challenge intensified when images were uploaded in bulk requiring manual access for each image attribute.",
+  "solution": [
+    "Image-based extraction on individual attributes (text, metadata, key elements)",
+    "Customization options for tone and industry type to tailor extraction for specific contexts",
+    "Popup preview for reviewing extracted content with accept or rerun options",
+    "Use of OpenAI GPT-4o API as Azure service to leverage multimodal capabilities",
+    "99.9% automatic extraction accuracy of product details"
+  ],
+  "technologies": [
+    "GPT-4.O",
+    "Python",
+    "Microsoft Azure",
+    "PyTest"
+  ],
+  "impact": {
+    "automaticExtraction": "99.9% accuracy in product details extraction",
+    "contractValue": "$0.8 Million total contract value",
+    "masterDataManagement": "Consistent information across manufacturer to retailer channels",
+    "goToMarketAcceleration": "Significant reduction in time-to-market for product launches"
+  },
+  "outcomes": [
+    "99.9% automatic extraction accuracy of product details",
+    "$0.8 million total contract value achieved",
+    "Enabled master data management with consistent information across various channels",
+    "Significant reduction in manual effort and time-to-market for product launches",
+    "Enhanced data quality and reduced human error in product attribute entry"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_genai",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/syndigo.md"
+  },
+  "type": "casestudy"
+}

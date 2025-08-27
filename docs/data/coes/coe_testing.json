@@ -1,0 +1,294 @@
+{
+  "id": "coe_testing",
+  "type": "coe",
+  "data": {
+    "name": "Quality Engineering Center of Excellence",
+    "description": "Accion's Quality Engineering Center of Excellence delivers comprehensive testing and quality assurance services across functional, performance, and automation testing domains. The CoE provides end-to-end quality engineering solutions including AI-driven test automation, performance testing, accessibility testing, and continuous testing integration. With 1000+ quality engineers across all geographies and 200+ projects in flight, the CoE enables organizations to achieve faster time-to-market, improved test coverage, and reduced QA costs through intelligent automation and advanced testing frameworks.",
+    "category": "Digital Products",
+    "order": 6,
+    "keyCompetencies": [
+      "Test Automation Frameworks",
+      "AI-Driven Test Generation (Breeze QE)",
+      "Functional Testing",
+      "Performance and Load Testing",
+      "Mobile Application Testing",
+      "API and Integration Testing",
+      "Accessibility Testing",
+      "Security Testing",
+      "Data Quality Testing",
+      "Cloud Testing",
+      "Continuous Testing Integration",
+      "Test Data Management",
+      "Defect Triage and Analysis",
+      "Test Healing and Maintenance",
+      "Custom Copilots Development",
+      "Synthetic Data Generation",
+      "Browser and Device Compatibility Testing",
+      "Localization Testing",
+      "Database Testing"
+    ],
+    "services": [
+      {
+        "name": "Test Automation Frameworks",
+        "description": "Comprehensive test automation solutions including keyword-driven, data-driven, and page object model frameworks",
+        "deliverables": [
+          "Automation frameworks",
+          "Test script development",
+          "CI/CD integration",
+          "Hybrid web and mobile testing"
+        ]
+      },
+      {
+        "name": "AI-Driven Test Generation (Breeze QE)",
+        "description": "Advanced AI-powered testing capabilities for automated test case generation and intelligent test optimization",
+        "deliverables": [
+          "AI test case generation",
+          "Automated script creation",
+          "Test healing",
+          "Defect auto-triage",
+          "Performance modeling"
+        ]
+      },
+      {
+        "name": "Functional Testing",
+        "description": "Comprehensive functional testing services across web, mobile, and API platforms",
+        "deliverables": [
+          "System testing",
+          "Integration testing",
+          "User acceptance testing",
+          "Regression testing"
+        ]
+      },
+      {
+        "name": "Performance Testing",
+        "description": "End-to-end performance testing services for web, mobile, and API applications",
+        "deliverables": [
+          "Load testing",
+          "Stress testing",
+          "Volume testing",
+          "Endurance testing",
+          "Performance analysis"
+        ]
+      },
+      {
+        "name": "Mobile Application Testing",
+        "description": "Specialized testing services for iOS and Android mobile applications",
+        "deliverables": [
+          "Device compatibility testing",
+          "Mobile automation",
+          "Performance testing",
+          "User experience testing"
+        ]
+      },
+      {
+        "name": "API and Integration Testing",
+        "description": "Comprehensive API testing and system integration validation",
+        "deliverables": [
+          "API automation",
+          "Integration validation",
+          "Data validation",
+          "Contract testing"
+        ]
+      },
+      {
+        "name": "Accessibility Testing",
+        "description": "Testing services to ensure applications meet accessibility standards and compliance requirements",
+        "deliverables": [
+          "WCAG compliance testing",
+          "Screen reader testing",
+          "Accessibility automation",
+          "Compliance reporting"
+        ]
+      },
+      {
+        "name": "Continuous Testing Integration",
+        "description": "Integration of testing processes into CI/CD pipelines for continuous quality assurance",
+        "deliverables": [
+          "CI/CD integration",
+          "Automated test execution",
+          "Quality gates",
+          "Release validation"
+        ]
+      },
+      {
+        "name": "Test Data Management",
+        "description": "Comprehensive test data creation, management, and synthetic data generation services",
+        "deliverables": [
+          "Test data creation",
+          "Data masking",
+          "Synthetic data generation",
+          "Data quality validation"
+        ]
+      },
+      {
+        "name": "Quality Analytics and Reporting",
+        "description": "Advanced analytics and dashboards for quality metrics and test execution insights",
+        "deliverables": [
+          "QE dashboards",
+          "Test metrics analysis",
+          "Quality reporting",
+          "Performance insights"
+        ]
+      }
+    ],
+    "technologies": [
+      "Selenium",
+      "Appium",
+      "WebDriver.io",
+      "Playwright",
+      "Cypress",
+      "TestComplete",
+      "UFT",
+      "Postman",
+      "Rest Assured",
+      "JMeter",
+      "LoadRunner",
+      "Jenkins",
+      "GitHub Actions",
+      "Bamboo",
+      "Maven",
+      "Gradle",
+      "TestNG",
+      "Pytest",
+      "Robot Framework",
+      "Cucumber",
+      "Protractor",
+      "Jasmine",
+      "BDD",
+      "Gherkin",
+      "SpecFlow",
+      "Jira",
+      "TestRail",
+      "Zephyr",
+      "TestLink",
+      "QAComplete",
+      "TestFLO",
+      "SonarQube",
+      "OWASP ZAP",
+      "Nessus",
+      "OpenVAS",
+      "Nexial",
+      "Testim.io",
+      "Test Sigma",
+      "BrowserStack",
+      "Sauce Labs",
+      "AWS Device Farm",
+      "Firebase Test Lab",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Ansible",
+      "OpenAI",
+      "Custom LLMs",
+      "Machine Learning Models",
+      "React",
+      "React Native",
+      "Node.js",
+      "Python",
+      "TypeScript",
+      "Java",
+      "C#",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Oracle",
+      "SQL Server"
+    ],
+    "businessValue": "Accion's Quality Engineering CoE delivers substantial business value through accelerated testing cycles (80% faster test case generation), enhanced test coverage (up to 95%), significant cost reduction (30-40% QA cost savings), and faster time-to-market (30% reduction). The CoE enables organizations to shift left in their testing approach, reduce defect leakage, improve software quality, and achieve continuous delivery through intelligent automation and AI-driven testing capabilities.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_testing.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_github_actions",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "framework"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "category": "ai_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_sonarqube",
+      "metadata": {
+        "category": "code_quality",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    }
+  ]
+}

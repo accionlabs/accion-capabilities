@@ -1,0 +1,26 @@
+{
+  "id": "technology_huggingface",
+  "name": "Hugging Face",
+  "description": "ML model hub and libraries",
+  "category": "platform",
+  "vendor": "Hugging Face",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "platform_breeze_ai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "from": "platform_kaps",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

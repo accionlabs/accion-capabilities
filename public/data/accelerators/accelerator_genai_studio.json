@@ -1,0 +1,74 @@
+{
+  "id": "accelerator_genai_studio",
+  "name": "GenAI Studio",
+  "category": "accelerator",
+  "description": "Enterprise toolkit for building and deploying generative AI applications",
+  "solutionType": "Generative AI Development",
+  "strategicValue": "Accelerates GenAI adoption with enterprise controls",
+  "clientValue": [
+    "Pre-built prompts and chains",
+    "Multi-model support",
+    "Enterprise security and compliance"
+  ],
+  "keyFeatures": [
+    {
+      "name": "Prompt Library",
+      "description": "Curated library of optimized prompts",
+      "businessValue": "Reduces development time by 50%"
+    },
+    {
+      "name": "Model Orchestration",
+      "description": "Seamlessly switch between different LLMs",
+      "businessValue": "Optimizes cost and performance"
+    }
+  ],
+  "clientValueMetrics": [
+    {
+      "name": "Development Speed",
+      "value": "3x",
+      "improvement": "faster"
+    }
+  ],
+  "successStories": [
+    {
+      "client": "Global Media Company",
+      "outcome": "Automated 70% of content generation tasks",
+      "metrics": [
+        {
+          "name": "Content Generation",
+          "value": "70",
+          "unit": "%",
+          "improvement": "automation"
+        }
+      ]
+    }
+  ],
+  "deploymentTime": "1-3 weeks",
+  "costSavings": "$1M annually",
+  "type": "accelerator",
+  "tags": [
+    "accelerator"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_react",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_langchain",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_genai",
+        "type": "USES"
+      }
+    ]
+  }
+}

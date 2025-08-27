@@ -1,0 +1,69 @@
+{
+  "id": "casestudy_rpa_cision",
+  "type": "casestudy",
+  "name": "Cision RPA Case Study - L0 Support Bot with 50%+ Cost Savings",
+  "client": "Cision",
+  "industry": "Technology",
+  "description": "Developed intelligent L0 Support Bot using RPA and AI technologies for leading media communications company, automating first-level customer support operations and achieving significant cost reduction while improving response times and customer satisfaction.",
+  "challenge": "Cision's customer support operations were heavily dependent on manual processes for handling Level 0 (L0) support requests, including routine customer inquiries, basic troubleshooting, account-related questions, and service status updates. The manual approach resulted in high operational costs, inconsistent response times, resource-intensive staffing requirements for basic support tasks, limited availability during off-hours, difficulty in scaling support during peak periods, and inconsistent quality of responses across different support agents. The company needed to reduce support costs while maintaining or improving customer experience.",
+  "solution": "Implemented an intelligent L0 Support Bot using advanced RPA technologies combined with AI and natural language processing capabilities. The solution included automated response system for common customer inquiries, intelligent ticket classification and routing, automated account information retrieval and updates, integration with existing CRM and ticketing systems, natural language processing for understanding customer queries, automated escalation protocols for complex issues requiring human intervention, and 24/7 availability for immediate customer support. The bot was designed to handle the majority of L0 support requests while seamlessly escalating complex cases to human agents.",
+  "outcomes": [
+    "50%+ reduction in customer support operational costs",
+    "85% of L0 support requests handled automatically without human intervention",
+    "70% improvement in average response time for customer inquiries",
+    "24/7 customer support availability across all time zones",
+    "90% customer satisfaction rate for automated interactions",
+    "60% reduction in human agent workload for routine support tasks",
+    "Consistent response quality and accuracy across all interactions",
+    "Scalable support capacity handling 3x increase in inquiry volume",
+    "Enhanced customer experience through immediate responses",
+    "Comprehensive analytics and reporting on support patterns and trends"
+  ],
+  "technologies": [
+    "UiPath",
+    "Natural Language Processing",
+    "AI/ML Integration",
+    "Chatbot Development",
+    "CRM Integration",
+    "REST APIs",
+    "Web Services",
+    "Database Integration",
+    "Ticketing System Integration",
+    "Azure Cognitive Services",
+    "Machine Learning",
+    "Workflow Orchestration",
+    "Real-time Analytics",
+    "Multi-channel Communication"
+  ],
+  "duration": "15-month RPA bot development and AI integration project",
+  "teamSize": "10-person RPA and AI development team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_rpa",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_uipath",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/rpa_cision.md"
+  }
+}

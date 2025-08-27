@@ -1,0 +1,5217 @@
+{
+  "entities": {
+    "pillar_automation": {
+      "id": "pillar_automation",
+      "type": "pillar",
+      "name": "Automation",
+      "description": "Intelligent automation and process optimization",
+      "tags": [],
+      "folder": "pillars",
+      "file": "pillar_automation.json"
+    },
+    "pillar_cloud": {
+      "id": "pillar_cloud",
+      "type": "pillar",
+      "name": "Cloud",
+      "description": "Cloud transformation and modernization",
+      "tags": [],
+      "folder": "pillars",
+      "file": "pillar_cloud.json"
+    },
+    "pillar_data": {
+      "id": "pillar_data",
+      "type": "pillar",
+      "name": "Data",
+      "description": "Harnessing data for intelligent decision making",
+      "tags": [],
+      "folder": "pillars",
+      "file": "pillar_data.json"
+    },
+    "pillar_digital_products": {
+      "id": "pillar_digital_products",
+      "type": "pillar",
+      "name": "Digital Products",
+      "description": "Building modern digital products and platforms",
+      "tags": [],
+      "folder": "pillars",
+      "file": "pillar_digital_products.json"
+    },
+    "coe_architecture": {
+      "id": "coe_architecture",
+      "type": "coe",
+      "name": "Architecture Center of Excellence",
+      "description": "Accion's Architecture Center of Excellence specializes in enterprise-grade digital product architecture through the innovative Breeze framework. The CoE provides comprehensive architecture design and development services including microservices architecture, cloud-native platforms, API design, event-driven systems, and scalable infrastructure. With expertise in modern technology stacks, containerization, and DevOps practices, the CoE enables organizations to build robust, scalable, and maintainable digital products that accelerate time-to-market while ensuring architectural excellence and operational efficiency.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_architecture.json"
+    },
+    "coe_blockchain": {
+      "id": "coe_blockchain",
+      "type": "coe",
+      "name": "Blockchain and Decentralized Applications Center of Excellence",
+      "description": "Accion's Blockchain Center of Excellence specializes in comprehensive blockchain solutions and decentralized application (dApp) development across multiple blockchain platforms. The CoE provides end-to-end blockchain services including blockchain application design, technology stack development, operational network engineering, business value modeling, and infrastructure management. With expertise in private and public blockchain infrastructure, smart contracts, NFTs, cryptocurrency solutions, and proprietary frameworks like Maze, the CoE enables organizations to leverage blockchain technology for enhanced security, transparency, and decentralization while delivering measurable business outcomes.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_blockchain.json"
+    },
+    "coe_data_analytics": {
+      "id": "coe_data_analytics",
+      "type": "coe",
+      "name": "Data and Analytics Center of Excellence",
+      "description": "Accion's Data and Analytics Center of Excellence provides comprehensive data transformation services spanning strategy, modernization, and AI implementation. The CoE enables organizations to unlock data value through advanced analytics, AI/ML capabilities, and modern data architectures. With expertise in 120+ open-source and commercial data platforms, the CoE delivers end-to-end solutions including data strategy and governance, real-time analytics, GenAI capabilities, and Databricks implementations, empowering businesses to make data-driven decisions and drive innovation.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_data_analytics.json"
+    },
+    "coe_data_governance": {
+      "id": "coe_data_governance",
+      "type": "coe",
+      "name": "Data Governance Center of Excellence",
+      "description": "Accion's Data Governance Center of Excellence provides comprehensive data governance services spanning strategy, frameworks, and implementation. The CoE enables organizations to establish robust data governance foundations through structured approaches including Top-down, Bottom-up, and Hybrid methodologies. With expertise in data cataloging, quality management, lineage tracking, and compliance frameworks, the CoE delivers end-to-end governance solutions that ensure data integrity, regulatory compliance, and business value. The CoE follows a proven maturity journey from current state assessment to full enterprise data governance implementation, enabling organizations to achieve optimized data landscapes and modernized analytics platforms.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_data_governance.json"
+    },
+    "coe_data_mesh": {
+      "id": "coe_data_mesh",
+      "type": "coe",
+      "name": "Data Mesh Center of Excellence",
+      "description": "Accion's Data Mesh Center of Excellence specializes in designing and implementing decentralized data architectures that enable domain-oriented data ownership and federated computational governance. The CoE provides comprehensive Data Mesh strategies that leverage existing technology investments while implementing the four core pillars: Domain-Oriented Ownership, Data as a Product, Self-Serve Data Platform, and Federated Computational Governance. With expertise in sociotechnical paradigm optimization, the CoE enables organizations to transition from centralized to decentralized and democratized data platforms, supporting multiple data sources, real-time integration, and AI-enhanced data processing.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_data_mesh.json"
+    },
+    "coe_data_roi": {
+      "id": "coe_data_roi",
+      "type": "coe",
+      "name": "Data ROI Center of Excellence",
+      "description": "Accion's Data ROI Center of Excellence specializes in measuring and maximizing the return on investment of data products and data initiatives. The CoE bridges the gap between business leaders, data teams, and data scientists by establishing comprehensive ROI measurement frameworks that track financial, operational, risk reduction, and intrinsic data value across all data investments. With expertise in data mesh architectures, AI-enhanced ROI optimization, and multi-dimensional value assessment, the CoE enables organizations to transform data from a cost center into a strategic asset while ensuring measurable business outcomes and sustainable data product value creation.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_data_roi.json"
+    },
+    "coe_data_streaming": {
+      "id": "coe_data_streaming",
+      "type": "coe",
+      "name": "Data Streaming Center of Excellence",
+      "description": "Accion's Data Streaming Center of Excellence specializes in real-time data processing, streaming analytics, and event-driven architectures. The CoE enables organizations to harness the power of streaming data through advanced streaming platforms, real-time analytics, and streaming ETL solutions. With expertise in modern streaming technologies and proven success in implementing large-scale streaming solutions across various industries, the CoE delivers comprehensive streaming capabilities that enable real-time insights, immediate data processing, and responsive business operations.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_data_streaming.json"
+    },
+    "coe_data_transformation": {
+      "id": "coe_data_transformation",
+      "type": "coe",
+      "name": "Data Transformation Center of Excellence",
+      "description": "Accion's Data Transformation Center of Excellence provides comprehensive enterprise data transformation services spanning data governance, Master Data Management (MDM), modern data architectures, and Databricks implementations. The CoE enables organizations to establish robust data foundations through DataLabs maturity assessment programs, unified data governance frameworks, and lakehouse platform modernization. With expertise in enterprise data governance tools, streaming data solutions, and industry-specific data transformation approaches, the CoE delivers end-to-end data transformation capabilities that ensure data integrity, regulatory compliance, and accelerated business value realization.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_data_transformation.json"
+    },
+    "coe_databricks": {
+      "id": "coe_databricks",
+      "type": "coe",
+      "name": "Databricks Center of Excellence",
+      "description": "Accion's Databricks Center of Excellence specializes in comprehensive Databricks lakehouse implementations, data platform modernization, and advanced analytics solutions. With 15 certified professionals, 65 trained technical experts, and 30 lakehouses built across 20 clients, the CoE delivers end-to-end Databricks services from greenfield platform builds to complex data migrations and AI/ML implementations. The CoE enables organizations to harness the power of unified data and AI platforms for real-time analytics, streaming applications, and generative AI solutions.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_databricks.json"
+    },
+    "coe_devops": {
+      "id": "coe_devops",
+      "type": "coe",
+      "name": "Site Reliability Engineering & DevOps Center of Excellence",
+      "description": "Accion's DevOps Center of Excellence focuses on standardizing DevOps, DevSecOps, and SRE practices to deliver consistent, secure, and scalable deployments. The CoE provides comprehensive services including CI/CD automation, infrastructure as code, monitoring and observability, security integration, and AI/ML-enhanced DevOps capabilities. With 100+ skilled professionals and 500+ cloud-native engineers, the CoE enables organizations to achieve faster releases, improved reliability, and reduced operational costs through end-to-end automation and advanced observability practices.",
+      "category": "Cloud",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_devops.json"
+    },
+    "coe_ecommerce": {
+      "id": "coe_ecommerce",
+      "type": "coe",
+      "name": "E-Commerce & Content Management Center of Excellence",
+      "description": "Accion's E-Commerce & Content Management Center of Excellence provides comprehensive digital commerce solutions spanning web portals, content management systems, and e-commerce platforms. The CoE delivers end-to-end e-commerce services including product configuration and pricing, content and product information management, order management and fulfillment, payments and chargebacks, compliance and quality, third-party integrations, customer journey mapping, and advanced analytics. With expertise in modern e-commerce platforms, CMS technologies, and omnichannel customer experiences, the CoE enables organizations to build scalable, secure, and high-performing digital commerce ecosystems that drive business growth and customer engagement.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_ecommerce.json"
+    },
+    "coe_financial_analytics": {
+      "id": "coe_financial_analytics",
+      "type": "coe",
+      "name": "Financial Analytics Center of Excellence",
+      "description": "Accion's Financial Analytics Center of Excellence specializes in AI-powered financial analytics modernization, combining traditional Machine Learning with Generative AI capabilities. The CoE delivers end-to-end financial analytics solutions including credit scoring, risk assessment, customer behavior modeling, portfolio optimization, and regulatory compliance. With expertise in real-time prediction architectures, automated MLOps, and GenAI-powered ETL pipelines, the CoE enables financial institutions to transform conventional analytics into AI-driven insights while ensuring regulatory compliance, precision requirements, and operational stability.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_financial_analytics.json"
+    },
+    "coe_genai": {
+      "id": "coe_genai",
+      "type": "coe",
+      "name": "Generative AI CoE",
+      "description": "Harnesses the power of generative AI for innovative solutions",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_genai.json"
+    },
+    "coe_iot": {
+      "id": "coe_iot",
+      "type": "coe",
+      "name": "Internet of Things (IoT) Center of Excellence",
+      "description": "e-Zest's IoT Center of Excellence specializes in delivering end-to-end IoT solutions that enable digital transformation across industries. The CoE provides comprehensive services from IoT device management and data processing to analytics and reporting, leveraging cloud platforms and big data technologies. With expertise in Industry 4.0, Smart Healthcare, Connected Agriculture, and Intelligent Transportation, the CoE helps organizations harness IoT for reduced operating costs, improved productivity, and enhanced customer experiences.",
+      "category": "Product Engineering",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_iot.json"
+    },
+    "coe_mdm": {
+      "id": "coe_mdm",
+      "type": "coe",
+      "name": "Master Data Management Center of Excellence",
+      "description": "Accion's Master Data Management Center of Excellence specializes in comprehensive MDM transformations, enterprise data model design, and data governance implementation. The CoE enables organizations to establish single sources of truth for critical business entities through proven methodologies spanning MDM Diagnostics, Strategy Development, and Implementation & Expansion phases. With expertise in multi-domain MDM solutions, AI-powered data unification, and enterprise data governance frameworks, the CoE delivers end-to-end MDM capabilities that ensure data quality, operational efficiency, and regulatory compliance while supporting advanced analytics and AI initiatives.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_mdm.json"
+    },
+    "coe_medical_imaging": {
+      "id": "coe_medical_imaging",
+      "type": "coe",
+      "name": "Medical Imaging Center of Excellence",
+      "description": "Accion's Medical Imaging Center of Excellence specializes in AI-powered medical image diagnostics through the MIDAS (Medical Image Diagnostics Assistance System) platform. The CoE delivers comprehensive medical imaging solutions spanning image preprocessing, ROI extraction, and object classification using advanced machine learning techniques. With expertise in DICOM and medical image formats, convolutional neural networks, and diagnostic accuracy optimization, the CoE enables healthcare organizations to enhance diagnostic capabilities, improve patient outcomes, and accelerate medical imaging workflows through intelligent automation and AI-driven analysis.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_medical_imaging.json"
+    },
+    "coe_portfolio_rationalization": {
+      "id": "coe_portfolio_rationalization",
+      "type": "coe",
+      "name": "Portfolio Rationalization Center of Excellence",
+      "description": "Accion's Portfolio Rationalization Center of Excellence specializes in strategic product portfolio optimization and modernization through systematic rationalization methodologies. The CoE provides comprehensive portfolio analysis, consolidation strategies, and reengineering services to address functional and architectural overlaps across product portfolios. With expertise in QUM (Quantitative Unified Methodology) for measuring overlaps, iterative consolidation processes, and Breeze framework-based modernization, the CoE enables organizations to streamline their product offerings, reduce operational costs, optimize engineering resources, and accelerate time-to-market while maintaining business continuity and customer satisfaction.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_portfolio_rationalization.json"
+    },
+    "coe_reengineering": {
+      "id": "coe_reengineering",
+      "type": "coe",
+      "name": "Technology Modernization & Application Reengineering Center of Excellence",
+      "description": "Accion's Application Reengineering Center of Excellence specializes in transforming legacy monolithic applications into modern, scalable digital platforms using innovative engineering principles. The CoE provides comprehensive reengineering services including legacy UI to digital experiences transformation, monolithic to microservices migration, infrastructure modernization from servers to containers on cloud, and waterfall to CI/CD automation. Utilizing the proprietary Breeze framework, the CoE enables organizations to achieve faster feature delivery, reduced technical debt, and improved user experiences through systematic application modernization.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_reengineering.json"
+    },
+    "coe_security": {
+      "id": "coe_security",
+      "type": "coe",
+      "name": "Security Services Center of Excellence",
+      "description": "Accion's Security Services Center of Excellence is a comprehensive cybersecurity practice providing end-to-end security services across Cloud Security, Generative AI Security, Application Security, DevSecOps, and Governance Risk & Compliance (GRC). The CoE delivers enterprise-grade security solutions including risk assessment and management, security testing and audits, compliance frameworks adherence (NIST, CIS, CAF, HIPAA, PCI-DSS), threat analysis and management, business continuity planning, and advanced security services. With 30+ core consultants, 200+ security resources globally, and industry certifications including PCI DSS, HIPAA, CMMI v2.0 L3, and ISO standards, the CoE enables organizations to achieve robust security posture, regulatory compliance, and risk mitigation.",
+      "category": "Cloud",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_security.json"
+    },
+    "coe_servicenow": {
+      "id": "coe_servicenow",
+      "type": "coe",
+      "name": "ServiceNow Center of Excellence",
+      "description": "Serviceberry's ServiceNow Center of Excellence delivers comprehensive workflow automation and IT service management solutions. The CoE specializes in ITSM, CSM, FSM, HRSD, ITOM, ITBM, and Security Operations implementations across the full ServiceNow platform. With extensive experience in ServiceNow integrations, Smart Launch Kit frameworks, and proven program delivery methodologies, the CoE enables organizations to achieve streamlined operations, enhanced productivity, and improved service delivery through ServiceNow's comprehensive digital platform.",
+      "category": "Enterprise Automation",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_servicenow.json"
+    },
+    "coe_snowflake": {
+      "id": "coe_snowflake",
+      "type": "coe",
+      "name": "Snowflake Center of Excellence",
+      "description": "Accion's Snowflake Center of Excellence specializes in comprehensive cloud data warehouse implementations, enterprise data transformation, and modern data analytics solutions. As a certified Snowflake partner, the CoE delivers end-to-end Snowflake services from data platform consolidation and migration to advanced analytics and AI-powered data insights. The CoE enables organizations to harness the power of Snowflake's cloud-native architecture for scalable data warehousing, real-time analytics, streaming data processing, and GenAI-enhanced data analytics across multiple cloud platforms.",
+      "category": "Data",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_snowflake.json"
+    },
+    "coe_testing": {
+      "id": "coe_testing",
+      "type": "coe",
+      "name": "Quality Engineering Center of Excellence",
+      "description": "Accion's Quality Engineering Center of Excellence delivers comprehensive testing and quality assurance services across functional, performance, and automation testing domains. The CoE provides end-to-end quality engineering solutions including AI-driven test automation, performance testing, accessibility testing, and continuous testing integration. With 1000+ quality engineers across all geographies and 200+ projects in flight, the CoE enables organizations to achieve faster time-to-market, improved test coverage, and reduced QA costs through intelligent automation and advanced testing frameworks.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_testing.json"
+    },
+    "coe_ux": {
+      "id": "coe_ux",
+      "type": "coe",
+      "name": "User Experience (UX) Center of Excellence",
+      "description": "Accion's UX Center of Excellence delivers comprehensive user experience design and digital transformation services. The CoE focuses on human-centered design principles, creating intuitive and engaging digital experiences across web, mobile, and emerging platforms. With expertise in design thinking, user research, interface design, and usability testing, the UX CoE helps organizations improve customer satisfaction, increase conversion rates, and build products that users love.",
+      "category": "Digital Products",
+      "tags": [],
+      "folder": "coes",
+      "file": "coe_ux.json"
+    },
+    "platform_breeze": {
+      "id": "platform_breeze",
+      "type": "platform",
+      "name": "BREEZE - Containerized Microservices Architecture",
+      "description": "Event-driven microservices architecture platform",
+      "category": "Development & Architecture",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_breeze.json"
+    },
+    "platform_breeze_ai": {
+      "id": "platform_breeze_ai",
+      "type": "platform",
+      "name": "Breeze.AI - AI-Driven SDLC Transformation",
+      "description": "AI-powered software development lifecycle transformation",
+      "category": "Development & Architecture",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_breeze_ai.json"
+    },
+    "platform_dataops": {
+      "id": "platform_dataops",
+      "type": "platform",
+      "name": "DataOps - Data Lake Platform Blueprint",
+      "description": "Comprehensive data lake platform with integrated tools",
+      "category": "Data & Analytics",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_dataops.json"
+    },
+    "platform_digitalhub": {
+      "id": "platform_digitalhub",
+      "type": "platform",
+      "name": "Digital Experience Hub",
+      "description": "Omnichannel digital experience platform for customer engagement",
+      "category": "platform",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_digitalhub.json"
+    },
+    "platform_ezebenefits": {
+      "id": "platform_ezebenefits",
+      "type": "platform",
+      "name": "eZeBenefits - Healthcare Innovation Blueprint",
+      "description": "Comprehensive healthcare benefits and PBM solution platform",
+      "category": "Healthcare Solutions",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_ezebenefits.json"
+    },
+    "platform_kaps": {
+      "id": "platform_kaps",
+      "type": "platform",
+      "name": "KAPS - GenAI Adoption Framework",
+      "description": "Comprehensive GenAI adoption framework for enterprise transformation",
+      "category": "AI & GenAI Platforms",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_kaps.json"
+    },
+    "platform_unifiedai": {
+      "id": "platform_unifiedai",
+      "type": "platform",
+      "name": "UnifiedAI Platform",
+      "description": "Enterprise AI platform for building and deploying ML models at scale",
+      "category": "platform",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_unifiedai.json"
+    },
+    "platform_unity": {
+      "id": "platform_unity",
+      "type": "platform",
+      "name": "UNITY - GCC Management Solution",
+      "description": "Comprehensive Global Capability Center management solution",
+      "category": "Enterprise Management",
+      "tags": [],
+      "folder": "platforms",
+      "file": "platform_unity.json"
+    },
+    "accelerator_autonomous_support": {
+      "id": "accelerator_autonomous_support",
+      "type": "accelerator",
+      "name": "Autonomous Support",
+      "description": "Comprehensive AI-driven support across voice, chat, and email channels with automated issue resolution",
+      "category": "Enterprise Automation",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_autonomous_support.json"
+    },
+    "accelerator_cicd_accelerator": {
+      "id": "accelerator_cicd_accelerator",
+      "type": "accelerator",
+      "name": "CI/CD Accelerator",
+      "description": "Pre-configured CI/CD pipeline templates with security scanning",
+      "category": "accelerator",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_cicd_accelerator.json"
+    },
+    "accelerator_cloud_map": {
+      "id": "accelerator_cloud_map",
+      "type": "accelerator",
+      "name": "Cloud Map",
+      "description": "Multi-cloud management and cost optimization platform with comprehensive resource tracking",
+      "category": "Cloud & Infrastructure",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_cloud_map.json"
+    },
+    "accelerator_code_migration_assistant": {
+      "id": "accelerator_code_migration_assistant",
+      "type": "accelerator",
+      "name": "Code Migration Assistant",
+      "description": "AI-powered code transformation and developer productivity tools with systematic technical debt reduction",
+      "category": "Development Tools",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_code_migration_assistant.json"
+    },
+    "accelerator_data_orchestrator": {
+      "id": "accelerator_data_orchestrator",
+      "type": "accelerator",
+      "name": "DataFlow Orchestrator",
+      "description": "Automated data pipeline orchestration and management solution",
+      "category": "accelerator",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_data_orchestrator.json"
+    },
+    "accelerator_data_transformation_toolkit": {
+      "id": "accelerator_data_transformation_toolkit",
+      "type": "accelerator",
+      "name": "Data Transformation Toolkit",
+      "description": "Comprehensive data transformation and analysis automation with self-service analytics capabilities",
+      "category": "Data & Analytics",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_data_transformation_toolkit.json"
+    },
+    "accelerator_enterprise_agents": {
+      "id": "accelerator_enterprise_agents",
+      "type": "accelerator",
+      "name": "Enterprise Agents",
+      "description": "Multi-agent orchestration platform for enterprise automation with autonomous workflows and cognitive task automation",
+      "category": "AI & GenAI Solutions",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_enterprise_agents.json"
+    },
+    "accelerator_gen_ai_in_a_box": {
+      "id": "accelerator_gen_ai_in_a_box",
+      "type": "accelerator",
+      "name": "Gen AI in a Box",
+      "description": "Secure on-premise AI deployment solution for enterprise environments with complete data sovereignty and control",
+      "category": "AI & GenAI Solutions",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_gen_ai_in_a_box.json"
+    },
+    "accelerator_genai_studio": {
+      "id": "accelerator_genai_studio",
+      "type": "accelerator",
+      "name": "GenAI Studio",
+      "description": "Enterprise toolkit for building and deploying generative AI applications",
+      "category": "accelerator",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_genai_studio.json"
+    },
+    "accelerator_infoundry": {
+      "id": "accelerator_infoundry",
+      "type": "accelerator",
+      "name": "Infoundry",
+      "description": "Enterprise-focused GenAI assistant for knowledge and analytics with natural language data access",
+      "category": "AI & GenAI Solutions",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_infoundry.json"
+    },
+    "accelerator_legacy_migration": {
+      "id": "accelerator_legacy_migration",
+      "type": "accelerator",
+      "name": "Legacy Migration Accelerator",
+      "description": "AI-powered legacy system modernization and transformation with comprehensive testing framework",
+      "category": "Legacy Modernization",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_legacy_migration.json"
+    },
+    "accelerator_midas": {
+      "id": "accelerator_midas",
+      "type": "accelerator",
+      "name": "MIDAS",
+      "description": "AI-powered medical image diagnostics assistance system with advanced machine learning for healthcare",
+      "category": "Specialized Solutions",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_midas.json"
+    },
+    "accelerator_nexial": {
+      "id": "accelerator_nexial",
+      "type": "accelerator",
+      "name": "Nexial",
+      "description": "Low-code test automation framework for comprehensive testing with cross-platform capabilities",
+      "category": "Enterprise Automation",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_nexial.json"
+    },
+    "accelerator_support_bots": {
+      "id": "accelerator_support_bots",
+      "type": "accelerator",
+      "name": "Support Bots",
+      "description": "AI-powered support automation with intelligent conversational capabilities for customer service",
+      "category": "AI & GenAI Solutions",
+      "tags": [],
+      "folder": "accelerators",
+      "file": "accelerator_support_bots.json"
+    },
+    "component_auth_service": {
+      "id": "component_auth_service",
+      "type": "component",
+      "name": "Enterprise Auth Service",
+      "description": "Reusable authentication and authorization microservice",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_auth_service.json"
+    },
+    "component_axtract": {
+      "id": "component_axtract",
+      "type": "component",
+      "name": "AxTract - Healthcare Data Mart Framework",
+      "description": "Self-service healthcare data sharing with automated scheduling and business user empowerment",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_axtract.json"
+    },
+    "component_benefits_triage": {
+      "id": "component_benefits_triage",
+      "type": "component",
+      "name": "Benefits Triage - Claims Requirements Configurator",
+      "description": "Healthcare benefits configuration with validation logic and regulatory compliance",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_benefits_triage.json"
+    },
+    "component_change_data_capture": {
+      "id": "component_change_data_capture",
+      "type": "component",
+      "name": "Change Data Capture Tools",
+      "description": "Real-time data synchronization and event processing with minimal system impact",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_change_data_capture.json"
+    },
+    "component_cognitive_search": {
+      "id": "component_cognitive_search",
+      "type": "component",
+      "name": "Cognitive Search - Enterprise Search Engine",
+      "description": "Advanced search capabilities with contextual understanding and intelligent relevance",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_cognitive_search.json"
+    },
+    "component_data_extractors": {
+      "id": "component_data_extractors",
+      "type": "component",
+      "name": "Data Extractors - RDBMS and Flat File Connectors",
+      "description": "Automated data extraction with format normalization and quality validation",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_data_extractors.json"
+    },
+    "component_devops_playbook": {
+      "id": "component_devops_playbook",
+      "type": "component",
+      "name": "DevOps Playbook - Implementation Framework",
+      "description": "Structured DevOps adoption with maturity assessments and implementation guidance",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_devops_playbook.json"
+    },
+    "component_dragonfly": {
+      "id": "component_dragonfly",
+      "type": "component",
+      "name": "DragonFly - Data Quality Assessment",
+      "description": "Real-time data quality monitoring with automated validation and proactive issue identification",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_dragonfly.json"
+    },
+    "component_hl7_edi_gateway": {
+      "id": "component_hl7_edi_gateway",
+      "type": "component",
+      "name": "HL7 EDI Gateway - Healthcare Data Exchange",
+      "description": "Standards-compliant healthcare data transformation and exchange supporting interoperability",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_hl7_edi_gateway.json"
+    },
+    "component_qum_quide": {
+      "id": "component_qum_quide",
+      "type": "component",
+      "name": "QUM/QUIDE - UI & Usability Testing",
+      "description": "Experience metrics and automated validation for user interfaces with heuristic evaluation",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_qum_quide.json"
+    },
+    "component_semantic_layer": {
+      "id": "component_semantic_layer",
+      "type": "component",
+      "name": "Semantic Layer - Unified Data Access APIs",
+      "description": "Business-friendly data access layer with consistent metrics and unified APIs",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_semantic_layer.json"
+    },
+    "component_streaming_data": {
+      "id": "component_streaming_data",
+      "type": "component",
+      "name": "Streaming Data - Real-time Processing",
+      "description": "High-throughput data ingestion with stream processing capabilities for millisecond response times",
+      "category": "component",
+      "tags": [],
+      "folder": "components",
+      "file": "component_streaming_data.json"
+    },
+    "framework_5p_induction": {
+      "id": "framework_5p_induction",
+      "type": "framework",
+      "name": "5P Induction Process",
+      "description": "Comprehensive onboarding framework covering People, Platforms, Process, Products, and Projects",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_5p_induction.json"
+    },
+    "framework_agile_delivery": {
+      "id": "framework_agile_delivery",
+      "type": "framework",
+      "name": "Agile Delivery Framework",
+      "description": "Scalable agile framework for enterprise delivery",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_agile_delivery.json"
+    },
+    "framework_agile_governance": {
+      "id": "framework_agile_governance",
+      "type": "framework",
+      "name": "Agile Framework and Governance",
+      "description": "Delivery predictability model with defined success criteria and KPIs for agile transformations",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_agile_governance.json"
+    },
+    "framework_architecture_value_board": {
+      "id": "framework_architecture_value_board",
+      "type": "framework",
+      "name": "Architecture Value Board (AVB)",
+      "description": "Technical excellence framework with architecture maturity evaluation and value-oriented assessment",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_architecture_value_board.json"
+    },
+    "framework_bizcontinuity": {
+      "id": "framework_bizcontinuity",
+      "type": "framework",
+      "name": "BizContinuity Framework",
+      "description": "Business resilience methodology with disaster recovery planning and operational reliability",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_bizcontinuity.json"
+    },
+    "framework_collaborative_teams": {
+      "id": "framework_collaborative_teams",
+      "type": "framework",
+      "name": "Collaborative Teams Model",
+      "description": "Balanced partnership approach with coordinated SCRUM teams and shared responsibility",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_collaborative_teams.json"
+    },
+    "framework_devops_maturity": {
+      "id": "framework_devops_maturity",
+      "type": "framework",
+      "name": "DevOps Maturity Framework",
+      "description": "Comprehensive framework for assessing and improving DevOps maturity",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_devops_maturity.json"
+    },
+    "framework_edc_model": {
+      "id": "framework_edc_model",
+      "type": "framework",
+      "name": "EDC Model - Extended Delivery Center Framework",
+      "description": "White-box engagement model with complete transparency and control for large-scale strategic partnerships",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_edc_model.json"
+    },
+    "framework_information_security": {
+      "id": "framework_information_security",
+      "type": "framework",
+      "name": "Information Security Framework",
+      "description": "Comprehensive security methodology with endpoint and peripheral controls for data protection",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_information_security.json"
+    },
+    "framework_innovation_lifecycle": {
+      "id": "framework_innovation_lifecycle",
+      "type": "framework",
+      "name": "Innovation Development Lifecycle",
+      "description": "End-to-end innovation management from strategy to support with structured approach to digital transformation",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_innovation_lifecycle.json"
+    },
+    "framework_integrated_teams": {
+      "id": "framework_integrated_teams",
+      "type": "framework",
+      "name": "Integrated Teams Model",
+      "description": "Client-led collaborative approach with individual contributors integrated into existing teams",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_integrated_teams.json"
+    },
+    "framework_lifecycle_ownership": {
+      "id": "framework_lifecycle_ownership",
+      "type": "framework",
+      "name": "Lifecycle Ownership Model",
+      "description": "Complete product development and support management with end-to-end accountability",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_lifecycle_ownership.json"
+    },
+    "framework_program_value_board": {
+      "id": "framework_program_value_board",
+      "type": "framework",
+      "name": "Program Value Board (PVB)",
+      "description": "Program governance framework with PM best practices assessment and objective evaluation",
+      "category": "framework",
+      "tags": [],
+      "folder": "frameworks",
+      "file": "framework_program_value_board.json"
+    },
+    "prototype_ar_field_service": {
+      "id": "prototype_ar_field_service",
+      "type": "prototype",
+      "name": "AR Field Service Assistant",
+      "description": "Augmented reality solution for field service technicians",
+      "category": "prototype",
+      "tags": [],
+      "folder": "prototypes",
+      "file": "prototype_ar_field_service.json"
+    },
+    "prototype_custom_copilots": {
+      "id": "prototype_custom_copilots",
+      "type": "prototype",
+      "name": "Custom Copilots - AI-Enhanced Development",
+      "description": "AI-powered development assistance with contextual code generation, automated documentation, and quality validation for enterprise development teams",
+      "category": "Development Enhancement",
+      "tags": [],
+      "folder": "prototypes",
+      "file": "prototype_custom_copilots.json"
+    },
+    "prototype_healthscribe": {
+      "id": "prototype_healthscribe",
+      "type": "prototype",
+      "name": "HealthScribe - Voice-to-Medical-Record Platform",
+      "description": "AI-powered voice recognition system for medical documentation with specialized speech-to-text for medical terminology and automated clinical documentation creation",
+      "category": "Healthcare Innovation",
+      "tags": [],
+      "folder": "prototypes",
+      "file": "prototype_healthscribe.json"
+    },
+    "prototype_quantum_ml": {
+      "id": "prototype_quantum_ml",
+      "type": "prototype",
+      "name": "Quantum ML Optimizer",
+      "description": "Quantum computing integration for ML optimization problems",
+      "category": "prototype",
+      "tags": [],
+      "folder": "prototypes",
+      "file": "prototype_quantum_ml.json"
+    },
+    "prototype_strategic_guardrails": {
+      "id": "prototype_strategic_guardrails",
+      "type": "prototype",
+      "name": "Strategic Guardrails - AI Governance Framework",
+      "description": "Comprehensive AI governance and ethical deployment framework with automated content moderation, bias detection, and compliance monitoring for enterprise AI adopters",
+      "category": "AI Governance",
+      "tags": [],
+      "folder": "prototypes",
+      "file": "prototype_strategic_guardrails.json"
+    },
+    "technology_apache_airflow": {
+      "id": "technology_apache_airflow",
+      "type": "technology",
+      "name": "Apache Airflow",
+      "description": "Workflow orchestration platform",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_apache_airflow.json"
+    },
+    "technology_arcore": {
+      "id": "technology_arcore",
+      "type": "technology",
+      "name": "ARCore",
+      "description": "Google's AR development platform",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_arcore.json"
+    },
+    "technology_arkit": {
+      "id": "technology_arkit",
+      "type": "technology",
+      "name": "ARKit",
+      "description": "Apple's AR development framework",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_arkit.json"
+    },
+    "technology_bitcoin": {
+      "id": "technology_bitcoin",
+      "type": "technology",
+      "name": "Bitcoin",
+      "description": "Pioneer cryptocurrency and blockchain platform providing decentralized digital currency and peer-to-peer transactions",
+      "category": "blockchain",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_bitcoin.json"
+    },
+    "technology_cardano": {
+      "id": "technology_cardano",
+      "type": "technology",
+      "name": "Cardano",
+      "description": "Proof-of-stake blockchain platform focused on sustainability, scalability, and interoperability with research-driven approach",
+      "category": "blockchain",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_cardano.json"
+    },
+    "technology_docker": {
+      "id": "technology_docker",
+      "type": "technology",
+      "name": "Docker",
+      "description": "Platform for developing, shipping, and running applications in containers",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_docker.json"
+    },
+    "technology_ethereum": {
+      "id": "technology_ethereum",
+      "type": "technology",
+      "name": "Ethereum",
+      "description": "Leading blockchain platform for smart contracts and decentralized applications with ERC20/ERC721 token standards",
+      "category": "blockchain",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_ethereum.json"
+    },
+    "technology_github_actions": {
+      "id": "technology_github_actions",
+      "type": "technology",
+      "name": "GitHub Actions",
+      "description": "CI/CD platform integrated with GitHub",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_github_actions.json"
+    },
+    "technology_hashicorp_vault": {
+      "id": "technology_hashicorp_vault",
+      "type": "technology",
+      "name": "HashiCorp Vault",
+      "description": "Identity-based secrets and encryption management system for securing, storing and protecting secrets and other sensitive data",
+      "category": "security",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_hashicorp_vault.json"
+    },
+    "technology_huggingface": {
+      "id": "technology_huggingface",
+      "type": "technology",
+      "name": "Hugging Face",
+      "description": "ML model hub and libraries",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_huggingface.json"
+    },
+    "technology_hyperledger": {
+      "id": "technology_hyperledger",
+      "type": "technology",
+      "name": "Hyperledger Fabric",
+      "description": "Enterprise-grade permissioned blockchain platform for business networks with modular architecture and privacy features",
+      "category": "blockchain",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_hyperledger.json"
+    },
+    "technology_ipfs": {
+      "id": "technology_ipfs",
+      "type": "technology",
+      "name": "IPFS",
+      "description": "InterPlanetary File System - peer-to-peer distributed file system for decentralized storage and content addressing",
+      "category": "storage",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_ipfs.json"
+    },
+    "technology_jenkins": {
+      "id": "technology_jenkins",
+      "type": "technology",
+      "name": "Jenkins",
+      "description": "CI/CD automation server",
+      "category": "tool",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_jenkins.json"
+    },
+    "technology_jwt": {
+      "id": "technology_jwt",
+      "type": "technology",
+      "name": "JWT",
+      "description": "JSON Web Token standard",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_jwt.json"
+    },
+    "technology_kubernetes": {
+      "id": "technology_kubernetes",
+      "type": "technology",
+      "name": "Kubernetes",
+      "description": "Container orchestration platform",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_kubernetes.json"
+    },
+    "technology_langchain": {
+      "id": "technology_langchain",
+      "type": "technology",
+      "name": "LangChain",
+      "description": "Framework for building LLM applications",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_langchain.json"
+    },
+    "technology_mlflow": {
+      "id": "technology_mlflow",
+      "type": "technology",
+      "name": "MLflow",
+      "description": "ML lifecycle management platform",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_mlflow.json"
+    },
+    "technology_mongodb": {
+      "id": "technology_mongodb",
+      "type": "technology",
+      "name": "MongoDB",
+      "description": "NoSQL document database",
+      "category": "database",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_mongodb.json"
+    },
+    "technology_nessus": {
+      "id": "technology_nessus",
+      "type": "technology",
+      "name": "Nessus",
+      "description": "Comprehensive vulnerability scanner for identifying security vulnerabilities, configuration issues, and malware",
+      "category": "security",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_nessus.json"
+    },
+    "technology_nodejs": {
+      "id": "technology_nodejs",
+      "type": "technology",
+      "name": "Node.js",
+      "description": "JavaScript runtime for server-side development",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_nodejs.json"
+    },
+    "technology_oauth": {
+      "id": "technology_oauth",
+      "type": "technology",
+      "name": "OAuth 2.0",
+      "description": "Authorization framework",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_oauth.json"
+    },
+    "technology_openai": {
+      "id": "technology_openai",
+      "type": "technology",
+      "name": "OpenAI",
+      "description": "AI models and APIs",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_openai.json"
+    },
+    "technology_openvas": {
+      "id": "technology_openvas",
+      "type": "technology",
+      "name": "OpenVAS",
+      "description": "Open-source vulnerability scanner and management solution for comprehensive security testing",
+      "category": "security",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_openvas.json"
+    },
+    "technology_powerbi": {
+      "id": "technology_powerbi",
+      "type": "technology",
+      "name": "Power BI",
+      "description": "Business analytics solution",
+      "category": "tool",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_powerbi.json"
+    },
+    "technology_python": {
+      "id": "technology_python",
+      "type": "technology",
+      "name": "Python",
+      "description": "Programming language for data science and backend development",
+      "category": "language",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_python.json"
+    },
+    "technology_pytorch": {
+      "id": "technology_pytorch",
+      "type": "technology",
+      "name": "PyTorch",
+      "description": "Open-source machine learning library for Python with strong GPU acceleration",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_pytorch.json"
+    },
+    "technology_qiskit": {
+      "id": "technology_qiskit",
+      "type": "technology",
+      "name": "Qiskit",
+      "description": "Quantum computing SDK",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_qiskit.json"
+    },
+    "technology_react": {
+      "id": "technology_react",
+      "type": "technology",
+      "name": "React",
+      "description": "Frontend JavaScript library",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_react.json"
+    },
+    "technology_sonarqube": {
+      "id": "technology_sonarqube",
+      "type": "technology",
+      "name": "SonarQube",
+      "description": "Code quality and security analysis platform for continuous inspection of code quality",
+      "category": "security",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_sonarqube.json"
+    },
+    "technology_spark": {
+      "id": "technology_spark",
+      "type": "technology",
+      "name": "Apache Spark",
+      "description": "Distributed computing framework",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_spark.json"
+    },
+    "technology_splunk": {
+      "id": "technology_splunk",
+      "type": "technology",
+      "name": "Splunk",
+      "description": "Data platform for searching, monitoring, and analyzing machine-generated data via web-style interface",
+      "category": "security",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_splunk.json"
+    },
+    "technology_tableau": {
+      "id": "technology_tableau",
+      "type": "technology",
+      "name": "Tableau",
+      "description": "Business intelligence and visualization platform",
+      "category": "tool",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_tableau.json"
+    },
+    "technology_tensorflow": {
+      "id": "technology_tensorflow",
+      "type": "technology",
+      "name": "TensorFlow",
+      "description": "Open-source machine learning framework for building and deploying ML models",
+      "category": "framework",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_tensorflow.json"
+    },
+    "technology_terraform": {
+      "id": "technology_terraform",
+      "type": "technology",
+      "name": "Terraform",
+      "description": "Infrastructure as Code tool",
+      "category": "tool",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_terraform.json"
+    },
+    "technology_unity": {
+      "id": "technology_unity",
+      "type": "technology",
+      "name": "Unity",
+      "description": "Real-time 3D development platform",
+      "category": "platform",
+      "tags": [],
+      "folder": "technologies",
+      "file": "technology_unity.json"
+    },
+    "industry_ecommerce": {
+      "id": "industry_ecommerce",
+      "type": "industry",
+      "name": "E-commerce",
+      "description": "Online retail and marketplaces",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_ecommerce.json"
+    },
+    "industry_financial_services": {
+      "id": "industry_financial_services",
+      "type": "industry",
+      "name": "Financial Services",
+      "description": "Banking, insurance, and financial technology",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_financial_services.json"
+    },
+    "industry_healthcare": {
+      "id": "industry_healthcare",
+      "type": "industry",
+      "name": "Healthcare",
+      "description": "Healthcare and life sciences",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_healthcare.json"
+    },
+    "industry_manufacturing": {
+      "id": "industry_manufacturing",
+      "type": "industry",
+      "name": "Manufacturing",
+      "description": "Industrial and discrete manufacturing",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_manufacturing.json"
+    },
+    "industry_media": {
+      "id": "industry_media",
+      "type": "industry",
+      "name": "Media & Entertainment",
+      "description": "Media, entertainment, and publishing",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_media.json"
+    },
+    "industry_pharma": {
+      "id": "industry_pharma",
+      "type": "industry",
+      "name": "Pharmaceuticals",
+      "description": "Pharmaceutical and biotech companies",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_pharma.json"
+    },
+    "industry_retail": {
+      "id": "industry_retail",
+      "type": "industry",
+      "name": "Retail",
+      "description": "Retail and consumer goods",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_retail.json"
+    },
+    "industry_technology": {
+      "id": "industry_technology",
+      "type": "industry",
+      "name": "Technology",
+      "description": "Software and technology companies",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_technology.json"
+    },
+    "industry_utilities": {
+      "id": "industry_utilities",
+      "type": "industry",
+      "name": "Utilities",
+      "description": "Energy and utility companies",
+      "tags": [],
+      "folder": "industries",
+      "file": "industry_utilities.json"
+    },
+    "case_bank_transformation": {
+      "id": "case_bank_transformation",
+      "type": "casestudy",
+      "name": "Digital Transformation for Major US Bank",
+      "description": "Complete digital transformation of retail banking operations",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "case_bank_transformation.json"
+    },
+    "case_retailer_devops": {
+      "id": "case_retailer_devops",
+      "type": "casestudy",
+      "name": "DevOps Transformation for Fortune 500 Retailer",
+      "description": "Enterprise-wide DevOps transformation enabling rapid digital innovation",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "case_retailer_devops.json"
+    },
+    "casestudy_abbott": {
+      "id": "casestudy_abbott",
+      "type": "casestudy",
+      "name": "Abbott Laboratories - eCommerce Test Automation and Content Management",
+      "description": "Automated testing for eCommerce platforms and enhanced content management capabilities for global healthcare leader, enabling better digital experiences through comprehensive test coverage and streamlined content workflows.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_abbott.json"
+    },
+    "casestudy_ana": {
+      "id": "casestudy_ana",
+      "type": "casestudy",
+      "name": "American Nurses Association - Accreditation Platform & Data Analytics",
+      "description": "Modernizing accreditation systems and data analytics platforms for a leading U.S. healthcare organization representing 4+ million nurses, including operational excellence through platform modernization and data migration to Azure cloud.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_ana.json"
+    },
+    "casestudy_belgium_health_ecosystem": {
+      "id": "casestudy_belgium_health_ecosystem",
+      "type": "casestudy",
+      "name": "Connected Care Coordination Platform for Belgium's Health Ecosystem",
+      "description": "Developed a comprehensive care coordination platform for Belgium's national healthcare ecosystem, serving a 400 million+ revenue multinational company with 40K+ customers across 29+ countries, delivering the solution in record time of less than 6 months.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_belgium_health_ecosystem.json"
+    },
+    "casestudy_cancer_care_platform": {
+      "id": "casestudy_cancer_care_platform",
+      "type": "casestudy",
+      "name": "Cancer Care Platform for Patient Communication and Support",
+      "description": "Built a comprehensive care management platform enabling cancer patients to communicate with other patients, family members, and caregivers while creating supportive communities based on cancer type, region, and demographics.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_cancer_care_platform.json"
+    },
+    "casestudy_cbc": {
+      "id": "casestudy_cbc",
+      "type": "casestudy",
+      "name": "CBC Companies - Scalable Modernization with Messaging-Based Microservices",
+      "description": "Modernization of legacy application using messaging-based microservices architecture to provide automated risk mitigation system that identifies fraud and misrepresentation in the loan origination process.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_cbc.json"
+    },
+    "casestudy_cinch": {
+      "id": "casestudy_cinch",
+      "type": "casestudy",
+      "name": "Cinch Home Services - Technology Modernization for Growth",
+      "description": "Technology modernization initiative to support growth objectives, improve performance, and increase speed to market for leading home warranty provider with 45+ years of experience, focusing on migration from Mendix low-code platform to Angular-based architecture.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_cinch.json"
+    },
+    "casestudy_cision": {
+      "id": "casestudy_cision",
+      "type": "casestudy",
+      "name": "Cision - Distribution Platform Re-engineering and GEO Optimization",
+      "description": "Modernized distribution platform and implemented Generative Engine Optimization (GEO) for leading media communications solutions provider, optimizing content for emerging digital platforms and AI-driven content discovery.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_cision.json"
+    },
+    "casestudy_claims_data_processing": {
+      "id": "casestudy_claims_data_processing",
+      "type": "casestudy",
+      "name": "Claims Data Processing for Pharmacy Benefits Management System",
+      "description": "Developed an advanced claims processing system for a multi-billion dollar PBM to merge acquired platforms, enhance benefits plan management, and improve patient experience using big data analytics and machine learning, processing 100 million transactions with 250+ parameter fields.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_claims_data_processing.json"
+    },
+    "casestudy_clinical_trial_management": {
+      "id": "casestudy_clinical_trial_management",
+      "type": "casestudy",
+      "name": "Clinical Trial and Quality Management Platform for European ISV",
+      "description": "Modernized a clinical trial management platform serving 25+ countries with 100+ employees worldwide, achieving 50%+ savings on CapEx, 70% reduction in OpEx, and 100% improvement in end-user experience while becoming the fastest growing LifeScience tech provider.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_clinical_trial_management.json"
+    },
+    "casestudy_covid19_vaccine_supply": {
+      "id": "casestudy_covid19_vaccine_supply",
+      "type": "casestudy",
+      "name": "COVID-19 Vaccine Supply Chain Management Platform",
+      "description": "Built a comprehensive supply chain monitoring platform for one of the world's largest COVID-19 vaccine programs, tracking storage, distribution, and vaccination data across 189 countries while managing 21 million vaccines and 500 million syringes by end of 2021.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_covid19_vaccine_supply.json"
+    },
+    "casestudy_ddi": {
+      "id": "casestudy_ddi",
+      "type": "casestudy",
+      "name": "DDI - Learner Portal & Analytics Platform Development",
+      "description": "Integrated learning and HR services portal with unified analytics platform addressing data engineering needs for one of the biggest human resources and leadership development consultancy in USA.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_ddi.json"
+    },
+    "casestudy_dell_technologies": {
+      "id": "casestudy_dell_technologies",
+      "type": "casestudy",
+      "name": "Dell Technologies - Enterprise Modernization Platform",
+      "description": "Enterprise modernization initiative transitioning from vertical silos to an innovation platform, helping drive efficiency, agility, and strategic decision-making while enabling AI adoption and IT/OT alignment.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_dell_technologies.json"
+    },
+    "casestudy_diagnostic_portal": {
+      "id": "casestudy_diagnostic_portal",
+      "type": "casestudy",
+      "name": "Secure Portal for Diagnostic Test Results Access and Sharing",
+      "description": "Built a secure patient portal enabling access to lab results and self-reported data sharing with care providers, featuring integration with major EMR systems including Cerner and Epic, with comprehensive master data management for thousands of healthcare stakeholders.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_diagnostic_portal.json"
+    },
+    "casestudy_echo_health": {
+      "id": "casestudy_echo_health",
+      "type": "casestudy",
+      "name": "Echo Health Inc. - Digital Payment Solutions Platform",
+      "description": "Developed comprehensive digital payment solutions for healthcare industry leader processing hundreds of millions of payments annually, enabling transition from paper checks to secure digital payment modalities with enhanced data interfaces.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_echo_health.json"
+    },
+    "casestudy_finvi": {
+      "id": "casestudy_finvi",
+      "type": "casestudy",
+      "name": "Finvi Case Study - Velosidy Collections Innovation",
+      "description": "Transforming collection strategies through AI-driven predictive analytics and cloud modernization, achieving 10% revenue increase and significant operational cost reduction through the Velosidy platform.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_finvi.json"
+    },
+    "casestudy_glucose_monitoring": {
+      "id": "casestudy_glucose_monitoring",
+      "type": "casestudy",
+      "name": "World's First Cellular-based Continuous Glucose Monitoring Product",
+      "description": "Developed the world's first cellular-based continuous glucose monitoring (CGM) product with companion mobile app, enabling real-time diabetes management and remote patient monitoring with significant improvement in patient adherence.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_glucose_monitoring.json"
+    },
+    "casestudy_harris": {
+      "id": "casestudy_harris",
+      "type": "casestudy",
+      "name": "Harris - Court Recording and Case Management Platform",
+      "description": "Streamlining court recording and case management through modern digital platform, replacing outdated recording systems and reducing manual paperwork while ensuring compliance with legal standards.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_harris.json"
+    },
+    "casestudy_healthcare_payment_gateway": {
+      "id": "casestudy_healthcare_payment_gateway",
+      "type": "casestudy",
+      "name": "Healthcare Payment Gateway Platform Engineering",
+      "description": "Engineered a comprehensive healthcare payment gateway platform with multiple payment modalities, reducing provider revenue cycle from 7+ days to 5 minutes while supporting virtual cards, ACH, paper checks, and eChecks with advanced fraud prevention and automated enrollment management.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_healthcare_payment_gateway.json"
+    },
+    "casestudy_iaea": {
+      "id": "casestudy_iaea",
+      "type": "casestudy",
+      "name": "International Atomic Energy Agency - Electronic Safety Standards Platform",
+      "description": "Streamlined the creation and maintenance of Nuclear Safety Standards (NSS) documentation through a secure, collaborative platform with centralized governance and standardized publishing workflows.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_iaea.json"
+    },
+    "casestudy_johnson_matthey": {
+      "id": "casestudy_johnson_matthey",
+      "type": "casestudy",
+      "name": "Johnson Matthey - Digital Transformation for PGMS Division",
+      "description": "Comprehensive digital transformation spanning Microsoft Dynamics Business Central implementation, future roadmap assessment, and refining process optimization using automation for the 200+ year old sustainable technologies leader.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_johnson_matthey.json"
+    },
+    "casestudy_kindercare": {
+      "id": "casestudy_kindercare",
+      "type": "casestudy",
+      "name": "KinderCare - Legacy Application and Data Platform Modernization",
+      "description": "Digital transformation and integration across all business functions for leading early childhood education provider, improving operational efficiency across 1,500+ decentralized centers and enhancing parent engagement through transparency and streamlined processes.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_kindercare.json"
+    },
+    "casestudy_leadventure": {
+      "id": "casestudy_leadventure",
+      "type": "casestudy",
+      "name": "Leadventure - Digital Dealership Platform & Virtual Showroom",
+      "description": "Comprehensive product development and maintenance for the market-leading provider of digital solutions for vehicle dealerships, including virtual showroom experiences and modernized distribution center operations.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_leadventure.json"
+    },
+    "casestudy_mental_health_ehr": {
+      "id": "casestudy_mental_health_ehr",
+      "type": "casestudy",
+      "name": "Mental Health EHR Platform for Behavioral Healthcare",
+      "description": "Designed, developed, and maintained a specialized Electronic Health Record platform for behavioral health serving 100+ mental health clinics and rehab centers, generating $1 million+ net revenue and serving 50K+ patients with 2014 Edition ONC-ACB Meaningful Use certification.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_mental_health_ehr.json"
+    },
+    "casestudy_msa": {
+      "id": "casestudy_msa",
+      "type": "casestudy",
+      "name": "Management Science Associates - Data Engineering and Test Automation",
+      "description": "Enhanced data-driven decision-making platforms through ETL automation, critical jobs optimization processing massive datasets (20 billion records, 2TB), and comprehensive test automation implementation for retail analytics leader.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_msa.json"
+    },
+    "casestudy_neurological_wearable": {
+      "id": "casestudy_neurological_wearable",
+      "type": "casestudy",
+      "name": "Neurological Wearable Device for Mood Alteration and Treatment",
+      "description": "Developed the world's first digital medicine platform combining a wearable device with a mobile app for neurological disorder treatment and mood alteration, currently undergoing clinical trials for stress-related ailments including psoriasis.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_neurological_wearable.json"
+    },
+    "casestudy_owl_invest": {
+      "id": "casestudy_owl_invest",
+      "type": "casestudy",
+      "name": "OWL INVEST - Integrated Wealth Management Portal",
+      "description": "Product development for a Top 100 Financial Advisor RIA, creating a scalable solution to address multifold challenges including scalability, transition to modern UX leveraging advanced UI frameworks for superior user experience.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_owl_invest.json"
+    },
+    "casestudy_patent_research_repository": {
+      "id": "casestudy_patent_research_repository",
+      "type": "casestudy",
+      "name": "Patent Research Repository for Leading Pharmaceutical Company",
+      "description": "Built a sophisticated patent search platform consolidating multiple data sources to accelerate patent discovery and analysis for pharmaceutical research, improving patent discovery rates by 33% and reducing response times from 30 seconds to under 5 seconds.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_patent_research_repository.json"
+    },
+    "casestudy_patient_flow_management": {
+      "id": "casestudy_patient_flow_management",
+      "type": "casestudy",
+      "name": "Patient Flow Management and Doctor Scheduling Application",
+      "description": "Developed the industry's first mobile application for patient flow monitoring and physician scheduling optimization, achieving 22% reduction in patient waiting time and 16% increase in hospital resource productivity through automated scheduling and gap identification.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_patient_flow_management.json"
+    },
+    "casestudy_pharma_ecommerce": {
+      "id": "casestudy_pharma_ecommerce",
+      "type": "casestudy",
+      "name": "Direct-to-Consumer eCommerce Platform for Global Pharmaceutical Company",
+      "description": "Built a comprehensive direct-to-consumer eCommerce platform for a global pharmaceutical company's diabetes care products across EU markets, featuring automated insurance processing and GDPR compliance, processing 2000+ daily orders for 1.5 million users.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_pharma_ecommerce.json"
+    },
+    "casestudy_pollard": {
+      "id": "casestudy_pollard",
+      "type": "casestudy",
+      "name": "Pollard - PlayOn + iLottery Platform Integration",
+      "description": "Enhancing player engagement and retention through PlayOn+iLottery platform, developing loyalty platform with real-time analytics, loyalty integration, responsible gaming tools, and personalized marketing for lottery operators.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_pollard.json"
+    },
+    "casestudy_rotary_international": {
+      "id": "casestudy_rotary_international",
+      "type": "casestudy",
+      "name": "Rotary International - Digital Transformation and Modernization",
+      "description": "Comprehensive digital transformation including SharePoint migration, microservices architecture implementation, and Salesforce-based lead management system optimization for the global service organization serving millions of members.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_rotary_international.json"
+    },
+    "casestudy_syndigo": {
+      "id": "casestudy_syndigo",
+      "type": "casestudy",
+      "name": "SYNDIGO - AI-Powered Image Attribute Extraction and Anomaly Detection",
+      "description": "AI-powered solution to minimize errors and reduce time users spend entering product details based on information found in product images, helping speed up the go-to-market process through automatic attribute extraction and anomaly detection.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_syndigo.json"
+    },
+    "casestudy_telemedicine_platform": {
+      "id": "casestudy_telemedicine_platform",
+      "type": "casestudy",
+      "name": "TeleMedicine Platform with integrated eRx, Labs, Clinical Notes and Ordering Capabilities",
+      "description": "Developed a comprehensive telemedicine platform with fully immersive audio and video teleconsultation capabilities, integrated electronic prescriptions, lab ordering, and clinical notes management to improve customer retention and physician productivity.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_telemedicine_platform.json"
+    },
+    "casestudy_value_based_care": {
+      "id": "casestudy_value_based_care",
+      "type": "casestudy",
+      "name": "Care Management Platform for Value-Based Care Transition",
+      "description": "Built an advanced care management platform using OCR, NLP, and machine learning to help healthcare payers transition from traditional fee-for-service to risk-adjusted value-based care plans, achieving 15-20% improvement in Risk Adjustment Factor (RAF) and 19x return on investment.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_value_based_care.json"
+    },
+    "casestudy_veracode": {
+      "id": "casestudy_veracode",
+      "type": "casestudy",
+      "name": "Veracode - Cybersecurity Platform R&D Scaling",
+      "description": "Scaled R&D capabilities and modernized AppSec platforms for leading application security partner, enabling accelerated product roadmap and improved global customer service through 24x7 support operations.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_veracode.json"
+    },
+    "casestudy_voice_physician_companion": {
+      "id": "casestudy_voice_physician_companion",
+      "type": "casestudy",
+      "name": "Voice-Assisted Physician Companion Platform",
+      "description": "Developed a voice-enabled mobile application that reduces physician administrative burden by 15% through automated clinical notes and billing, featuring FHIR R4 integration with major EMR systems and natural language voice commands for seamless workflow integration.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_voice_physician_companion.json"
+    },
+    "casestudy_xray_arthritis_analysis": {
+      "id": "casestudy_xray_arthritis_analysis",
+      "type": "casestudy",
+      "name": "Machine Learning X-Ray Analysis for Arthritis Evaluation",
+      "description": "Developed an advanced machine learning system using Convolutional Neural Networks (CNN) for automated X-ray analysis to assess arthritis extent in chronic patients, achieving over 95% accuracy while significantly reducing manual effort for healthcare professionals.",
+      "tags": [],
+      "folder": "case-studies",
+      "file": "casestudy_xray_arthritis_analysis.json"
+    }
+  },
+  "byType": {
+    "pillar": [
+      "pillar_automation",
+      "pillar_cloud",
+      "pillar_data",
+      "pillar_digital_products"
+    ],
+    "coe": [
+      "coe_architecture",
+      "coe_blockchain",
+      "coe_data_analytics",
+      "coe_data_governance",
+      "coe_data_mesh",
+      "coe_data_roi",
+      "coe_data_streaming",
+      "coe_data_transformation",
+      "coe_databricks",
+      "coe_devops",
+      "coe_ecommerce",
+      "coe_financial_analytics",
+      "coe_genai",
+      "coe_iot",
+      "coe_mdm",
+      "coe_medical_imaging",
+      "coe_portfolio_rationalization",
+      "coe_reengineering",
+      "coe_security",
+      "coe_servicenow",
+      "coe_snowflake",
+      "coe_testing",
+      "coe_ux"
+    ],
+    "platform": [
+      "platform_breeze",
+      "platform_breeze_ai",
+      "platform_dataops",
+      "platform_digitalhub",
+      "platform_ezebenefits",
+      "platform_kaps",
+      "platform_unifiedai",
+      "platform_unity"
+    ],
+    "accelerator": [
+      "accelerator_autonomous_support",
+      "accelerator_cicd_accelerator",
+      "accelerator_cloud_map",
+      "accelerator_code_migration_assistant",
+      "accelerator_data_orchestrator",
+      "accelerator_data_transformation_toolkit",
+      "accelerator_enterprise_agents",
+      "accelerator_gen_ai_in_a_box",
+      "accelerator_genai_studio",
+      "accelerator_infoundry",
+      "accelerator_legacy_migration",
+      "accelerator_midas",
+      "accelerator_nexial",
+      "accelerator_support_bots"
+    ],
+    "component": [
+      "component_auth_service",
+      "component_axtract",
+      "component_benefits_triage",
+      "component_change_data_capture",
+      "component_cognitive_search",
+      "component_data_extractors",
+      "component_devops_playbook",
+      "component_dragonfly",
+      "component_hl7_edi_gateway",
+      "component_qum_quide",
+      "component_semantic_layer",
+      "component_streaming_data"
+    ],
+    "framework": [
+      "framework_5p_induction",
+      "framework_agile_delivery",
+      "framework_agile_governance",
+      "framework_architecture_value_board",
+      "framework_bizcontinuity",
+      "framework_collaborative_teams",
+      "framework_devops_maturity",
+      "framework_edc_model",
+      "framework_information_security",
+      "framework_innovation_lifecycle",
+      "framework_integrated_teams",
+      "framework_lifecycle_ownership",
+      "framework_program_value_board"
+    ],
+    "prototype": [
+      "prototype_ar_field_service",
+      "prototype_custom_copilots",
+      "prototype_healthscribe",
+      "prototype_quantum_ml",
+      "prototype_strategic_guardrails"
+    ],
+    "technology": [
+      "technology_apache_airflow",
+      "technology_arcore",
+      "technology_arkit",
+      "technology_bitcoin",
+      "technology_cardano",
+      "technology_docker",
+      "technology_ethereum",
+      "technology_github_actions",
+      "technology_hashicorp_vault",
+      "technology_huggingface",
+      "technology_hyperledger",
+      "technology_ipfs",
+      "technology_jenkins",
+      "technology_jwt",
+      "technology_kubernetes",
+      "technology_langchain",
+      "technology_mlflow",
+      "technology_mongodb",
+      "technology_nessus",
+      "technology_nodejs",
+      "technology_oauth",
+      "technology_openai",
+      "technology_openvas",
+      "technology_powerbi",
+      "technology_python",
+      "technology_pytorch",
+      "technology_qiskit",
+      "technology_react",
+      "technology_sonarqube",
+      "technology_spark",
+      "technology_splunk",
+      "technology_tableau",
+      "technology_tensorflow",
+      "technology_terraform",
+      "technology_unity"
+    ],
+    "industry": [
+      "industry_ecommerce",
+      "industry_financial_services",
+      "industry_healthcare",
+      "industry_manufacturing",
+      "industry_media",
+      "industry_pharma",
+      "industry_retail",
+      "industry_technology",
+      "industry_utilities"
+    ],
+    "casestudy": [
+      "case_bank_transformation",
+      "case_retailer_devops",
+      "casestudy_abbott",
+      "casestudy_ana",
+      "casestudy_belgium_health_ecosystem",
+      "casestudy_cancer_care_platform",
+      "casestudy_cbc",
+      "casestudy_cinch",
+      "casestudy_cision",
+      "casestudy_claims_data_processing",
+      "casestudy_clinical_trial_management",
+      "casestudy_covid19_vaccine_supply",
+      "casestudy_ddi",
+      "casestudy_dell_technologies",
+      "casestudy_diagnostic_portal",
+      "casestudy_echo_health",
+      "casestudy_finvi",
+      "casestudy_glucose_monitoring",
+      "casestudy_harris",
+      "casestudy_healthcare_payment_gateway",
+      "casestudy_iaea",
+      "casestudy_johnson_matthey",
+      "casestudy_kindercare",
+      "casestudy_leadventure",
+      "casestudy_mental_health_ehr",
+      "casestudy_msa",
+      "casestudy_neurological_wearable",
+      "casestudy_owl_invest",
+      "casestudy_patent_research_repository",
+      "casestudy_patient_flow_management",
+      "casestudy_pharma_ecommerce",
+      "casestudy_pollard",
+      "casestudy_rotary_international",
+      "casestudy_syndigo",
+      "casestudy_telemedicine_platform",
+      "casestudy_value_based_care",
+      "casestudy_veracode",
+      "casestudy_voice_physician_companion",
+      "casestudy_xray_arthritis_analysis"
+    ]
+  },
+  "relationships": [
+    {
+      "from": "coe_architecture",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "backend_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_github_actions",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing"
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_architecture",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_architecture",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_architecture",
+      "to": "industry_manufacturing",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_architecture",
+      "to": "industry_ecommerce",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_ethereum",
+      "type": "USES",
+      "metadata": {
+        "category": "blockchain_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_bitcoin",
+      "type": "USES",
+      "metadata": {
+        "category": "blockchain_platform"
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_hyperledger",
+      "type": "USES",
+      "metadata": {
+        "category": "blockchain_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_cardano",
+      "type": "USES",
+      "metadata": {
+        "category": "blockchain_platform"
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_ipfs",
+      "type": "USES",
+      "metadata": {
+        "category": "decentralized_storage",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend_framework"
+      }
+    },
+    {
+      "from": "coe_blockchain",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "technology_tensorflow",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "from": "coe_data_analytics",
+      "to": "technology_pytorch",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "from": "coe_data_governance",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_governance",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_data_governance",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_data_governance",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_data_mesh",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_openai",
+      "type": "USES",
+      "metadata": {
+        "category": "ai_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_mlflow",
+      "type": "USES",
+      "metadata": {
+        "category": "ml_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_data_roi",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_data_streaming",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_streaming",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "streaming_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_streaming",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_streaming",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_streaming",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_data_streaming",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_data_transformation",
+      "to": "platform_dataops",
+      "type": "USES"
+    },
+    {
+      "from": "coe_data_transformation",
+      "to": "accelerator_data_transformation_toolkit",
+      "type": "USES"
+    },
+    {
+      "from": "coe_databricks",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_mlflow",
+      "type": "USES",
+      "metadata": {
+        "category": "ml_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_tensorflow",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "from": "coe_databricks",
+      "to": "technology_pytorch",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "from": "coe_devops",
+      "to": "pillar_cloud",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_devops",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_devops",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_devops",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_devops",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "backend_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "industry_ecommerce",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "industry_manufacturing",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_ecommerce",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_mlflow",
+      "type": "USES",
+      "metadata": {
+        "category": "ml_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_tensorflow",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_pytorch",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "technology_openai",
+      "type": "USES",
+      "metadata": {
+        "category": "ai_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_financial_analytics",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_genai",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {}
+    },
+    {
+      "from": "coe_genai",
+      "to": "technology_openai",
+      "type": "USES",
+      "metadata": {}
+    },
+    {
+      "from": "coe_genai",
+      "to": "technology_langchain",
+      "type": "USES",
+      "metadata": {}
+    },
+    {
+      "from": "coe_iot",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "runtime_environment"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend_framework"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "big_data",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_tensorflow",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_pytorch",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "technology_mlflow",
+      "type": "USES",
+      "metadata": {
+        "category": "ml_ops"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "industry_manufacturing",
+      "type": "SERVES",
+      "metadata": {
+        "use_case": "Industry 4.0, predictive maintenance"
+      }
+    },
+    {
+      "from": "coe_iot",
+      "to": "industry_healthcare",
+      "type": "SERVES",
+      "metadata": {
+        "use_case": "Smart healthcare, patient monitoring"
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_mdm",
+      "to": "industry_manufacturing",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_mdm",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_mdm",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "technology_tensorflow",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "technology_pytorch",
+      "type": "USES",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_medical_imaging",
+      "to": "industry_pharma",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "industry_media",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "industry_ecommerce",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "coe_architecture",
+      "type": "COMPLEMENTS",
+      "metadata": {
+        "category": "modernization"
+      }
+    },
+    {
+      "from": "coe_portfolio_rationalization",
+      "to": "coe_testing",
+      "type": "COMPLEMENTS",
+      "metadata": {
+        "category": "quality_assurance"
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "backend_runtime",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_reengineering",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "data_orchestration"
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "pillar_cloud",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "technology_github_actions",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_security",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_security",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_security",
+      "to": "industry_utilities",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "pillar_automation",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "industry_manufacturing",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_servicenow",
+      "to": "industry_utilities",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "pillar_data",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_spark",
+      "type": "USES",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_tableau",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_powerbi",
+      "type": "USES",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_apache_airflow",
+      "type": "USES",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "industry_manufacturing",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_snowflake",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_testing",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_jenkins",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_github_actions",
+      "type": "USES",
+      "metadata": {
+        "category": "ci_cd",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_docker",
+      "type": "USES",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_kubernetes",
+      "type": "USES",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_python",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_nodejs",
+      "type": "USES",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "framework"
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_mongodb",
+      "type": "USES",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_openai",
+      "type": "USES",
+      "metadata": {
+        "category": "ai_platform",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_sonarqube",
+      "type": "USES",
+      "metadata": {
+        "category": "code_quality",
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_testing",
+      "to": "technology_terraform",
+      "type": "USES",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "from": "coe_ux",
+      "to": "pillar_digital_products",
+      "type": "BELONGS_TO",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "from": "coe_ux",
+      "to": "technology_react",
+      "type": "USES",
+      "metadata": {
+        "category": "frontend"
+      }
+    },
+    {
+      "from": "coe_ux",
+      "to": "industry_technology",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_ux",
+      "to": "industry_financial_services",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_ux",
+      "to": "industry_healthcare",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "coe_ux",
+      "to": "industry_retail",
+      "type": "TARGETS",
+      "metadata": {}
+    },
+    {
+      "from": "platform_breeze",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze",
+      "to": "tech_docker",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_breeze",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_breeze",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "tech_huggingface",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "tech_tensorflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_breeze_ai",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "tech_mongodb",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_dataops",
+      "to": "industry_pharma",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_digitalhub",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_ezebenefits",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_ezebenefits",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_ezebenefits",
+      "to": "tech_mongodb",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_ezebenefits",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_ezebenefits",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "tech_huggingface",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "tech_mongodb",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_kaps",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_unifiedai",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "platform_unity",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unity",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unity",
+      "to": "tech_mongodb",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "platform_unity",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_autonomous_support",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_autonomous_support",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_autonomous_support",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_autonomous_support",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_autonomous_support",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_cicd_accelerator",
+      "to": "tech_jenkins",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_cicd_accelerator",
+      "to": "tech_docker",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_cicd_accelerator",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_cloud_map",
+      "to": "tech_terraform",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_cloud_map",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_cloud_map",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_code_migration_assistant",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_code_migration_assistant",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_code_migration_assistant",
+      "to": "tech_github_actions",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_code_migration_assistant",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_data_orchestrator",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_data_orchestrator",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_data_orchestrator",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_data_transformation_toolkit",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_data_transformation_toolkit",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_data_transformation_toolkit",
+      "to": "tech_tableau",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_data_transformation_toolkit",
+      "to": "tech_powerbi",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_enterprise_agents",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_enterprise_agents",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_enterprise_agents",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_enterprise_agents",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_enterprise_agents",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_enterprise_agents",
+      "to": "industry_manufacturing",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_gen_ai_in_a_box",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_gen_ai_in_a_box",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_gen_ai_in_a_box",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_gen_ai_in_a_box",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_genai_studio",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_genai_studio",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_genai_studio",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_infoundry",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_infoundry",
+      "to": "tech_mongodb",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_infoundry",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_infoundry",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_infoundry",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_infoundry",
+      "to": "industry_manufacturing",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_legacy_migration",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_legacy_migration",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_legacy_migration",
+      "to": "tech_react",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_legacy_migration",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_legacy_migration",
+      "to": "industry_manufacturing",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_midas",
+      "to": "tech_tensorflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_midas",
+      "to": "tech_pytorch",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_midas",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_midas",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_nexial",
+      "to": "tech_jenkins",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_nexial",
+      "to": "tech_github_actions",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_nexial",
+      "to": "tech_sonarqube",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_nexial",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_support_bots",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_support_bots",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_support_bots",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "accelerator_support_bots",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_support_bots",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "accelerator_support_bots",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "component_auth_service",
+      "to": "tech_nodejs",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_auth_service",
+      "to": "tech_oauth",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_axtract",
+      "to": "industry_healthcare",
+      "type": "SERVES"
+    },
+    {
+      "from": "component_axtract",
+      "to": "industry_pharma",
+      "type": "SERVES"
+    },
+    {
+      "from": "component_axtract",
+      "to": "coe_data_transformation",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_benefits_triage",
+      "to": "industry_healthcare",
+      "type": "SERVES"
+    },
+    {
+      "from": "component_benefits_triage",
+      "to": "platform_ezebenefits",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "from": "component_benefits_triage",
+      "to": "coe_medical_imaging",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_change_data_capture",
+      "to": "coe_data_streaming",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_change_data_capture",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_change_data_capture",
+      "to": "pillar_data",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "component_cognitive_search",
+      "to": "coe_genai",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_cognitive_search",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_cognitive_search",
+      "to": "pillar_digital_products",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "component_data_extractors",
+      "to": "coe_data_transformation",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_data_extractors",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_data_extractors",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_devops_playbook",
+      "to": "coe_devops",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_devops_playbook",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_devops_playbook",
+      "to": "tech_terraform",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_devops_playbook",
+      "to": "pillar_automation",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "component_dragonfly",
+      "to": "coe_data_governance",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_dragonfly",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_dragonfly",
+      "to": "tech_apache_airflow",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_hl7_edi_gateway",
+      "to": "industry_healthcare",
+      "type": "SERVES"
+    },
+    {
+      "from": "component_hl7_edi_gateway",
+      "to": "industry_pharma",
+      "type": "SERVES"
+    },
+    {
+      "from": "component_hl7_edi_gateway",
+      "to": "coe_medical_imaging",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_qum_quide",
+      "to": "coe_testing",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_qum_quide",
+      "to": "coe_ux",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_qum_quide",
+      "to": "pillar_digital_products",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "component_semantic_layer",
+      "to": "coe_data_analytics",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_semantic_layer",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_semantic_layer",
+      "to": "pillar_data",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "component_streaming_data",
+      "to": "coe_data_streaming",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "component_streaming_data",
+      "to": "tech_spark",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "component_streaming_data",
+      "to": "coe_iot",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_5p_induction",
+      "to": "coe_devops",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_5p_induction",
+      "to": "pillar_automation",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_agile_governance",
+      "to": "framework_agile_delivery",
+      "type": "EXTENDS"
+    },
+    {
+      "from": "framework_agile_governance",
+      "to": "coe_devops",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_agile_governance",
+      "to": "pillar_automation",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_architecture_value_board",
+      "to": "framework_program_value_board",
+      "type": "COMPLEMENTS"
+    },
+    {
+      "from": "framework_architecture_value_board",
+      "to": "coe_architecture",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "framework_architecture_value_board",
+      "to": "pillar_cloud",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_bizcontinuity",
+      "to": "framework_information_security",
+      "type": "COMPLEMENTS"
+    },
+    {
+      "from": "framework_bizcontinuity",
+      "to": "coe_security",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_bizcontinuity",
+      "to": "pillar_cloud",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_collaborative_teams",
+      "to": "framework_agile_delivery",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_collaborative_teams",
+      "to": "coe_devops",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_edc_model",
+      "to": "coe_architecture",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_edc_model",
+      "to": "pillar_automation",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "framework_information_security",
+      "to": "framework_bizcontinuity",
+      "type": "COMPLEMENTS"
+    },
+    {
+      "from": "framework_information_security",
+      "to": "coe_security",
+      "type": "BELONGS_TO"
+    },
+    {
+      "from": "framework_information_security",
+      "to": "tech_hashicorp_vault",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_innovation_lifecycle",
+      "to": "coe_genai",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_innovation_lifecycle",
+      "to": "coe_architecture",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_innovation_lifecycle",
+      "to": "pillar_digital_products",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_integrated_teams",
+      "to": "coe_devops",
+      "type": "SUPPORTS"
+    },
+    {
+      "from": "framework_integrated_teams",
+      "to": "pillar_automation",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "framework_lifecycle_ownership",
+      "to": "coe_devops",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_lifecycle_ownership",
+      "to": "coe_testing",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "framework_lifecycle_ownership",
+      "to": "pillar_automation",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "framework_program_value_board",
+      "to": "framework_architecture_value_board",
+      "type": "COMPLEMENTS"
+    },
+    {
+      "from": "framework_program_value_board",
+      "to": "coe_architecture",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "prototype_ar_field_service",
+      "to": "tech_unity",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_ar_field_service",
+      "to": "tech_arcore",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_custom_copilots",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_custom_copilots",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_custom_copilots",
+      "to": "tech_github_actions",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_custom_copilots",
+      "to": "tech_sonarqube",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_custom_copilots",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "prototype_custom_copilots",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "prototype_healthscribe",
+      "to": "tech_openai",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_healthscribe",
+      "to": "tech_langchain",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_healthscribe",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_healthscribe",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "prototype_healthscribe",
+      "to": "industry_pharma",
+      "type": "TARGETS"
+    },
+    {
+      "from": "prototype_quantum_ml",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_quantum_ml",
+      "to": "tech_qiskit",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_strategic_guardrails",
+      "to": "tech_python",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_strategic_guardrails",
+      "to": "tech_kubernetes",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_strategic_guardrails",
+      "to": "tech_hashicorp_vault",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_strategic_guardrails",
+      "to": "tech_splunk",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "prototype_strategic_guardrails",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "prototype_strategic_guardrails",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "technology_hashicorp_vault",
+      "to": "technology_kubernetes",
+      "type": "INTEGRATES_WITH",
+      "metadata": {
+        "category": "secrets_management"
+      }
+    },
+    {
+      "from": "technology_hashicorp_vault",
+      "to": "technology_terraform",
+      "type": "INTEGRATES_WITH",
+      "metadata": {
+        "category": "infrastructure_automation"
+      }
+    },
+    {
+      "from": "technology_nessus",
+      "to": "technology_openvas",
+      "type": "COMPLEMENTS",
+      "metadata": {
+        "category": "vulnerability_scanning"
+      }
+    },
+    {
+      "from": "technology_openvas",
+      "to": "technology_nessus",
+      "type": "COMPLEMENTS",
+      "metadata": {
+        "category": "vulnerability_scanning"
+      }
+    },
+    {
+      "from": "technology_sonarqube",
+      "to": "technology_jenkins",
+      "type": "INTEGRATES_WITH",
+      "metadata": {
+        "category": "ci_cd_integration"
+      }
+    },
+    {
+      "from": "technology_sonarqube",
+      "to": "technology_github_actions",
+      "type": "INTEGRATES_WITH",
+      "metadata": {
+        "category": "ci_cd_integration"
+      }
+    },
+    {
+      "from": "technology_splunk",
+      "to": "technology_kubernetes",
+      "type": "INTEGRATES_WITH",
+      "metadata": {
+        "category": "monitoring"
+      }
+    },
+    {
+      "from": "case_bank_transformation",
+      "to": "coe_data_analytics",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_bank_transformation",
+      "to": "platform_unifiedai",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_bank_transformation",
+      "to": "industry_financial_services",
+      "type": "DELIVERS"
+    },
+    {
+      "from": "case_retailer_devops",
+      "to": "coe_devops",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_retailer_devops",
+      "to": "acc_cicd_accelerator",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "case_retailer_devops",
+      "to": "industry_retail",
+      "type": "DELIVERS"
+    },
+    {
+      "from": "casestudy_abbott",
+      "to": "coe_testing",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_abbott",
+      "to": "coe_ecommerce",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_abbott",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_abbott",
+      "to": "industry_pharma",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_abbott",
+      "to": "pillar_digital_products",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_belgium_health_ecosystem",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_belgium_health_ecosystem",
+      "to": "pillar_cloud",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_belgium_health_ecosystem",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_belgium_health_ecosystem",
+      "to": "coe_architecture",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_cancer_care_platform",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_cancer_care_platform",
+      "to": "coe_ux",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_cinch",
+      "to": "coe_devops",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cinch",
+      "to": "coe_architecture",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cinch",
+      "to": "pillar_cloud",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cinch",
+      "to": "platform_breeze",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cision",
+      "to": "tech_kubernetes",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cision",
+      "to": "tech_docker",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cision",
+      "to": "platform_breeze",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cision",
+      "to": "coe_genai",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_cision",
+      "to": "industry_media",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_cision",
+      "to": "pillar_automation",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_claims_data_processing",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_claims_data_processing",
+      "to": "tech_spark",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_claims_data_processing",
+      "to": "tech_python",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_claims_data_processing",
+      "to": "tech_tableau",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_claims_data_processing",
+      "to": "coe_data_analytics",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_clinical_trial_management",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_clinical_trial_management",
+      "to": "industry_pharma",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_clinical_trial_management",
+      "to": "coe_architecture",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_clinical_trial_management",
+      "to": "pillar_cloud",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_covid19_vaccine_supply",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_covid19_vaccine_supply",
+      "to": "tech_powerbi",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_covid19_vaccine_supply",
+      "to": "coe_data_analytics",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_covid19_vaccine_supply",
+      "to": "pillar_cloud",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_covid19_vaccine_supply",
+      "to": "pillar_data",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_dell_technologies",
+      "to": "tech_kubernetes",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_dell_technologies",
+      "to": "tech_docker",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_dell_technologies",
+      "to": "platform_breeze",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_dell_technologies",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_dell_technologies",
+      "to": "pillar_automation",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_dell_technologies",
+      "to": "coe_architecture",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_diagnostic_portal",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_diagnostic_portal",
+      "to": "coe_security",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_diagnostic_portal",
+      "to": "coe_mdm",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_diagnostic_portal",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_echo_health",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_echo_health",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_echo_health",
+      "to": "coe_security",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_echo_health",
+      "to": "pillar_digital_products",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_finvi",
+      "to": "tech_kubernetes",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_finvi",
+      "to": "industry_financial_services",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_glucose_monitoring",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_glucose_monitoring",
+      "to": "coe_iot",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_glucose_monitoring",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_glucose_monitoring",
+      "to": "coe_medical_imaging",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_healthcare_payment_gateway",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_healthcare_payment_gateway",
+      "to": "coe_security",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_healthcare_payment_gateway",
+      "to": "pillar_automation",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_johnson_matthey",
+      "to": "platform_breeze",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_johnson_matthey",
+      "to": "coe_data_transformation",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_johnson_matthey",
+      "to": "industry_manufacturing",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_johnson_matthey",
+      "to": "pillar_automation",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_johnson_matthey",
+      "to": "pillar_cloud",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_kindercare",
+      "to": "coe_data_governance",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_kindercare",
+      "to": "coe_ux",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_kindercare",
+      "to": "pillar_digital_products",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_kindercare",
+      "to": "pillar_data",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_kindercare",
+      "to": "framework_integrated_teams",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_mental_health_ehr",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_mental_health_ehr",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_mental_health_ehr",
+      "to": "coe_security",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_mental_health_ehr",
+      "to": "coe_ux",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_msa",
+      "to": "tech_spark",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_msa",
+      "to": "coe_data_analytics",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_msa",
+      "to": "coe_testing",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_msa",
+      "to": "industry_retail",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_msa",
+      "to": "pillar_data",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_msa",
+      "to": "pillar_automation",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_neurological_wearable",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_neurological_wearable",
+      "to": "coe_iot",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_neurological_wearable",
+      "to": "coe_medical_imaging",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_patent_research_repository",
+      "to": "industry_pharma",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_patent_research_repository",
+      "to": "coe_data_analytics",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_patent_research_repository",
+      "to": "coe_architecture",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_patient_flow_management",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_pharma_ecommerce",
+      "to": "industry_pharma",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_pharma_ecommerce",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_pharma_ecommerce",
+      "to": "coe_ecommerce",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_pharma_ecommerce",
+      "to": "coe_security",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_rotary_international",
+      "to": "tech_react",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_rotary_international",
+      "to": "platform_breeze",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_rotary_international",
+      "to": "coe_architecture",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_rotary_international",
+      "to": "pillar_cloud",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_rotary_international",
+      "to": "pillar_digital_products",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_telemedicine_platform",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_telemedicine_platform",
+      "to": "coe_medical_imaging",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_telemedicine_platform",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_value_based_care",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_value_based_care",
+      "to": "coe_genai",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_value_based_care",
+      "to": "coe_data_analytics",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "tech_kubernetes",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "tech_docker",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "platform_breeze",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "coe_devops",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "industry_technology",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "framework_edc_model",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_veracode",
+      "to": "framework_5p_induction",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_voice_physician_companion",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_voice_physician_companion",
+      "to": "component_hl7_edi_gateway",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_voice_physician_companion",
+      "to": "coe_genai",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_voice_physician_companion",
+      "to": "prototype_healthscribe",
+      "type": "RELATED_TO"
+    },
+    {
+      "from": "casestudy_xray_arthritis_analysis",
+      "to": "industry_healthcare",
+      "type": "TARGETS"
+    },
+    {
+      "from": "casestudy_xray_arthritis_analysis",
+      "to": "tech_tensorflow",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_xray_arthritis_analysis",
+      "to": "tech_python",
+      "type": "LEVERAGES"
+    },
+    {
+      "from": "casestudy_xray_arthritis_analysis",
+      "to": "coe_medical_imaging",
+      "type": "SUPPORTED_BY"
+    },
+    {
+      "from": "casestudy_xray_arthritis_analysis",
+      "to": "coe_genai",
+      "type": "SUPPORTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+
+You are tasked with analyzing a PDF document about a Center of Excellence (CoE) using both the extracted text and visual content.
+
+CONTEXT:
+- PDF File: Security CoE - Part 2.pdf
+- Category: Cloud
+- Number of pages with visuals: 0
+- Document contains information about a specific CoE including diagrams, charts, and visual representations
+
+IMPORTANT: You have access to both:
+1. The extracted text content (provided below)
+2. Visual images of each PDF page (will be provided separately)
+
+TASK:
+1. Analyze BOTH the text content AND the visual elements in the PDF pages
+2. Extract information from diagrams, charts, architecture diagrams, and any visual content
+3. Identify all technologies, frameworks, and tools shown in visuals
+4. Note any relationships or connections shown in diagrams
+5. Extract metrics, KPIs, or data points from charts and graphs
+6. Create a complete JSON configuration file combining insights from both text and visuals
+
+
+
+VISUAL ANALYSIS INSTRUCTIONS:
+- Look for architecture diagrams showing technology stacks
+- Identify logos and technology icons in the visuals
+- Extract process flows and workflow diagrams
+- Note any metrics or statistics shown in charts
+- Identify team structures or organizational charts
+- Look for roadmaps or timeline visuals
+- Extract any visual representations of services or capabilities
+
+EXTRACTED PDF TEXT:
+================================================================================
+
+
+© 2025 Accion Labs© 2025 Accion Labs
+24
+Cross Pillar COE
+Security Services COE
+Cloud 
+Security
+Gen AI 
+Security
+Application
+Security
+DevSecOps
+Governance 
+Risk & 
+Compliance
+
+© 2025 Accion Labs© 2025 Accion Labs
+25
+Cyber Security Services
+•Cloud Security Posture Management
+•Cloud Native Application Protection 
+Platform
+•Cloud Governance Risk & Compliance
+Cloud Security
+•Secure LLM Engineering
+•Model & Prompt Injection Defense
+•API & Access Security
+•Monitoring & Abuse Prevention
+Gen AI Security
+•SAST, DAST & SCA
+•VAPT
+•API Security Testing
+•Runtime Application Self Protection
+Application Security
+•Infrastructure as Code Scanning
+•Shift Left Security
+•Security as Code
+•Automated Security Gates
+DevSecOps
+•Gap Assessment & Readiness Review
+•Policy & Procedure Development
+•Security Control Implementation
+•Risk Assessments & Evidence Gathering
+•Audit Support & Remediation
+GRC
+
+© 2025 Accion Labs© 2025 Accion Labs
+26
+Security Team Structure
+Cybersecurity Practice Head
+Delivery Manager
+Cloud & DevSecOps Gen AI SecurityApplication Security
+Governance Risk 
+& Compliance
+Sales Team
+RoleCountSummary
+Cloud Engineers4 (shared)Available for security-related deployments and configurations
+DevOps Engineers4 (shared)Support for CI/CD, infrastructure hardening, and secure pipeline setup
+Security Test Engineers2Application Security (AppSec) testers, 2–4 weeks average engagement
+Compliance Officers / Auditors3Support for regulatory and standards compliance per engagement
+GenAI Test Engineers3Focused on validating GenAI functionality and safety
+GenAI Security Team41 Architect with strong security background, 2 Secure Devs, 1 DevOps (borrowed)
+Sales Leader1One sales leader to help us guide our efforts with knowledge of existing projects within Accion
+
+© 2025 Accion Labs© 2025 Accion Labs
+24
+Security Services - 1
+1. Security Risk Management, Governance & Compliance
+•Risk Assessments
+•Compliance Audits (GDPR, HIPAA, PCI-DSS, SOC 2, ISO 27001, NIST CSF, CCPA, EU AI Act, NIST AI RMF)
+•Policy Development
+•Third-Party Risk Management
+•Governance Frameworks
+•Regulatory Advisory
+•Data Privacy Services
+•AI Governance
+2. Identity & Access Management (IAM)
+•Privileged Access Management (PAM)
+•Federated Identity
+•Multi-Factor Authentication (MFA)
+•Identity Governance & Administration (IGA)
+•Customer Identity & Access Management (CIAM)
+•Identity Lifecycle Management
+
+© 2025 Accion Labs© 2025 Accion Labs
+25
+Security Services - 2
+3. Data Security & Privacy
+•Data Loss Prevention (DLP)
+•Encryption Services
+•Data Masking/Tokenization
+•Data Discovery & Classification
+•Database Security
+•AI Data Privacy
+4. Network & Infrastructure Security
+•Firewall Management
+•Intrusion Detection/Prevention (IDS/IPS)
+•VPN & Zero Trust Network Access (ZTNA)
+•DDoS Mitigation
+•Network Segmentation
+•Email Security
+
+© 2025 Accion Labs© 2025 Accion Labs
+26
+Security Services - 3
+5. Endpoint & Mobile Security
+•Endpoint Detection & Response (EDR/XDR)
+•Mobile Device Management (MDM)
+•Antivirus/Anti-malware
+•Hardware Security
+•IoT/OT Security
+6. Application Security
+•Penetration Testing
+•SAST/DAST/IAST
+•API Security
+•Container Security
+•Threat Modelling
+7. Cloud Security
+•Cloud Security Posture Management (CSPM)
+•Cloud Workload Protection (CWPP)
+•Cloud Data Security
+•Cloud-Native Security
+•Hybrid Cloud Security
+
+© 2025 Accion Labs© 2025 Accion Labs
+27
+Security Services - 4
+8. Threat Management
+•Threat Intelligence
+•SIEM/SOAR
+•Threat Hunting
+•Vulnerability Management
+•Malware Analysis
+9. Incident Response, Forensics & Recovery
+•Digital Forensics
+•Incident Response Retainers
+•Ransomware Mitigation
+•Disaster Recovery Planning
+•AI Incident Response
+11. Managed Security Services (MSS)
+•Managed Detection & Response (MDR)
+•Vulnerability Scanning as-a-Service
+•Managed Firewall/IDS
+•Compliance Monitoring
+
+© 2025 Accion Labs© 2025 Accion Labs
+28
+Security Services - 5
+12. Secure Software Engineering
+•Secure SDLC Integration
+•Code Review Services
+•DevSecOps Automation
+•SBOM Management
+13. Secure Development Using Generative AI
+•AI-Assisted Secure Coding
+•Prompt Security Engineering
+•AI-Augmented Testing
+•AI Threat Modelling
+•Compliance Automation
+•AI Framework Implementation
+14. Secure Development of Generative AI Systems
+•AI Model Security
+•AI Supply Chain Security
+•AI Data Privacy
+•AI Incident Response
+•AI Regulation Compliance
+================================================================================
+
+IMAGE FILES AVAILABLE FOR ANALYSIS:
+
+
+OUTPUT REQUIREMENTS:
+1. Create a valid JSON object with all required fields
+2. Combine information from both text AND visual elements
+3. When technologies are shown visually but not mentioned in text, include them
+4. Extract actual content from both text and visuals
+5. Include relationships visible in architecture diagrams
+6. Note any metrics or KPIs shown in charts
+7. Generate tags based on all technologies visible in text and images
+
+Please analyze both the text and visual content to create a comprehensive JSON configuration for this CoE.

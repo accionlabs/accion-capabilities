@@ -1,0 +1,280 @@
+{
+  "id": "coe_ecommerce",
+  "type": "coe",
+  "data": {
+    "name": "E-Commerce & Content Management Center of Excellence",
+    "description": "Accion's E-Commerce & Content Management Center of Excellence provides comprehensive digital commerce solutions spanning web portals, content management systems, and e-commerce platforms. The CoE delivers end-to-end e-commerce services including product configuration and pricing, content and product information management, order management and fulfillment, payments and chargebacks, compliance and quality, third-party integrations, customer journey mapping, and advanced analytics. With expertise in modern e-commerce platforms, CMS technologies, and omnichannel customer experiences, the CoE enables organizations to build scalable, secure, and high-performing digital commerce ecosystems that drive business growth and customer engagement.",
+    "category": "Digital Products",
+    "order": 2,
+    "keyCompetencies": [
+      "E-Commerce Platform Development",
+      "Content Management Systems (CMS)",
+      "Web Portals Development",
+      "Product Configuration & Pricing (CPQ)",
+      "Content & Product Information Management (PIM)",
+      "Order Management, Fulfillment & Logistics",
+      "Payment Processing & Chargebacks",
+      "Compliance & Quality Assurance",
+      "Third-Party System Integrations",
+      "Customer Journey Mapping",
+      "Customer Experience Optimization",
+      "Reporting & Analytics",
+      "Asset Management",
+      "Content Authoring",
+      "Administration & DevOps",
+      "Migrations (On-Prem to Cloud)",
+      "B2B, B2C, and B2B2C Commerce Solutions",
+      "Multi-Region E-Commerce Implementations",
+      "Enterprise-Grade E-Commerce Architecture",
+      "Omnichannel Commerce Experiences"
+    ],
+    "services": [
+      {
+        "name": "E-Commerce Platform Development",
+        "description": "Full-stack e-commerce platform development with modern architecture and scalable design",
+        "deliverables": [
+          "Custom e-commerce platforms",
+          "Platform modernization",
+          "Microservices architecture",
+          "API development"
+        ]
+      },
+      {
+        "name": "Content Management Systems",
+        "description": "Enterprise-grade CMS implementation and content authoring solutions",
+        "deliverables": [
+          "CMS implementation",
+          "Content authoring workflows",
+          "Asset management",
+          "Content governance"
+        ]
+      },
+      {
+        "name": "Product Configuration & Pricing",
+        "description": "Advanced product configurators and dynamic pricing engines",
+        "deliverables": [
+          "CPQ system implementation",
+          "Product configurators",
+          "Pricing engines",
+          "Rules-based recommendations"
+        ]
+      },
+      {
+        "name": "Order Management & Fulfillment",
+        "description": "End-to-end order processing, inventory management, and logistics integration",
+        "deliverables": [
+          "Order management systems",
+          "Inventory management",
+          "Logistics integration",
+          "Fulfillment automation"
+        ]
+      },
+      {
+        "name": "Payment Processing & Security",
+        "description": "Secure payment gateway integration and fraud detection systems",
+        "deliverables": [
+          "Payment gateway integration",
+          "Fraud detection",
+          "Chargeback management",
+          "PCI compliance"
+        ]
+      },
+      {
+        "name": "Customer Experience Optimization",
+        "description": "Customer journey mapping and experience enhancement solutions",
+        "deliverables": [
+          "Customer journey analysis",
+          "UX/UI optimization",
+          "Personalization engines",
+          "A/B testing frameworks"
+        ]
+      },
+      {
+        "name": "Third-Party Integrations",
+        "description": "Integration with ERP, CRM, marketing tools, and external systems",
+        "deliverables": [
+          "ERP integration",
+          "CRM connectivity",
+          "Marketing automation",
+          "API management"
+        ]
+      },
+      {
+        "name": "Analytics & Reporting",
+        "description": "Business intelligence and advanced analytics for e-commerce operations",
+        "deliverables": [
+          "Analytics dashboards",
+          "Customer behavior analysis",
+          "Sales reporting",
+          "Performance metrics"
+        ]
+      },
+      {
+        "name": "Cloud Migration & Modernization",
+        "description": "Migration from on-premises to cloud-native e-commerce solutions",
+        "deliverables": [
+          "Cloud migration strategy",
+          "Architecture modernization",
+          "Performance optimization",
+          "Cost reduction"
+        ]
+      },
+      {
+        "name": "Multi-Region E-Commerce",
+        "description": "Global e-commerce implementations across multiple regions and markets",
+        "deliverables": [
+          "Multi-region architecture",
+          "Localization support",
+          "Currency management",
+          "Regional compliance"
+        ]
+      }
+    ],
+    "technologies": [
+      "Adobe Experience Manager (AEM)",
+      "Adobe Commerce (Magento)",
+      "Salesforce Commerce Cloud",
+      "Commercetools",
+      "Shopify Plus",
+      "AWS Services",
+      "Azure Services",
+      "Google Cloud Platform",
+      "MuleSoft",
+      "CloudSense",
+      "React",
+      "Node.js",
+      "Java",
+      ".NET",
+      "Python",
+      "SAP Systems",
+      "Workday",
+      "TIBCO",
+      "Enterprise Systems",
+      "DHL",
+      "FedEx",
+      "UPS",
+      "Hartwell",
+      "Genpack",
+      "VGL",
+      "Arvato",
+      "Yamato",
+      "Facebook Pixel",
+      "Google Analytics",
+      "Hotjar",
+      "Selligent",
+      "Five9",
+      "Jet",
+      "Universal Payments",
+      "eWay",
+      "PayPal",
+      "CyberSource",
+      "Avalara",
+      "AvaTax",
+      "SonarQube",
+      "Veracode",
+      "Crownpeak",
+      "Compliance Tools",
+      "MongoDB",
+      "SQL Server",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "GitHub Actions"
+    ],
+    "businessValue": "Accion's E-Commerce CoE delivers significant business value through accelerated time-to-market for digital commerce initiatives, enhanced customer experiences driving increased conversion rates and customer satisfaction, improved operational efficiency through automation and integration, reduced development costs through reusable components and proven frameworks, scalable architecture supporting business growth, and comprehensive analytics enabling data-driven decision making. The CoE enables organizations to compete effectively in digital markets while maintaining security, compliance, and performance standards.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_ecommerce.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend_framework",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "backend_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_ecommerce",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    }
+  ]
+}

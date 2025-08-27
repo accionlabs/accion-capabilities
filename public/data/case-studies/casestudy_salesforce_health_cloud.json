@@ -1,0 +1,55 @@
+{
+  "id": "casestudy_salesforce_health_cloud",
+  "type": "casestudy",
+  "name": "Healthcare Provider - Transforming Patient Services with Health Cloud",
+  "client": "Healthcare Provider",
+  "industry": "Healthcare",
+  "description": "Implementation of a robust Patient Services platform using Salesforce Health Cloud, enabling seamless patient profile management, automated care workflows, and real-time patient interactions while ensuring compliance with healthcare standards.",
+  "challenge": "The healthcare provider faced multiple critical challenges: disjointed patient data with no unified patient view for seamless care, slow case resolution due to manual workflows causing delays, inefficient processes with tedious eligibility checks and order fulfillment, limited tracking with no real-time visibility into patient services, and integration gaps causing compliance challenges with external systems.",
+  "solution": "Implemented Salesforce Health Cloud to create a comprehensive patient services platform featuring 360-degree patient view with unified profile management, automated care workflows and eligibility verification processes, Omni-Channel routing for optimized service resolution, FHIR-compliant data exchange for seamless integration with external healthcare systems, and real-time patient interaction capabilities.",
+  "outcomes": [
+    "38% faster patient onboarding with 360-degree patient view and automated workflows",
+    "43% increase in service efficiency through automated eligibility checks and benefits verification", 
+    "35% improvement in service resolution time with Salesforce Omni-Channel routing",
+    "FHIR-compliant data exchange ensuring seamless integration with external healthcare systems",
+    "Enhanced patient care coordination through unified data visibility",
+    "Improved compliance with healthcare standards and regulations"
+  ],
+  "technologies": [
+    "Salesforce Health Cloud",
+    "FHIR Integration",
+    "Omni-Channel Routing",
+    "Automated Workflows",
+    "Healthcare Data Exchange"
+  ],
+  "businessValue": [
+    "Significantly improved patient experience through faster onboarding and service resolution",
+    "Enhanced operational efficiency with 43% increase in service efficiency",
+    "Better compliance management with FHIR-compliant data exchange",
+    "Reduced manual workload through automated workflows and eligibility verification",
+    "Improved care coordination across the healthcare ecosystem"
+  ],
+  "duration": "Implementation project",
+  "teamSize": "Salesforce implementation team with healthcare domain expertise",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_healthcare", 
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_health_cloud.md"
+  }
+}

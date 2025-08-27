@@ -1,0 +1,221 @@
+{
+  "id": "coe_aiml",
+  "type": "coe",
+  "data": {
+    "name": "AI/ML Center of Excellence",
+    "description": "Accion's AI/ML Center of Excellence provides comprehensive artificial intelligence and machine learning solutions, focusing on end-to-end ML lifecycle management, deep learning, MLOps, and responsible AI practices. The CoE specializes in custom model development, automated machine learning, computer vision, natural language processing, and intelligent automation. With expertise in modern ML frameworks, cloud-native AI platforms, and AI governance, the AI/ML CoE enables organizations to harness the power of artificial intelligence for business transformation, predictive analytics, and intelligent decision-making.",
+    "category": "Data",
+    "order": 2,
+    "keyCompetencies": [
+      "Machine Learning Model Development and Training",
+      "Deep Learning and Neural Network Architecture",
+      "MLOps and Model Lifecycle Management",
+      "Computer Vision and Image Processing",
+      "Natural Language Processing and Understanding",
+      "Automated Machine Learning (AutoML)",
+      "Reinforcement Learning and Optimization",
+      "AI Ethics and Responsible AI Implementation",
+      "Model Deployment and Serving Infrastructure",
+      "Feature Engineering and Data Preprocessing",
+      "Model Monitoring and Performance Optimization",
+      "AI/ML Platform Architecture and Design",
+      "Intelligent Process Automation",
+      "Predictive Analytics and Forecasting",
+      "AI Governance and Model Risk Management"
+    ],
+    "services": [
+      {
+        "name": "Custom ML Model Development",
+        "description": "End-to-end development of custom machine learning models tailored to business needs",
+        "deliverables": [
+          "Custom ML models",
+          "Model training pipelines",
+          "Performance evaluation",
+          "Model documentation"
+        ]
+      },
+      {
+        "name": "MLOps Implementation and Automation",
+        "description": "Complete MLOps platform setup with automated model lifecycle management",
+        "deliverables": [
+          "MLOps platform",
+          "Automated pipelines",
+          "Model versioning",
+          "Continuous integration"
+        ]
+      },
+      {
+        "name": "Computer Vision Solutions",
+        "description": "Advanced computer vision applications for image and video analysis",
+        "deliverables": [
+          "Vision models",
+          "Image processing pipelines",
+          "Object detection systems",
+          "Visual analytics"
+        ]
+      },
+      {
+        "name": "Natural Language Processing",
+        "description": "NLP solutions for text analysis, understanding, and generation",
+        "deliverables": [
+          "NLP models",
+          "Text processing pipelines",
+          "Sentiment analysis",
+          "Language generation"
+        ]
+      },
+      {
+        "name": "AI Platform Architecture",
+        "description": "Scalable AI/ML platform design and implementation",
+        "deliverables": [
+          "Platform architecture",
+          "Infrastructure setup",
+          "API development",
+          "Scaling strategies"
+        ]
+      },
+      {
+        "name": "Intelligent Automation",
+        "description": "AI-powered process automation and decision-making systems",
+        "deliverables": [
+          "Automation workflows",
+          "Decision engines",
+          "Process optimization",
+          "Integration frameworks"
+        ]
+      },
+      {
+        "name": "AI Governance and Ethics",
+        "description": "Responsible AI implementation with governance frameworks",
+        "deliverables": [
+          "AI governance framework",
+          "Ethics guidelines",
+          "Bias detection",
+          "Compliance documentation"
+        ]
+      },
+      {
+        "name": "Predictive Analytics Solutions",
+        "description": "Advanced analytics for forecasting and business intelligence",
+        "deliverables": [
+          "Predictive models",
+          "Forecasting systems",
+          "Analytics dashboards",
+          "Business insights"
+        ]
+      }
+    ],
+    "technologies": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Keras",
+      "XGBoost",
+      "LightGBM",
+      "Apache Spark MLlib",
+      "MLflow",
+      "Kubeflow",
+      "Apache Airflow",
+      "Docker",
+      "Kubernetes",
+      "ONNX",
+      "Triton Inference Server",
+      "Ray",
+      "Dask",
+      "Weights & Biases",
+      "Neptune",
+      "ClearML",
+      "DVC",
+      "Great Expectations",
+      "Evidently AI",
+      "Seldon Core",
+      "BentoML",
+      "Apache Kafka",
+      "Redis",
+      "Elasticsearch",
+      "MongoDB",
+      "PostgreSQL",
+      "Amazon SageMaker",
+      "Azure Machine Learning",
+      "Google Vertex AI",
+      "Databricks",
+      "Snowflake",
+      "Apache Superset",
+      "Grafana",
+      "Prometheus",
+      "OpenAI GPT",
+      "Anthropic Claude",
+      "Hugging Face Transformers",
+      "LangChain",
+      "LlamaIndex"
+    ],
+    "businessValue": "Accion's AI/ML Center of Excellence delivers transformative business value through intelligent automation (40-60% process efficiency gains), predictive analytics capabilities (30-50% improvement in forecasting accuracy), enhanced decision-making (real-time insights and recommendations), cost reduction through automation (25-40% operational cost savings), and revenue growth through AI-powered products and services (15-30% revenue increase). The CoE enables organizations to become data-driven, automate complex processes, and create competitive advantages through artificial intelligence innovation.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_aiml.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "category": "ml_framework",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "category": "ml_framework"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mlflow",
+      "metadata": {
+        "category": "mlops"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    }
+  ]
+}

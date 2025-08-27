@@ -1,0 +1,296 @@
+{
+  "id": "coe_financial_analytics",
+  "type": "coe",
+  "data": {
+    "name": "Financial Analytics Center of Excellence",
+    "description": "Accion's Financial Analytics Center of Excellence specializes in AI-powered financial analytics modernization, combining traditional Machine Learning with Generative AI capabilities. The CoE delivers end-to-end financial analytics solutions including credit scoring, risk assessment, customer behavior modeling, portfolio optimization, and regulatory compliance. With expertise in real-time prediction architectures, automated MLOps, and GenAI-powered ETL pipelines, the CoE enables financial institutions to transform conventional analytics into AI-driven insights while ensuring regulatory compliance, precision requirements, and operational stability.",
+    "category": "Data",
+    "order": 11,
+    "keyCompetencies": [
+      "AI-Powered Financial Analytics Modernization",
+      "Traditional ML and GenAI Integration",
+      "Credit Scoring and Risk Assessment",
+      "Customer Churn Prediction",
+      "Payment Behavior Modeling",
+      "Portfolio Optimization",
+      "Customer Segmentation and Personalization",
+      "Real-Time Prediction Architecture",
+      "Automated MLOps and Model Monitoring",
+      "GenAI Powered ETL Pipelines",
+      "Dynamic Workload Balancing",
+      "Financial Compliance and Regulatory Requirements",
+      "Propensity to Pay Modeling",
+      "Best Time and Channel Communication Analytics",
+      "Customer Service Agent Queueing Optimization",
+      "Model Deployment and Auto-Finetuning",
+      "Data Quality and Validation for Financial Models",
+      "Streaming Analytics for Financial Data",
+      "Legacy System Integration",
+      "Multi-Tenancy Financial Data Management"
+    ],
+    "services": [
+      {
+        "name": "AI-Powered Financial Analytics Modernization",
+        "description": "Complete transformation from conventional analytics to AI-driven financial insights with automated decision-making capabilities",
+        "deliverables": [
+          "AI analytics platform",
+          "Model deployment framework",
+          "Real-time prediction system",
+          "Performance monitoring dashboards"
+        ]
+      },
+      {
+        "name": "Credit Scoring and Risk Assessment",
+        "description": "Advanced ML models for credit scoring, risk assessment, and regulatory compliance in financial institutions",
+        "deliverables": [
+          "Credit scoring models",
+          "Risk assessment algorithms",
+          "Regulatory compliance framework",
+          "Model validation reports"
+        ]
+      },
+      {
+        "name": "Customer Behavior Analytics",
+        "description": "Comprehensive customer analytics including churn prediction, payment behavior modeling, and personalization",
+        "deliverables": [
+          "Churn prediction models",
+          "Payment behavior analytics",
+          "Customer segmentation",
+          "Personalization engine"
+        ]
+      },
+      {
+        "name": "Real-Time Prediction Architecture",
+        "description": "Scalable real-time prediction systems with low latency processing using Spark and Flink",
+        "deliverables": [
+          "Real-time prediction infrastructure",
+          "Streaming data pipelines",
+          "Low latency processing",
+          "Scalable model serving"
+        ]
+      },
+      {
+        "name": "Automated MLOps",
+        "description": "End-to-end automated ML operations from data preparation to monitoring with automated retraining based on data drifts",
+        "deliverables": [
+          "MLOps pipeline",
+          "Automated model training",
+          "Data drift monitoring",
+          "Model performance tracking"
+        ]
+      },
+      {
+        "name": "GenAI Powered ETL Pipelines",
+        "description": "Intelligent data mapping and advanced ETL pipeline modernization with embedded QA and security",
+        "deliverables": [
+          "GenAI ETL framework",
+          "Intelligent data mapping",
+          "Automated pipeline generation",
+          "Data quality validation"
+        ]
+      },
+      {
+        "name": "Dynamic Workload Balancing",
+        "description": "Auto-scaling infrastructure with hardware and software load balancing for optimal resource utilization",
+        "deliverables": [
+          "Auto-scaling infrastructure",
+          "Workload optimization",
+          "Resource management",
+          "Cost efficiency analysis"
+        ]
+      },
+      {
+        "name": "Portfolio Optimization",
+        "description": "Advanced portfolio optimization algorithms using ML for investment and risk management",
+        "deliverables": [
+          "Portfolio optimization models",
+          "Risk management algorithms",
+          "Investment analytics",
+          "Performance benchmarking"
+        ]
+      },
+      {
+        "name": "Financial Compliance and Governance",
+        "description": "Regulatory compliance frameworks with audit trails and governance for financial analytics models",
+        "deliverables": [
+          "Compliance framework",
+          "Audit trail system",
+          "Model governance",
+          "Regulatory reporting"
+        ]
+      },
+      {
+        "name": "Strategic Financial Models",
+        "description": "Pre-canned strategic models for propensity to pay, communication optimization, and customer service efficiency",
+        "deliverables": [
+          "Propensity models",
+          "Communication optimization",
+          "Service queue management",
+          "Strategic analytics"
+        ]
+      }
+    ],
+    "technologies": [
+      "Apache Spark",
+      "Apache Flink",
+      "XGBoost",
+      "TensorFlow",
+      "PyTorch",
+      "MLflow",
+      "Kubeflow",
+      "Apache Kafka",
+      "Amazon Kinesis",
+      "Azure Event Hubs",
+      "Apache Airflow",
+      "Prefect",
+      "Databricks",
+      "Snowflake",
+      "AWS Redshift",
+      "Azure Synapse",
+      "BigQuery",
+      "AWS SageMaker",
+      "Azure ML",
+      "Google AI Platform",
+      "OpenAI",
+      "Azure OpenAI",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Elasticsearch",
+      "Splunk",
+      "Grafana",
+      "Prometheus",
+      "Apache Zeppelin",
+      "Jupyter",
+      "Python",
+      "Scala",
+      "SQL",
+      "R",
+      "Java",
+      "Apache Hive",
+      "Apache HBase",
+      "MongoDB",
+      "Cassandra",
+      "PostgreSQL",
+      "MySQL",
+      "Delta Lake",
+      "Apache Iceberg",
+      "Great Expectations",
+      "Apache Atlas",
+      "DataHub",
+      "AWS IAM",
+      "Azure AD",
+      "HashiCorp Vault",
+      "Apache Ranger",
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "Qlik"
+    ],
+    "businessValue": "Accion's Financial Analytics CoE delivers transformational business value by modernizing financial analytics with AI-powered solutions. The CoE enables financial institutions to achieve 30-40% time-to-market reduction through pre-canned models and MLOps blueprints, 50%+ cost savings through automated operations and resource optimization, and processing time reduction from hours to minutes through real-time architectures. Organizations benefit from enhanced regulatory compliance, improved model accuracy and reliability, automated financial insights, and the ability to handle up to 10M records per day with parallel execution. The CoE's integration of traditional ML with GenAI capabilities provides competitive advantages while maintaining the stability and reproducibility required in financial services.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_financial_analytics.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mlflow",
+      "metadata": {
+        "category": "ml_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "category": "machine_learning",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "category": "ai_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    }
+  ]
+}

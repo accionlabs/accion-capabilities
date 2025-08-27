@@ -1,0 +1,17 @@
+{
+  "id": "industry_utilities",
+  "name": "Utilities",
+  "description": "Energy and utility companies including water utilities, electric utilities, and energy services providers",
+  "segment": "Energy & Utilities",
+  "type": "industry",
+  "tags": ["water utilities", "energy services", "smart meters", "workforce management", "customer portals"],
+  "relationships": {
+    "incoming": [
+      {
+        "from": "casestudy_american_water_apps_showcase",
+        "type": "TARGETS"
+      }
+    ],
+    "outgoing": []
+  }
+}

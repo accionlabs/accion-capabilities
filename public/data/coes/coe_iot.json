@@ -1,0 +1,290 @@
+{
+  "id": "coe_iot",
+  "type": "coe",
+  "data": {
+    "name": "Internet of Things (IoT) Center of Excellence",
+    "description": "e-Zest's IoT Center of Excellence specializes in delivering end-to-end IoT solutions that enable digital transformation across industries. The CoE provides comprehensive services from IoT device management and data processing to analytics and reporting, leveraging cloud platforms and big data technologies. With expertise in Industry 4.0, Smart Healthcare, Connected Agriculture, and Intelligent Transportation, the CoE helps organizations harness IoT for reduced operating costs, improved productivity, and enhanced customer experiences.",
+    "category": "Product Engineering",
+    "order": 11,
+    "keyCompetencies": [
+      "IoT Device Management and Connectivity",
+      "Real-time Data Processing and Analytics",
+      "Industrial IoT (IIoT) and Industry 4.0 Solutions",
+      "Smart Healthcare and Patient Monitoring",
+      "Connected Agriculture and Precision Farming",
+      "Intelligent Transportation Systems",
+      "IoT Security and Compliance (GDPR, PCI DSS)",
+      "Cloud-based IoT Platform Development",
+      "Big Data Analytics and Machine Learning for IoT",
+      "Edge Computing and Data Processing",
+      "IoT Device Lifecycle Management",
+      "Sensor Data Integration and Visualization",
+      "Predictive Maintenance and Analytics",
+      "Supply Chain Optimization with IoT",
+      "Remote Monitoring and Operations",
+      "IoT Middleware and Integration Platforms",
+      "Regulatory Compliance and Data Governance",
+      "Cost Optimization and ROI Enhancement"
+    ],
+    "services": [
+      {
+        "name": "Advisory and Strategy",
+        "description": "IoT strategy development, technology assessment, and business case development for IoT implementations",
+        "deliverables": [
+          "IoT roadmap development",
+          "Technology stack evaluation",
+          "Business case analysis",
+          "ROI planning"
+        ]
+      },
+      {
+        "name": "Design and Engineering",
+        "description": "End-to-end IoT solution design including device integration, data architecture, and platform development",
+        "deliverables": [
+          "IoT architecture design",
+          "Device integration",
+          "Data pipeline development",
+          "Platform engineering"
+        ]
+      },
+      {
+        "name": "IoT Analytics and Machine Learning",
+        "description": "Advanced analytics, predictive modeling, and machine learning capabilities for IoT data",
+        "deliverables": [
+          "Predictive analytics models",
+          "Real-time dashboards",
+          "Machine learning algorithms",
+          "Business intelligence reports"
+        ]
+      },
+      {
+        "name": "Managed Services",
+        "description": "Ongoing IoT platform management, monitoring, and optimization services",
+        "deliverables": [
+          "24/7 monitoring",
+          "Performance optimization",
+          "Security management",
+          "Maintenance and support"
+        ]
+      },
+      {
+        "name": "Industry 4.0 Solutions",
+        "description": "Manufacturing-focused IoT solutions for production visibility, predictive maintenance, and operational efficiency",
+        "deliverables": [
+          "Production monitoring systems",
+          "Predictive maintenance platforms",
+          "Quality control automation",
+          "Supply chain optimization"
+        ]
+      },
+      {
+        "name": "Smart Healthcare Solutions",
+        "description": "Healthcare IoT solutions for patient monitoring, medical device integration, and health analytics",
+        "deliverables": [
+          "Patient monitoring systems",
+          "Medical device connectivity",
+          "Health data analytics",
+          "Alert and notification systems"
+        ]
+      },
+      {
+        "name": "Connected Agriculture Solutions",
+        "description": "Agricultural IoT solutions for soil monitoring, weather forecasting, and crop optimization",
+        "deliverables": [
+          "Soil moisture monitoring",
+          "Weather prediction systems",
+          "Crop analytics",
+          "Irrigation automation"
+        ]
+      },
+      {
+        "name": "Security and Compliance",
+        "description": "IoT security implementation, data governance, and regulatory compliance solutions",
+        "deliverables": [
+          "Security assessments",
+          "Data encryption",
+          "Compliance frameworks",
+          "Privacy protection"
+        ]
+      }
+    ],
+    "technologies": [
+      "AWS IoT",
+      "Microsoft Azure IoT",
+      "Google Cloud IoT",
+      "MQTT",
+      "CoAP",
+      "HTTP",
+      "LoRA",
+      "WiFi",
+      "Bluetooth",
+      "ZigBee",
+      "Raspberry Pi",
+      "Arduino",
+      "Beaglebone",
+      "Galileo",
+      "Python",
+      ".NET",
+      "Java",
+      "Node.js",
+      "React",
+      "Angular",
+      "Apache Spark",
+      "Apache Kafka",
+      "Storm",
+      "Apache Airflow",
+      "Cassandra",
+      "MongoDB",
+      "MySQL",
+      "BigQuery",
+      "Snowflake",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack",
+      "Tableau",
+      "Power BI",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "GitHub Actions",
+      "TensorFlow",
+      "PyTorch",
+      "MLflow",
+      "Microsoft Cognitive Services",
+      "AWS Lambda",
+      "AWS Kinesis",
+      "AWS DynamoDB",
+      "AWS S3",
+      "Azure Stream Analytics",
+      "Azure IoT Hub",
+      "Azure Functions",
+      "Google Cloud Functions",
+      "Firebase",
+      "Trilio",
+      "Mulesoft",
+      "IBM Watson",
+      "Kaa Project"
+    ],
+    "businessValue": "e-Zest's IoT CoE delivers transformative business value by reducing operating costs through automation and optimization, improving employee productivity with real-time insights, boosting business efficiency through streamlined operations, opening new business opportunities with innovative IoT applications, and creating meaningful customer experiences. Organizations typically achieve 35% increase in ROI, 50% reduction in water wastage (agriculture), 55% increase in productivity, and significant operational cost savings through IoT implementations.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_iot.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_digital_products",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_nodejs",
+      "metadata": {
+        "category": "runtime_environment"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_react",
+      "metadata": {
+        "category": "frontend_framework"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "big_data",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mongodb",
+      "metadata": {
+        "category": "database"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_jenkins",
+      "metadata": {
+        "category": "ci_cd"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tensorflow",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_pytorch",
+      "metadata": {
+        "category": "machine_learning"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_mlflow",
+      "metadata": {
+        "category": "ml_ops"
+      }
+    },
+    {
+      "type": "SERVES",
+      "to": "industry_manufacturing",
+      "metadata": {
+        "use_case": "Industry 4.0, predictive maintenance"
+      }
+    },
+    {
+      "type": "SERVES",
+      "to": "industry_healthcare",
+      "metadata": {
+        "use_case": "Smart healthcare, patient monitoring"
+      }
+    }
+  ]
+}

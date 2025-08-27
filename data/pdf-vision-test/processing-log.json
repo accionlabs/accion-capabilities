@@ -1,0 +1,53 @@
+[
+  {
+    "success": true,
+    "pdfPath": "/Users/ashutoshbijoor/Code/accion-capabilities/info/Centers of Excellence/Cloud/DevOps CoE.pdf",
+    "promptPath": "/Users/ashutoshbijoor/Code/accion-capabilities/data/pdf-vision-test/prompts/DevOps CoE_vision_prompt.txt",
+    "imagePaths": [],
+    "metadata": {
+      "pdfPath": "/Users/ashutoshbijoor/Code/accion-capabilities/info/Centers of Excellence/Cloud/DevOps CoE.pdf",
+      "fileName": "DevOps CoE.pdf",
+      "category": "Cloud",
+      "pages": 20,
+      "textLength": 23833,
+      "hasImages": false,
+      "imagePaths": [],
+      "promptPath": "prompts/DevOps CoE_vision_prompt.txt",
+      "processedAt": "2025-08-26T04:26:29.685Z"
+    }
+  },
+  {
+    "success": true,
+    "pdfPath": "/Users/ashutoshbijoor/Code/accion-capabilities/info/Centers of Excellence/Cloud/Security CoE - Part 1.pdf",
+    "promptPath": "/Users/ashutoshbijoor/Code/accion-capabilities/data/pdf-vision-test/prompts/Security CoE - Part 1_vision_prompt.txt",
+    "imagePaths": [],
+    "metadata": {
+      "pdfPath": "/Users/ashutoshbijoor/Code/accion-capabilities/info/Centers of Excellence/Cloud/Security CoE - Part 1.pdf",
+      "fileName": "Security CoE - Part 1.pdf",
+      "category": "Cloud",
+      "pages": 18,
+      "textLength": 11756,
+      "hasImages": false,
+      "imagePaths": [],
+      "promptPath": "prompts/Security CoE - Part 1_vision_prompt.txt",
+      "processedAt": "2025-08-26T04:26:29.723Z"
+    }
+  },
+  {
+    "success": true,
+    "pdfPath": "/Users/ashutoshbijoor/Code/accion-capabilities/info/Centers of Excellence/Cloud/Security CoE - Part 2.pdf",
+    "promptPath": "/Users/ashutoshbijoor/Code/accion-capabilities/data/pdf-vision-test/prompts/Security CoE - Part 2_vision_prompt.txt",
+    "imagePaths": [],
+    "metadata": {
+      "pdfPath": "/Users/ashutoshbijoor/Code/accion-capabilities/info/Centers of Excellence/Cloud/Security CoE - Part 2.pdf",
+      "fileName": "Security CoE - Part 2.pdf",
+      "category": "Cloud",
+      "pages": 8,
+      "textLength": 4332,
+      "hasImages": false,
+      "imagePaths": [],
+      "promptPath": "prompts/Security CoE - Part 2_vision_prompt.txt",
+      "processedAt": "2025-08-26T04:26:29.743Z"
+    }
+  }
+]

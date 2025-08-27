@@ -1,0 +1,79 @@
+{
+  "id": "casestudy_belgium_health_ecosystem",
+  "type": "casestudy",
+  "name": "Connected Care Coordination Platform for Belgium's Health Ecosystem",
+  "client": "Western European Healthcare Leader",
+  "clientType": "healthcare_technology",
+  "industry": "Healthcare",
+  "description": "Developed a comprehensive care coordination platform for Belgium's national healthcare ecosystem, serving a 400 million+ revenue multinational company with 40K+ customers across 29+ countries, delivering the solution in record time of less than 6 months.",
+  "challenge": "A Western European leader with 20+ healthcare products needed a partner to build a care coordination platform connecting providers, patients, payers, and other stakeholders across Belgium's complex healthcare ecosystem. The project required rapid deployment while ensuring comprehensive functionality and regulatory compliance.",
+  "solution": "Built a cloud-enabled connected care platform from ground up with modern intuitive user experience, real-time data and insights, integrated practice management application, patient registration and clinical history management, ePrescription and medication management, integration with centralized clinical document manager, government healthcare registry integration, and certified technology meeting homologation requirements.",
+  "outcomes": [
+    "Solution delivered in record time of less than 6 months",
+    "Streamlined national healthcare system improving operational efficiency and patient experience by 10 times",
+    "50% boost in customer revenue as providers transitioned to new platform",
+    "Successful integration with Belgium's national healthcare infrastructure",
+    "Enhanced care coordination across the entire healthcare ecosystem",
+    "Achieved certification through rigorous homologation process"
+  ],
+  "technologies": [
+    "Cloud Platform Architecture",
+    "HL7 Standards",
+    "KMEHR (Belgian Health Record Standard)",
+    "Government Registry Integration",
+    "ePrescription Systems",
+    "Laboratory Information Systems (LIS)",
+    "Radiology Information Systems (RIS)",
+    "Clinical Document Management"
+  ],
+  "duration": "Record 6-month delivery timeline",
+  "teamSize": "Hybrid onsite and offshore delivery team",
+  "keyFeatures": [
+    "Patient registration and demographic management",
+    "Comprehensive clinical history and episode of care tracking",
+    "Electronic prescription (ePrescription) management",
+    "Medication and treatment management workflows",
+    "Centralized clinical document manager with audit trail",
+    "Support for multiple clinical document formats (HL7, KMEHR)",
+    "Integration with central government healthcare registries",
+    "Laboratory (LIS) and Radiology (RIS) system integration"
+  ],
+  "regulatoryCompliance": [
+    "Belgian healthcare regulations",
+    "KMEHR clinical document standards",
+    "HL7 interoperability requirements",
+    "Government registry integration standards",
+    "Homologation certification process"
+  ],
+  "deliveryApproach": [
+    "Agile execution using Scrum of Scrums methodology",
+    "Flexible iterative development with active stakeholder engagement",
+    "Hybrid shore delivery model combining onsite and offshore teams",
+    "Rapid prototyping and continuous feedback integration"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "component_hl7_edi_gateway",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/belgium_health_ecosystem.md"
+  }
+}

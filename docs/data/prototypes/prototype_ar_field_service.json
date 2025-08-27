@@ -1,0 +1,37 @@
+{
+  "id": "prototype_ar_field_service",
+  "name": "AR Field Service Assistant",
+  "category": "prototype",
+  "description": "Augmented reality solution for field service technicians",
+  "marketOpportunity": "Transform field service operations with AR",
+  "readinessLevel": "pilot",
+  "potentialImpact": "50% reduction in service time, 30% reduction in errors",
+  "strategicValue": "Pioneer in AR-enabled enterprise solutions",
+  "clientValue": [
+    "Real-time expert guidance",
+    "Interactive service manuals",
+    "Remote assistance"
+  ],
+  "futureRoadmap": "Full production deployment Q2 2025",
+  "type": "prototype",
+  "tags": [
+    "prototype"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_unity",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_arcore",
+        "type": "IMPLEMENTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/prototype/ar_field_service.md"
+  }
+}

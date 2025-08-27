@@ -1,0 +1,81 @@
+{
+  "id": "framework_edc_model",
+  "name": "EDC Model - Extended Delivery Center Framework",
+  "category": "framework",
+  "description": "White-box engagement model with complete transparency and control for large-scale strategic partnerships",
+  "frameworkType": "Engagement Model",
+  "methodology": "Comprehensive delivery framework with full client visibility and control",
+  "strategicValue": "Enables complete transparency and control in strategic partnerships with enhanced knowledge retention",
+  "clientValue": [
+    "100% control over delivery processes and metrics",
+    "Complete transparency into all delivery activities",
+    "Reduced outsourcing risks and enhanced knowledge retention",
+    "Customized methodology for specific client needs"
+  ],
+  "deliverables": [
+    "Delivery methodology documentation",
+    "Process templates and workflows",
+    "Metrics and KPI frameworks",
+    "Team structure and RACI matrices",
+    "Knowledge transfer procedures"
+  ],
+  "investmentProjection": {
+    "cy25Investment": "$150K",
+    "projectedReturns": "$2M+",
+    "roi": "Operational efficiency + enhanced delivery",
+    "paybackPeriod": "6-8 months"
+  },
+  "targetScenarios": [
+    "Large-scale strategic engagements",
+    "Complex digital transformations",
+    "Multi-year partnership programs",
+    "Mission-critical system implementations"
+  ],
+  "keyFeatures": [
+    "Complete process transparency",
+    "Customized delivery methodologies",
+    "Talent creation and retention programs",
+    "Seamless global collaboration"
+  ],
+  "type": "framework",
+  "tags": [
+    "framework",
+    "engagement",
+    "strategic",
+    "transformation"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_architecture",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "SUPPORTS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "casestudy_veracode",
+        "type": "LEVERAGES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/framework/edc-model.md"
+  }
+}

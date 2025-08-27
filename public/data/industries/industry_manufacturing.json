@@ -1,0 +1,9 @@
+{
+  "id": "industry_manufacturing",
+  "name": "Manufacturing",
+  "description": "Industrial and discrete manufacturing",
+  "segment": "Manufacturing",
+  "type": "industry",
+  "tags": [],
+  "relationships": []
+}

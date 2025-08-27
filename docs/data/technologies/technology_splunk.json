@@ -1,0 +1,53 @@
+{
+  "id": "technology_splunk",
+  "type": "technology",
+  "data": {
+    "name": "Splunk",
+    "description": "Data platform for searching, monitoring, and analyzing machine-generated data via web-style interface",
+    "category": "security",
+    "subcategory": "siem",
+    "vendor": "Splunk Inc.",
+    "type": "platform",
+    "useCases": [
+      "Security Information and Event Management (SIEM)",
+      "Log Management and Analysis",
+      "Security Monitoring",
+      "Threat Detection",
+      "Compliance Reporting",
+      "IT Operations Analytics"
+    ],
+    "keyFeatures": [
+      "Real-time search and analysis",
+      "Machine learning capabilities",
+      "Security orchestration",
+      "Threat intelligence integration",
+      "Custom dashboards and reports",
+      "API and integration capabilities"
+    ],
+    "securityCapabilities": [
+      "Threat detection and investigation",
+      "User behavior analytics",
+      "Security incident response",
+      "Compliance monitoring",
+      "Vulnerability management"
+    ],
+    "integrations": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "ServiceNow",
+      "Phantom"
+    ],
+    "businessValue": "Enables organizations to gain deep insights into security events, detect threats faster, streamline incident response, and maintain compliance through comprehensive data analysis."
+  },
+  "relationships": [
+    {
+      "type": "INTEGRATES_WITH",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "monitoring"
+      }
+    }
+  ]
+}

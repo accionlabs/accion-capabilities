@@ -1,0 +1,197 @@
+{
+  "id": "coe_finops",
+  "type": "coe",
+  "data": {
+    "name": "FinOps Center of Excellence",
+    "description": "Accion's FinOps Center of Excellence provides comprehensive cloud financial management services, focusing on cost optimization, financial accountability, and cloud economics best practices. The CoE specializes in cloud cost visibility, budget management, resource optimization, and financial governance across multi-cloud environments. With expertise in FinOps frameworks, cost allocation methodologies, and automated optimization tools, the FinOps CoE enables organizations to maximize cloud ROI, control spending, and make data-driven financial decisions in their cloud journey.",
+    "category": "Cloud",
+    "order": 5,
+    "keyCompetencies": [
+      "Cloud Cost Management and Optimization",
+      "FinOps Framework Implementation and Best Practices",
+      "Multi-Cloud Cost Visibility and Reporting",
+      "Resource Right-sizing and Optimization",
+      "Cloud Budget Management and Forecasting",
+      "Cost Allocation and Chargeback Models",
+      "Reserved Instance and Savings Plan Optimization",
+      "Cloud Financial Governance and Policies",
+      "Automated Cost Optimization and Recommendations",
+      "Cloud Economics and ROI Analysis",
+      "FinOps Tooling and Platform Integration",
+      "Cost Anomaly Detection and Alerting",
+      "Cloud Financial Planning and Analysis",
+      "Vendor Management and Contract Optimization",
+      "FinOps Culture and Organizational Change"
+    ],
+    "services": [
+      {
+        "name": "FinOps Assessment and Strategy",
+        "description": "Comprehensive assessment of current cloud financial management practices and strategy development",
+        "deliverables": [
+          "FinOps maturity assessment",
+          "Cost optimization roadmap",
+          "Financial governance framework",
+          "FinOps strategy document"
+        ]
+      },
+      {
+        "name": "Cloud Cost Optimization",
+        "description": "Automated and manual cost optimization across cloud environments",
+        "deliverables": [
+          "Cost optimization analysis",
+          "Right-sizing recommendations",
+          "Reserved capacity optimization",
+          "Automated optimization rules"
+        ]
+      },
+      {
+        "name": "FinOps Platform Implementation",
+        "description": "Implementation of FinOps tools and platforms for cost management",
+        "deliverables": [
+          "FinOps platform setup",
+          "Cost reporting dashboards",
+          "Automated alerting",
+          "Integration workflows"
+        ]
+      },
+      {
+        "name": "Budget Management and Forecasting",
+        "description": "Cloud budget planning, tracking, and forecasting services",
+        "deliverables": [
+          "Budget planning models",
+          "Forecasting algorithms",
+          "Variance analysis",
+          "Budget tracking dashboards"
+        ]
+      },
+      {
+        "name": "Cost Allocation and Chargeback",
+        "description": "Implementation of cost allocation models and chargeback mechanisms",
+        "deliverables": [
+          "Cost allocation framework",
+          "Chargeback models",
+          "Departmental reporting",
+          "Cost center analytics"
+        ]
+      },
+      {
+        "name": "FinOps Culture and Training",
+        "description": "Organizational change management and FinOps culture development",
+        "deliverables": [
+          "Training programs",
+          "FinOps playbooks",
+          "Best practice guidelines",
+          "Culture transformation plan"
+        ]
+      },
+      {
+        "name": "Multi-Cloud Financial Management",
+        "description": "Unified financial management across multiple cloud providers",
+        "deliverables": [
+          "Multi-cloud dashboards",
+          "Unified reporting",
+          "Cross-cloud optimization",
+          "Vendor cost comparison"
+        ]
+      }
+    ],
+    "technologies": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Trusted Advisor",
+      "AWS Cost Anomaly Detection",
+      "Azure Cost Management",
+      "Azure Advisor",
+      "Google Cloud Billing",
+      "Google Cloud Recommender",
+      "CloudHealth by VMware",
+      "Cloudability",
+      "CloudCheckr",
+      "Apptio Cloudability",
+      "ParkMyCloud",
+      "Densify",
+      "RightScale Optima",
+      "Cloudyn",
+      "Kubecost",
+      "OpenCost",
+      "CloudZero",
+      "Spot by NetApp",
+      "Turbonomic",
+      "Flexera One",
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Functions",
+      "Terraform",
+      "CloudFormation",
+      "ARM Templates",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "New Relic",
+      "Splunk",
+      "Elasticsearch",
+      "Power BI",
+      "Tableau",
+      "Looker",
+      "Python",
+      "R",
+      "SQL"
+    ],
+    "businessValue": "Accion's FinOps Center of Excellence delivers significant financial value through cloud cost optimization (20-40% cost reduction), improved budget accuracy (90% forecast precision), enhanced financial visibility (100% cost transparency), accelerated decision-making (real-time cost insights), and organizational alignment (cross-team collaboration on cloud spending). The CoE enables organizations to maximize cloud ROI, control spending growth, and create a culture of financial accountability while maintaining performance and innovation velocity.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_finops.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_aws",
+      "metadata": {
+        "category": "cloud_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_azure",
+      "metadata": {
+        "category": "cloud_platform"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_gcp",
+      "metadata": {
+        "category": "cloud_platform"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    }
+  ]
+}

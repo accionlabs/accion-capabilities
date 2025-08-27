@@ -1,0 +1,67 @@
+{
+  "id": "casestudy_neurological_wearable",
+  "type": "casestudy",
+  "name": "Neurological Wearable Device for Mood Alteration and Treatment",
+  "client": "Healthcare Technology Startup",
+  "clientType": "healthcare_technology",
+  "industry": "Healthcare",
+  "description": "Developed the world's first digital medicine platform combining a wearable device with a mobile app for neurological disorder treatment and mood alteration, currently undergoing clinical trials for stress-related ailments including psoriasis.",
+  "challenge": "Creating a revolutionary digital medicine solution that could effectively treat neurological disorders and alter mood through a non-invasive wearable device. The challenge involved developing precise data-embedded strips, ensuring proper device connectivity, and creating an intuitive mobile control system while meeting medical device regulatory requirements.",
+  "solution": "Designed and developed a comprehensive digital medicine platform featuring a forehead-worn module with data-embedded strips, mobile application for device control and 'vibe' management, real-time data synchronization, and clinical trial management system. The solution represents the first digital medicine approach for treating stress-related ailments.",
+  "outcomes": [
+    "World's first digital medicine for neurological disorders",
+    "Successful clinical trial initiation for psoriasis treatment",
+    "Revolutionary non-invasive approach to mood alteration",
+    "Patent-pending wearable technology platform",
+    "FDA clinical trial pathway established",
+    "Validated digital therapeutics model for stress-related ailments"
+  ],
+  "technologies": [
+    "Wearable IoT Devices",
+    "Mobile App Development",
+    "Bluetooth/Wireless Communication",
+    "Biosensor Technology",
+    "Digital Therapeutics",
+    "Clinical Trial Management",
+    "FDA Compliance",
+    "Real-time Data Processing"
+  ],
+  "duration": "Multi-year development and clinical trials",
+  "teamSize": "Multidisciplinary team including biomedical engineers",
+  "keyFeatures": [
+    "Forehead-worn neurological stimulation module",
+    "Data-embedded treatment strips with unique signatures",
+    "Mobile app with intuitive vibe control system",
+    "Real-time treatment monitoring and adjustment",
+    "Clinical trial data collection and analysis",
+    "Patient treatment history and progress tracking"
+  ],
+  "clinicalFocus": [
+    "Stress-related ailments",
+    "Psoriasis treatment",
+    "Neurological disorders",
+    "Mood alteration therapy",
+    "Digital therapeutics validation"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_iot",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "coe_medical_imaging",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/neurological_wearable.md"
+  }
+}

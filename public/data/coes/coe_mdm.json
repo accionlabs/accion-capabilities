@@ -1,0 +1,302 @@
+{
+  "id": "coe_mdm",
+  "type": "coe",
+  "data": {
+    "name": "Master Data Management Center of Excellence",
+    "description": "Accion's Master Data Management Center of Excellence specializes in comprehensive MDM transformations, enterprise data model design, and data governance implementation. The CoE enables organizations to establish single sources of truth for critical business entities through proven methodologies spanning MDM Diagnostics, Strategy Development, and Implementation & Expansion phases. With expertise in multi-domain MDM solutions, AI-powered data unification, and enterprise data governance frameworks, the CoE delivers end-to-end MDM capabilities that ensure data quality, operational efficiency, and regulatory compliance while supporting advanced analytics and AI initiatives.",
+    "category": "Data",
+    "order": 6,
+    "keyCompetencies": [
+      "MDM Strategy and Roadmap Development",
+      "Master Data Model Design and Implementation",
+      "Data Governance Framework Implementation",
+      "Multi-Domain MDM Hub Development",
+      "Data Quality Management and Validation",
+      "Enterprise Data Integration and Synchronization",
+      "MDM Maturity Assessment and Enhancement",
+      "GenAI-Powered MDM Transformation",
+      "Data Stewardship and Ownership Definition",
+      "Master Data Hierarchies and Taxonomies",
+      "Data Lineage and Metadata Management",
+      "Cross-System Data Mapping and Consolidation",
+      "Real-Time Data Synchronization",
+      "MDM Platform Selection and Implementation",
+      "Data Migration and Consolidation Services",
+      "Regulatory Compliance and Data Privacy",
+      "Business Process Integration with MDM",
+      "Performance Optimization and Scaling",
+      "Change Management and Training"
+    ],
+    "services": [
+      {
+        "name": "MDM Strategy and Assessment",
+        "description": "Comprehensive MDM diagnostics, current state analysis, and strategic roadmap development",
+        "deliverables": [
+          "MDM maturity assessment",
+          "Current state analysis",
+          "Strategic roadmap",
+          "Business case development",
+          "Technology evaluation"
+        ]
+      },
+      {
+        "name": "Enterprise Data Model Design",
+        "description": "Master data model development across multiple domains with unified governance",
+        "deliverables": [
+          "Master data model",
+          "Domain-specific schemas",
+          "Data relationships mapping",
+          "Attribute definitions",
+          "Business glossary"
+        ]
+      },
+      {
+        "name": "MDM Governance Framework",
+        "description": "Data governance framework with policies, stewardship, and operational procedures",
+        "deliverables": [
+          "Governance framework",
+          "Data ownership matrix",
+          "Stewardship roles and responsibilities",
+          "Quality policies",
+          "Access management"
+        ]
+      },
+      {
+        "name": "Multi-Domain MDM Implementation",
+        "description": "Implementation of centralized MDM hubs for customer, product, supplier, and location domains",
+        "deliverables": [
+          "MDM hub implementation",
+          "Domain integrations",
+          "Data consolidation",
+          "Quality rules engine",
+          "Synchronization processes"
+        ]
+      },
+      {
+        "name": "GenAI-Powered MDM Transformation",
+        "description": "AI-driven MDM solutions with automated data unification, attribute generation, and intelligent matching",
+        "deliverables": [
+          "AI-driven data ingestion",
+          "Automated attribute enhancement",
+          "Intelligent entity matching",
+          "Graph repository setup",
+          "Natural language querying"
+        ]
+      },
+      {
+        "name": "Data Migration and Consolidation",
+        "description": "Legacy system data migration with quality validation and business process integration",
+        "deliverables": [
+          "Migration strategy",
+          "Data mapping and transformation",
+          "Quality validation",
+          "Process integration",
+          "Cutover planning"
+        ]
+      },
+      {
+        "name": "Real-Time Data Synchronization",
+        "description": "Real-time data synchronization across enterprise systems with conflict resolution",
+        "deliverables": [
+          "Real-time sync implementation",
+          "Conflict resolution rules",
+          "Data flow orchestration",
+          "Performance monitoring",
+          "Error handling"
+        ]
+      },
+      {
+        "name": "MDM Platform Services",
+        "description": "Platform-specific MDM implementations including cloud-native and hybrid solutions",
+        "deliverables": [
+          "Platform setup and configuration",
+          "Custom connectors",
+          "Security implementation",
+          "Performance tuning",
+          "Disaster recovery"
+        ]
+      },
+      {
+        "name": "Data Quality and Monitoring",
+        "description": "Comprehensive data quality management with continuous monitoring and remediation",
+        "deliverables": [
+          "Quality framework",
+          "Monitoring dashboards",
+          "Automated validation rules",
+          "Exception handling",
+          "Quality metrics"
+        ]
+      },
+      {
+        "name": "Change Management and Training",
+        "description": "Organizational change management and training programs for MDM adoption",
+        "deliverables": [
+          "Change management strategy",
+          "Training programs",
+          "User adoption metrics",
+          "Support documentation",
+          "Knowledge transfer"
+        ]
+      }
+    ],
+    "technologies": [
+      "Informatica MDM",
+      "Microsoft MDS",
+      "Oracle MDM",
+      "IBM InfoSphere MDM",
+      "Talend MDM",
+      "Reltio",
+      "Semarchy xDM",
+      "TIBCO EBX",
+      "SAP Master Data Governance",
+      "Riversand MDM",
+      "Databricks",
+      "Snowflake",
+      "Azure Synapse",
+      "AWS Glue",
+      "Google Cloud Data Fusion",
+      "Apache Spark",
+      "Apache Kafka",
+      "Amazon Kinesis",
+      "Azure Event Hubs",
+      "Confluent",
+      "Neo4j",
+      "Amazon Neptune",
+      "Azure Cosmos DB",
+      "OrientDB",
+      "JanusGraph",
+      "Tableau",
+      "Power BI",
+      "Qlik",
+      "Looker",
+      "Grafana",
+      "Apache Airflow",
+      "Azure Data Factory",
+      "AWS Step Functions",
+      "Prefect",
+      "Alation",
+      "Collibra",
+      "Microsoft Purview",
+      "DataHub",
+      "Apache Atlas",
+      "Python",
+      "Scala",
+      "SQL",
+      "PySpark",
+      "Java",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Azure DevOps",
+      "GitHub Actions",
+      "OpenAI GPT",
+      "Azure OpenAI",
+      "Hugging Face",
+      "LangChain",
+      "Azure Cognitive Services"
+    ],
+    "businessValue": "Accion's MDM Center of Excellence delivers significant business value by establishing single sources of truth that improve data quality by 20-30%, reduce operational costs through automated data processes, and enable advanced analytics and AI initiatives. Organizations achieve enhanced customer experiences through 360-degree views, improved regulatory compliance, and accelerated digital transformation. The CoE's proven methodology reduces MDM implementation time by 40-60% while ensuring sustainable governance frameworks that support long-term data strategy objectives.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_mdm.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_data",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_spark",
+      "metadata": {
+        "category": "data_processing",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_apache_airflow",
+      "metadata": {
+        "category": "orchestration",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_python",
+      "metadata": {
+        "category": "programming_language",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_powerbi",
+      "metadata": {
+        "category": "visualization",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_tableau",
+      "metadata": {
+        "category": "visualization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_docker",
+      "metadata": {
+        "category": "containerization"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_terraform",
+      "metadata": {
+        "category": "infrastructure_as_code"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_manufacturing",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    }
+  ]
+}

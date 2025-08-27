@@ -1,0 +1,80 @@
+{
+  "id": "casestudy_clinical_trial_management",
+  "type": "casestudy",
+  "name": "Clinical Trial and Quality Management Platform for European ISV",
+  "client": "European Healthcare ISV",
+  "clientType": "healthcare_technology",
+  "industry": "Healthcare",
+  "description": "Modernized a clinical trial management platform serving 25+ countries with 100+ employees worldwide, achieving 50%+ savings on CapEx, 70% reduction in OpEx, and 100% improvement in end-user experience while becoming the fastest growing LifeScience tech provider.",
+  "challenge": "A European ISV offering clinical trial management platforms for the pharmaceutical industry faced scalability issues with their existing framework, resulting in significant application latency as data volumes increased, enormous CapEx and OpEx for maintaining legacy applications, and licensing/vendor support issues for aging frameworks.",
+  "solution": "Developed a modern clinical trial platform using flexible Neuron ESB framework for enterprise integration, cloud-based document management system for eTMF (electronic Trial Master File), cloud-based eQMS (electronic Quality Management System), configurable eDMS compliant with CFR 21 Part 11, and XEVMPD/IDMP modules based on Microsoft SharePoint for regulatory compliance.",
+  "outcomes": [
+    "50%+ savings on CapEx and 70% reduction in OpEx",
+    "100% improvement in end-user experience leading to significant growth",
+    "Fastest growing LifeScience tech provider award recognition",
+    "Successfully serving 25+ countries with global reach",
+    "Enhanced scalability and performance for growing data volumes",
+    "Improved productivity and margins through modern architecture"
+  ],
+  "technologies": [
+    "Neuron ESB Framework",
+    "Microsoft SharePoint",
+    "Cloud Computing",
+    "NoSQL Databases",
+    ".NET Core",
+    "AngularJS",
+    "Electronic Document Management",
+    "CFR 21 Part 11 Compliance"
+  ],
+  "duration": "Multi-phase modernization and deployment",
+  "teamSize": "Large enterprise development team",
+  "keyFeatures": [
+    "Cloud-based eTMF (electronic Trial Master File) management",
+    "Electronic Quality Management System (eQMS)",
+    "Configurable electronic document management system",
+    "CFR 21 Part 11 regulatory compliance",
+    "XEVMPD/IDMP regulatory modules",
+    "Microsoft SharePoint-based workflow management",
+    "Multi-country regulatory support",
+    "Scalable cloud architecture for growing data volumes"
+  ],
+  "regulatoryCompliance": [
+    "CFR 21 Part 11 electronic records compliance",
+    "FDA clinical trial requirements",
+    "European regulatory standards",
+    "XEVMPD/IDMP regulatory modules",
+    "GCP (Good Clinical Practice) guidelines"
+  ],
+  "globalReach": [
+    "25+ countries using the solution",
+    "100+ employees worldwide",
+    "Multi-language support",
+    "Regulatory compliance across jurisdictions",
+    "Scalable cloud infrastructure"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/clinical_trial_management.md"
+  }
+}

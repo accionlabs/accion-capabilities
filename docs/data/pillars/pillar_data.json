@@ -1,0 +1,21 @@
+{
+  "id": "pillar_data",
+  "name": "Data",
+  "description": "Harnessing data for intelligent decision making",
+  "order": 2,
+  "coeCount": 11,
+  "keyFocusAreas": [
+    "Data Analytics",
+    "AI/ML",
+    "Data Engineering",
+    "Business Intelligence"
+  ],
+  "type": "pillar",
+  "tags": [
+    "Data Analytics",
+    "AI/ML",
+    "Data Engineering",
+    "Business Intelligence"
+  ],
+  "relationships": []
+}

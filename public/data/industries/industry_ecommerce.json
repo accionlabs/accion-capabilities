@@ -1,0 +1,9 @@
+{
+  "id": "industry_ecommerce",
+  "name": "E-commerce",
+  "description": "Online retail and marketplaces",
+  "segment": "Digital Commerce",
+  "type": "industry",
+  "tags": [],
+  "relationships": []
+}

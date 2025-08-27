@@ -1,0 +1,135 @@
+{
+  "id": "coe_agentic_ai",
+  "type": "coe",
+  "data": {
+    "name": "Agentic AI Solutions Center of Excellence",
+    "description": "Accion's Agentic AI Solutions Center of Excellence specializes in developing autonomous AI agents that can perceive, reason, plan, and act independently to achieve complex goals. The CoE focuses on multi-agent systems, autonomous decision-making, task orchestration, and intelligent workflow automation. With expertise in LLM-based agents, reinforcement learning, and cognitive architectures, this CoE enables organizations to deploy AI agents that can handle complex business processes with minimal human intervention.",
+    "category": "Automation",
+    "order": 5,
+    "keyCompetencies": [
+      "Autonomous AI Agent Development",
+      "Multi-Agent System Architecture",
+      "LLM-Based Agent Design",
+      "Task Planning and Orchestration",
+      "Agent Communication Protocols",
+      "Goal-Oriented Behavior Design",
+      "Reinforcement Learning Implementation",
+      "Cognitive Architecture Development",
+      "Agent Memory and Context Management",
+      "Tool and API Integration for Agents",
+      "Agent Safety and Control",
+      "Swarm Intelligence",
+      "Agent Monitoring and Observability",
+      "Human-Agent Collaboration",
+      "Agent Ethics and Governance"
+    ],
+    "services": [
+      {
+        "name": "AI Agent Strategy and Design",
+        "description": "Strategic planning and architecture for autonomous AI agents",
+        "deliverables": [
+          "Agent architecture design",
+          "Use case identification",
+          "Agent capability mapping",
+          "Implementation roadmap"
+        ]
+      },
+      {
+        "name": "Custom AI Agent Development",
+        "description": "Development of domain-specific autonomous agents",
+        "deliverables": [
+          "Custom AI agents",
+          "Agent training and tuning",
+          "Tool integration",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Multi-Agent System Implementation",
+        "description": "Orchestration of multiple AI agents for complex workflows",
+        "deliverables": [
+          "Multi-agent architecture",
+          "Agent coordination system",
+          "Communication protocols",
+          "Workflow automation"
+        ]
+      },
+      {
+        "name": "Agent Monitoring and Governance",
+        "description": "Monitoring, control, and governance framework for AI agents",
+        "deliverables": [
+          "Monitoring dashboard",
+          "Control mechanisms",
+          "Safety guardrails",
+          "Audit and compliance framework"
+        ]
+      }
+    ],
+    "technologies": [
+      "LangChain",
+      "AutoGPT",
+      "CrewAI",
+      "Microsoft AutoGen",
+      "OpenAI Assistants API",
+      "Anthropic Claude",
+      "Google Vertex AI Agents",
+      "Ray",
+      "Apache Airflow",
+      "Temporal",
+      "Redis",
+      "Vector Databases",
+      "LlamaIndex",
+      "Semantic Kernel",
+      "AgentGPT"
+    ],
+    "businessValue": "Accion's Agentic AI Solutions Center of Excellence enables organizations to automate complex workflows with 75% reduction in manual effort, achieve 24/7 autonomous operations, improve decision-making speed by 10x, reduce operational costs by 40%, and scale intelligent automation across the enterprise. The CoE helps organizations leverage the full potential of autonomous AI to transform business operations and create competitive advantages.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_agentic_ai.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_automation",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_aiml",
+      "metadata": {
+        "relationship": "ai_foundation"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_genai",
+      "metadata": {
+        "relationship": "llm_capabilities"
+      }
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "coe_rpa",
+      "metadata": {
+        "relationship": "automation_evolution"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_langchain",
+      "metadata": {
+        "purpose": "agent_framework"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_openai",
+      "metadata": {
+        "purpose": "llm_provider"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "casestudy_rotary_international",
+  "type": "casestudy",
+  "name": "Rotary International - Digital Transformation and Modernization",
+  "client": "Rotary International",
+  "industry": "Non-Profit/NGO",
+  "description": "Comprehensive digital transformation including SharePoint migration, microservices architecture implementation, and Salesforce-based lead management system optimization for the global service organization serving millions of members.",
+  "challenge": "SharePoint 2007 facing end-of-support risks, scattered reporting systems, inefficient data synchronization between CRM and Integration Services leading to membership churn. Rotary receives 30,000 leads annually but converts less than 10% to membership.",
+  "solution": "Migrated from SharePoint 2007 to modern platform, compressed 36-week timeline to 14 weeks. Implemented microservices with Domain Driven Design and Event Driven Architecture. Enhanced lead conversion through data-driven personalization and distributed marketing setup with Salesforce optimization.",
+  "outcomes": [
+    "50% reduction in reports navigation time",
+    "$100,000 additional value gain for SharePoint migration",
+    "$2 Million+ additional value gain from microservices implementation",
+    "$0.36 Million+ projected contract value for lead transformation",
+    "Improved data integrity across Rotary Products ecosystem"
+  ],
+  "technologies": [
+    "SharePoint Migration",
+    "React",
+    "Express",
+    "Azure Containers",
+    "Azure Service Bus",
+    "Domain Driven Design",
+    "Event-Driven Architecture",
+    "Salesforce",
+    "SOAP APIs"
+  ],
+  "duration": "Multi-phase engagement across several projects",
+  "teamSize": "Architecture-driven product engineering teams",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_react",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "platform_breeze",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/rotary_international.md"
+  }
+}

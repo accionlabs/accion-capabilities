@@ -1,0 +1,62 @@
+{
+  "name": "accion-capabilities",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://accionlabs.github.io/accion-capabilities",
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.104",
+    "@types/react-dom": "^18.3.0",
+    "d3": "^7.9.0",
+    "mermaid": "^11.10.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf2pic": "^3.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "5.0.1",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "BUILD_PATH='./docs' react-scripts build",
+    "build:gh-pages": "BUILD_PATH='./docs' react-scripts build && cp docs/index.html docs/404.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "parse-pdfs": "node scripts/process-all-pdfs.js",
+    "parse-single-pdf": "node scripts/parse-coe-pdfs.js",
+    "validate": "node scripts/validate-and-fix-graph.js",
+    "validate:dry": "node scripts/validate-and-fix-graph.js --dry-run",
+    "validate:check": "node scripts/validate-and-fix-graph.js --no-fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.24",
+    "pdf-parse": "^1.1.1"
+  }
+}

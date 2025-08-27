@@ -1,0 +1,44 @@
+{
+  "id": "casestudy_harris",
+  "name": "Harris - Court Recording and Case Management Platform",
+  "client": "Harris Computer Systems",
+  "industry": "Government/Legal Technology",
+  "description": "Streamlining court recording and case management through modern digital platform, replacing outdated recording systems and reducing manual paperwork while ensuring compliance with legal standards.",
+  "challenge": "Outdated recording systems, manual processes, and compliance risks. Courts needed a modern solution to replace legacy systems, reduce paperwork, and ensure compliance with legal standards while supporting growing case volumes and remote access needs.",
+  "solution": [
+    "Benchmark Recording system for high-quality digital court recording",
+    "Benchmark Case Management for streamlined case processing workflows",
+    "Automated workflows reducing manual administrative tasks",
+    "Enhanced accuracy through digital recording minimizing transcription errors",
+    "Regulatory compliance ensuring adherence to modern legal standards"
+  ],
+  "technologies": [
+    "Microsoft .NET Framework",
+    ".NET Core",
+    "Microsoft Azure",
+    "Atalasoft",
+    "SQL Server",
+    "Angular"
+  ],
+  "impact": {
+    "caseProcessingImprovement": "50% faster case processing through automation",
+    "administrativeTaskReduction": "35% reduction in administrative tasks",
+    "qualityImprovement": "High-quality, reliable recordings minimized transcription errors",
+    "complianceAchievement": "Full regulatory compliance with modern legal standards"
+  },
+  "outcomes": [
+    "50% faster case processing through automation and streamlined workflows",
+    "35% reduction in administrative tasks freeing resources for higher-value work",
+    "Improved accuracy through high-quality digital recordings",
+    "Enhanced user satisfaction through simplified interface and reduced workload",
+    "Full regulatory compliance with modern legal data storage and access standards"
+  ],
+  "serviceType": "Product Engineering",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_architecture",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/harris.md"
+  },
+  "type": "casestudy"
+}

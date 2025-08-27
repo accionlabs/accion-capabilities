@@ -1,0 +1,854 @@
+{
+  "pillars": [
+    {
+      "id": "pillar_digital_products",
+      "name": "Digital Products",
+      "description": "Building modern digital products and platforms",
+      "coeCount": 13,
+      "keyFocusAreas": ["Product Engineering", "UX Design", "Mobile Development", "Quality Engineering"]
+    },
+    {
+      "id": "pillar_data",
+      "name": "Data",
+      "description": "Harnessing data for intelligent decision making",
+      "coeCount": 11,
+      "keyFocusAreas": ["Data Analytics", "AI/ML", "Data Engineering", "Business Intelligence"]
+    },
+    {
+      "id": "pillar_cloud",
+      "name": "Cloud",
+      "description": "Cloud transformation and modernization",
+      "coeCount": 9,
+      "keyFocusAreas": ["Cloud Migration", "Cloud Native", "DevOps", "Infrastructure as Code"]
+    },
+    {
+      "id": "pillar_automation",
+      "name": "Automation",
+      "description": "Intelligent automation and process optimization",
+      "coeCount": 6,
+      "keyFocusAreas": ["RPA", "Process Automation", "Hyperautomation", "Integration"]
+    }
+  ],
+  "centersOfExcellence": [
+    {
+      "id": "coe_data_analytics",
+      "name": "Data & Analytics CoE",
+      "description": "Transforms raw data into actionable insights through advanced analytics, visualization, and self-service analytics platforms",
+      "pillarId": "pillar_data",
+      "keyCompetencies": [
+        "Data Visualization",
+        "Self-Service Analytics",
+        "Real-time Analytics",
+        "Predictive Analytics"
+      ],
+      "ipAssets": ["platform_unifiedai", "acc_data_orchestrator"],
+      "platforms": ["platform_unifiedai"],
+      "technologies": ["tech_python", "tech_spark", "tech_tableau", "tech_powerbi"],
+      "services": [
+        {
+          "name": "Analytics Platform Development",
+          "description": "Build enterprise-scale analytics platforms",
+          "deliverables": ["Analytics Architecture", "Data Pipelines", "Dashboard Development"]
+        },
+        {
+          "name": "Self-Service Analytics",
+          "description": "Enable business users with self-service analytics capabilities",
+          "deliverables": ["Analytics Training", "Tool Implementation", "Governance Framework"]
+        }
+      ],
+      "targetIndustries": ["industry_financial_services", "industry_retail", "industry_healthcare"],
+      "content": {
+        "type": "file",
+        "source": "content/coe/data-analytics.md"
+      }
+    },
+    {
+      "id": "coe_devops",
+      "name": "DevOps CoE",
+      "description": "Accelerates software delivery through DevOps, DevSecOps, and SRE practices",
+      "pillarId": "pillar_cloud",
+      "keyCompetencies": [
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "DevSecOps",
+        "Site Reliability Engineering"
+      ],
+      "ipAssets": ["framework_devops_maturity", "acc_cicd_accelerator"],
+      "platforms": [],
+      "technologies": ["tech_kubernetes", "tech_terraform", "tech_jenkins", "tech_github_actions"],
+      "services": [
+        {
+          "name": "DevOps Transformation",
+          "description": "End-to-end DevOps transformation and implementation",
+          "deliverables": ["DevOps Assessment", "Pipeline Implementation", "Training & Enablement"]
+        },
+        {
+          "name": "DevSecOps Implementation",
+          "description": "Integrate security into the DevOps pipeline",
+          "deliverables": ["Security Scanning", "Compliance Automation", "Vulnerability Management"]
+        }
+      ],
+      "targetIndustries": ["industry_technology", "industry_financial_services", "industry_ecommerce"],
+      "content": {
+        "type": "file",
+        "source": "content/coe/devops.md"
+      }
+    },
+    {
+      "id": "coe_genai",
+      "name": "Generative AI CoE",
+      "description": "Harnesses the power of generative AI for innovative solutions",
+      "pillarId": "pillar_data",
+      "keyCompetencies": [
+        "LLM Integration",
+        "Prompt Engineering",
+        "AI Safety",
+        "Multi-modal AI"
+      ],
+      "ipAssets": ["platform_unifiedai", "acc_genai_studio"],
+      "platforms": ["platform_unifiedai"],
+      "technologies": ["tech_openai", "tech_langchain", "tech_huggingface"],
+      "services": [
+        {
+          "name": "GenAI Strategy & Implementation",
+          "description": "Define and implement generative AI strategies",
+          "deliverables": ["AI Strategy", "Use Case Identification", "Implementation Roadmap"]
+        }
+      ],
+      "targetIndustries": ["industry_technology", "industry_financial_services", "industry_media"],
+      "content": {
+        "type": "file",
+        "source": "content/coe/genai.md"
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "id": "platform_unifiedai",
+      "name": "UnifiedAI Platform",
+      "category": "platform",
+      "description": "Enterprise AI platform for building and deploying ML models at scale",
+      "strategicValue": "Accelerates AI adoption and reduces time-to-market for AI initiatives",
+      "clientValue": [
+        "50% reduction in model development time",
+        "Unified MLOps pipeline",
+        "Enterprise-grade security and governance"
+      ],
+      "usedByCoEs": ["coe_data_analytics", "coe_genai"],
+      "technologies": ["tech_python", "tech_kubernetes", "tech_mlflow"],
+      "industries": ["industry_financial_services", "industry_healthcare"],
+      "maturityLevel": "strategic",
+      "deploymentModels": ["SaaS", "On-premise", "Hybrid Cloud"],
+      "keyFeatures": [
+        {
+          "name": "AutoML",
+          "description": "Automated machine learning for rapid model development",
+          "businessValue": "Reduces model development time by 70%"
+        },
+        {
+          "name": "MLOps Pipeline",
+          "description": "End-to-end ML lifecycle management",
+          "businessValue": "Ensures reproducibility and governance"
+        },
+        {
+          "name": "Model Registry",
+          "description": "Centralized model versioning and deployment",
+          "businessValue": "Streamlines model deployment and monitoring"
+        }
+      ],
+      "businessImpactMetrics": [
+        {
+          "name": "Time to Market",
+          "value": "3",
+          "unit": "months",
+          "improvement": "50% faster"
+        },
+        {
+          "name": "Model Accuracy",
+          "value": "95",
+          "unit": "%",
+          "improvement": "15% improvement"
+        }
+      ],
+      "content": {
+        "type": "file",
+        "source": "content/platform/unifiedai.md"
+      }
+    },
+    {
+      "id": "platform_digitalhub",
+      "name": "Digital Experience Hub",
+      "category": "platform",
+      "description": "Omnichannel digital experience platform for customer engagement",
+      "strategicValue": "Enables seamless customer experiences across all digital touchpoints",
+      "clientValue": [
+        "360-degree customer view",
+        "Personalized experiences",
+        "Real-time engagement"
+      ],
+      "usedByCoEs": ["coe_ux", "coe_mobile"],
+      "technologies": ["tech_react", "tech_nodejs", "tech_mongodb"],
+      "industries": ["industry_retail", "industry_ecommerce"],
+      "maturityLevel": "mature",
+      "deploymentModels": ["Cloud-native", "Multi-cloud"],
+      "keyFeatures": [
+        {
+          "name": "Personalization Engine",
+          "description": "AI-driven content and experience personalization",
+          "businessValue": "Increases conversion rates by 25%"
+        },
+        {
+          "name": "Omnichannel Support",
+          "description": "Consistent experience across web, mobile, and IoT",
+          "businessValue": "Improves customer satisfaction by 30%"
+        }
+      ],
+      "businessImpactMetrics": [
+        {
+          "name": "Customer Engagement",
+          "value": "40",
+          "unit": "%",
+          "improvement": "increase"
+        }
+      ]
+    }
+  ],
+  "accelerators": [
+    {
+      "id": "acc_data_orchestrator",
+      "name": "DataFlow Orchestrator",
+      "category": "accelerator",
+      "description": "Automated data pipeline orchestration and management solution",
+      "solutionType": "Data Pipeline Automation",
+      "strategicValue": "Reduces data pipeline development time by 60%",
+      "clientValue": [
+        "Pre-built connectors for 50+ data sources",
+        "Visual pipeline designer",
+        "Built-in data quality checks"
+      ],
+      "usedByCoEs": ["coe_data_analytics", "coe_data_engineering"],
+      "technologies": ["tech_apache_airflow", "tech_spark", "tech_python"],
+      "industries": ["industry_financial_services", "industry_retail"],
+      "keyFeatures": [
+        {
+          "name": "Visual Pipeline Designer",
+          "description": "Drag-and-drop interface for building data pipelines",
+          "businessValue": "Reduces development time by 60%"
+        },
+        {
+          "name": "Data Quality Framework",
+          "description": "Automated data validation and cleansing",
+          "businessValue": "Improves data quality by 40%"
+        }
+      ],
+      "clientValueMetrics": [
+        {
+          "name": "Pipeline Development Time",
+          "value": "60",
+          "unit": "%",
+          "improvement": "reduction"
+        },
+        {
+          "name": "Data Quality Score",
+          "value": "95",
+          "unit": "%"
+        }
+      ],
+      "successStories": [
+        {
+          "client": "Major US Bank",
+          "outcome": "Reduced data pipeline development from 3 months to 3 weeks",
+          "metrics": [
+            {
+              "name": "Development Time",
+              "value": "75",
+              "unit": "%",
+              "improvement": "reduction"
+            }
+          ]
+        }
+      ],
+      "deploymentTime": "2-4 weeks",
+      "costSavings": "$500K annually"
+    },
+    {
+      "id": "acc_cicd_accelerator",
+      "name": "CI/CD Accelerator",
+      "category": "accelerator",
+      "description": "Pre-configured CI/CD pipeline templates with security scanning",
+      "solutionType": "DevOps Automation",
+      "strategicValue": "Accelerates DevOps adoption with enterprise-ready pipelines",
+      "clientValue": [
+        "20+ pipeline templates",
+        "Built-in security scanning",
+        "Multi-cloud support"
+      ],
+      "usedByCoEs": ["coe_devops", "coe_cloud_native"],
+      "technologies": ["tech_jenkins", "tech_github_actions", "tech_terraform"],
+      "industries": ["industry_technology", "industry_financial_services"],
+      "keyFeatures": [
+        {
+          "name": "Pipeline Templates",
+          "description": "Pre-built templates for common scenarios",
+          "businessValue": "Reduces setup time by 80%"
+        },
+        {
+          "name": "Security Scanning",
+          "description": "Integrated SAST, DAST, and dependency scanning",
+          "businessValue": "Reduces security vulnerabilities by 70%"
+        }
+      ],
+      "clientValueMetrics": [
+        {
+          "name": "Deployment Frequency",
+          "value": "10x",
+          "improvement": "increase"
+        },
+        {
+          "name": "Lead Time",
+          "value": "85",
+          "unit": "%",
+          "improvement": "reduction"
+        }
+      ],
+      "successStories": [
+        {
+          "client": "Fortune 500 Retailer",
+          "outcome": "Achieved 10x increase in deployment frequency",
+          "metrics": [
+            {
+              "name": "Deployment Frequency",
+              "value": "10x",
+              "improvement": "increase"
+            },
+            {
+              "name": "MTTR",
+              "value": "90",
+              "unit": "%",
+              "improvement": "reduction"
+            }
+          ]
+        }
+      ],
+      "deploymentTime": "1-2 weeks",
+      "costSavings": "$300K annually"
+    },
+    {
+      "id": "acc_genai_studio",
+      "name": "GenAI Studio",
+      "category": "accelerator",
+      "description": "Enterprise toolkit for building and deploying generative AI applications",
+      "solutionType": "Generative AI Development",
+      "strategicValue": "Accelerates GenAI adoption with enterprise controls",
+      "clientValue": [
+        "Pre-built prompts and chains",
+        "Multi-model support",
+        "Enterprise security and compliance"
+      ],
+      "usedByCoEs": ["coe_genai"],
+      "technologies": ["tech_openai", "tech_langchain", "tech_python"],
+      "industries": ["industry_technology", "industry_media", "industry_financial_services"],
+      "keyFeatures": [
+        {
+          "name": "Prompt Library",
+          "description": "Curated library of optimized prompts",
+          "businessValue": "Reduces development time by 50%"
+        },
+        {
+          "name": "Model Orchestration",
+          "description": "Seamlessly switch between different LLMs",
+          "businessValue": "Optimizes cost and performance"
+        }
+      ],
+      "clientValueMetrics": [
+        {
+          "name": "Development Speed",
+          "value": "3x",
+          "improvement": "faster"
+        }
+      ],
+      "successStories": [
+        {
+          "client": "Global Media Company",
+          "outcome": "Automated 70% of content generation tasks",
+          "metrics": [
+            {
+              "name": "Content Generation",
+              "value": "70",
+              "unit": "%",
+              "improvement": "automation"
+            }
+          ]
+        }
+      ],
+      "deploymentTime": "1-3 weeks",
+      "costSavings": "$1M annually"
+    }
+  ],
+  "components": [
+    {
+      "id": "comp_auth_service",
+      "name": "Enterprise Auth Service",
+      "category": "component",
+      "description": "Reusable authentication and authorization microservice",
+      "componentType": "Security Service",
+      "strategicValue": "Standardizes authentication across applications",
+      "clientValue": [
+        "OAuth 2.0/OIDC compliant",
+        "Multi-factor authentication",
+        "SSO support"
+      ],
+      "usedByCoEs": ["coe_security", "coe_api"],
+      "technologies": ["tech_nodejs", "tech_jwt", "tech_oauth"],
+      "industries": ["industry_technology", "industry_financial_services"],
+      "technicalSpecs": [
+        "REST API",
+        "JWT tokens",
+        "LDAP/AD integration",
+        "Rate limiting"
+      ],
+      "integrationPoints": [
+        "API Gateway",
+        "User Directory",
+        "Audit System"
+      ],
+      "performanceMetrics": [
+        {
+          "name": "Response Time",
+          "value": "50",
+          "unit": "ms"
+        },
+        {
+          "name": "Throughput",
+          "value": "10000",
+          "unit": "req/sec"
+        }
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "id": "framework_devops_maturity",
+      "name": "DevOps Maturity Framework",
+      "category": "framework",
+      "description": "Comprehensive framework for assessing and improving DevOps maturity",
+      "frameworkType": "process",
+      "methodology": "Continuous improvement through staged maturity levels",
+      "strategicValue": "Provides roadmap for DevOps transformation",
+      "clientValue": [
+        "Clear maturity assessment",
+        "Actionable improvement roadmap",
+        "Industry benchmarking"
+      ],
+      "usedByCoEs": ["coe_devops"],
+      "technologies": [],
+      "industries": ["industry_technology", "industry_financial_services"],
+      "deliverables": [
+        "Maturity Assessment Report",
+        "Improvement Roadmap",
+        "KPI Dashboard",
+        "Best Practices Guide"
+      ],
+      "maturityModel": "5-level model from Initial to Optimized"
+    },
+    {
+      "id": "framework_agile_delivery",
+      "name": "Agile Delivery Framework",
+      "category": "framework",
+      "description": "Scalable agile framework for enterprise delivery",
+      "frameworkType": "engagement",
+      "methodology": "SAFe-based scaled agile approach",
+      "strategicValue": "Enables agile at scale for large enterprises",
+      "clientValue": [
+        "Predictable delivery",
+        "Improved quality",
+        "Faster time-to-market"
+      ],
+      "usedByCoEs": ["coe_product_engineering", "coe_agile"],
+      "technologies": [],
+      "industries": ["industry_technology", "industry_financial_services", "industry_retail"],
+      "deliverables": [
+        "Agile Playbook",
+        "Team Charter",
+        "Sprint Ceremonies",
+        "Metrics Dashboard"
+      ]
+    }
+  ],
+  "prototypes": [
+    {
+      "id": "proto_quantum_ml",
+      "name": "Quantum ML Optimizer",
+      "category": "prototype",
+      "description": "Quantum computing integration for ML optimization problems",
+      "marketOpportunity": "First-mover advantage in quantum-enhanced ML",
+      "readinessLevel": "prototype",
+      "potentialImpact": "100x speedup for certain optimization problems",
+      "strategicValue": "Positions as leader in quantum computing applications",
+      "clientValue": [
+        "Breakthrough performance for optimization",
+        "Novel solutions to intractable problems"
+      ],
+      "usedByCoEs": ["coe_research", "coe_genai"],
+      "technologies": ["tech_qiskit", "tech_python"],
+      "industries": ["industry_financial_services", "industry_pharma"],
+      "futureRoadmap": "Production-ready quantum algorithms by Q4 2025"
+    },
+    {
+      "id": "proto_ar_field_service",
+      "name": "AR Field Service Assistant",
+      "category": "prototype",
+      "description": "Augmented reality solution for field service technicians",
+      "marketOpportunity": "Transform field service operations with AR",
+      "readinessLevel": "pilot",
+      "potentialImpact": "50% reduction in service time, 30% reduction in errors",
+      "strategicValue": "Pioneer in AR-enabled enterprise solutions",
+      "clientValue": [
+        "Real-time expert guidance",
+        "Interactive service manuals",
+        "Remote assistance"
+      ],
+      "usedByCoEs": ["coe_innovation", "coe_mobile"],
+      "technologies": ["tech_unity", "tech_arcore", "tech_arkit"],
+      "industries": ["industry_manufacturing", "industry_utilities"],
+      "futureRoadmap": "Full production deployment Q2 2025"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "tech_python",
+      "name": "Python",
+      "description": "Programming language for data science and backend development",
+      "category": "language",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_kubernetes",
+      "name": "Kubernetes",
+      "description": "Container orchestration platform",
+      "category": "platform",
+      "vendor": "CNCF",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_terraform",
+      "name": "Terraform",
+      "description": "Infrastructure as Code tool",
+      "category": "tool",
+      "vendor": "HashiCorp",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_openai",
+      "name": "OpenAI",
+      "description": "AI models and APIs",
+      "category": "platform",
+      "vendor": "OpenAI",
+      "isOpenSource": false,
+      "isPartnership": true
+    },
+    {
+      "id": "tech_langchain",
+      "name": "LangChain",
+      "description": "Framework for building LLM applications",
+      "category": "framework",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_react",
+      "name": "React",
+      "description": "Frontend JavaScript library",
+      "category": "framework",
+      "vendor": "Meta",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_nodejs",
+      "name": "Node.js",
+      "description": "JavaScript runtime for server-side development",
+      "category": "platform",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_spark",
+      "name": "Apache Spark",
+      "description": "Distributed computing framework",
+      "category": "platform",
+      "vendor": "Apache",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_tableau",
+      "name": "Tableau",
+      "description": "Business intelligence and visualization platform",
+      "category": "tool",
+      "vendor": "Salesforce",
+      "isOpenSource": false,
+      "isPartnership": true
+    },
+    {
+      "id": "tech_powerbi",
+      "name": "Power BI",
+      "description": "Business analytics solution",
+      "category": "tool",
+      "vendor": "Microsoft",
+      "isOpenSource": false,
+      "isPartnership": true
+    },
+    {
+      "id": "tech_jenkins",
+      "name": "Jenkins",
+      "description": "CI/CD automation server",
+      "category": "tool",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_github_actions",
+      "name": "GitHub Actions",
+      "description": "CI/CD platform integrated with GitHub",
+      "category": "platform",
+      "vendor": "GitHub",
+      "isOpenSource": false,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_mlflow",
+      "name": "MLflow",
+      "description": "ML lifecycle management platform",
+      "category": "platform",
+      "vendor": "Databricks",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_mongodb",
+      "name": "MongoDB",
+      "description": "NoSQL document database",
+      "category": "database",
+      "vendor": "MongoDB Inc",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_apache_airflow",
+      "name": "Apache Airflow",
+      "description": "Workflow orchestration platform",
+      "category": "platform",
+      "vendor": "Apache",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_huggingface",
+      "name": "Hugging Face",
+      "description": "ML model hub and libraries",
+      "category": "platform",
+      "vendor": "Hugging Face",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_jwt",
+      "name": "JWT",
+      "description": "JSON Web Token standard",
+      "category": "framework",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_oauth",
+      "name": "OAuth 2.0",
+      "description": "Authorization framework",
+      "category": "framework",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_qiskit",
+      "name": "Qiskit",
+      "description": "Quantum computing SDK",
+      "category": "framework",
+      "vendor": "IBM",
+      "isOpenSource": true,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_unity",
+      "name": "Unity",
+      "description": "Real-time 3D development platform",
+      "category": "platform",
+      "vendor": "Unity Technologies",
+      "isOpenSource": false,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_arcore",
+      "name": "ARCore",
+      "description": "Google's AR development platform",
+      "category": "platform",
+      "vendor": "Google",
+      "isOpenSource": false,
+      "isPartnership": false
+    },
+    {
+      "id": "tech_arkit",
+      "name": "ARKit",
+      "description": "Apple's AR development framework",
+      "category": "framework",
+      "vendor": "Apple",
+      "isOpenSource": false,
+      "isPartnership": false
+    }
+  ],
+  "industries": [
+    {
+      "id": "industry_financial_services",
+      "name": "Financial Services",
+      "description": "Banking, insurance, and financial technology",
+      "segment": "BFSI"
+    },
+    {
+      "id": "industry_retail",
+      "name": "Retail",
+      "description": "Retail and consumer goods",
+      "segment": "Retail & CPG"
+    },
+    {
+      "id": "industry_healthcare",
+      "name": "Healthcare",
+      "description": "Healthcare and life sciences",
+      "segment": "Healthcare & Life Sciences"
+    },
+    {
+      "id": "industry_technology",
+      "name": "Technology",
+      "description": "Software and technology companies",
+      "segment": "Technology"
+    },
+    {
+      "id": "industry_ecommerce",
+      "name": "E-commerce",
+      "description": "Online retail and marketplaces",
+      "segment": "Digital Commerce"
+    },
+    {
+      "id": "industry_media",
+      "name": "Media & Entertainment",
+      "description": "Media, entertainment, and publishing",
+      "segment": "Media"
+    },
+    {
+      "id": "industry_manufacturing",
+      "name": "Manufacturing",
+      "description": "Industrial and discrete manufacturing",
+      "segment": "Manufacturing"
+    },
+    {
+      "id": "industry_utilities",
+      "name": "Utilities",
+      "description": "Energy and utility companies",
+      "segment": "Energy & Utilities"
+    },
+    {
+      "id": "industry_pharma",
+      "name": "Pharmaceuticals",
+      "description": "Pharmaceutical and biotech companies",
+      "segment": "Life Sciences"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "case_bank_transformation",
+      "name": "Digital Transformation for Major US Bank",
+      "description": "Complete digital transformation of retail banking operations",
+      "clientName": "Major US Bank",
+      "industryId": "industry_financial_services",
+      "challenge": "Legacy systems limiting digital innovation and customer experience",
+      "solution": "Implemented cloud-native microservices architecture with AI-powered customer insights",
+      "ipAssetsUsed": ["platform_unifiedai", "acc_data_orchestrator"],
+      "coesInvolved": ["coe_data_analytics", "coe_cloud_native"],
+      "outcomes": [
+        {
+          "description": "Reduced transaction processing time",
+          "impact": "Critical for customer satisfaction",
+          "measuredValue": "75% reduction"
+        },
+        {
+          "description": "Improved customer satisfaction scores",
+          "impact": "Key business metric",
+          "measuredValue": "NPS increased by 40 points"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Processing Time",
+          "value": "75",
+          "unit": "%",
+          "improvement": "reduction"
+        },
+        {
+          "name": "Customer Satisfaction",
+          "value": "40",
+          "unit": "NPS points",
+          "improvement": "increase"
+        },
+        {
+          "name": "Cost Savings",
+          "value": "5",
+          "unit": "million USD",
+          "improvement": "annual savings"
+        }
+      ]
+    },
+    {
+      "id": "case_retailer_devops",
+      "name": "DevOps Transformation for Fortune 500 Retailer",
+      "description": "Enterprise-wide DevOps transformation enabling rapid digital innovation",
+      "clientName": "Fortune 500 Retailer",
+      "industryId": "industry_retail",
+      "challenge": "Slow release cycles hampering competitive response",
+      "solution": "Implemented comprehensive DevOps practices with automated CI/CD pipelines",
+      "ipAssetsUsed": ["acc_cicd_accelerator", "framework_devops_maturity"],
+      "coesInvolved": ["coe_devops"],
+      "outcomes": [
+        {
+          "description": "Increased deployment frequency",
+          "impact": "Enables rapid feature delivery",
+          "measuredValue": "10x increase"
+        },
+        {
+          "description": "Reduced mean time to recovery",
+          "impact": "Improved system reliability",
+          "measuredValue": "90% reduction"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Deployment Frequency",
+          "value": "10x",
+          "improvement": "increase"
+        },
+        {
+          "name": "MTTR",
+          "value": "90",
+          "unit": "%",
+          "improvement": "reduction"
+        },
+        {
+          "name": "Lead Time",
+          "value": "85",
+          "unit": "%",
+          "improvement": "reduction"
+        }
+      ]
+    }
+  ]
+}

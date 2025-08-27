@@ -1,0 +1,81 @@
+{
+  "id": "casestudy_diagnostic_portal",
+  "type": "casestudy",
+  "name": "Secure Portal for Diagnostic Test Results Access and Sharing",
+  "client": "Rapid Diagnostic Products Developer",
+  "clientType": "provider",
+  "industry": "Healthcare",
+  "description": "Built a secure patient portal enabling access to lab results and self-reported data sharing with care providers, featuring integration with major EMR systems including Cerner and Epic, with comprehensive master data management for thousands of healthcare stakeholders.",
+  "challenge": "A leading developer of rapid diagnostic products needed a secure portal to deliver reliable and actionable diagnostic test information to patients while enabling seamless data sharing with healthcare providers. The system required integration with multiple enterprise EMR systems and comprehensive data management capabilities.",
+  "solution": "Developed a comprehensive secure portal with patient lab results access and sharing capabilities, one-click data sharing with care providers, integration with major EMR systems (Cerner and Epic), master data management for thousands of patients, doctors, nurses and providers, advanced reporting and visualization using open source libraries, and comprehensive database architecture with 60+ tables and 100+ screens.",
+  "outcomes": [
+    "Secure patient access to diagnostic test results",
+    "One-click sharing of self-reported data with care providers",
+    "Seamless integration with Cerner and Epic EMR systems",
+    "Comprehensive master data management across healthcare stakeholders",
+    "Enhanced patient engagement and care coordination",
+    "Improved diagnostic workflow efficiency"
+  ],
+  "technologies": [
+    "EMR Integration (Cerner, Epic)",
+    "Master Data Management",
+    "SQL Server Reporting Services (SSRS)",
+    "amCharts Visualization Library",
+    "Secure Web Portals",
+    "Healthcare Data Standards",
+    "HIPAA Compliance",
+    "Database Management"
+  ],
+  "duration": "Full platform development and EMR integration",
+  "teamSize": "Healthcare integration specialists with security experts",
+  "keyFeatures": [
+    "Secure patient portal for lab results access",
+    "One-click data sharing with healthcare providers",
+    "Integration with multiple enterprise EMR systems",
+    "Master data management for healthcare stakeholders",
+    "Advanced reporting and data visualization",
+    "Comprehensive patient, provider, and facility management",
+    "Self-reported health data collection and sharing",
+    "Real-time diagnostic test result delivery"
+  ],
+  "technicalSpecs": [
+    "60+ database tables for comprehensive data management",
+    "20+ interfaces for EMR integration",
+    "100+ user interface screens",
+    "Master data for thousands of patients, doctors, nurses",
+    "Open source charting libraries for visualization",
+    "SSRS reporting capabilities"
+  ],
+  "healthcareImpact": [
+    "Improved patient access to diagnostic information",
+    "Enhanced care provider communication",
+    "Streamlined diagnostic workflow",
+    "Better patient engagement in care decisions",
+    "Reduced administrative burden on healthcare staff"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_security",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "coe_mdm",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "component_hl7_edi_gateway",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/diagnostic_portal.md"
+  }
+}

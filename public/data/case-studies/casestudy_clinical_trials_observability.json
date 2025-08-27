@@ -1,0 +1,63 @@
+{
+  "id": "casestudy_clinical_trials_observability",
+  "type": "casestudy",
+  "name": "Clinical Trials Company - Observability Reduces Downtime by 30%",
+  "client": "Leading US Clinical Trials Company",
+  "industry": "Healthcare & Life Sciences",
+  "description": "Implemented comprehensive AWS EKS monitoring solution with Grafana ecosystem to improve monitoring systems, detect security threats, and enable real-time analysis for a leading clinical trials company pursuing innovations in patient treatment.",
+  "challenge": "The client needed better monitoring systems to collect, aggregate, index and analyze security data, help with detecting intrusions, threats and behavioral anomalies. They required alarms for CPU/MEM/Billing/Auto-Scaling Group and any other custom metric, along with real-time monitoring and security analysis capabilities.",
+  "solution": "Deployed AWS EKS Monitoring Solution with Grafana Agent, Loki, Mimir and Grafana Dashboard. Grafana Agent serves as a lightweight data collection agent for metrics and logs, Loki provides log aggregation system integrated with Grafana and Prometheus, Mimir enhances Loki's performance, and Grafana Dashboard offers comprehensive visualization platform. The integrated solution enables proactive issue detection, faster troubleshooting, resource optimization, and informed decision-making for efficient EKS cluster management.",
+  "outcomes": [
+    "Reduced downtime by 30% through proactive monitoring and issue resolution",
+    "Faster troubleshooting: Decreased mean time to resolution (MTTR) by 40% with centralized log aggregation and visualization",
+    "Resource optimization: Optimized resource utilization, resulting in potential cost savings of up to 20%",
+    "Scalability insights: Gained visibility into performance trends, enabling capacity planning and scaling decisions that can save up to 15% on infrastructure costs",
+    "Productivity gains: Improved team productivity by 25% with streamlined monitoring and alerting processes"
+  ],
+  "technologies": [
+    "AWS EKS",
+    "Grafana",
+    "Grafana Agent",
+    "Loki",
+    "Mimir",
+    "Grafana Dashboard",
+    "Prometheus",
+    "Kubernetes",
+    "AWS CloudWatch"
+  ],
+  "duration": "6-month implementation with ongoing support",
+  "teamSize": "5-member SRE and observability team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_kubernetes",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_grafana",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_prometheus",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_observability",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/clinical_trials_observability.md"
+  }
+}

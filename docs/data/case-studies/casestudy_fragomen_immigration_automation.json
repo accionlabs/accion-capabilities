@@ -1,0 +1,116 @@
+{
+  "id": "casestudy_fragomen_immigration_automation",
+  "type": "casestudy",
+  "data": {
+    "name": "Immigration Application Automation - Fragomen",
+    "description": "Comprehensive automation of visa filing processes for one of the largest immigration services organizations, eliminating manual data entry and reducing processing errors through intelligent bot integration with government systems.",
+    "category": "Process Automation",
+    "industry": "Legal Services",
+    "client": "Fragomen",
+    "clientDescription": "One of the largest immigration services organizations globally",
+    "order": 1,
+    "challenge": {
+      "summary": "Manual visa filing process with high error rates and processing delays",
+      "details": [
+        "Users manually taking data from in-house application and entering it on Government Immigration Application website",
+        "Human errors due to fatigue from repetitive tasks",
+        "Time-consuming manual processes affecting scalability",
+        "Inconsistent data formats from different staff members",
+        "Ad-hoc processing without standardized schedules"
+      ]
+    },
+    "solution": {
+      "summary": "Automated unattended bot system for visa application processing with intelligent data transformation and queue management",
+      "approach": [
+        "Unattended bot processes data from in-house application",
+        "Automatic data format translation for government portal",
+        "Automated robot triggering through periodic report generation",
+        "Queue-based processing using UiPath Orchestrator",
+        "PHP web application for standardized input processing",
+        "On-demand bot execution capability"
+      ],
+      "technologies": [
+        "UiPath",
+        "UiPath Orchestrator",
+        "PHP Web Application",
+        "Government Immigration Portal Integration",
+        "Queue Management System",
+        "Automated Triggering Mechanisms"
+      ]
+    },
+    "results": {
+      "summary": "Eliminated manual errors and significantly improved processing efficiency",
+      "metrics": [
+        {
+          "metric": "Error Reduction",
+          "value": "99%",
+          "description": "Elimination of manual data entry errors"
+        },
+        {
+          "metric": "Processing Time",
+          "value": "60%",
+          "description": "Reduction in visa application processing time"
+        },
+        {
+          "metric": "Automation Level",
+          "value": "100%",
+          "description": "Fully automated data extraction and portal submission"
+        },
+        {
+          "metric": "Scalability",
+          "value": "Unlimited",
+          "description": "24/7 processing capability without manual intervention"
+        }
+      ],
+      "benefits": [
+        "Elimination of human errors due to fatigue",
+        "Automated robot triggering without manual intervention",
+        "Ability to retry failed cases after data correction",
+        "On-demand bot execution capability",
+        "Standardized data input through PHP application",
+        "Improved compliance and audit trails",
+        "Enhanced scalability for high-volume periods"
+      ]
+    },
+    "implementation": {
+      "duration": "3-4 months",
+      "phases": [
+        "Discovery workshop to understand current processes",
+        "Bot development using selected RPA tool",
+        "Integration with government portal and in-house systems",
+        "PHP web application development for standardized inputs",
+        "Testing and validation with stakeholders",
+        "Production deployment and monitoring setup"
+      ],
+      "methodology": "Agile methodology with daily scrums and weekly demos"
+    },
+    "content": {
+      "type": "file",
+      "source": "content/casestudy/casestudy_fragomen_immigration_automation.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "DEMONSTRATES",
+      "to": "coe_rpa",
+      "metadata": {
+        "category": "process_automation"
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_uipath",
+      "metadata": {
+        "category": "rpa_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "BELONGS_TO",
+      "to": "industry_legal_services",
+      "metadata": {
+        "vertical": "immigration_services"
+      }
+    }
+  ]
+}

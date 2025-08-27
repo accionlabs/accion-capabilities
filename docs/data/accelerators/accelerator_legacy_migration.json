@@ -1,0 +1,101 @@
+{
+  "id": "accelerator_legacy_migration",
+  "type": "accelerator",
+  "name": "Legacy Migration Accelerator",
+  "category": "Legacy Modernization",
+  "description": "AI-powered legacy system modernization and transformation with comprehensive testing framework",
+  "keyFeatures": [
+    "Source Code Analysis - Automated legacy codebase assessment",
+    "AI-Powered Transformation - Intelligent code modernization",
+    "Test Automation - Comprehensive testing framework for migration validation",
+    "Zero Cloud Dependency - Complete on-premise migration capabilities"
+  ],
+  "clientValue": [
+    "Migration Time Reduction - 80% reduction in migration time",
+    "Cost Savings - 70% reduction in migration costs",
+    "Code Quality - Zero cloud dependency in migrated code",
+    "Future-Ready Architecture - Modern, maintainable codebase"
+  ],
+  "successStories": [
+    {
+      "client": "Fleet Guard",
+      "outcome": "Dot Net migration with enhanced performance",
+      "impact": "Enhanced system performance and maintainability"
+    },
+    {
+      "client": "Emerson",
+      "outcome": "Proprietary language transformation to modern stack",
+      "impact": "Successfully modernized proprietary codebase"
+    },
+    {
+      "client": "Cardinal Health",
+      "outcome": "Patient connect platform modernization",
+      "impact": "Improved patient connectivity and system reliability"
+    },
+    {
+      "client": "ParentPay",
+      "outcome": "Delphi codebase to modern .NET system",
+      "impact": "Complete technology stack modernization"
+    },
+    {
+      "client": "Admins",
+      "outcome": "Proprietary codebase to Java & React transformation",
+      "impact": "Modern web-based architecture implementation"
+    }
+  ],
+  "techStack": [
+    "CodeMap",
+    "AI models",
+    "Test automation tools"
+  ],
+  "targetIndustries": [
+    "Financial Services",
+    "Manufacturing",
+    "Insurance"
+  ],
+  "businessImpactMetrics": [
+    "80% reduction in migration time",
+    "70% reduction in migration costs",
+    "Zero cloud dependency in migrated code",
+    "Modern, maintainable codebase"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_nodejs",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_react",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "TARGETS"
+      },
+      {
+        "to": "industry_manufacturing",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_reengineering",
+        "type": "USES"
+      },
+      {
+        "from": "coe_testing",
+        "type": "USES"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/accelerator/legacy_migration.md"
+  }
+}

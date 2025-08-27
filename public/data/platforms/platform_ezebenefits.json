@@ -1,0 +1,113 @@
+{
+  "id": "platform_ezebenefits",
+  "type": "platform",
+  "name": "eZeBenefits - Healthcare Innovation Blueprint",
+  "category": "Healthcare Solutions",
+  "description": "Comprehensive healthcare benefits and PBM solution platform",
+  "investment": "$50K",
+  "roi": "$4.2M revenue (CY24), $3.1M projected (CY25)",
+  "keyFeatures": [
+    {
+      "name": "PBM Solutions",
+      "description": "Comprehensive pharmacy benefit management capabilities",
+      "businessValue": "Streamlined pharmacy benefits administration and cost optimization"
+    },
+    {
+      "name": "Healthcare Data Integration",
+      "description": "Comprehensive data connectivity across healthcare systems",
+      "businessValue": "Unified view of healthcare data for better decision-making"
+    },
+    {
+      "name": "Benefits Configuration",
+      "description": "Flexible benefit plan setup and management system",
+      "businessValue": "Customizable benefits administration reducing operational complexity"
+    },
+    {
+      "name": "Regulatory Compliance",
+      "description": "Built-in adherence to healthcare industry standards",
+      "businessValue": "Automated compliance management reducing risk and administrative burden"
+    }
+  ],
+  "businessImpactMetrics": [
+    {
+      "name": "Revenue Generation",
+      "value": "$4.2M",
+      "improvement": "revenue in CY24"
+    },
+    {
+      "name": "Market Presence",
+      "value": "Major implementations",
+      "improvement": "at CVS, Navitus, BlueCross"
+    },
+    {
+      "name": "Growth Trajectory",
+      "value": "$3.1M",
+      "improvement": "projected revenue for CY25"
+    },
+    {
+      "name": "Market Position",
+      "value": "Established",
+      "improvement": "presence in healthcare benefits market"
+    }
+  ],
+  "techStack": [
+    "Healthcare standards",
+    "Cloud platforms",
+    "Database management",
+    "Integration APIs",
+    "Security frameworks"
+  ],
+  "clientValue": [
+    "Healthcare Expertise - Deep domain knowledge and proven solutions",
+    "Established Client Base - Major healthcare organizations",
+    "Licensing Opportunity - Platform components for broader market",
+    "Regulatory Advantage - Built-in compliance and standards adherence"
+  ],
+  "maturityLevel": "mature",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "tech_nodejs",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_react",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_mongodb",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "tech_python",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "coe_medical_imaging",
+        "type": "USES"
+      },
+      {
+        "from": "coe_data_analytics",
+        "type": "USES"
+      },
+      {
+        "from": "coe_security",
+        "type": "USES"
+      },
+      {
+        "from": "component_benefits_triage",
+        "type": "INTEGRATES_WITH"
+      }
+    ]
+  },
+  "content": {
+    "type": "file",
+    "source": "content/platform/ezebenefits.md"
+  }
+}

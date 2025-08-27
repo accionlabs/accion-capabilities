@@ -1,0 +1,14 @@
+{
+  "id": "technology_react",
+  "name": "React",
+  "description": "Frontend JavaScript library",
+  "category": "framework",
+  "vendor": "Meta",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "framework"
+  ],
+  "relationships": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pillar_cloud",
+  "name": "Cloud",
+  "description": "Cloud transformation and modernization",
+  "order": 3,
+  "coeCount": 9,
+  "keyFocusAreas": [
+    "Cloud Migration",
+    "Cloud Native",
+    "DevOps",
+    "Infrastructure as Code"
+  ],
+  "type": "pillar",
+  "tags": [
+    "Cloud Migration",
+    "Cloud Native",
+    "DevOps",
+    "Infrastructure as Code"
+  ],
+  "relationships": []
+}

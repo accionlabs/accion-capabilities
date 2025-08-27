@@ -1,0 +1,14 @@
+{
+  "id": "technology_powerbi",
+  "name": "Power BI",
+  "description": "Business analytics solution",
+  "category": "tool",
+  "vendor": "Microsoft",
+  "isOpenSource": false,
+  "isPartnership": true,
+  "type": "technology",
+  "tags": [
+    "tool"
+  ],
+  "relationships": []
+}

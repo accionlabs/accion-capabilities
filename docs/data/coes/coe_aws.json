@@ -1,0 +1,192 @@
+{
+  "id": "coe_aws",
+  "type": "coe",
+  "data": {
+    "name": "AWS Center of Excellence",
+    "description": "Accion's AWS Center of Excellence provides comprehensive Amazon Web Services cloud solutions, specializing in enterprise-scale cloud transformation, serverless architectures, and AWS-native application development. The CoE focuses on AWS infrastructure, platform services, AI/ML capabilities, security, and DevOps automation. With extensive expertise in AWS Well-Architected Framework, cost optimization, and multi-account governance, the AWS CoE enables organizations to harness the full potential of Amazon's cloud ecosystem for innovation, scalability, and operational excellence.",
+    "category": "Cloud",
+    "order": 3,
+    "keyCompetencies": [
+      "AWS Cloud Architecture and Well-Architected Framework",
+      "AWS Infrastructure as Code (CloudFormation, CDK)",
+      "AWS DevOps and CI/CD with CodePipeline",
+      "AWS AI/ML and SageMaker Implementation",
+      "AWS Data Lakes and Analytics Platform",
+      "AWS Security and Identity Management (IAM)",
+      "Amazon EKS and Container Orchestration",
+      "AWS Cost Optimization and Reserved Instances",
+      "AWS Multi-Account Strategy and Organizations",
+      "AWS Serverless Architecture (Lambda, API Gateway)",
+      "AWS Migration and Application Modernization",
+      "AWS Monitoring and CloudWatch Implementation",
+      "AWS Networking and VPC Design",
+      "AWS Storage Solutions and Data Lifecycle",
+      "AWS Disaster Recovery and Business Continuity"
+    ],
+    "services": [
+      {
+        "name": "AWS Cloud Migration and Modernization",
+        "description": "End-to-end migration services with application modernization using AWS native services",
+        "deliverables": [
+          "Migration strategy",
+          "Application assessment",
+          "Modernization roadmap",
+          "Migration automation"
+        ]
+      },
+      {
+        "name": "AWS Infrastructure Architecture",
+        "description": "Scalable and resilient AWS infrastructure design following Well-Architected principles",
+        "deliverables": [
+          "Infrastructure blueprints",
+          "CloudFormation templates",
+          "Security configurations",
+          "Multi-AZ deployment"
+        ]
+      },
+      {
+        "name": "AWS DevOps and Automation",
+        "description": "Complete DevOps implementation using AWS native CI/CD services",
+        "deliverables": [
+          "CodePipeline setup",
+          "CodeBuild automation",
+          "CodeDeploy strategies",
+          "Infrastructure automation"
+        ]
+      },
+      {
+        "name": "AWS AI/ML and Data Analytics",
+        "description": "Machine learning and analytics solutions using AWS AI/ML services",
+        "deliverables": [
+          "SageMaker models",
+          "Data lake architecture",
+          "Analytics pipelines",
+          "ML governance"
+        ]
+      },
+      {
+        "name": "AWS Serverless Solutions",
+        "description": "Event-driven serverless architectures using Lambda and managed services",
+        "deliverables": [
+          "Serverless applications",
+          "Event-driven architecture",
+          "API Gateway integration",
+          "Function optimization"
+        ]
+      },
+      {
+        "name": "AWS Security and Compliance",
+        "description": "Comprehensive security implementation and compliance management",
+        "deliverables": [
+          "Security architecture",
+          "IAM policies",
+          "Compliance frameworks",
+          "Security monitoring"
+        ]
+      },
+      {
+        "name": "AWS Cost Optimization",
+        "description": "Cloud cost management and optimization strategies",
+        "deliverables": [
+          "Cost analysis",
+          "Right-sizing recommendations",
+          "Reserved instance strategy",
+          "Cost governance"
+        ]
+      }
+    ],
+    "technologies": [
+      "Amazon Web Services (AWS)",
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon EKS",
+      "Amazon ECS",
+      "AWS Fargate",
+      "Amazon CloudFront",
+      "Amazon Route 53",
+      "AWS CloudFormation",
+      "AWS CDK",
+      "AWS CodePipeline",
+      "AWS CodeBuild",
+      "AWS CodeDeploy",
+      "AWS CodeCommit",
+      "Amazon SageMaker",
+      "Amazon Redshift",
+      "Amazon EMR",
+      "AWS Glue",
+      "Amazon Kinesis",
+      "AWS Step Functions",
+      "Amazon SNS",
+      "Amazon SQS",
+      "AWS IAM",
+      "AWS Security Hub",
+      "AWS GuardDuty",
+      "AWS Config",
+      "AWS CloudTrail",
+      "Amazon CloudWatch",
+      "AWS X-Ray",
+      "AWS Systems Manager",
+      "AWS Organizations",
+      "AWS Control Tower",
+      "AWS Landing Zone",
+      "Amazon VPC",
+      "AWS Direct Connect",
+      "AWS Transit Gateway",
+      "Amazon ElastiCache",
+      "Amazon OpenSearch"
+    ],
+    "businessValue": "Accion's AWS Center of Excellence delivers significant business value through accelerated cloud adoption (70-90% faster deployment), substantial cost savings (30-50% infrastructure cost reduction), enhanced scalability and performance (auto-scaling capabilities), improved security posture (enterprise-grade compliance), and increased innovation velocity (50-70% faster time-to-market). The CoE enables organizations to leverage AWS's comprehensive service ecosystem for digital transformation, operational efficiency, and competitive advantage while ensuring cost optimization and governance best practices.",
+    "content": {
+      "type": "file",
+      "source": "content/coe/coe_aws.md"
+    }
+  },
+  "relationships": [
+    {
+      "type": "BELONGS_TO",
+      "to": "pillar_cloud",
+      "metadata": {
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_aws",
+      "metadata": {
+        "category": "cloud_platform",
+        "primary": true
+      }
+    },
+    {
+      "type": "USES",
+      "to": "technology_kubernetes",
+      "metadata": {
+        "category": "container_orchestration"
+      }
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_technology",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_financial_services",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_healthcare",
+      "metadata": {}
+    },
+    {
+      "type": "TARGETS",
+      "to": "industry_retail",
+      "metadata": {}
+    }
+  ]
+}

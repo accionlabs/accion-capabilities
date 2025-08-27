@@ -1,0 +1,57 @@
+{
+  "id": "casestudy_salesforce_sales_service_security",
+  "type": "casestudy",
+  "name": "Software Security Company - Sales & Service Transformation",
+  "client": "Software Security Product Company",
+  "industry": "Technology",
+  "description": "Implementation of a Lead Management solution with automation, intelligent scoring, and seamless sales integration, along with a Customer Portal for real-time tracking, self-service, and personalized account management.",
+  "challenge": "The software security company faced multiple operational challenges: inefficient lead handling with manual processes that delayed response times and impacted conversions, lack of real-time customer engagement with no self-service options for tracking orders or managing accounts, and high support workload where repetitive inquiries overwhelmed customer support teams.",
+  "solution": "Implemented comprehensive Salesforce Sales, Service, and Experience Clouds solution featuring automated lead management with intelligent scoring and routing, seamless integration between sales and service operations, customer portal with real-time order tracking and account management capabilities, self-service options to reduce support workload, and personalized customer experience through unified data management.",
+  "outcomes": [
+    "58% faster lead response time, ensuring timely engagement and improved conversion rates",
+    "30% improvement in order processing efficiency through streamlined workflows",
+    "48% reduction in support inquiries through comprehensive self-service capabilities", 
+    "Enhanced customer experience with real-time tracking and personalized account management",
+    "Improved lead conversion through intelligent scoring and automated processes",
+    "Reduced support team workload enabling focus on complex customer issues"
+  ],
+  "technologies": [
+    "Salesforce Sales Cloud",
+    "Salesforce Service Cloud", 
+    "Salesforce Experience Cloud",
+    "Intelligent Lead Scoring",
+    "Automated Workflows",
+    "Customer Portal",
+    "Self-Service Capabilities"
+  ],
+  "businessValue": [
+    "Significant improvement in lead conversion and sales efficiency with 58% faster response times",
+    "Enhanced operational efficiency with 30% improvement in order processing",
+    "Reduced support costs through 48% reduction in inquiries via self-service",
+    "Improved customer satisfaction through real-time tracking and personalized service",
+    "Better resource utilization enabling support teams to focus on high-value activities"
+  ],
+  "duration": "Sales and service transformation project",
+  "teamSize": "Salesforce multi-cloud implementation team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_technology",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_sales_service_security.md"
+  }
+}

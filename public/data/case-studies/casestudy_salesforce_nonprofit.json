@@ -1,0 +1,53 @@
+{
+  "id": "casestudy_salesforce_nonprofit",
+  "type": "casestudy",
+  "name": "Youth-Focused Organization - Transforming Nonprofit Operations",
+  "client": "Youth-Focused Organization",
+  "industry": "Nonprofit",
+  "description": "Implementation of Salesforce Nonprofit Cloud to streamline donor management, volunteer coordination, and program tracking, enhancing engagement and operational efficiency for youth-focused programs.",
+  "challenge": "The youth-focused organization faced multiple operational challenges: fragmented donor data with lack of a centralized system for tracking donor interactions, inefficient volunteer coordination with poor scheduling and communication processes, limited program visibility with restricted insights into program impact and engagement, fundraising inefficiencies due to manual processes hindering data-driven decision-making, and engagement gaps with difficulty in personalizing outreach to donors and volunteers.",
+  "solution": "Implemented comprehensive Salesforce Nonprofit Cloud solution featuring centralized donor management system with unified interaction tracking, streamlined volunteer coordination with automated scheduling and communication, enhanced program tracking with real-time impact measurement and engagement analytics, automated fundraising processes with data-driven insights and campaign automation, and personalized outreach capabilities for improved donor and volunteer engagement.",
+  "outcomes": [
+    "40% increase in donor engagement through automated outreach and personalized interactions",
+    "33% improvement in volunteer management efficiency with centralized tracking and scheduling",
+    "25% boost in fundraising effectiveness using data-driven insights and campaign automation",
+    "Enhanced program visibility and impact measurement through comprehensive tracking",
+    "Improved operational efficiency through centralized data management and automated processes",
+    "Better volunteer coordination through streamlined scheduling and communication systems"
+  ],
+  "technologies": [
+    "Salesforce Nonprofit Cloud",
+    "Donor Management System",
+    "Volunteer Management",
+    "Campaign Automation",
+    "Data Analytics",
+    "Automated Outreach",
+    "Program Tracking"
+  ],
+  "businessValue": [
+    "Significant improvement in donor engagement with 40% increase through personalized interactions",
+    "Enhanced operational efficiency with 33% improvement in volunteer management",
+    "Increased fundraising effectiveness with 25% boost through data-driven campaign automation",
+    "Better program impact measurement and visibility for stakeholders and funders",
+    "Improved resource allocation through centralized data management and analytics"
+  ],
+  "duration": "Nonprofit transformation project",
+  "teamSize": "Salesforce Nonprofit Cloud implementation team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_nonprofit.md"
+  }
+}

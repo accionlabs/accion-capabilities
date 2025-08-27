@@ -1,0 +1,53 @@
+{
+  "id": "casestudy_ana",
+  "name": "American Nurses Association - Accreditation Platform & Data Analytics",
+  "client": "American Nurses Association (ANA)",
+  "industry": "Healthcare/Professional Services",
+  "description": "Modernizing accreditation systems and data analytics platforms for a leading U.S. healthcare organization representing 4+ million nurses, including operational excellence through platform modernization and data migration to Azure cloud.",
+  "challenge": "Legacy systems lacked usability, scalability and flexibility leading to inefficiencies. Managing multiple programs across disconnected systems led to management overhead, data inconsistencies, and poor user experience. High hosting costs and security limitations of legacy apps.",
+  "solution": [
+    "Unified Accreditation Management consolidating multiple programs into centralized system",
+    "Enhanced user experience through intuitive self-service capabilities and automation",
+    "Enterprise cloud governance with automated monitoring using cloud-native services",
+    "Data migration from on-premise to Azure cloud with medallion architecture",
+    "Unified analytics platform with integrated data sources and Power BI reporting"
+  ],
+  "technologies": [
+    "Microsoft Azure",
+    "Microsoft .NET",
+    "Cloud Strategy",
+    "DevOps",
+    "Azure Monitoring & Management",
+    "Azure Databricks",
+    "PySpark",
+    "SparkSQL",
+    "Azure Data Factory",
+    "Power BI",
+    "Microsoft Fabric",
+    "One Lake",
+    "SQL Server"
+  ],
+  "impact": {
+    "accreditationProcessingReduction": "40%",
+    "securityImprovement": "100%",
+    "dataAccuracyImprovement": "10x",
+    "infrastructureCostReduction": "30%",
+    "contractValue": "$5Mn+ across multiple projects",
+    "dataVolumeMigrated": "1.8TB"
+  },
+  "outcomes": [
+    "40% reduction in accreditation application processing time",
+    "100% highly improved security posture using Azure Security",
+    "10x improved data accuracy with faster execution of data pipelines",
+    "90% streamlined financial reporting using self-service Power BI dashboards",
+    "Strategic partner status with new opportunities for application modernization"
+  ],
+  "serviceType": "Product Engineering & Cloud & Data",
+  "pillar": "pillar_cloud",
+  "coe": "coe_data_analytics",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/ana.md"
+  },
+  "type": "casestudy"
+}

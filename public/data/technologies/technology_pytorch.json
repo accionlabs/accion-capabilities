@@ -1,0 +1,17 @@
+{
+  "id": "technology_pytorch",
+  "name": "PyTorch",
+  "description": "Open-source machine learning library for Python with strong GPU acceleration",
+  "category": "framework",
+  "vendor": "Meta",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "machine learning",
+    "deep learning",
+    "AI",
+    "framework"
+  ],
+  "relationships": []
+}

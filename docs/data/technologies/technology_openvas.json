@@ -1,0 +1,49 @@
+{
+  "id": "technology_openvas",
+  "type": "technology",
+  "data": {
+    "name": "OpenVAS",
+    "description": "Open-source vulnerability scanner and management solution for comprehensive security testing",
+    "category": "security",
+    "subcategory": "vulnerability_scanning",
+    "vendor": "Greenbone Networks",
+    "type": "tool",
+    "useCases": [
+      "Vulnerability Assessment",
+      "Network Security Testing",
+      "Web Application Scanning",
+      "Authenticated Scanning",
+      "Compliance Testing"
+    ],
+    "keyFeatures": [
+      "Network vulnerability testing",
+      "Web application security testing",
+      "Authenticated and unauthenticated scans",
+      "Comprehensive vulnerability feed",
+      "Detailed reporting and analytics",
+      "Integration capabilities"
+    ],
+    "advantages": [
+      "Open-source and free",
+      "Regular vulnerability feed updates",
+      "Extensible architecture",
+      "Command-line and web interface",
+      "Community support"
+    ],
+    "integrations": [
+      "Metasploit",
+      "Nmap",
+      "Custom APIs"
+    ],
+    "businessValue": "Provides cost-effective vulnerability assessment capabilities for organizations looking for open-source security testing solutions with enterprise-grade features."
+  },
+  "relationships": [
+    {
+      "type": "COMPLEMENTS",
+      "to": "technology_nessus",
+      "metadata": {
+        "category": "vulnerability_scanning"
+      }
+    }
+  ]
+}

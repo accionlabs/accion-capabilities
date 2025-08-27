@@ -1,0 +1,16 @@
+{
+  "id": "technology_docker",
+  "name": "Docker",
+  "description": "Platform for developing, shipping, and running applications in containers",
+  "category": "platform",
+  "vendor": "Docker Inc.",
+  "isOpenSource": true,
+  "isPartnership": false,
+  "type": "technology",
+  "tags": [
+    "containerization",
+    "devops",
+    "platform"
+  ],
+  "relationships": []
+}

@@ -1,0 +1,77 @@
+{
+  "id": "casestudy_healthcare_payment_gateway",
+  "type": "casestudy",
+  "name": "Healthcare Payment Gateway Platform Engineering",
+  "client": "Large Healthcare Payment Gateway Company",
+  "clientType": "payer",
+  "industry": "Healthcare",
+  "description": "Engineered a comprehensive healthcare payment gateway platform with multiple payment modalities, reducing provider revenue cycle from 7+ days to 5 minutes while supporting virtual cards, ACH, paper checks, and eChecks with advanced fraud prevention and automated enrollment management.",
+  "challenge": "Healthcare payment processing required a comprehensive platform supporting multiple payment methods while reducing provider revenue cycles, eliminating manual processes, and providing advanced features like fraud prevention, automated enrollment, and seamless integration with existing healthcare systems.",
+  "solution": "Built an extensive payment gateway ecosystem with virtual card payment services, multi-modal payment platform (ACH, vCard, paper check, eCheck), automated enrollment management, benefits plan configuration optimization, fraud prevention and monitoring systems, automated data masking for HIPAA/PCI compliance, centralized user identity management, and comprehensive APIs for enterprise integration.",
+  "outcomes": [
+    "Reduced provider revenue cycle from 7+ days to 5 minutes for real-time payments",
+    "18K manual tickets reduced to 3.5K through automated enrollment management",
+    "20% reduction in call volume through self-service capabilities",
+    "Cost-effective payment processing eliminating bank fees and printing charges",
+    "Enhanced fraud prevention and transaction monitoring",
+    "Comprehensive HIPAA and PCI compliance automation"
+  ],
+  "technologies": [
+    "Virtual Card Processing",
+    "ACH Payment Systems",
+    "API Gateway Architecture",
+    "Payment Hub Integration",
+    "Fraud Detection Systems",
+    "Data Masking and Encryption",
+    "Identity Management",
+    "Real-time Processing"
+  ],
+  "duration": "Multi-year platform development and optimization",
+  "teamSize": "Large fintech and healthcare integration team",
+  "keyFeatures": [
+    "Virtual card payment generation and management",
+    "Multi-modal payment processing (ACH, vCard, paper check, eCheck)",
+    "Real-time card swipe transaction tracking and blocking",
+    "Automated enrollment management for providers and TPAs",
+    "Benefits plan configuration and optimization engines",
+    "Fraud prevention with transaction monitoring and blocking",
+    "Automated data masking for PHI compliance",
+    "Centralized identity provider for enterprise access management",
+    "Self-service CSR tools for faster service management",
+    "Comprehensive payment analytics and reporting"
+  ],
+  "paymentCapabilities": [
+    "Real-time virtual card generation",
+    "Integrated printing and faxing for providers",
+    "Multiple payment method support (B2B and B2C)",
+    "Subscription and recurring payment management",
+    "Payment method optimization algorithms"
+  ],
+  "complianceFeatures": [
+    "HIPAA-compliant PHI data masking",
+    "PCI compliance for payment processing",
+    "Automated anonymization rules",
+    "Audit trails and compliance reporting"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "industry_healthcare",
+        "type": "TARGETS"
+      },
+      {
+        "to": "coe_security",
+        "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "SUPPORTED_BY"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/healthcare_payment_gateway.md"
+  }
+}

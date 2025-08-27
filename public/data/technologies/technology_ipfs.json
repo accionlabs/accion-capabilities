@@ -1,0 +1,16 @@
+{
+  "id": "technology_ipfs",
+  "type": "technology",
+  "name": "IPFS",
+  "description": "InterPlanetary File System - peer-to-peer distributed file system for decentralized storage and content addressing",
+  "category": "storage",
+  "tags": [
+    "decentralized-storage",
+    "ipfs",
+    "peer-to-peer",
+    "distributed-systems",
+    "content-addressing",
+    "web3"
+  ],
+  "relationships": []
+}

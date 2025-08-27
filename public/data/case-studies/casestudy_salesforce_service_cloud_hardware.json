@@ -1,0 +1,56 @@
+{
+  "id": "casestudy_salesforce_service_cloud_hardware",
+  "type": "casestudy",
+  "name": "Leading Computer Hardware Manufacturer - Service Transformation",
+  "client": "Leading Computer Hardware Manufacturer",
+  "industry": "Manufacturing",
+  "description": "Deployment of a Service Management system with automated case assignment, fraud detection, real-time tracking, and AI-driven prioritization to transform customer service operations.",
+  "challenge": "The computer hardware manufacturer faced critical service management challenges: manual and inefficient case handling leading to delays in fraud detection and case resolution, lack of fraud prevention with no proactive system to identify and flag high-risk claims, and disjointed customer data providing limited visibility into customer interactions and service history.",
+  "solution": "Implemented Salesforce Service Cloud to create a comprehensive service management system featuring automated case assignment and routing, AI-powered fraud detection capabilities, real-time case tracking and monitoring, AI-driven case prioritization for optimal resource allocation, and centralized CRM for unified customer data management.",
+  "outcomes": [
+    "Improved efficiency through centralized CRM that streamlined service operations and case resolution",
+    "Enhanced fraud detection with AI-powered insights that reduced fraudulent claims and minimized revenue loss",
+    "Cost savings and faster resolution through automation that reduced investigation time, cutting operational costs and boosting customer satisfaction",
+    "Proactive fraud prevention system reducing financial risk",
+    "Unified customer view improving service quality and personalization",
+    "Streamlined service operations through automation and AI-driven insights"
+  ],
+  "technologies": [
+    "Salesforce Service Cloud",
+    "AI-Powered Fraud Detection",
+    "Automated Case Assignment",
+    "Real-time Tracking",
+    "AI-Driven Prioritization",
+    "Centralized CRM"
+  ],
+  "businessValue": [
+    "Significant reduction in operational costs through automation and efficiency gains",
+    "Enhanced fraud detection capabilities protecting revenue and reducing financial risk", 
+    "Improved customer satisfaction through faster case resolution and better service quality",
+    "Streamlined service operations with centralized customer data management",
+    "Better resource allocation through AI-driven case prioritization"
+  ],
+  "duration": "Service transformation project",
+  "teamSize": "Salesforce Service Cloud implementation team with AI/ML expertise",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_manufacturing",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "DEMONSTRATES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/salesforce_service_cloud_hardware.md"
+  }
+}

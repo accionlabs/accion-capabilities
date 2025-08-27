@@ -1,0 +1,16 @@
+{
+  "id": "technology_cardano",
+  "type": "technology",
+  "name": "Cardano",
+  "description": "Proof-of-stake blockchain platform focused on sustainability, scalability, and interoperability with research-driven approach",
+  "category": "blockchain",
+  "tags": [
+    "blockchain",
+    "cardano",
+    "proof-of-stake",
+    "sustainability",
+    "scalability",
+    "interoperability"
+  ],
+  "relationships": []
+}

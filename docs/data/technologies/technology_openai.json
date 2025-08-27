@@ -1,0 +1,14 @@
+{
+  "id": "technology_openai",
+  "name": "OpenAI",
+  "description": "AI models and APIs",
+  "category": "platform",
+  "vendor": "OpenAI",
+  "isOpenSource": false,
+  "isPartnership": true,
+  "type": "technology",
+  "tags": [
+    "platform"
+  ],
+  "relationships": []
+}

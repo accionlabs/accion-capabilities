@@ -1,0 +1,73 @@
+{
+  "id": "component_semantic_layer",
+  "name": "Semantic Layer - Unified Data Access APIs",
+  "category": "component",
+  "description": "Business-friendly data access layer with consistent metrics and unified APIs",
+  "componentType": "Data Processing Component",
+  "strategicValue": "Enables consistent data definitions and simplified access across enterprise systems",
+  "clientValue": [
+    "Simplified data access for business users",
+    "Consistent metric definitions across systems",
+    "Reduced report proliferation",
+    "Self-service analytics enablement"
+  ],
+  "technicalSpecs": [
+    "AtScale/Dremio integration",
+    "Data virtualization layer",
+    "API generators and management",
+    "Security controls and governance",
+    "Metadata management"
+  ],
+  "integrationPoints": [
+    "Business intelligence platforms",
+    "Data warehouses and lakes",
+    "Analytics applications",
+    "Reporting systems"
+  ],
+  "performanceMetrics": [
+    {
+      "name": "Query Performance",
+      "value": "50",
+      "unit": "% faster data access"
+    },
+    {
+      "name": "Report Consistency",
+      "value": "90+",
+      "unit": "% metric standardization"
+    }
+  ],
+  "useCases": [
+    "Enterprise business intelligence",
+    "Self-service analytics platforms",
+    "Data democratization initiatives",
+    "Cross-functional reporting standardization"
+  ],
+  "type": "component",
+  "tags": [
+    "component",
+    "data-processing",
+    "api",
+    "analytics"
+  ],
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_analytics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "tech_spark",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "SUPPORTS"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/component/semantic_layer.md"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "technology_apache_airflow": {
+    "name": "Apache Airflow",
+    "category": "platform",
+    "description": "Workflow orchestration platform"
+  },
+  "technology_arcore": {
+    "name": "ARCore",
+    "category": "platform",
+    "description": "Google's AR development platform"
+  },
+  "technology_arkit": {
+    "name": "ARKit",
+    "category": "framework",
+    "description": "Apple's AR development framework"
+  },
+  "technology_bitcoin": {
+    "name": "Bitcoin",
+    "category": "blockchain",
+    "description": "Pioneer cryptocurrency and blockchain platform providing decentralized digital currency and peer-to-peer transactions"
+  },
+  "technology_cardano": {
+    "name": "Cardano",
+    "category": "blockchain",
+    "description": "Proof-of-stake blockchain platform focused on sustainability, scalability, and interoperability with research-driven approach"
+  },
+  "technology_docker": {
+    "name": "Docker",
+    "category": "platform",
+    "description": "Platform for developing, shipping, and running applications in containers"
+  },
+  "technology_ethereum": {
+    "name": "Ethereum",
+    "category": "blockchain",
+    "description": "Leading blockchain platform for smart contracts and decentralized applications with ERC20/ERC721 token standards"
+  },
+  "technology_github_actions": {
+    "name": "GitHub Actions",
+    "category": "platform",
+    "description": "CI/CD platform integrated with GitHub"
+  },
+  "technology_hashicorp_vault": {
+    "name": "HashiCorp Vault",
+    "category": "security",
+    "description": "Identity-based secrets and encryption management system for securing, storing and protecting secrets and other sensitive data"
+  },
+  "technology_huggingface": {
+    "name": "Hugging Face",
+    "category": "platform",
+    "description": "ML model hub and libraries"
+  },
+  "technology_hyperledger": {
+    "name": "Hyperledger Fabric",
+    "category": "blockchain",
+    "description": "Enterprise-grade permissioned blockchain platform for business networks with modular architecture and privacy features"
+  },
+  "technology_ipfs": {
+    "name": "IPFS",
+    "category": "storage",
+    "description": "InterPlanetary File System - peer-to-peer distributed file system for decentralized storage and content addressing"
+  },
+  "technology_jenkins": {
+    "name": "Jenkins",
+    "category": "tool",
+    "description": "CI/CD automation server"
+  },
+  "technology_jwt": {
+    "name": "JWT",
+    "category": "framework",
+    "description": "JSON Web Token standard"
+  },
+  "technology_kubernetes": {
+    "name": "Kubernetes",
+    "category": "platform",
+    "description": "Container orchestration platform"
+  },
+  "technology_langchain": {
+    "name": "LangChain",
+    "category": "framework",
+    "description": "Framework for building LLM applications"
+  },
+  "technology_mlflow": {
+    "name": "MLflow",
+    "category": "platform",
+    "description": "ML lifecycle management platform"
+  },
+  "technology_mongodb": {
+    "name": "MongoDB",
+    "category": "database",
+    "description": "NoSQL document database"
+  },
+  "technology_nessus": {
+    "name": "Nessus",
+    "category": "security",
+    "description": "Comprehensive vulnerability scanner for identifying security vulnerabilities, configuration issues, and malware"
+  },
+  "technology_nodejs": {
+    "name": "Node.js",
+    "category": "platform",
+    "description": "JavaScript runtime for server-side development"
+  },
+  "technology_oauth": {
+    "name": "OAuth 2.0",
+    "category": "framework",
+    "description": "Authorization framework"
+  },
+  "technology_openai": {
+    "name": "OpenAI",
+    "category": "platform",
+    "description": "AI models and APIs"
+  },
+  "technology_openvas": {
+    "name": "OpenVAS",
+    "category": "security",
+    "description": "Open-source vulnerability scanner and management solution for comprehensive security testing"
+  },
+  "technology_powerbi": {
+    "name": "Power BI",
+    "category": "tool",
+    "description": "Business analytics solution"
+  },
+  "technology_python": {
+    "name": "Python",
+    "category": "language",
+    "description": "Programming language for data science and backend development"
+  },
+  "technology_pytorch": {
+    "name": "PyTorch",
+    "category": "framework",
+    "description": "Open-source machine learning library for Python with strong GPU acceleration"
+  },
+  "technology_qiskit": {
+    "name": "Qiskit",
+    "category": "framework",
+    "description": "Quantum computing SDK"
+  },
+  "technology_react": {
+    "name": "React",
+    "category": "framework",
+    "description": "Frontend JavaScript library"
+  },
+  "technology_sonarqube": {
+    "name": "SonarQube",
+    "category": "security",
+    "description": "Code quality and security analysis platform for continuous inspection of code quality"
+  },
+  "technology_spark": {
+    "name": "Apache Spark",
+    "category": "platform",
+    "description": "Distributed computing framework"
+  },
+  "technology_splunk": {
+    "name": "Splunk",
+    "category": "security",
+    "description": "Data platform for searching, monitoring, and analyzing machine-generated data via web-style interface"
+  },
+  "technology_tableau": {
+    "name": "Tableau",
+    "category": "tool",
+    "description": "Business intelligence and visualization platform"
+  },
+  "technology_tensorflow": {
+    "name": "TensorFlow",
+    "category": "framework",
+    "description": "Open-source machine learning framework for building and deploying ML models"
+  },
+  "technology_terraform": {
+    "name": "Terraform",
+    "category": "tool",
+    "description": "Infrastructure as Code tool"
+  },
+  "technology_unity": {
+    "name": "Unity",
+    "category": "platform",
+    "description": "Real-time 3D development platform"
+  }
+}
