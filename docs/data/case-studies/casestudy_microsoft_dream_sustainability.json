@@ -1,0 +1,89 @@
+{
+  "id": "casestudy_microsoft_dream_sustainability",
+  "type": "casestudy",
+  "name": "Microsoft DREAM Demo - Sustainability Analytics Platform",
+  "client": "Microsoft",
+  "industry": "Smart Cities, Energy & Utilities",
+  "description": "Comprehensive sustainability analytics platform demonstration for smart city initiatives, covering air quality monitoring, transportation fleet management, facility management, and power consumption analytics. The solution provides deep insights into environmental metrics, citizen sentiment, and operational efficiency across city infrastructure.",
+  "challenge": "Cities needed comprehensive visibility into sustainability metrics across multiple domains including air quality, transportation systems, fleet management, and facility operations. Traditional monitoring systems operated in silos, making it difficult to gain holistic insights into environmental impact, operational efficiency, and citizen satisfaction. There was a need for integrated analytics covering AQI monitoring, vehicle maintenance trends, route optimization, power consumption tracking, and citizen sentiment analysis.",
+  "solution": "Developed integrated sustainability analytics platform using Azure Synapse Analytics, Azure Data Lake, and Power BI for comprehensive monitoring and analysis. The solution covers multiple domains: Air Quality Analytics (AQI, PM 1, PM 2.5, PM 10), Transportation Department Analytics (public transport vehicles, maintenance trends, route optimization, citizen sentiment), Public Transportation Fleet Management (EMS/Police/Fire vehicles, maintenance trends, route optimization), City Facility Management (power consumption, gas consumption, facility metrics with trends), and integrated city-wide analytics covering transportation, fleet, and facilities.",
+  "outcomes": [
+    "Comprehensive air quality monitoring with AQI, PM 1, PM 2.5, PM 10 analytics",
+    "Enhanced vehicle and fleet management capabilities for city transportation",
+    "Power consumption metrics tracking and optimization",
+    "Citizen sentiment metrics monitoring and analysis",
+    "Route optimization for public transport and emergency vehicles",
+    "Vehicle maintenance trend analysis and predictive insights",
+    "Demand and bus frequency optimization capabilities",
+    "Facility management metrics with comprehensive trend analysis",
+    "Integrated analytics covering transportation, fleet, and facilities",
+    "Real-time sustainability dashboard for city-wide monitoring",
+    "Data-driven decision making for smart city initiatives",
+    "Improved operational efficiency across city services"
+  ],
+  "technologies": [
+    "Azure Synapse Analytics",
+    "Azure Data Lake Storage Gen2",
+    "Azure SQL Database",
+    "Azure Synapse Link",
+    "Periodic Data Export",
+    "Stream Analytics",
+    "Azure Cosmos DB (SQL API)",
+    "Power BI",
+    "IoT Edge",
+    "IoT Hub",
+    "Event Hub",
+    "Azure Synapse Link",
+    "Web App",
+    "Mobile App",
+    "Teradata Integration",
+    "SAP HANA Integration",
+    "Oracle Integration",
+    "Air Quality IoT Sensors",
+    "Twitter/Social Media Integration",
+    "Vehicle Ridership Systems"
+  ],
+  "duration": "Sustainability platform demonstration development",
+  "teamSize": "Cross-functional team including IoT specialists, data engineers, and sustainability analysts",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_iot",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_azure",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_streaming",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_utilities",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/microsoft_dream_sustainability.md"
+  }
+}

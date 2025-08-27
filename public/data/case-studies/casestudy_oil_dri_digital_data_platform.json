@@ -1,0 +1,80 @@
+{
+  "id": "casestudy_oil_dri_digital_data_platform",
+  "type": "casestudy",
+  "name": "Oil-Dri - Digital Data Layer Platform for Data-Driven Decision Making",
+  "client": "Oil-Dri Corporation",
+  "industry": "Manufacturing, Energy & Utilities",
+  "description": "Digital data layer platform development for a leading manufacturer and supplier of specialty sorbent products serving both consumer and B2B markets. The platform enhances data-driven decision making capabilities, enabling proactive forecasting and strategic response to future challenges and opportunities with greater operational agility.",
+  "challenge": "Data inconsistencies and extraction difficulties from various systems leading to inefficiencies. High reliance on manual intervention across departments hindering process automation and consistency. Reports lacked user-friendliness making interpretation difficult. Data existed in silos leading to fragmented insights and limiting comprehensive analysis. Heavy reliance on Excel for task management and inability to meet ongoing requests in timely manner causing operational delays. High retention risk and growing demand for predictive tools to anticipate emerging needs and challenges.",
+  "solution": "Built comprehensive digital data layer platform to reduce fragmentation by consolidating multiple data repositories, internal and external applications, and data sets into a Single Source of Truth (SSOT). Increased data reliance through timely availability of accurate and actionable data for monitoring progress and KPIs. Streamlined processes and tools to reduce user burden for data quality validation while establishing trust through BI reports. Implemented one-stop-shop solution for all internal users with smart and dynamic visualizations providing comprehensive analysis across relevant data products.",
+  "outcomes": [
+    "Consolidated multiple data repositories into Single Source of Truth (SSOT)",
+    "Increased reliance on timely, accurate and actionable data for KPI monitoring",
+    "Streamlined processes reducing burden on users for data quality validation",
+    "Established greater trust through comprehensive BI Reports",
+    "Faster processing of Loss/Run files at optimum operational cost",
+    "One-stop-shop solution for all internal users",
+    "Enhanced insights through smart and dynamic visualizations",
+    "Comprehensive analysis across relevant data products",
+    "Improved operational agility and strategic growth capabilities",
+    "Better predictive capabilities for anticipating future challenges"
+  ],
+  "technologies": [
+    "Data Ingestion Engine",
+    "Data Harmonization",
+    "Processed Data Storage",
+    "Data Governance",
+    "Real-Time Data Processing",
+    "Data Batching",
+    "ML-based Transformation",
+    "Manual/Custom Transformations",
+    "Aggregation Transformation",
+    "Reference Data Transformation",
+    "Reference Data OLAP",
+    "Structured Data",
+    "Semi-Structured/Processed Data",
+    "User Access Control",
+    "Application Access Control",
+    "Data Catalog/Lineage Management",
+    "Self-Service Analytics Platform"
+  ],
+  "duration": "Data platform development and implementation",
+  "teamSize": "Data engineering and analytics team including data architects, ETL developers, and business intelligence specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_transformation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_governance",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_aiml",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_manufacturing",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/oil_dri_digital_data_platform.md"
+  }
+}

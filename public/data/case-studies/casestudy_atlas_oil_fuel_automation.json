@@ -1,0 +1,80 @@
+{
+  "id": "casestudy_atlas_oil_fuel_automation",
+  "type": "casestudy",
+  "name": "Atlas Oil - IoT Fuel Automation Station Digital Platform",
+  "client": "Atlas Oil",
+  "industry": "Oil & Gas, Logistics",
+  "description": "Unique demand planning and optimization along with process automation for flexible fuel fulfillment and management that uses advanced IoT sensors to collect over 500K+ data points per day, providing real-time visibility of operations, guaranteed fuel supply and new levels of efficiency.",
+  "challenge": "Traditional fuel management systems lacked real-time visibility into operations, resulting in inefficient fuel supply management, lengthy invoice processing times (30 days), and high operational costs. The client needed automated fuel fulfillment capabilities with IoT-enabled remote monitoring and streamlined accounting processes.",
+  "solution": "Implemented a comprehensive IoT-enabled fuel automation platform with FAS (Fuel Automation Station) units equipped with advanced sensors, automated fueling with 28 hoses, remote monitoring capabilities, real-time tracking, automated invoice generation, and electronic approval workflows. The solution leverages Azure cloud services including IoT Hub, Stream Analytics, Cosmos DB, and Power BI for comprehensive data processing and visualization.",
+  "outcomes": [
+    "$1.4M net operating savings in first 6 months",
+    "85% reduction in invoice processing times (from 30 days to 2 days)",
+    "$7.5M working capital improvements in first 6 months",
+    "Real-time visibility into fuel operations with 500K+ data points per day",
+    "Automated fuel fulfillment with guaranteed fuel supply",
+    "Remote monitoring and control capabilities",
+    "Electronic approval workflows eliminating manual processes"
+  ],
+  "technologies": [
+    "IoT Platform",
+    "Digital Platform Development",
+    "Product Development",
+    "UI/UX Design",
+    "Cloud-based SaaS Solution",
+    "Data Analytics",
+    "Machine Learning",
+    "Power BI Development",
+    "Azure Managed Services",
+    "Azure IoT Hub",
+    "Stream Analytics",
+    "Cosmos DB",
+    "Azure Functions",
+    "Azure Storage",
+    "Service Bus",
+    "Azure Data Explorer"
+  ],
+  "duration": "IoT platform development and deployment",
+  "teamSize": "Cross-functional IoT development team including IoT engineers, cloud architects, and data scientists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_iot",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_transformation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_azure",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_utilities",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/atlas_oil_fuel_automation.md"
+  }
+}

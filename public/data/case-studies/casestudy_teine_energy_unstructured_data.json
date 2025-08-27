@@ -1,0 +1,84 @@
+{
+  "id": "casestudy_teine_energy_unstructured_data",
+  "type": "casestudy",
+  "name": "Teine Energy - Chat over Unstructured Data with AI-Powered Search",
+  "client": "Teine Energy",
+  "industry": "Oil & Gas, Energy",
+  "description": "AI-powered conversational interface for accessing and querying 10-15+ years of unstructured energy data stored across multiple network drives. The solution processes massive datasets including well files and geological data, enabling intelligent search and retrieval through natural language queries using RAG (Retrieval-Augmented Generation) architecture.",
+  "challenge": "Teine Energy had compiled information from 10-15+ years of unstructured data stored in several network drives, making it difficult to access and extract valuable insights. The data included ~750GB across ~315k blobs and 183 different file types, with 2/3 being well files and 1/3 geological data. The files were a mix of text, multi-modal models including images, and non-OCR appropriate formats, making traditional search methods ineffective.",
+  "solution": "Implemented a comprehensive AI-powered search and chat solution using Azure OpenAI and Azure AI Search Service. Applied metadata identifier strings approach on filename and metadata contents for files stored in Azure Data Lake. Processed the massive dataset and grouped information into relevant clusters for ready retrieval with RAG architecture. Built web interface with Microsoft Graph API integration for user entitlements, search API validation, intent identification and orchestration, with cached results including security entitlements.",
+  "outcomes": [
+    "Successfully processed ~750GB of data across ~315k blobs and 183 file types",
+    "Enabled natural language queries over 10-15+ years of historical energy data",
+    "Implemented intelligent search across well files and geological data",
+    "Created conversational AI interface for intuitive data access",
+    "Applied advanced metadata identification for improved searchability",
+    "Established secure access with Microsoft Entra ID integration",
+    "Built semantic search capabilities with Azure AI Search Service",
+    "Implemented RAG architecture for contextual information retrieval",
+    "Enhanced data accessibility for technical and business users",
+    "Reduced time to insights from historical energy data"
+  ],
+  "technologies": [
+    "Azure OpenAI",
+    "LLM Support",
+    "Azure AI Search Service",
+    "Semantic Search",
+    "Azure AI Search Index",
+    "Microsoft Graph API",
+    "Microsoft Entra ID",
+    "App Registration",
+    "Intent Identification and Orchestration",
+    "Cached Results with Security Entitlements",
+    "Web Interface",
+    "Search API",
+    "RAG (Retrieval-Augmented Generation)",
+    "Azure Data Lake",
+    "Multi-modal Data Processing",
+    "Metadata Processing",
+    "Natural Language Processing"
+  ],
+  "duration": "AI-powered search platform development",
+  "teamSize": "AI/ML team including AI engineers, data scientists, and cloud architects",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_genai",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_aiml",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_azure",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_transformation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_utilities",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/teine_energy_unstructured_data.md"
+  }
+}

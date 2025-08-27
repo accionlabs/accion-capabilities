@@ -880,6 +880,26 @@
       {
         "id": "casestudy_toyota_sales_knowledge_app",
         "name": "Toyota Motors - Sales Knowledge & Commerce App"
+      },
+      {
+        "id": "casestudy_atlas_oil_fuel_automation",
+        "name": "Atlas Oil - IoT Fuel Automation Station Digital Platform"
+      },
+      {
+        "id": "casestudy_conservice_digital_transformation",
+        "name": "Conservice - Digital Transformation for Utility Industry Leader"
+      },
+      {
+        "id": "casestudy_oil_dri_digital_data_platform",
+        "name": "Oil-Dri - Digital Data Layer Platform for Data-Driven Decision Making"
+      },
+      {
+        "id": "casestudy_teine_energy_unstructured_data",
+        "name": "Teine Energy - Chat over Unstructured Data with AI-Powered Search"
+      },
+      {
+        "id": "casestudy_microsoft_dream_sustainability",
+        "name": "Microsoft DREAM Demo - Sustainability Analytics Platform"
       }
     ]
   }

@@ -1,0 +1,83 @@
+{
+  "id": "casestudy_conservice_digital_transformation",
+  "type": "casestudy",
+  "name": "Conservice - Digital Transformation for Utility Industry Leader",
+  "client": "Conservice",
+  "industry": "Utilities",
+  "description": "Digital transformation initiative for a leading utility management and billing company serving multifamily and single-family properties, commercial businesses, and student housing with comprehensive utility management solutions through cloud-first data platform modernization.",
+  "challenge": "Legacy systems with multi-family platform retrofitted for single family business causing IT system inefficacy. Scattered client communication across multiple manual channels leading to low client satisfaction. Heavy reliance on basic office tools for critical business functions causing substantial process overheads. Monolithic platforms limiting automation capabilities with labor-intensive processes. Data not served specific to context with knowledge spread thin degrading user experience and productivity. Lack of robust audit trails and process metrics leading to process bottlenecks.",
+  "solution": "Implemented modern cloud-based technologies with flexible, service-oriented architecture to dramatically improve operational efficiency, enhance user experience, and create a scalable platform capable of supporting multiple business lines. Developed cloud-first data platform with dynamic data ingestion from ERP, NetSuite, and Salesforce. Built data lake storage with Synapse dedicated SQL pool for MPP EDW, self-service end user BI using Power BI Solutions, machine learning algorithms for financial forecasting, and data sharing capabilities with external parties.",
+  "outcomes": [
+    "$3 Million annual savings achieved",
+    "Business scalability improved by up to 45%",
+    "Dramatically improved operational efficiency",
+    "Enhanced user experience and productivity",
+    "Created scalable platform supporting multiple business lines",
+    "Implemented automated billing cycles",
+    "Consolidated all inbound and outbound payments",
+    "On-demand utilization of automation",
+    "Reduced financial reporting cycles",
+    "Improved data management and business agility positioning client as leader in utility management industry"
+  ],
+  "technologies": [
+    "Modern Data Platform",
+    "Power BI Analysis",
+    "Machine Learning",
+    "Azure Synapse Analytics",
+    "Azure Data Lake",
+    "Purview",
+    "Synapse Pipelines",
+    "Azure Machine Learning",
+    "Cloud-based Architecture",
+    "Service-oriented Architecture",
+    "Data Analytics",
+    "Financial Forecasting ML"
+  ],
+  "duration": "Digital transformation and modernization initiative",
+  "teamSize": "Cross-functional modernization team including cloud architects, data engineers, and business analysts",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_azure",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_transformation",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_aiml",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_architecture",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_utilities",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_automation",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/conservice_digital_transformation.md"
+  }
+}
