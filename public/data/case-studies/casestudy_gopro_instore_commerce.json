@@ -1,0 +1,47 @@
+{
+  "id": "casestudy_gopro_instore_commerce",
+  "type": "casestudy",
+  "name": "GoPro - In-Store Digital Commerce Experience",
+  "client": "GoPro",
+  "industry": "Consumer Electronics",
+  "description": "Interactive in-store digital commerce solution with AR product experiences, enabling customers to visualize GoPro capabilities through immersive digital displays and instant purchase options.",
+  "challenge": "Static in-store displays failed to showcase GoPro's dynamic product capabilities. Customers couldn't experience product features before purchase, leading to lower conversion rates and higher return rates.",
+  "solution": "Created interactive digital kiosks with AR experiences, product configurators, user-generated content displays, and seamless checkout integration, transforming the in-store shopping experience.",
+  "outcomes": [
+    "65% increase in in-store conversion rates",
+    "40% reduction in product returns",
+    "Interactive kiosks in 500+ retail locations",
+    "80% customer engagement with digital displays",
+    "35% increase in average order value"
+  ],
+  "technologies": [
+    "AR/VR Technologies",
+    "Interactive Kiosks",
+    "Digital Signage",
+    "Product Configurators",
+    "In-store Analytics"
+  ],
+  "duration": "5 months",
+  "teamSize": "Digital experience team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_ecommerce",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "inline",
+    "source": "# GoPro - In-Store Digital Commerce Experience\n\n## Overview\nRevolutionary in-store digital commerce platform that brings GoPro's action-packed brand experience to retail environments through interactive AR displays and seamless purchase journeys.\n\n## Business Challenge\nGoPro faced significant retail challenges:\n- Static displays couldn't showcase product capabilities\n- Customers unable to experience features before purchase\n- High return rates due to unmet expectations\n- Limited product education in retail environments\n- Disconnect between online and in-store experiences\n\n## Solution\n### Interactive Experience Platform\n- **AR Product Visualization**: Virtual try-before-buy experiences\n- **Content Showcase**: User-generated videos on digital displays\n- **Product Configurator**: Custom bundle creation\n- **Instant Checkout**: Seamless in-store purchase flow\n\n### Digital Features\n- 360-degree product views\n- Feature comparison tools\n- Adventure scenario simulations\n- Social media integration\n- Real-time inventory checking\n\n## Outcomes\n### Retail Performance\n- **Conversion Rate**: 65% increase in-store\n- **Return Reduction**: 40% fewer product returns\n- **Store Coverage**: 500+ locations equipped\n- **Engagement Rate**: 80% of customers interact\n\n### Business Impact\n- 35% increase in average order value\n- Enhanced brand experience\n- Improved customer satisfaction\n- Reduced sales associate training time\n- Valuable customer behavior insights\n\n## Technical Implementation\n- Platform: Unity-based AR experiences\n- Hardware: Custom kiosk solutions\n- Integration: POS and inventory systems\n- Analytics: Real-time engagement tracking\n- Content: Cloud-based CMS\n\n## Key Success Factors\n1. Immersive brand storytelling\n2. Seamless AR integration\n3. User-friendly interface design\n4. Real-time content updates\n5. Comprehensive analytics platform"
+  }
+}

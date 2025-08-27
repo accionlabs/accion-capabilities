@@ -1,0 +1,54 @@
+{
+  "id": "casestudy_abbott_b2b_migration",
+  "type": "casestudy",
+  "name": "Abbott Labs - B2B E-commerce Migration",
+  "client": "Abbott Labs",
+  "industry": "Healthcare & Pharmaceutical",
+  "description": "Strategic migration of B2B e-commerce operations from legacy systems to modern cloud-based platform, enabling global scalability and improved partner experience.",
+  "challenge": "Legacy B2B systems were limiting growth potential with poor user experience, limited scalability, and inability to support global operations. Multiple disconnected systems created operational inefficiencies.",
+  "solution": "Complete migration to modern B2B e-commerce platform with cloud infrastructure, unified partner portal, global multi-language support, and integrated supply chain management.",
+  "outcomes": [
+    "50% reduction in order processing time",
+    "Global platform supporting 30+ countries",
+    "Unified partner experience across all divisions",
+    "40% improvement in partner satisfaction scores",
+    "Seamless migration with zero downtime"
+  ],
+  "technologies": [
+    "SAP Hybris Commerce",
+    "Cloud Migration Tools",
+    "API Integration Framework",
+    "Global Commerce Platform"
+  ],
+  "duration": "6 months",
+  "teamSize": "Migration and integration specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_cloud",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_ecommerce",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_cloud",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "inline",
+    "source": "# Abbott Labs - B2B E-commerce Migration\n\n## Overview\nStrategic migration of Abbott's B2B e-commerce operations from fragmented legacy systems to a unified, modern cloud-based platform supporting global operations.\n\n## Business Challenge\nAbbott faced significant limitations with their legacy B2B systems:\n- Fragmented systems across different divisions\n- Limited scalability for global expansion\n- Poor partner user experience\n- High maintenance costs\n- Inability to support modern e-commerce features\n\n## Solution\n### Migration Strategy\n- **Phased Approach**: Risk-managed migration in controlled phases\n- **Data Migration**: Comprehensive data cleansing and transformation\n- **Zero Downtime**: Parallel run strategy ensuring business continuity\n- **Global Architecture**: Multi-region cloud deployment\n\n### Platform Features\n- Unified partner portal for all divisions\n- Multi-language and multi-currency support\n- Advanced B2B features (quotes, approvals, budgets)\n- Integrated supply chain visibility\n- Mobile-responsive design\n\n## Outcomes\n### Performance Improvements\n- **Order Processing**: 50% faster order completion\n- **Global Reach**: Platform supporting 30+ countries\n- **Partner Satisfaction**: 40% improvement in NPS scores\n- **Operational Efficiency**: 35% reduction in support tickets\n\n### Business Benefits\n- Unified brand experience globally\n- Reduced operational costs\n- Improved partner retention\n- Faster time-to-market for new regions\n- Enhanced data analytics capabilities\n\n## Technical Implementation\n- Platform: SAP Hybris Commerce Suite\n- Infrastructure: AWS Cloud Services\n- Integration: ESB for legacy system connectivity\n- Migration: Custom ETL pipelines\n- Timeline: 6-month phased migration\n\n## Key Success Factors\n1. Comprehensive migration planning\n2. Stakeholder alignment across divisions\n3. Robust testing and validation\n4. Phased rollout minimizing risk\n5. Strong change management program"
+  }
+}

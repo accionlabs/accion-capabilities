@@ -1,0 +1,45 @@
+{
+  "id": "casestudy_abbott_b2c_nutrition_ecommerce",
+  "type": "casestudy",
+  "name": "Abbott Labs - B2C Nutrition E-commerce Platform",
+  "client": "Abbott Labs",
+  "industry": "Healthcare & Pharmaceutical",
+  "description": "PCI-DSS certified e-commerce platform for nutrition products with highest security compliance, addressing security gaps and preventing revenue loss.",
+  "challenge": "Client aimed to bridge security gaps in their existing e-commerce platform and prevent revenue loss. The existing platform had security vulnerabilities that threatened business continuity.",
+  "solution": "Relaunched a PCI-DSS certified e-commerce platform with highest level of security compliances and a production roll-out within 2 months ensuring business continuity. Implemented client-controlled secure web store with comprehensive security measures.",
+  "outcomes": [
+    "7,000 orders generated over $2 Million sales within first month",
+    "100% uptime ensuring business continuity",
+    "Rejuvenated dwindling sales with secure platform launch",
+    "PCI-DSS certification achieved",
+    "Production roll-out completed within 2 months"
+  ],
+  "technologies": [
+    "Magento Commerce",
+    "PCI-DSS Security Framework",
+    "E-commerce Security Tools"
+  ],
+  "duration": "2 months",
+  "teamSize": "E-commerce implementation team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_ecommerce",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "inline",
+    "source": "# Abbott Labs - B2C Nutrition E-commerce Platform\n\n## Overview\nPCI-DSS certified e-commerce platform implementation for Abbott Labs' nutrition division, addressing critical security gaps and preventing revenue loss.\n\n## Business Challenge\nAbbott Labs faced significant security vulnerabilities in their existing e-commerce platform that threatened:\n- Revenue continuity\n- Customer trust\n- Regulatory compliance\n- Brand reputation\n\n## Solution\n### Security-First Approach\n- **PCI-DSS Certification**: Achieved highest level of security compliance\n- **Rapid Deployment**: Production roll-out within 2 months\n- **Client Control**: Full administrative control of secure web store\n- **High Availability**: Designed for 100% uptime\n\n### Platform Features\n- Secure payment processing\n- Customer data protection\n- Real-time inventory management\n- Scalable architecture\n\n## Outcomes\n### Immediate Business Impact\n- **Sales Performance**: 7,000 orders generating $2M in first month\n- **Platform Reliability**: 100% uptime achieved\n- **Revenue Recovery**: Rejuvenated previously dwindling sales\n\n### Security Achievement\n- PCI-DSS certified platform\n- Eliminated security vulnerabilities\n- Protected customer payment data\n- Ensured regulatory compliance\n\n## Technical Implementation\n- E-commerce platform: Magento Commerce\n- Security framework: PCI-DSS compliance\n- Infrastructure: High-availability architecture\n- Timeline: 2-month rapid deployment\n\n## Key Success Factors\n1. Rapid response to security threats\n2. Focus on business continuity\n3. Comprehensive security implementation\n4. Quick time-to-market execution"
+  }
+}

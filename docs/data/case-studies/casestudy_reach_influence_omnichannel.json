@@ -1,0 +1,51 @@
+{
+  "id": "casestudy_reach_influence_omnichannel",
+  "type": "casestudy",
+  "name": "Reach Influence - Omni-Channel Promotions Platform",
+  "client": "Reach Influence",
+  "industry": "Retail & Consumer Goods",
+  "description": "Unified omni-channel promotions and loyalty platform enabling retailers to deliver personalized offers across all customer touchpoints with real-time campaign management.",
+  "challenge": "Fragmented promotional systems across channels leading to inconsistent customer experiences. Unable to track promotion effectiveness or deliver personalized offers in real-time across online, mobile, and in-store channels.",
+  "solution": "Developed unified omni-channel platform with real-time offer engine, customer data platform integration, AI-driven personalization, and comprehensive analytics dashboard for campaign optimization.",
+  "outcomes": [
+    "45% increase in promotion redemption rates",
+    "Real-time offers across all channels",
+    "60% improvement in customer engagement",
+    "ROI tracking for all promotional campaigns",
+    "25% reduction in promotional spend waste"
+  ],
+  "technologies": [
+    "Omni-channel Platform",
+    "Real-time Offer Engine",
+    "Customer Data Platform",
+    "AI Personalization",
+    "Campaign Analytics"
+  ],
+  "duration": "7 months",
+  "teamSize": "Digital marketing technology team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_ecommerce",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "inline",
+    "source": "# Reach Influence - Omni-Channel Promotions Platform\n\n## Overview\nComprehensive omni-channel promotions platform enabling retailers to deliver unified, personalized promotional experiences across all customer touchpoints.\n\n## Business Challenge\nReach Influence needed to address critical gaps in retail promotions:\n- Disconnected promotional systems across channels\n- Inability to personalize offers in real-time\n- No unified view of promotion performance\n- High promotional spend with low ROI\n- Poor customer experience due to irrelevant offers\n\n## Solution\n### Unified Platform Architecture\n- **Single Offer Engine**: Centralized promotion management\n- **Real-time Processing**: Instant offer delivery and validation\n- **Channel Integration**: Seamless online, mobile, and POS connectivity\n- **Customer 360**: Unified customer profile for personalization\n\n### Advanced Capabilities\n- AI-driven offer personalization\n- Dynamic segmentation engine\n- A/B testing framework\n- Real-time campaign optimization\n- Cross-channel attribution\n\n## Outcomes\n### Performance Metrics\n- **Redemption Rates**: 45% increase across all channels\n- **Customer Engagement**: 60% improvement in interaction rates\n- **Cost Efficiency**: 25% reduction in wasted promotional spend\n- **Campaign Velocity**: 70% faster campaign deployment\n\n### Business Impact\n- Unified customer experience across channels\n- Data-driven promotional strategies\n- Improved customer lifetime value\n- Enhanced brand loyalty\n- Competitive advantage through personalization\n\n## Technical Implementation\n- Platform: Microservices architecture\n- Integration: API-first design\n- Personalization: Machine learning models\n- Analytics: Real-time data processing\n- Infrastructure: Cloud-native deployment\n\n## Key Success Factors\n1. Unified data architecture\n2. Real-time processing capabilities\n3. AI-powered personalization\n4. Seamless channel integration\n5. Comprehensive analytics and insights"
+  }
+}

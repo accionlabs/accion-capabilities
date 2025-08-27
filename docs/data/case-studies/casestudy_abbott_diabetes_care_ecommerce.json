@@ -1,0 +1,46 @@
+{
+  "id": "casestudy_abbott_diabetes_care_ecommerce",
+  "type": "casestudy",
+  "name": "Abbott Labs - Diabetes Care E-commerce Platform",
+  "client": "Abbott Labs",
+  "industry": "Healthcare & Pharmaceutical",
+  "description": "B2B e-commerce platform for diabetes care products with advanced features including subscription management, automated reordering, and healthcare provider integration.",
+  "challenge": "Need for a specialized e-commerce platform to handle complex B2B relationships, subscription-based orders, and integration with healthcare providers while maintaining regulatory compliance.",
+  "solution": "Implemented a comprehensive B2B e-commerce solution with subscription management, automated reordering capabilities, healthcare provider portals, and regulatory compliance features.",
+  "outcomes": [
+    "Streamlined B2B ordering process for healthcare providers",
+    "Automated subscription and reordering system",
+    "Improved inventory management and forecasting",
+    "Enhanced customer experience with personalized portals",
+    "Regulatory compliance maintained"
+  ],
+  "technologies": [
+    "Magento Commerce B2B",
+    "Subscription Management System",
+    "Healthcare Integration APIs",
+    "Automated Reordering Engine"
+  ],
+  "duration": "4 months",
+  "teamSize": "B2B e-commerce specialists",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_ecommerce",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "inline",
+    "source": "# Abbott Labs - Diabetes Care E-commerce Platform\n\n## Overview\nSpecialized B2B e-commerce platform for Abbott's diabetes care division, enabling healthcare providers to efficiently manage patient supplies and subscriptions.\n\n## Business Challenge\nAbbott needed a sophisticated B2B platform to:\n- Manage complex healthcare provider relationships\n- Handle subscription-based ordering\n- Integrate with healthcare systems\n- Maintain regulatory compliance\n- Streamline supply chain management\n\n## Solution\n### B2B E-commerce Features\n- **Healthcare Provider Portals**: Customized interfaces for different provider types\n- **Subscription Management**: Automated recurring orders for patient supplies\n- **Integration Capabilities**: APIs for EMR and healthcare systems\n- **Compliance Framework**: HIPAA and regulatory adherence\n\n### Platform Capabilities\n- Multi-tier pricing structures\n- Volume-based discounts\n- Automated reordering triggers\n- Real-time inventory visibility\n- Patient management tools\n\n## Outcomes\n### Business Impact\n- Streamlined ordering process reducing order time by 60%\n- Improved inventory forecasting accuracy\n- Enhanced provider satisfaction scores\n- Reduced manual order processing\n\n### Operational Benefits\n- Automated subscription management\n- Integrated healthcare provider workflows\n- Improved patient supply continuity\n- Enhanced data analytics capabilities\n\n## Technical Implementation\n- Platform: Magento Commerce B2B Edition\n- Integration: Healthcare system APIs\n- Subscription: Custom subscription engine\n- Security: HIPAA-compliant infrastructure\n\n## Key Success Factors\n1. Deep understanding of healthcare B2B needs\n2. Robust subscription management\n3. Seamless healthcare system integration\n4. Focus on regulatory compliance"
+  }
+}

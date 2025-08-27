@@ -852,6 +852,34 @@
       {
         "id": "casestudy_fintech_fraudulent_claims_processing",
         "name": "Fraudulent Claims Processing Platform for Insurance Analytics"
+      },
+      {
+        "id": "casestudy_abbott_b2c_nutrition_ecommerce",
+        "name": "Abbott Labs - B2C Nutrition E-commerce Platform"
+      },
+      {
+        "id": "casestudy_abbott_diabetes_care_ecommerce",
+        "name": "Abbott Labs - Diabetes Care E-commerce Platform"
+      },
+      {
+        "id": "casestudy_abbott_b2b_migration",
+        "name": "Abbott Labs - B2B E-commerce Migration"
+      },
+      {
+        "id": "casestudy_rush_enterprises_marketplace",
+        "name": "Rush Enterprises - Trucking Parts Marketplace"
+      },
+      {
+        "id": "casestudy_reach_influence_omnichannel",
+        "name": "Reach Influence - Omni-Channel Promotions Platform"
+      },
+      {
+        "id": "casestudy_gopro_instore_commerce",
+        "name": "GoPro - In-Store Digital Commerce Experience"
+      },
+      {
+        "id": "casestudy_toyota_sales_knowledge_app",
+        "name": "Toyota Motors - Sales Knowledge & Commerce App"
       }
     ]
   }

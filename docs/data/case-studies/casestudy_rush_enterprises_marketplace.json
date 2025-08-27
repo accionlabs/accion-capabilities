@@ -1,0 +1,51 @@
+{
+  "id": "casestudy_rush_enterprises_marketplace",
+  "type": "casestudy",
+  "name": "Rush Enterprises - Trucking Parts Marketplace",
+  "client": "Rush Enterprises",
+  "industry": "Automotive & Transportation",
+  "description": "Digital marketplace platform for commercial trucking parts and services, connecting dealers, repair shops, and fleet operators with real-time inventory and pricing.",
+  "challenge": "Traditional parts ordering process was inefficient with phone/fax orders, no real-time inventory visibility, and limited ability to compare prices across suppliers. Fleet operators faced significant downtime waiting for parts.",
+  "solution": "Built comprehensive digital marketplace with real-time inventory integration, dynamic pricing, mobile apps for field technicians, and predictive parts recommendation engine.",
+  "outcomes": [
+    "70% reduction in parts ordering time",
+    "Real-time inventory across 100+ locations",
+    "$5M annual cost savings from reduced truck downtime",
+    "30% increase in parts sales revenue",
+    "Mobile app adoption by 85% of technicians"
+  ],
+  "technologies": [
+    "Marketplace Platform",
+    "Real-time Inventory APIs",
+    "Mobile Applications",
+    "Predictive Analytics",
+    "Dynamic Pricing Engine"
+  ],
+  "duration": "8 months",
+  "teamSize": "E-commerce and logistics team",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_ecommerce",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "industry_ecommerce",
+        "type": "TARGETS"
+      },
+      {
+        "to": "pillar_digital_products",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "pillar_data",
+        "type": "LEVERAGES"
+      }
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "inline",
+    "source": "# Rush Enterprises - Trucking Parts Marketplace\n\n## Overview\nDigital transformation of Rush Enterprises' commercial trucking parts business through a comprehensive marketplace platform connecting the entire supply chain ecosystem.\n\n## Business Challenge\nRush Enterprises, a leading commercial vehicle dealer, faced critical challenges:\n- Manual ordering processes causing delays\n- No visibility into real-time parts availability\n- Fleet operators experiencing costly downtime\n- Limited price transparency\n- Inefficient inventory management across locations\n\n## Solution\n### Marketplace Platform\n- **Real-time Inventory**: Integration with 100+ dealer locations\n- **Dynamic Pricing**: Market-based pricing algorithms\n- **Mobile Solutions**: Apps for field technicians and drivers\n- **Smart Search**: AI-powered parts finder with VIN lookup\n\n### Advanced Features\n- Predictive parts recommendations\n- Cross-reference part number database\n- Warranty tracking and claims\n- Fleet management integration\n- Emergency parts locator\n\n## Outcomes\n### Operational Impact\n- **Order Efficiency**: 70% reduction in ordering time\n- **Inventory Visibility**: Real-time across all locations\n- **Downtime Reduction**: $5M annual savings\n- **Revenue Growth**: 30% increase in parts sales\n\n### Digital Adoption\n- 85% mobile app adoption by technicians\n- 60% of orders placed digitally\n- 90% customer satisfaction score\n- 45% reduction in customer service calls\n\n## Technical Implementation\n- Platform: Custom marketplace solution\n- Integration: REST APIs for inventory systems\n- Mobile: Native iOS and Android apps\n- Analytics: Predictive maintenance algorithms\n- Infrastructure: AWS cloud platform\n\n## Key Success Factors\n1. Deep industry domain expertise\n2. Comprehensive dealer network integration\n3. Mobile-first approach for field workers\n4. AI-driven parts recommendations\n5. Focus on reducing truck downtime"
+  }
+}
