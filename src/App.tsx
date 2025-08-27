@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { getBasePath } from './config/paths';
 import { CapabilityGraph } from './services/CapabilityGraph';
 import { CapabilityQueryBuilder } from './services/CapabilityQueryBuilder';
 import { DataLoaderV2 } from './services/DataLoaderV2';
@@ -85,7 +86,7 @@ function App() {
     <GraphContext.Provider value={{ graph, queryBuilder }}>
       <ViewModeProvider>
         <PillarFilterProvider>
-          <Router>
+          <Router basename={getBasePath()}>
             <Routes>
             <Route path="/" element={<AppLayoutVertical />}>
             <Route index element={<HomePage />} />
