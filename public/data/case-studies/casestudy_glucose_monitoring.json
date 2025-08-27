@@ -68,6 +68,6 @@
   },
   "content": {
     "type": "file",
-    "source": "content/casestudy/glucose_monitoring.md"
+    "source": "content/casestudy/glucose-monitoring.md"
   }
 }
