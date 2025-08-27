@@ -2,9 +2,21 @@
 // This handles the base path for GitHub Pages deployment
 
 export const getBasePath = () => {
-  // In production (GitHub Pages), use the homepage path from package.json
-  // In development, use root path
-  return process.env.NODE_ENV === 'production' ? '/accion-capabilities' : '';
+  // Check if we're on GitHub Pages by looking at the pathname
+  // If the app is served from /accion-capabilities/, use that as base path
+  const { pathname } = window.location;
+  
+  // In production build, always use the base path
+  if (process.env.NODE_ENV === 'production') {
+    return '/accion-capabilities';
+  }
+  
+  // In development or if served from a subpath
+  if (pathname.startsWith('/accion-capabilities')) {
+    return '/accion-capabilities';
+  }
+  
+  return '';
 };
 
 export const getDataPath = (path: string) => {

@@ -15,9 +15,12 @@ export class DataLoaderV2 {
   async loadAllData(): Promise<void> {
     try {
       console.log('Starting data load...');
+      console.log('Base URL:', this.baseUrl);
       
       // Load index to get list of all entities
-      const indexResponse = await fetch(`${this.baseUrl}/index.json`);
+      const indexUrl = `${this.baseUrl}/index.json`;
+      console.log('Loading index from:', indexUrl);
+      const indexResponse = await fetch(indexUrl);
       const index = await indexResponse.json();
       console.log('Index loaded');
 
