@@ -142,7 +142,7 @@ const IndustryIntelligencePage: React.FC = () => {
               {summary.caseStudies.map(cs => (
                 <button
                   key={cs.id}
-                  onClick={() => navigate(`/casestudies/${cs.id}`)}
+                  onClick={() => navigate(`/case-studies/${cs.id}`)}
                   className="text-left p-4 border rounded-lg hover:bg-gray-50"
                 >
                   <h4 className="font-semibold text-blue-600">{cs.data.name}</h4>

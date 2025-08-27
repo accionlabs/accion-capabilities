@@ -148,7 +148,7 @@ const IndustrySummaryCard: React.FC<IndustrySummaryCardProps> = ({ summary, onVi
               {summary.caseStudies.slice(0, 3).map(cs => (
                 <Link
                   key={cs.id}
-                  to={`/casestudies/${cs.id}`}
+                  to={`/case-studies/${cs.id}`}
                   className="block text-sm text-blue-600 hover:text-blue-800 truncate"
                 >
                   • {cs.data.name}
@@ -167,7 +167,7 @@ const IndustrySummaryCard: React.FC<IndustrySummaryCardProps> = ({ summary, onVi
             View Details
           </button>
           <Link
-            to={`/industries/${industry.id}/casestudies`}
+            to={`/industries/${industry.id}/case-studies`}
             className="flex-1 border border-blue-500 text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors text-center"
           >
             Case Studies
