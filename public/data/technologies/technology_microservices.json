@@ -1,0 +1,58 @@
+{
+  "id": "technology_microservices",
+  "name": "Microservices Architecture",
+  "category": "Architecture",
+  "description": "Architectural style that structures applications as a collection of loosely coupled, independently deployable services, each implementing specific business capabilities.",
+  "businessValue": "Enables faster development cycles, improved scalability, technology diversity, fault isolation, and easier maintenance through modular service design.",
+  "useCases": [
+    "E-commerce platforms",
+    "Banking applications",
+    "Streaming services",
+    "Social media platforms",
+    "IoT applications",
+    "Healthcare systems",
+    "Supply chain management"
+  ],
+  "keyPatterns": [
+    "API Gateway",
+    "Service Discovery",
+    "Circuit Breaker",
+    "Event Sourcing",
+    "CQRS",
+    "Saga Pattern",
+    "Service Mesh"
+  ],
+  "technicalCapabilities": [
+    "Independent deployment",
+    "Service isolation",
+    "Horizontal scaling",
+    "Polyglot persistence",
+    "Distributed tracing",
+    "Container orchestration",
+    "API-first design"
+  ],
+  "technologies": [
+    "Docker",
+    "Kubernetes",
+    "Spring Boot",
+    "Netflix OSS",
+    "Istio",
+    "Apache Kafka",
+    "RabbitMQ"
+  ],
+  "type": "technology",
+  "pillar": "pillar_cloud",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_architecture",
+        "type": "ARCHITECTED_BY"
+      },
+      {
+        "to": "platform_breeze",
+        "type": "IMPLEMENTED_IN"
+      }
+    ],
+    "incoming": []
+  }
+}

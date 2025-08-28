@@ -1,0 +1,56 @@
+{
+  "id": "technology_data_analytics",
+  "name": "Data Analytics",
+  "category": "Data & Analytics",
+  "description": "Process of examining, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making.",
+  "businessValue": "Enables data-driven decisions, identifies trends and patterns, optimizes operations, improves customer understanding, and creates competitive advantages through insights.",
+  "useCases": [
+    "Business intelligence",
+    "Customer analytics",
+    "Risk analytics",
+    "Operational analytics",
+    "Marketing analytics",
+    "Financial analytics",
+    "Healthcare analytics"
+  ],
+  "analyticsTypes": [
+    "Descriptive Analytics",
+    "Diagnostic Analytics",
+    "Predictive Analytics",
+    "Prescriptive Analytics",
+    "Real-time Analytics"
+  ],
+  "technicalCapabilities": [
+    "Data warehousing",
+    "ETL/ELT processing",
+    "Data visualization",
+    "Statistical analysis",
+    "Big data processing",
+    "Stream processing",
+    "Self-service analytics"
+  ],
+  "tools": [
+    "Apache Spark",
+    "Tableau",
+    "Power BI",
+    "Databricks",
+    "Snowflake",
+    "Apache Kafka",
+    "Elasticsearch"
+  ],
+  "type": "technology",
+  "pillar": "pillar_data",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_data_analytics",
+        "type": "IMPLEMENTED_BY"
+      },
+      {
+        "to": "platform_unifiedai",
+        "type": "INTEGRATED_IN"
+      }
+    ],
+    "incoming": []
+  }
+}

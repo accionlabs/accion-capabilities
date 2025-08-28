@@ -68,6 +68,14 @@
       {
         "to": "coe_architecture",
         "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_microservices",
+        "type": "USES"
       }
     ],
     "incoming": []

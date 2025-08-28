@@ -54,6 +54,14 @@
       {
         "to": "framework_5p_induction",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_devops",
+        "type": "USES"
       }
     ],
     "incoming": []

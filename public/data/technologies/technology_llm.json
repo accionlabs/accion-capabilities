@@ -1,0 +1,88 @@
+{
+  "id": "technology_llm",
+  "name": "Large Language Models (LLMs)",
+  "category": "AI/ML",
+  "description": "Advanced AI models trained on vast amounts of text data to understand and generate human-like text, powering conversational AI, content generation, and natural language understanding applications.",
+  "businessValue": "Enables sophisticated natural language processing, automated content generation, intelligent conversation, and complex reasoning capabilities for enterprise applications.",
+  "useCases": [
+    "Conversational AI and chatbots",
+    "Content generation and summarization",
+    "Code generation and review",
+    "Document analysis and extraction",
+    "Language translation",
+    "Sentiment analysis",
+    "Question answering systems"
+  ],
+  "keyProviders": [
+    "OpenAI (GPT-4, GPT-3.5)",
+    "Anthropic (Claude)",
+    "Google (Gemini, PaLM)",
+    "Meta (LLaMA)",
+    "Microsoft (Azure OpenAI)",
+    "Cohere",
+    "AI21 Labs"
+  ],
+  "technicalCapabilities": [
+    "Natural language understanding",
+    "Text generation and completion",
+    "Few-shot and zero-shot learning",
+    "Context-aware responses",
+    "Multi-turn conversations",
+    "Instruction following",
+    "Reasoning and problem-solving"
+  ],
+  "integrationOptions": [
+    "API-based access",
+    "Cloud-hosted services",
+    "On-premise deployment",
+    "Fine-tuning capabilities",
+    "Embedding generation",
+    "Vector database integration"
+  ],
+  "type": "technology",
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "technology_openai",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "from": "technology_langchain",
+        "type": "ORCHESTRATES"
+      },
+      {
+        "from": "technology_huggingface",
+        "type": "HOSTS"
+      },
+      {
+        "from": "casestudy_genai_healthcare_virtual_assistant",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_drug_repurposing",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_financial_insights",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_contract_intelligence",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_pr_media_automation",
+        "type": "USES"
+      },
+      {
+        "from": "coe_genai",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "platform_breeze_ai",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "citations": {
+    "casestudy_atlas_oil_fuel_automation": {
+      "sources": [
+        {
+          "documentId": "doc_energy_use_cases",
+          "title": "Energy Use Cases",
+          "path": "/pdfs/case-studies/energy-use-cases.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_conservice_digital_transformation": {
+      "sources": [
+        {
+          "documentId": "doc_energy_use_cases",
+          "title": "Energy Use Cases",
+          "path": "/pdfs/case-studies/energy-use-cases.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_oil_dri_digital_data_platform": {
+      "sources": [
+        {
+          "documentId": "doc_energy_use_cases",
+          "title": "Energy Use Cases",
+          "path": "/pdfs/case-studies/energy-use-cases.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_teine_energy_unstructured_data": {
+      "sources": [
+        {
+          "documentId": "doc_energy_use_cases",
+          "title": "Energy Use Cases",
+          "path": "/pdfs/case-studies/energy-use-cases.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_microsoft_dream_sustainability": {
+      "sources": [
+        {
+          "documentId": "doc_energy_use_cases",
+          "title": "Energy Use Cases",
+          "path": "/pdfs/case-studies/energy-use-cases.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_abbott_b2c_nutrition_ecommerce": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_abbott_diabetes_care_ecommerce": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_abbott_b2b_migration": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_rush_enterprises_marketplace": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_reach_influence_omnichannel": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_gopro_instore_commerce": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "casestudy_toyota_sales_knowledge_app": {
+      "sources": [
+        {
+          "documentId": "doc_digital_commerce_competency",
+          "title": "Digital Commerce Competency",
+          "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+          "extractionDate": "2025-01-27",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_devops": {
+      "sources": [
+        {
+          "documentId": "doc_devops_coe",
+          "title": "DevOps Center of Excellence",
+          "path": "/pdfs/coe/cloud/devops-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_observability": {
+      "sources": [
+        {
+          "documentId": "doc_observability_practice",
+          "title": "Observability Practice",
+          "path": "/pdfs/coe/cloud/observability-practice.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_security": {
+      "sources": [
+        {
+          "documentId": "doc_security_coe_part1",
+          "title": "Security Center of Excellence - Part 1",
+          "path": "/pdfs/coe/cloud/security-coe-part1.pdf",
+          "confidence": "high"
+        },
+        {
+          "documentId": "doc_security_coe_part2",
+          "title": "Security Center of Excellence - Part 2",
+          "path": "/pdfs/coe/cloud/security-coe-part2.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_data_analytics": {
+      "sources": [
+        {
+          "documentId": "doc_data_analytics_coe",
+          "title": "Data Analytics Center of Excellence",
+          "path": "/pdfs/coe/data/data-analytics-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_data_governance": {
+      "sources": [
+        {
+          "documentId": "doc_data_governance_coe",
+          "title": "Data Governance Center of Excellence",
+          "path": "/pdfs/coe/data/data-governance-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_data_mesh": {
+      "sources": [
+        {
+          "documentId": "doc_data_mesh_coe",
+          "title": "Data Mesh Center of Excellence",
+          "path": "/pdfs/coe/data/data-mesh-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_databricks": {
+      "sources": [
+        {
+          "documentId": "doc_databricks_coe",
+          "title": "Databricks Center of Excellence",
+          "path": "/pdfs/coe/data/databricks-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_snowflake": {
+      "sources": [
+        {
+          "documentId": "doc_snowflake_coe",
+          "title": "Snowflake Center of Excellence",
+          "path": "/pdfs/coe/data/snowflake-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_rpa": {
+      "sources": [
+        {
+          "documentId": "doc_rpa_coe",
+          "title": "RPA Center of Excellence",
+          "path": "/pdfs/coe/enterprise-automation/rpa-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_servicenow": {
+      "sources": [
+        {
+          "documentId": "doc_servicenow_coe",
+          "title": "ServiceNow Center of Excellence",
+          "path": "/pdfs/coe/enterprise-automation/servicenow-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_salesforce": {
+      "sources": [
+        {
+          "documentId": "doc_salesforce_practice",
+          "title": "Salesforce Practice Success Stories",
+          "path": "/pdfs/coe/enterprise-automation/salesforce-practice-success-stories.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_architecture": {
+      "sources": [
+        {
+          "documentId": "doc_architecture_coe",
+          "title": "Architecture Center of Excellence",
+          "path": "/pdfs/coe/prod-engg/architecture-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_blockchain": {
+      "sources": [
+        {
+          "documentId": "doc_blockchain_coe",
+          "title": "Blockchain Center of Excellence",
+          "path": "/pdfs/coe/prod-engg/blockchain-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_ecommerce": {
+      "sources": [
+        {
+          "documentId": "doc_ecommerce_coe",
+          "title": "E-Commerce Center of Excellence",
+          "path": "/pdfs/coe/prod-engg/ecommerce-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_iot": {
+      "sources": [
+        {
+          "documentId": "doc_iot_coe",
+          "title": "IoT Center of Excellence",
+          "path": "/pdfs/coe/prod-engg/iot-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_testing": {
+      "sources": [
+        {
+          "documentId": "doc_testing_coe",
+          "title": "Testing Center of Excellence",
+          "path": "/pdfs/coe/prod-engg/testing-coe.pdf",
+          "confidence": "high"
+        }
+      ]
+    },
+    "coe_ux": {
+      "sources": [
+        {
+          "documentId": "doc_ux_coe_part1",
+          "title": "UX Center of Excellence - Part 1",
+          "path": "/pdfs/coe/prod-engg/ux-coe-part1.pdf",
+          "confidence": "high"
+        },
+        {
+          "documentId": "doc_ux_coe_part2",
+          "title": "UX Center of Excellence - Part 2",
+          "path": "/pdfs/coe/prod-engg/ux-coe-part2.pdf",
+          "confidence": "high"
+        }
+      ]
+    }
+  }
+}

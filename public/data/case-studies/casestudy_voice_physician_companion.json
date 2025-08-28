@@ -69,6 +69,14 @@
       {
         "to": "prototype_healthscribe",
         "type": "RELATED_TO"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
       }
     ],
     "incoming": []

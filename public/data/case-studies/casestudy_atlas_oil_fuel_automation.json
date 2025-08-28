@@ -69,6 +69,14 @@
       {
         "to": "pillar_cloud",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_rpa",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

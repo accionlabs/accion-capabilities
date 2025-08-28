@@ -10,14 +10,14 @@
   "outcomes": [
     "58% faster lead response time, ensuring timely engagement and improved conversion rates",
     "30% improvement in order processing efficiency through streamlined workflows",
-    "48% reduction in support inquiries through comprehensive self-service capabilities", 
+    "48% reduction in support inquiries through comprehensive self-service capabilities",
     "Enhanced customer experience with real-time tracking and personalized account management",
     "Improved lead conversion through intelligent scoring and automated processes",
     "Reduced support team workload enabling focus on complex customer issues"
   ],
   "technologies": [
     "Salesforce Sales Cloud",
-    "Salesforce Service Cloud", 
+    "Salesforce Service Cloud",
     "Salesforce Experience Cloud",
     "Intelligent Lead Scoring",
     "Automated Workflows",
@@ -46,6 +46,10 @@
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
       }
     ],
     "incoming": []

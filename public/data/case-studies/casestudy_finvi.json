@@ -38,6 +38,10 @@
       {
         "to": "industry_financial_services",
         "type": "TARGETS"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

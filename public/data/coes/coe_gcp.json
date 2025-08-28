@@ -195,5 +195,9 @@
       "to": "industry_retail",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_gcp.md"
+  }
 }

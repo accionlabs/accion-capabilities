@@ -46,7 +46,7 @@
       "description": "Consolidated application providing complete customer profiles with AI-driven recommendations and predictive analytics"
     },
     {
-      "name": "Meter Analytics", 
+      "name": "Meter Analytics",
       "description": "Real-time analytics platform for millions of meters and sensors with anomaly detection and predictive maintenance"
     },
     {
@@ -72,7 +72,7 @@
   ],
   "keyFeatures": [
     "360-degree customer data consolidation",
-    "AI-driven predictive analytics and recommendations", 
+    "AI-driven predictive analytics and recommendations",
     "Real-time meter and sensor data analysis",
     "Anomaly detection for leaks and equipment failures",
     "Optimized route planning with external data correlation",
@@ -98,7 +98,7 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "coe_data_analytics", 
+        "to": "coe_data_analytics",
         "type": "LEVERAGES"
       },
       {
@@ -120,6 +120,22 @@
       {
         "to": "pillar_automation",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      },
+      {
+        "to": "technology_iot",
+        "type": "USES"
+      },
+      {
+        "to": "technology_data_analytics",
+        "type": "USES"
       }
     ],
     "incoming": []

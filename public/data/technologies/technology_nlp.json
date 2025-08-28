@@ -1,0 +1,79 @@
+{
+  "id": "technology_nlp",
+  "name": "Natural Language Processing (NLP)",
+  "category": "AI/ML",
+  "description": "Branch of artificial intelligence that enables computers to understand, interpret, and generate human language, bridging the gap between human communication and computer understanding.",
+  "businessValue": "Enables automated text analysis, sentiment detection, language translation, and intelligent document processing, transforming unstructured text data into actionable business insights.",
+  "useCases": [
+    "Text classification and categorization",
+    "Named entity recognition",
+    "Sentiment analysis",
+    "Language translation",
+    "Text summarization",
+    "Information extraction",
+    "Question answering",
+    "Intent detection"
+  ],
+  "techniques": [
+    "Tokenization",
+    "Part-of-speech tagging",
+    "Named entity recognition (NER)",
+    "Dependency parsing",
+    "Semantic analysis",
+    "Topic modeling",
+    "Word embeddings",
+    "Transformer models"
+  ],
+  "frameworks": [
+    "spaCy",
+    "NLTK",
+    "Stanford NLP",
+    "Apache OpenNLP",
+    "TextBlob",
+    "Gensim",
+    "AllenNLP"
+  ],
+  "modernApproaches": [
+    "Transformer architectures",
+    "BERT and variants",
+    "Large Language Models",
+    "Zero-shot learning",
+    "Few-shot learning",
+    "Transfer learning",
+    "Attention mechanisms"
+  ],
+  "type": "technology",
+  "relationships": {
+    "outgoing": [],
+    "incoming": [
+      {
+        "from": "technology_llm",
+        "type": "ENABLES"
+      },
+      {
+        "from": "casestudy_genai_healthcare_virtual_assistant",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_drug_repurposing",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_financial_insights",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_pr_media_automation",
+        "type": "USES"
+      },
+      {
+        "from": "coe_genai",
+        "type": "LEVERAGES"
+      },
+      {
+        "from": "coe_aiml",
+        "type": "LEVERAGES"
+      }
+    ]
+  }
+}

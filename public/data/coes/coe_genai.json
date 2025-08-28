@@ -50,6 +50,50 @@
       "type": "USES",
       "to": "technology_langchain",
       "metadata": {}
+    },
+    {
+      "type": "LEVERAGES",
+      "to": "technology_llm",
+      "metadata": {}
+    },
+    {
+      "type": "LEVERAGES",
+      "to": "technology_nlp",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_healthcare_virtual_assistant",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_drug_repurposing",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_account_receivables",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_financial_insights",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_contract_intelligence",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_pr_media_automation",
+      "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_genai.md"
+  }
 }

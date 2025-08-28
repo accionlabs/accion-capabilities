@@ -276,5 +276,9 @@
       "to": "industry_distribution_logistics",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_salesforce.md"
+  }
 }

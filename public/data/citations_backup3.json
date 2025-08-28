@@ -1,0 +1,915 @@
+{"citations":
+{
+  "coe_devops": {
+    "sources": [
+      {
+        "documentId": "doc_devops_coe",
+        "title": "DevOps Center of Excellence",
+        "path": "/pdfs/coe/cloud/devops-coe.pdf",
+        "pages": [
+          1,
+          20
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_sre": {
+    "sources": [
+      {
+        "documentId": "doc_devops_coe",
+        "title": "DevOps Center of Excellence",
+        "path": "/pdfs/coe/cloud/devops-coe.pdf",
+        "pages": [
+          1,
+          3,
+          15,
+          17
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27",
+        "note": "SRE content within DevOps PDF"
+      }
+    ]
+  },
+  "coe_observability": {
+    "sources": [
+      {
+        "documentId": "doc_observability_practice",
+        "title": "Observability Practice",
+        "path": "/pdfs/coe/cloud/observability-practice.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_security": {
+    "sources": [
+      {
+        "documentId": "doc_security_coe_part1",
+        "title": "Security Center of Excellence - Part 1",
+        "path": "/pdfs/coe/cloud/security-coe-part1.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      },
+      {
+        "documentId": "doc_security_coe_part2",
+        "title": "Security Center of Excellence - Part 2",
+        "path": "/pdfs/coe/cloud/security-coe-part2.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_data_analytics": {
+    "sources": [
+      {
+        "documentId": "doc_data_analytics_coe",
+        "title": "Data Analytics Center of Excellence",
+        "path": "/pdfs/coe/data/data-analytics-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_data_governance": {
+    "sources": [
+      {
+        "documentId": "doc_data_governance_coe",
+        "title": "Data Governance Center of Excellence",
+        "path": "/pdfs/coe/data/data-governance-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_data_mesh": {
+    "sources": [
+      {
+        "documentId": "doc_data_mesh_coe",
+        "title": "Data Mesh Center of Excellence",
+        "path": "/pdfs/coe/data/data-mesh-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_data_roi": {
+    "sources": [
+      {
+        "documentId": "doc_data_roi_coe",
+        "title": "Data ROI Center of Excellence",
+        "path": "/pdfs/coe/data/data-roi-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_data_streaming": {
+    "sources": [
+      {
+        "documentId": "doc_data_streaming_coe",
+        "title": "Data Streaming Center of Excellence",
+        "path": "/pdfs/coe/data/data-streaming-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_data_transformation": {
+    "sources": [
+      {
+        "documentId": "doc_data_transformation_coe",
+        "title": "Data Transformation Center of Excellence",
+        "path": "/pdfs/coe/data/data-transformation-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_databricks": {
+    "sources": [
+      {
+        "documentId": "doc_databricks_coe",
+        "title": "Databricks Center of Excellence",
+        "path": "/pdfs/coe/data/databricks-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_financial_analytics": {
+    "sources": [
+      {
+        "documentId": "doc_financial_analytics_coe",
+        "title": "Financial Analytics Center of Excellence",
+        "path": "/pdfs/coe/data/financial-analytics-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_mdm": {
+    "sources": [
+      {
+        "documentId": "doc_mdm_coe",
+        "title": "MDM Center of Excellence",
+        "path": "/pdfs/coe/data/mdm-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_medical_imaging": {
+    "sources": [
+      {
+        "documentId": "doc_medical_imaging_coe",
+        "title": "Medical Imaging Center of Excellence",
+        "path": "/pdfs/coe/data/medical-imaging-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_snowflake": {
+    "sources": [
+      {
+        "documentId": "doc_snowflake_coe",
+        "title": "Snowflake Center of Excellence",
+        "path": "/pdfs/coe/data/snowflake-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_rpa": {
+    "sources": [
+      {
+        "documentId": "doc_rpa_coe",
+        "title": "RPA Center of Excellence",
+        "path": "/pdfs/coe/enterprise-automation/rpa-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_servicenow": {
+    "sources": [
+      {
+        "documentId": "doc_servicenow_coe",
+        "title": "ServiceNow Center of Excellence",
+        "path": "/pdfs/coe/enterprise-automation/servicenow-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_salesforce": {
+    "sources": [
+      {
+        "documentId": "doc_salesforce_practice",
+        "title": "Salesforce Practice Success Stories",
+        "path": "/pdfs/coe/enterprise-automation/salesforce-practice-success-stories.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_architecture": {
+    "sources": [
+      {
+        "documentId": "doc_architecture_coe",
+        "title": "Architecture Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/architecture-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_blockchain": {
+    "sources": [
+      {
+        "documentId": "doc_blockchain_coe",
+        "title": "Blockchain Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/blockchain-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_ecommerce": {
+    "sources": [
+      {
+        "documentId": "doc_ecommerce_coe",
+        "title": "E-Commerce Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/ecommerce-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_iot": {
+    "sources": [
+      {
+        "documentId": "doc_iot_coe",
+        "title": "IoT Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/iot-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_portfolio_rationalization": {
+    "sources": [
+      {
+        "documentId": "doc_portfolio_rationalization_coe",
+        "title": "Portfolio Rationalization Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/portfolio-rationalization-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_reengineering": {
+    "sources": [
+      {
+        "documentId": "doc_reengineering_coe",
+        "title": "Reengineering Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/reengineering-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_testing": {
+    "sources": [
+      {
+        "documentId": "doc_testing_coe",
+        "title": "Testing Center of Excellence",
+        "path": "/pdfs/coe/prod-engg/testing-coe.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "coe_ux": {
+    "sources": [
+      {
+        "documentId": "doc_ux_coe_part1",
+        "title": "UX Center of Excellence - Part 1",
+        "path": "/pdfs/coe/prod-engg/ux-coe-part1.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      },
+      {
+        "documentId": "doc_ux_coe_part2",
+        "title": "UX Center of Excellence - Part 2",
+        "path": "/pdfs/coe/prod-engg/ux-coe-part2.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_telemedicine_platform": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          21
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_neurological_wearable_monitoring": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          22
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_glucose_monitoring_device": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          23
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_cancer_care_platform": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          24
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_diabetes_management_app": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          25
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_medical_imaging_ai": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          27
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_hospital_emergency_management": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          28
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_clinical_trial_management": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          33,
+          34
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_belgium_health_ecosystem": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          38,
+          39
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_mental_health_analytics": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          40,
+          41
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_covid19_vaccine_supply": {
+    "sources": [
+      {
+        "documentId": "doc_healthcare_solutions",
+        "title": "Healthcare Solutions and Services",
+        "path": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+        "pages": [
+          42
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_atlas_oil_fuel_automation": {
+    "sources": [
+      {
+        "documentId": "doc_energy_use_cases",
+        "title": "Energy Use Cases",
+        "path": "/pdfs/case-studies/energy-use-cases.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_conservice_digital_transformation": {
+    "sources": [
+      {
+        "documentId": "doc_energy_use_cases",
+        "title": "Energy Use Cases",
+        "path": "/pdfs/case-studies/energy-use-cases.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_oil_dri_digital_data_platform": {
+    "sources": [
+      {
+        "documentId": "doc_energy_use_cases",
+        "title": "Energy Use Cases",
+        "path": "/pdfs/case-studies/energy-use-cases.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_teine_energy_unstructured_data": {
+    "sources": [
+      {
+        "documentId": "doc_energy_use_cases",
+        "title": "Energy Use Cases",
+        "path": "/pdfs/case-studies/energy-use-cases.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_microsoft_dream_sustainability": {
+    "sources": [
+      {
+        "documentId": "doc_energy_use_cases",
+        "title": "Energy Use Cases",
+        "path": "/pdfs/case-studies/energy-use-cases.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_abbott_b2c_nutrition_ecommerce": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_abbott_diabetes_care_ecommerce": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_abbott_b2b_migration": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_rush_enterprises_marketplace": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_reach_influence_omnichannel": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_gopro_instore_commerce": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_toyota_sales_knowledge_app": {
+    "sources": [
+      {
+        "documentId": "doc_digital_commerce_competency",
+        "title": "Digital Commerce Competency",
+        "path": "/pdfs/case-studies/digital-commerce-competency.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_american_water_apps_showcase": {
+    "sources": [
+      {
+        "documentId": "doc_american_water",
+        "title": "American Water - Apps Showcase",
+        "path": "/pdfs/case-studies/american-water-apps-showcase.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_finvi": {
+    "sources": [
+      {
+        "documentId": "doc_finvi_case_study",
+        "title": "Finvi Case Study",
+        "path": "/pdfs/case-studies/finvi-case-study.pdf",
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      },
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          6
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_digital_banking_transformation": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          25,
+          26,
+          27
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_wealth_management_platform": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          26,
+          27,
+          41,
+          42,
+          43,
+          44
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_payment_processing_optimization": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          28,
+          29,
+          30,
+          31,
+          46,
+          47,
+          48
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_fraud_detection_platform": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          39,
+          40,
+          41
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_mobile_banking_app": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          26,
+          27,
+          31,
+          32
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_loan_origination_system": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          44,
+          45,
+          48,
+          49
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_insurance_claims_automation": {
+    "sources": [
+      {
+        "documentId": "doc_fintech_genai_services",
+        "title": "Fintech and GenAI for Financial Services",
+        "path": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+        "pages": [
+          34,
+          35,
+          36,
+          39,
+          40,
+          41
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_cision": {
+    "sources": [
+      {
+        "documentId": "doc_top_client_case_studies",
+        "title": "Top Client Case Studies",
+        "path": "/pdfs/case-studies/top-client-case-studies.pdf",
+        "pages": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      },
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_abbott": {
+    "sources": [
+      {
+        "documentId": "doc_top_client_case_studies",
+        "title": "Top Client Case Studies",
+        "path": "/pdfs/case-studies/top-client-case-studies.pdf",
+        "pages": [
+          18,
+          19,
+          20
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      },
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          4,
+          5
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_cinch": {
+    "sources": [
+      {
+        "documentId": "doc_top_client_case_studies",
+        "title": "Top Client Case Studies",
+        "path": "/pdfs/case-studies/top-client-case-studies.pdf",
+        "pages": [
+          21,
+          22,
+          23
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      },
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          17,
+          18
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_verisign": {
+    "sources": [
+      {
+        "documentId": "doc_top_client_case_studies",
+        "title": "Top Client Case Studies",
+        "path": "/pdfs/case-studies/top-client-case-studies.pdf",
+        "pages": [
+          1,
+          2
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27",
+        "note": "Listed as Veracode in PDF"
+      },
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          10
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_ana": {
+    "sources": [
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          28,
+          29,
+          30
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "casestudy_cbc": {
+    "sources": [
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          43
+        ],
+        "confidence": "high",
+        "extractionDate": "2025-01-27"
+      }
+    ]
+  },
+  "case_retailer_devops": {
+    "sources": [
+      {
+        "documentId": "doc_key_projects",
+        "title": "Key Projects Case Studies",
+        "path": "/pdfs/case-studies/key-projects-april-2025.pdf",
+        "pages": [
+          9
+        ],
+        "confidence": "medium",
+        "extractionDate": "2025-01-27",
+        "note": "LEADVENTURE DevOps case"
+      }
+    ]
+  }
+}
+}

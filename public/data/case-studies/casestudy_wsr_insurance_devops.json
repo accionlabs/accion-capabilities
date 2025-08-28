@@ -18,7 +18,7 @@
     "Azure DevOps",
     "Azure App Services",
     "Azure SQL Database",
-    "Azure Storage Accounts", 
+    "Azure Storage Accounts",
     "Azure Key Vault",
     "Azure Application Insights",
     "Azure API Management (APIM)",
@@ -32,14 +32,6 @@
   "relationships": {
     "outgoing": [
       {
-        "to": "technology_azure",
-        "type": "LEVERAGES"
-      },
-      {
-        "to": "technology_azure_devops",
-        "type": "LEVERAGES"
-      },
-      {
         "to": "coe_devops",
         "type": "LEVERAGES"
       },
@@ -50,6 +42,14 @@
       {
         "to": "pillar_cloud",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_devops",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

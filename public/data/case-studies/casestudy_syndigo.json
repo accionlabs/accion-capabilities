@@ -38,5 +38,18 @@
     "type": "file",
     "source": "content/casestudy/syndigo.md"
   },
-  "type": "casestudy"
+  "type": "casestudy",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_data_analytics",
+        "type": "USES"
+      }
+    ],
+    "incoming": []
+  }
 }

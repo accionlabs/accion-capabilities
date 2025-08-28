@@ -1,0 +1,67 @@
+{
+  "id": "casestudy_genai_financial_insights",
+  "name": "AI-Powered Smart Financial Insights Automation",
+  "client": "MedTech Market Insights Team",
+  "industry": "Healthcare Technology",
+  "description": "Automated extraction and analysis of competitor earnings reports using LLMs, reducing analysis time from 8-10 hours to 1-2 hours while improving accuracy from 85% to 98%.",
+  "challenge": "Manual gathering and analysis of competitor earnings reports was slow, error-prone, and reduced productivity, taking 8-10 hours per report with 15% error rate.",
+  "solution": [
+    "Automated data retrieval through web crawling and manual uploads",
+    "Leveraged Large Language Models for insight extraction",
+    "Created UI-based interface for review and regeneration",
+    "Enabled multi-format export (Excel, PPT) for analysis",
+    "Implemented performance analysis reporting"
+  ],
+  "technologies": [
+    "Large Language Models (LLM)",
+    "Web Crawling",
+    "Data Extraction",
+    "Natural Language Processing",
+    "Automated Reporting"
+  ],
+  "impact": {
+    "timeSavings": "80% reduction - from 8-10 hours to 1-2 hours",
+    "accuracyImprovement": "Error rate reduced from 15% to less than 2%",
+    "productivityBoost": "3x increase - from 2-3 to 10+ reports per week"
+  },
+  "outcomes": [
+    "80% time savings in data extraction",
+    "87% accuracy improvement",
+    "70% faster turnaround - same day instead of 3-5 days",
+    "3x productivity boost in report generation",
+    "Enhanced competitive intelligence capabilities"
+  ],
+  "serviceType": "Intelligent Automation",
+  "pillar": "pillar_data",
+  "coe": "coe_data_analytics",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/genai_financial_insights.md"
+  },
+  "type": "casestudy",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_llm",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "coe_data_analytics",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "SERVES"
+      }
+    ],
+    "incoming": []
+  }
+}

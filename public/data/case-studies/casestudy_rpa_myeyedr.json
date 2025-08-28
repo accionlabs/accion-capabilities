@@ -44,16 +44,16 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "technology_uipath",
-        "type": "LEVERAGES"
-      },
-      {
         "to": "industry_healthcare",
         "type": "TARGETS"
       },
       {
         "to": "pillar_automation",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_rpa",
+        "type": "USES"
       }
     ],
     "incoming": []

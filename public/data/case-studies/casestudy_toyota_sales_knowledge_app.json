@@ -40,6 +40,14 @@
       {
         "to": "pillar_digital_products",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
       }
     ],
     "incoming": []

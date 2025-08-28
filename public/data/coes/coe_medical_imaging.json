@@ -250,5 +250,9 @@
         "primary": true
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_medical_imaging.md"
+  }
 }

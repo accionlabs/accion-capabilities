@@ -79,8 +79,14 @@ const RelationshipPanel: React.FC<RelationshipPanelProps> = ({ relationships, on
       'TARGETS': '🎯',
       'LEVERAGES': '💪',
       'DELIVERS': '📦',
+      'DELIVERED_BY': '📥',
       'DEPENDS_ON': '🔄',
-      'RELATED_TO': '↔️'
+      'RELATED_TO': '↔️',
+      'SERVES': '🤝',
+      'ORCHESTRATES': '🎼',
+      'HOSTS': '🏠',
+      'EXTENDS': '🔌',
+      'ENABLES': '✨'
     };
     return icons[relType] || '→';
   };
@@ -92,9 +98,15 @@ const RelationshipPanel: React.FC<RelationshipPanelProps> = ({ relationships, on
       'IMPLEMENTS': { forward: 'Implements', reverse: 'Implemented By' },
       'TARGETS': { forward: 'Targets', reverse: 'Targeted By' },
       'LEVERAGES': { forward: 'Leverages', reverse: 'Leveraged By' },
-      'DELIVERS': { forward: 'Delivers To', reverse: 'Delivered By' },
+      'DELIVERS': { forward: 'Delivers', reverse: 'Delivered By' },
+      'DELIVERED_BY': { forward: 'Delivered By', reverse: 'Delivers' },
       'DEPENDS_ON': { forward: 'Depends On', reverse: 'Required By' },
-      'RELATED_TO': { forward: 'Related To', reverse: 'Related To' }
+      'RELATED_TO': { forward: 'Related To', reverse: 'Related To' },
+      'SERVES': { forward: 'Serves', reverse: 'Served By' },
+      'ORCHESTRATES': { forward: 'Orchestrates', reverse: 'Orchestrated By' },
+      'HOSTS': { forward: 'Hosts', reverse: 'Hosted By' },
+      'EXTENDS': { forward: 'Extends', reverse: 'Extended By' },
+      'ENABLES': { forward: 'Enables', reverse: 'Enabled By' }
     };
     return labels[relType]?.[direction] || relType;
   };
@@ -106,7 +118,17 @@ const RelationshipPanel: React.FC<RelationshipPanelProps> = ({ relationships, on
   ) => {
     const sectionId = `${direction}-${relType}`;
     const isExpanded = expandedSections.has(sectionId) || nodes.length <= 3;
-    const displayNodes = isExpanded ? nodes : nodes.slice(0, 3);
+    
+    // Sort nodes to prioritize case studies for technology "Used By" relationships
+    const sortedNodes = [...nodes].sort((a, b) => {
+      // Case studies come first
+      if (a.type === 'casestudy' && b.type !== 'casestudy') return -1;
+      if (a.type !== 'casestudy' && b.type === 'casestudy') return 1;
+      // Then sort alphabetically by name
+      return (a.data?.name || '').localeCompare(b.data?.name || '');
+    });
+    
+    const displayNodes = isExpanded ? sortedNodes : sortedNodes.slice(0, 3);
 
     return (
       <div key={relType} className="mb-4">

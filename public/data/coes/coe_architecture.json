@@ -284,5 +284,9 @@
       "to": "industry_ecommerce",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_architecture.md"
+  }
 }

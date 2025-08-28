@@ -1,122 +1,188 @@
 {
   "id": "platform_accion_connect",
-  "type": "platform",
-  "data": {
-    "name": "Accion Connect",
-    "description": "Accion Connect is a comprehensive digital workplace platform that unifies communication, collaboration, and productivity tools into a single integrated ecosystem. The platform provides secure messaging, video conferencing, document collaboration, project management, and workflow automation capabilities, enabling seamless remote and hybrid work experiences while maintaining enterprise-grade security and compliance.",
-    "category": "Collaboration Platform",
-    "status": "Active",
-    "version": "4.2",
-    "lastUpdated": "2025-08-22",
-    "keyCapabilities": [
-      "Unified Communications Hub",
-      "Real-time Collaboration Tools",
-      "Video Conferencing and Screen Sharing",
-      "Document Management System",
-      "Project and Task Management",
-      "Workflow Automation Engine",
-      "Employee Directory and Profiles",
-      "Knowledge Base Integration",
-      "Mobile-First Experience",
-      "AI-Powered Virtual Assistant",
-      "Analytics and Insights Dashboard",
-      "Third-party App Integration"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "WebRTC",
-      "Socket.io",
-      "MongoDB",
-      "Redis",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-      "Microsoft Graph API",
-      "OAuth 2.0"
-    ],
-    "benefits": [
-      "40% improvement in team collaboration",
-      "35% reduction in meeting time",
-      "50% faster project completion",
-      "60% reduction in email volume",
-      "Enterprise-grade security and compliance",
-      "Seamless integration with existing tools",
-      "Real-time collaboration across time zones",
-      "Centralized knowledge management"
-    ],
-    "targetMarket": [
-      "Enterprise organizations",
-      "Distributed teams",
-      "Remote-first companies",
-      "Professional services firms",
-      "Technology companies"
-    ],
-    "deploymentOptions": [
-      "Cloud SaaS",
-      "On-premises",
-      "Hybrid deployment",
-      "Private cloud"
-    ],
-    "integrations": [
-      "Microsoft 365",
-      "Google Workspace",
-      "Salesforce",
-      "Slack",
-      "Jira",
-      "ServiceNow",
-      "SAP",
-      "Oracle"
-    ],
-    "security": {
-      "encryption": "End-to-end encryption",
-      "compliance": ["SOC 2", "ISO 27001", "GDPR", "HIPAA"],
-      "authentication": "Multi-factor authentication, SSO",
-      "dataResidency": "Regional data centers"
+  "name": "Accion Connect",
+  "currentVersion": "2.0",
+  "category": "Knowledge Management & Collaboration",
+  "description": "Integrated platform that breaks down information silos across Accion Labs, providing a unified view of people, projects, and knowledge. Connects enterprise systems including HRMS, Document Repositories, Website CMS, and Billing Platforms to streamline discovery, collaboration, and delivery.",
+  "businessValue": "Enables faster discovery of content and expertise, higher confidence through AI-assisted answers with citations, and greater productivity through auto-drafted content and omnichannel access.",
+  "keyFeatures": [
+    {
+      "name": "GenAI-Powered Semantic Search",
+      "description": "Unified search across documents and profiles with citations, historic chat context, and document-specific conversations",
+      "businessValue": "Find relevant content and people in seconds with trusted, auditable AI responses"
     },
-    "metrics": {
-      "activeUsers": "100,000+",
-      "dailyMessages": "5M+",
-      "videoMinutes": "10M+ monthly",
-      "uptime": "99.99%"
+    {
+      "name": "People & Skills Graph",
+      "description": "Real-time synchronized engineer profiles and skills globally with bidirectional sync",
+      "businessValue": "Quickly identify and form teams based on specific skills and expertise"
+    },
+    {
+      "name": "Knowledge Base Integration",
+      "description": "Comprehensive repository of case studies, white papers, presentations, sales collateral, and marketing brochures",
+      "businessValue": "Preserve institutional knowledge and enable efficient knowledge sharing"
+    },
+    {
+      "name": "Dynamic Content Workbench",
+      "description": "AI-powered content generation with multiple output formats (PDF, Markdown, HTML) and tone/audience controls",
+      "businessValue": "Accelerate content creation with AI assistance while maintaining quality through human approval"
+    },
+    {
+      "name": "Omnichannel Access",
+      "description": "Seamless access via WhatsApp, Microsoft Teams, and web interface",
+      "businessValue": "Enable knowledge access from any channel, reducing time from query to action"
+    },
+    {
+      "name": "FAQ-First Q&A System",
+      "description": "Curated FAQ responses with fallback to semantic search and auto-suggestions",
+      "businessValue": "Provide instant, accurate answers to common questions while maintaining consistency"
+    }
+  ],
+  "technicalCapabilities": [
+    "Natural language cognitive search",
+    "GenAI semantic reasoning and search",
+    "Real-time bidirectional data synchronization",
+    "Document querying and analysis",
+    "Multi-format content generation",
+    "In-browser historic chat with context retention",
+    "Adaptive re-ranking based on relevance",
+    "Role-based access controls",
+    "Citations and audit trails"
+  ],
+  "integrations": [
+    {
+      "system": "Unity",
+      "type": "Enterprise System",
+      "purpose": "Core platform integration"
+    },
+    {
+      "system": "Google Drive/Docs",
+      "type": "Document Repository",
+      "purpose": "Document storage and collaboration"
+    },
+    {
+      "system": "SharePoint",
+      "type": "Document Repository",
+      "purpose": "Enterprise content management"
+    },
+    {
+      "system": "Jira",
+      "type": "Project Management",
+      "purpose": "Project and issue tracking"
+    },
+    {
+      "system": "NetSuite",
+      "type": "ERP",
+      "purpose": "Business operations and billing"
+    },
+    {
+      "system": "Website CMS",
+      "type": "Content Management",
+      "purpose": "Web content synchronization"
+    },
+    {
+      "system": "HRMS",
+      "type": "Human Resources",
+      "purpose": "Employee data and skills management"
+    },
+    {
+      "system": "WhatsApp",
+      "type": "Communication",
+      "purpose": "Mobile instant answers and knowledge access"
+    },
+    {
+      "system": "Microsoft Teams",
+      "type": "Communication",
+      "purpose": "Organizational collaboration and knowledge sharing"
+    }
+  ],
+  "securityFeatures": [
+    "Role-based access controls for internal and guest users",
+    "AI answer source linking for compliance and trust",
+    "Secure one-time links with configurable expiry",
+    "Citations for all AI-generated content",
+    "Multi-level approval workflows",
+    "External content sharing controls"
+  ],
+  "analytics": {
+    "metrics": [
+      "User logins by company and geography",
+      "Search query volumes and patterns",
+      "Document and media type usage",
+      "Agent response quality scores",
+      "Content engagement metrics"
+    ],
+    "governance": "Complete audit trails with citations for compliance"
+  },
+  "useCases": [
+    "Employee skill discovery and team formation",
+    "Knowledge sharing and institutional memory preservation",
+    "Event management and coordination",
+    "Sales and marketing content creation",
+    "Customer and investor presentations",
+    "Internal documentation queries",
+    "Cross-platform information retrieval",
+    "Real-time collaboration across global teams"
+  ],
+  "benefits": [
+    "Faster discovery - Find content and people in seconds",
+    "Higher confidence - Citations and audit trails foster trust",
+    "Greater productivity - Auto-drafted content and in-channel access",
+    "Unified information access - Break down enterprise silos",
+    "Enhanced collaboration - Seamless integration across platforms",
+    "Reduced time to action - Instant answers in preferred channels"
+  ],
+  "versions": {
+    "1.0": {
+      "features": [
+        "Skills and profiles management",
+        "Basic knowledge base",
+        "Cognitive search",
+        "Events and galleries",
+        "WhatsApp integration",
+        "Push/email notifications"
+      ]
+    },
+    "2.0": {
+      "features": [
+        "GenAI-powered semantic search",
+        "In-browser historic chat",
+        "Document-specific chat",
+        "Microsoft Teams integration",
+        "AI content generation",
+        "FAQ-first Q&A system",
+        "Adaptive re-ranking"
+      ]
     }
   },
-  "relationships": [
-    {
-      "type": "BELONGS_TO",
-      "to": "pillar_digital_products",
-      "metadata": {
-        "primary": true
+  "type": "platform",
+  "pillar": "pillar_digital_products",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "pillar_digital_products",
+        "type": "BELONGS_TO"
+      },
+      {
+        "to": "coe_genai",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "coe_application_integration",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
       }
-    },
-    {
-      "type": "RELATED_TO",
-      "to": "coe_experience_design",
-      "metadata": {
-        "relationship": "user_experience"
-      }
-    },
-    {
-      "type": "USES",
-      "to": "technology_react",
-      "metadata": {
-        "purpose": "frontend_development"
-      }
-    },
-    {
-      "type": "USES",
-      "to": "technology_nodejs",
-      "metadata": {
-        "purpose": "backend_services"
-      }
-    },
-    {
-      "type": "USES",
-      "to": "technology_kubernetes",
-      "metadata": {
-        "purpose": "orchestration"
-      }
-    }
-  ]
+    ],
+    "incoming": []
+  },
+  "content": {
+    "type": "file",
+    "source": "content/platform/accion_connect.md"
+  }
 }

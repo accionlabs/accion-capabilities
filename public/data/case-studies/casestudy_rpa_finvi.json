@@ -42,10 +42,6 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "technology_uipath",
-        "type": "LEVERAGES"
-      },
-      {
         "to": "industry_financial_services",
         "type": "TARGETS"
       },
@@ -54,8 +50,12 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "technology_python",
-        "type": "LEVERAGES"
+        "to": "technology_rpa",
+        "type": "USES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
       }
     ],
     "incoming": []

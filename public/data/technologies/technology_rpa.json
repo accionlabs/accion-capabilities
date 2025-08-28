@@ -1,0 +1,45 @@
+{
+  "id": "technology_rpa",
+  "name": "Robotic Process Automation (RPA)",
+  "category": "Automation",
+  "description": "Software technology that enables organizations to automate repetitive, rule-based tasks by creating software robots that mimic human actions across digital systems.",
+  "businessValue": "Reduces manual effort, improves accuracy, increases productivity, ensures compliance, and enables employees to focus on higher-value activities.",
+  "useCases": [
+    "Data entry and migration",
+    "Invoice processing",
+    "Customer onboarding",
+    "Report generation",
+    "System integration",
+    "Compliance reporting",
+    "Email automation"
+  ],
+  "keyVendors": [
+    "UiPath",
+    "Automation Anywhere",
+    "Blue Prism",
+    "Microsoft Power Automate",
+    "WorkFusion",
+    "Kofax",
+    "Pega"
+  ],
+  "technicalCapabilities": [
+    "Screen scraping and OCR",
+    "Workflow orchestration",
+    "Bot management and monitoring",
+    "Exception handling",
+    "Integration with AI/ML",
+    "Attended and unattended automation",
+    "Process mining and discovery"
+  ],
+  "type": "technology",
+  "pillar": "pillar_automation",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_rpa",
+        "type": "IMPLEMENTED_BY"
+      }
+    ],
+    "incoming": []
+  }
+}

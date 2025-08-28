@@ -269,5 +269,9 @@
         "category": "machine_learning"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_data_analytics.md"
+  }
 }

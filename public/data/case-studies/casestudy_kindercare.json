@@ -47,6 +47,10 @@
       {
         "to": "framework_integrated_teams",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

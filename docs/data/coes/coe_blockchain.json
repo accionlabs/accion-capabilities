@@ -238,5 +238,9 @@
         "category": "database"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_blockchain.md"
+  }
 }

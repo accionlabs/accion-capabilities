@@ -19,7 +19,7 @@
     "Salesforce CPQ",
     "Salesforce Sales Cloud",
     "Automated Workflows",
-    "Approval Processes", 
+    "Approval Processes",
     "Quote Tracking",
     "Address Standardization",
     "Revenue Tracking"
@@ -46,6 +46,10 @@
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
       }
     ],
     "incoming": []

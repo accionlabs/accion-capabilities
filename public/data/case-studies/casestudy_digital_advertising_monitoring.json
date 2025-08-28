@@ -37,18 +37,6 @@
   "relationships": {
     "outgoing": [
       {
-        "to": "technology_datadog",
-        "type": "LEVERAGES"
-      },
-      {
-        "to": "technology_prometheus",
-        "type": "LEVERAGES"
-      },
-      {
-        "to": "technology_grafana",
-        "type": "LEVERAGES"
-      },
-      {
         "to": "coe_observability",
         "type": "LEVERAGES"
       },
@@ -59,6 +47,14 @@
       {
         "to": "pillar_cloud",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_data_analytics",
+        "type": "USES"
       }
     ],
     "incoming": []

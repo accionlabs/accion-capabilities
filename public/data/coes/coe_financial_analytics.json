@@ -292,5 +292,9 @@
       "to": "industry_retail",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_financial_analytics.md"
+  }
 }

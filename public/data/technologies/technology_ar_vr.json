@@ -1,0 +1,48 @@
+{
+  "id": "technology_ar_vr",
+  "name": "Augmented & Virtual Reality",
+  "category": "Immersive Technologies",
+  "description": "Technologies that create immersive digital experiences - AR overlays digital content on the real world, while VR creates fully immersive virtual environments.",
+  "businessValue": "Enhances training effectiveness, improves customer engagement, enables remote collaboration, reduces prototyping costs, and creates new interaction paradigms.",
+  "useCases": [
+    "Training and simulation",
+    "Virtual tours and real estate",
+    "Gaming and entertainment",
+    "Medical visualization",
+    "Product design and prototyping",
+    "Remote assistance",
+    "Retail and e-commerce"
+  ],
+  "keyPlatforms": [
+    "Unity",
+    "Unreal Engine",
+    "ARCore (Google)",
+    "ARKit (Apple)",
+    "Oculus",
+    "Microsoft HoloLens",
+    "Magic Leap"
+  ],
+  "technicalCapabilities": [
+    "3D rendering",
+    "Motion tracking",
+    "Gesture recognition",
+    "Spatial mapping",
+    "Eye tracking",
+    "Haptic feedback",
+    "Real-time rendering"
+  ],
+  "hardwareDevices": [
+    "Head-mounted displays",
+    "Smart glasses",
+    "Mobile AR devices",
+    "Haptic controllers",
+    "Motion capture systems",
+    "360-degree cameras"
+  ],
+  "type": "technology",
+  "pillar": "pillar_digital_products",
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  }
+}

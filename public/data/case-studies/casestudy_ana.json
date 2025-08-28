@@ -49,5 +49,14 @@
     "type": "file",
     "source": "content/casestudy/ana.md"
   },
-  "type": "casestudy"
+  "type": "casestudy",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      }
+    ],
+    "incoming": []
+  }
 }

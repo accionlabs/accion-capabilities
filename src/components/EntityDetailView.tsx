@@ -1,9 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GraphContext } from '../App';
 import { GraphNode } from '../types/graph';
 import MarkdownRenderer from './MarkdownRenderer';
 import RelationshipPanel from './RelationshipPanel';
 import { getContentPath } from '../config/paths';
+import { DocumentCitations } from './DocumentCitations';
 
 interface EntityDetailViewProps {
   entityId: string;
@@ -218,6 +220,84 @@ const EntityDetailView: React.FC<EntityDetailViewProps> = ({
           </div>
         );
 
+      case 'technology':
+        // Extract case studies from relationships
+        console.log('Technology relationships:', relationships);
+        console.log('Reverse relationships:', relationships.reverse);
+        console.log('USES relationships:', relationships.reverse['USES']);
+        const caseStudies = relationships.reverse['USES']?.filter(node => node.type === 'casestudy') || [];
+        
+        return (
+          <div className="space-y-6">
+            {/* Case Studies Section - Prominently displayed */}
+            {caseStudies.length > 0 && (
+              <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+                <h3 className="text-lg font-semibold mb-3 text-emerald-900 flex items-center gap-2">
+                  <span>📊</span>
+                  Case Studies Using This Technology ({caseStudies.length})
+                </h3>
+                <div className="space-y-3">
+                  {caseStudies.map((caseStudy: GraphNode) => (
+                    <Link
+                      key={caseStudy.id}
+                      to={`/case-studies/${caseStudy.id}`}
+                      className="block p-3 bg-white rounded-lg border border-emerald-300 hover:shadow-md transition-all"
+                    >
+                      <div className="font-semibold text-emerald-800">{caseStudy.data?.name}</div>
+                      {caseStudy.data?.description && (
+                        <p className="text-sm text-gray-600 mt-1">{caseStudy.data.description}</p>
+                      )}
+                      {caseStudy.data?.impact && (
+                        <div className="mt-2 text-xs text-emerald-700">
+                          <>
+                            <span className="font-semibold">Impact:</span>
+                            {' '}
+                            {Object.values(caseStudy.data.impact)[0]}
+                          </>
+                        </div>
+                      )}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {/* Technical Capabilities */}
+            {entity.technicalCapabilities && (
+              <div>
+                <h3 className="text-lg font-semibold mb-3">Technical Capabilities</h3>
+                <div className="flex flex-wrap gap-2">
+                  {entity.technicalCapabilities.map((capability: string, idx: number) => (
+                    <span key={idx} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
+                      {capability}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {/* Use Cases */}
+            {entity.useCases && (
+              <div>
+                <h3 className="text-lg font-semibold mb-3">Use Cases</h3>
+                <ul className="list-disc list-inside space-y-1">
+                  {entity.useCases.map((useCase: string, idx: number) => (
+                    <li key={idx} className="text-gray-700">{useCase}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            
+            {/* Business Value */}
+            {entity.businessValue && (
+              <div className="bg-green-50 p-4 rounded-lg">
+                <h3 className="text-lg font-semibold mb-2 text-green-900">Business Value</h3>
+                <p className="text-gray-700">{entity.businessValue}</p>
+              </div>
+            )}
+          </div>
+        );
+
       case 'platform':
       case 'accelerator':
         return (
@@ -267,6 +347,9 @@ const EntityDetailView: React.FC<EntityDetailViewProps> = ({
 
         {/* Entity-specific content */}
         {renderEntitySpecificContent()}
+        
+        {/* Document Citations */}
+        <DocumentCitations entityId={entityId} />
         
         {/* Markdown content */}
         {loading ? (

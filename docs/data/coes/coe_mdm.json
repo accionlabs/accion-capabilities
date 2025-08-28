@@ -298,5 +298,9 @@
       "to": "industry_technology",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_mdm.md"
+  }
 }

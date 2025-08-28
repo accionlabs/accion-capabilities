@@ -73,6 +73,14 @@
       {
         "to": "pillar_data",
         "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_data_analytics",
+        "type": "USES"
       }
     ],
     "incoming": []

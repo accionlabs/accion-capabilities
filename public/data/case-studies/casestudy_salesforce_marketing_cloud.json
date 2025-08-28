@@ -17,7 +17,7 @@
   ],
   "technologies": [
     "Salesforce Marketing Cloud",
-    "Salesforce Sales Cloud Integration", 
+    "Salesforce Sales Cloud Integration",
     "Mobile Studio",
     "Advanced Lead Scoring",
     "Email Automation",
@@ -45,6 +45,14 @@
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
       }
     ],
     "incoming": []

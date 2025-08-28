@@ -73,6 +73,26 @@
       {
         "to": "pillar_digital_products",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      },
+      {
+        "to": "technology_azure_openai",
+        "type": "USES"
+      },
+      {
+        "to": "technology_llm",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

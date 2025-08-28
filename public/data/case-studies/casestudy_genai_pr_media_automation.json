@@ -1,0 +1,64 @@
+{
+  "id": "casestudy_genai_pr_media_automation",
+  "name": "Gen AI Portfolio for PR and Media Publishing",
+  "client": "Global PR, Marketing & Media Solutions Provider",
+  "industry": "Public Relations & Marketing",
+  "description": "Portfolio of Gen AI-powered solutions transforming core PR workflows including automated profile updates, PR formatting, lead generation, press release creation, and intelligent agent assistance.",
+  "challenge": "Core PR activities like formatting, profile management, and customer support required considerable human effort, impacting turnaround time and scalability. Sales opportunity identification was manual and fragmented.",
+  "solution": [
+    "Automated Influencer & Outlet Profile updates from online sources",
+    "PR Formatter aligning reports with client standards",
+    "Lead Tracker/Generator from multiple data sources",
+    "PR Generator creating releases from prompts",
+    "Cognitive task automation for repetitive workflows",
+    "Agent Assist Tool with contextual AI support"
+  ],
+  "technologies": [
+    "Generative AI",
+    "AI Agents",
+    "Conversational AI",
+    "Automation Tools",
+    "Natural Language Processing"
+  ],
+  "impact": {
+    "insightsDelivery": "50% faster insights through automation",
+    "manualReduction": "30% reduction in manual analysis",
+    "workflowAdoption": "40% improvement with conversational AI"
+  },
+  "outcomes": [
+    "50% faster insights delivery",
+    "30% reduction in manual analysis efforts",
+    "40% improvement in workflow adoption",
+    "Enhanced brand reputation management",
+    "Scalable PR operations across channels"
+  ],
+  "serviceType": "SaaS Enhancement",
+  "pillar": "pillar_digital_products",
+  "coe": "coe_genai",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/genai_pr_media_automation.md"
+  },
+  "type": "casestudy",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_llm",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "industry_media",
+        "type": "SERVES"
+      }
+    ],
+    "incoming": []
+  }
+}

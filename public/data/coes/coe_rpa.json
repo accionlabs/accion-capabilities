@@ -261,6 +261,20 @@
       "metadata": {
         "category": "programming_language"
       }
+    },
+    {
+      "type": "IMPLEMENTS",
+      "to": "technology_cognitive_automation",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_account_receivables",
+      "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_rpa.md"
+  }
 }

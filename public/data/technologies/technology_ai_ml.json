@@ -1,0 +1,58 @@
+{
+  "id": "technology_ai_ml",
+  "name": "Artificial Intelligence & Machine Learning",
+  "category": "AI/ML",
+  "description": "Technologies that enable machines to learn from data, identify patterns, and make decisions with minimal human intervention, encompassing various AI and ML techniques.",
+  "businessValue": "Enables predictive analytics, automates complex decision-making, improves customer experiences, optimizes operations, and uncovers insights from vast amounts of data.",
+  "useCases": [
+    "Predictive maintenance",
+    "Fraud detection",
+    "Recommendation systems",
+    "Image and video analysis",
+    "Natural language processing",
+    "Demand forecasting",
+    "Anomaly detection"
+  ],
+  "techniques": [
+    "Supervised learning",
+    "Unsupervised learning",
+    "Reinforcement learning",
+    "Deep learning",
+    "Transfer learning",
+    "Ensemble methods",
+    "Neural networks"
+  ],
+  "technicalCapabilities": [
+    "Pattern recognition",
+    "Classification and regression",
+    "Clustering and segmentation",
+    "Feature extraction",
+    "Model training and validation",
+    "Real-time inference",
+    "AutoML capabilities"
+  ],
+  "frameworks": [
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Keras",
+    "XGBoost",
+    "Apache Spark MLlib",
+    "H2O.ai"
+  ],
+  "type": "technology",
+  "pillar": "pillar_data",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_aiml",
+        "type": "IMPLEMENTED_BY"
+      },
+      {
+        "to": "coe_genai",
+        "type": "EXTENDED_BY"
+      }
+    ],
+    "incoming": []
+  }
+}

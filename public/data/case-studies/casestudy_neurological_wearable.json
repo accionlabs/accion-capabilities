@@ -56,6 +56,14 @@
       {
         "to": "coe_medical_imaging",
         "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "technology_iot",
+        "type": "USES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
       }
     ],
     "incoming": []

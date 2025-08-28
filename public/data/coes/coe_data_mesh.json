@@ -223,5 +223,9 @@
         "category": "visualization"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_data_mesh.md"
+  }
 }

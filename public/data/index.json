@@ -115,7 +115,7 @@
       },
       {
         "id": "coe_ux",
-        "name": "User Experience (UX) Center of Excellence"
+        "name": "User Experience & Design Center of Excellence"
       },
       {
         "id": "coe_salesforce",
@@ -128,10 +128,6 @@
       {
         "id": "coe_observability",
         "name": "Observability Center of Excellence"
-      },
-      {
-        "id": "coe_experience_design",
-        "name": "Experience Design Center of Excellence"
       },
       {
         "id": "coe_azure",
@@ -434,12 +430,16 @@
     ],
     "technologies": [
       {
+        "id": "technology_ai_ml",
+        "name": "Artificial Intelligence & Machine Learning"
+      },
+      {
         "id": "technology_apache_airflow",
         "name": "Apache Airflow"
       },
       {
-        "id": "technology_spark",
-        "name": "Apache Spark"
+        "id": "technology_ar_vr",
+        "name": "Augmented & Virtual Reality"
       },
       {
         "id": "technology_arcore",
@@ -450,12 +450,36 @@
         "name": "ARKit"
       },
       {
+        "id": "technology_azure_openai",
+        "name": "Azure OpenAI Service"
+      },
+      {
         "id": "technology_bitcoin",
         "name": "Bitcoin"
       },
       {
+        "id": "technology_blockchain",
+        "name": "Blockchain"
+      },
+      {
         "id": "technology_cardano",
         "name": "Cardano"
+      },
+      {
+        "id": "technology_cloud",
+        "name": "Cloud Computing"
+      },
+      {
+        "id": "technology_cognitive_automation",
+        "name": "Cognitive Process Automation"
+      },
+      {
+        "id": "technology_data_analytics",
+        "name": "Data Analytics"
+      },
+      {
+        "id": "technology_devops",
+        "name": "DevOps"
       },
       {
         "id": "technology_docker",
@@ -482,6 +506,10 @@
         "name": "Hyperledger Fabric"
       },
       {
+        "id": "technology_iot",
+        "name": "Internet of Things (IoT)"
+      },
+      {
         "id": "technology_ipfs",
         "name": "IPFS"
       },
@@ -502,6 +530,14 @@
         "name": "LangChain"
       },
       {
+        "id": "technology_llm",
+        "name": "Large Language Models (LLMs)"
+      },
+      {
+        "id": "technology_microservices",
+        "name": "Microservices Architecture"
+      },
+      {
         "id": "technology_mlflow",
         "name": "MLflow"
       },
@@ -512,6 +548,10 @@
       {
         "id": "technology_nessus",
         "name": "Nessus"
+      },
+      {
+        "id": "technology_nlp",
+        "name": "Natural Language Processing"
       },
       {
         "id": "technology_nodejs",
@@ -550,8 +590,20 @@
         "name": "React"
       },
       {
+        "id": "technology_rpa",
+        "name": "Robotic Process Automation (RPA)"
+      },
+      {
+        "id": "technology_salesforce",
+        "name": "Salesforce"
+      },
+      {
         "id": "technology_sonarqube",
         "name": "SonarQube"
+      },
+      {
+        "id": "technology_spark",
+        "name": "Apache Spark"
       },
       {
         "id": "technology_splunk",
@@ -900,6 +952,30 @@
       {
         "id": "casestudy_microsoft_dream_sustainability",
         "name": "Microsoft DREAM Demo - Sustainability Analytics Platform"
+      },
+      {
+        "id": "casestudy_genai_healthcare_virtual_assistant",
+        "name": "Intelligent Virtual Product Assistant for Global Healthcare"
+      },
+      {
+        "id": "casestudy_genai_drug_repurposing",
+        "name": "Drug Repurposing for Cancer Treatment"
+      },
+      {
+        "id": "casestudy_genai_financial_insights",
+        "name": "AI-Powered Financial Insights Platform"
+      },
+      {
+        "id": "casestudy_genai_contract_intelligence",
+        "name": "Automated Contract Intelligence Platform"
+      },
+      {
+        "id": "casestudy_genai_pr_media_automation",
+        "name": "PR and Media Automation Platform"
+      },
+      {
+        "id": "casestudy_genai_account_receivables",
+        "name": "Accounts Receivable Collections AI"
       }
     ]
   }

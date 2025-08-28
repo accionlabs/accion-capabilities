@@ -279,5 +279,9 @@
       "to": "industry_utilities",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_servicenow.md"
+  }
 }

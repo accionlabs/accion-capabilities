@@ -19,6 +19,7 @@ import CaseStudiesPage from './pages/CaseStudiesPage';
 import IndustryIntelligencePage from './pages/IndustryIntelligencePage';
 import IndustryDetailPage from './pages/IndustryDetailPage';
 import EntityPage from './pages/EntityPage';
+import DocumentsPage from './pages/DocumentsPage';
 import TestPage from './pages/TestPage';
 import TestGraphPage from './pages/TestGraphPage';
 import AppLayoutVertical from './components/AppLayoutVertical';
@@ -126,6 +127,8 @@ function App() {
             
             <Route path="case-studies" element={<CaseStudiesPage />} />
             <Route path="case-studies/:id" element={<CaseStudiesPage />} />
+            
+            <Route path="documents" element={<DocumentsPage />} />
             
             <Route path="test" element={<TestPage />} />
             <Route path="test-graph" element={<TestGraphPage />} />

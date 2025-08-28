@@ -9,7 +9,7 @@
   "solution": "Implemented Salesforce Health Cloud to create a comprehensive patient services platform featuring 360-degree patient view with unified profile management, automated care workflows and eligibility verification processes, Omni-Channel routing for optimized service resolution, FHIR-compliant data exchange for seamless integration with external healthcare systems, and real-time patient interaction capabilities.",
   "outcomes": [
     "38% faster patient onboarding with 360-degree patient view and automated workflows",
-    "43% increase in service efficiency through automated eligibility checks and benefits verification", 
+    "43% increase in service efficiency through automated eligibility checks and benefits verification",
     "35% improvement in service resolution time with Salesforce Omni-Channel routing",
     "FHIR-compliant data exchange ensuring seamless integration with external healthcare systems",
     "Enhanced patient care coordination through unified data visibility",
@@ -38,12 +38,16 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "industry_healthcare", 
+        "to": "industry_healthcare",
         "type": "TARGETS"
       },
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
       }
     ],
     "incoming": []

@@ -247,5 +247,9 @@
         "primary": true
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_data_streaming.md"
+  }
 }

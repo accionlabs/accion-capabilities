@@ -18,7 +18,7 @@
   ],
   "technologies": [
     "HTML",
-    "CSS", 
+    "CSS",
     "Bootstrap",
     "SQL Server 2016",
     "REST APIs",
@@ -53,6 +53,14 @@
       {
         "to": "pillar_cloud",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

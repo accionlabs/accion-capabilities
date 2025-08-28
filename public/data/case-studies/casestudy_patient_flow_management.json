@@ -50,6 +50,10 @@
       {
         "to": "industry_healthcare",
         "type": "TARGETS"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
       }
     ],
     "incoming": []

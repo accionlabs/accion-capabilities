@@ -68,6 +68,14 @@
       {
         "to": "coe_data_analytics",
         "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_data_analytics",
+        "type": "USES"
       }
     ],
     "incoming": []

@@ -1,6 +1,6 @@
 {
   "id": "casestudy_fintech_fraudulent_claims_processing",
-  "type": "casestudy", 
+  "type": "casestudy",
   "name": "Fraudulent Claims Processing Platform for Insurance Analytics",
   "client": "Long-Term Care Insurance Data Analytics Company",
   "industry": "Financial Services",
@@ -19,7 +19,7 @@
   "technologies": [
     "HTML5",
     "CSS",
-    "JavaScript", 
+    "JavaScript",
     "jQuery",
     "Bootstrap",
     "Java",
@@ -49,8 +49,16 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "pillar_digital_products", 
+        "to": "pillar_digital_products",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

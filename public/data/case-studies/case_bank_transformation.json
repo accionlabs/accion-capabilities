@@ -52,6 +52,18 @@
       {
         "to": "industry_financial_services",
         "type": "DELIVERS"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_microservices",
+        "type": "USES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
       }
     ],
     "incoming": []

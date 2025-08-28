@@ -234,5 +234,9 @@
         "category": "incident_management"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_sre.md"
+  }
 }

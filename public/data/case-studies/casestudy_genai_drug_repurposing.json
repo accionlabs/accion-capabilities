@@ -1,0 +1,67 @@
+{
+  "id": "casestudy_genai_drug_repurposing",
+  "name": "AI-Powered Drug Repurposing Data Analytics Platform",
+  "client": "Leading Biopharma Company",
+  "industry": "Pharmaceutical",
+  "description": "Revolutionized drug repurposing with an intelligent data analytics platform that accepts natural language queries, translates them into technical queries, and presents relevant molecular data in analytical dashboards.",
+  "challenge": "Traditional drug repurposing processes were inefficient, time-consuming, and required extensive manual data analysis, leading to high research costs and slower drug discovery.",
+  "solution": [
+    "Developed intelligent data analytics platform with natural language interface",
+    "Automated translation of natural queries to technical database queries",
+    "Created analytical dashboards for molecular data visualization",
+    "Integrated drug repurposing prediction algorithms",
+    "Enabled rapid analysis of drug-disease relationships"
+  ],
+  "technologies": [
+    "Natural Language Processing",
+    "Intelligent Data Analytics",
+    "Machine Learning",
+    "Molecular Analysis",
+    "Dashboard Visualization"
+  ],
+  "impact": {
+    "dataAnalysisReduction": "50% reduction in data analysis time",
+    "costSavings": "40% cost savings on research efforts",
+    "accuracyImprovement": "30% increase in drug repurposing prediction accuracy"
+  },
+  "outcomes": [
+    "50% reduction in data analysis time",
+    "40% research cost savings",
+    "30% improvement in prediction accuracy",
+    "Accelerated drug discovery process",
+    "Enhanced researcher productivity"
+  ],
+  "serviceType": "Data Analytics & AI",
+  "pillar": "pillar_data",
+  "coe": "coe_data_analytics",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/genai_drug_repurposing.md"
+  },
+  "type": "casestudy",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_llm",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "coe_aiml",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "industry_pharma",
+        "type": "SERVES"
+      }
+    ],
+    "incoming": []
+  }
+}

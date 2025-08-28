@@ -1,10 +1,10 @@
 {
   "id": "platform_breeze_ai",
   "type": "platform",
-  "name": "Breeze.AI - AI-Driven SDLC Transformation",
-  "category": "Development & Architecture",
-  "description": "AI-powered software development lifecycle transformation",
-  "investment": "$200K",
+  "name": "Breeze.AI - AI-Powered Development Automation Platform",
+  "category": "AI & Development Automation",
+  "description": "Next-generation AI platform that revolutionizes software development through semantic engineering and intelligent agents. Automates the entire SDLC from requirements to code, delivering 30% acceleration with <2% defects. Eliminates Manual Translation Tax while maintaining human control through Human-in-the-Loop validation.",
+  "investment": "Phase 1: $200K, Full implementation: varies by scope",
   "roi": "$500K projected returns",
   "keyFeatures": [
     {
@@ -26,6 +26,26 @@
       "name": "Enterprise Semantic Model",
       "description": "Business context understanding for accurate code generation",
       "businessValue": "AI-generated code that aligns with business requirements and standards"
+    },
+    {
+      "name": "Engineering Agents Suite",
+      "description": "Functional, Design, Architecture, Code, and Testing agents for complete SDLC automation",
+      "businessValue": "30% acceleration in development with <2% defect rate"
+    },
+    {
+      "name": "Semantic Model Intelligence",
+      "description": "Application semantic model based on engineering ontologies for accurate code generation",
+      "businessValue": "Preserves context and reduces translation errors by 44%"
+    },
+    {
+      "name": "Portfolio Rationalization",
+      "description": "AI-driven analysis and optimization of application portfolios",
+      "businessValue": "Identifies redundancies and modernization opportunities"
+    },
+    {
+      "name": "Technology Upgrade Automation",
+      "description": "Automated migration and upgrade of legacy technologies",
+      "businessValue": "Reduces technical debt by 58%"
     }
   ],
   "businessImpactMetrics": [
@@ -51,11 +71,17 @@
     }
   ],
   "techStack": [
-    "AI agents",
-    "Semantic models",
-    "Orchestration",
-    "Machine Learning",
-    "Natural Language Processing"
+    "OpenAI GPT-4",
+    "Anthropic Claude",
+    "Google Gemini",
+    "Azure Kubernetes Service",
+    "PostgreSQL with pgvector",
+    "Neo4j Graph Database",
+    "Kong API Gateway",
+    "N8N Orchestration",
+    "KeyCloak",
+    "Azure Service Bus",
+    "Azure Blob Storage"
   ],
   "clientValue": [
     "Code Generation - Architecture-to-code automation",
@@ -111,11 +137,42 @@
       {
         "from": "coe_testing",
         "type": "USES"
+      },
+      {
+        "from": "platform_breeze",
+        "type": "COMPLEMENTS"
       }
     ]
   },
   "content": {
     "type": "file",
-    "source": "content/platform/breeze_ai.md"
-  }
+    "source": "content/platform/breeze-ai.md"
+  },
+  "semanticEngineering": {
+    "unifiedModel": "Business knowledge in AI-readable format",
+    "customAgents": "Specialized agents for each development phase",
+    "humanValidation": "Human-in-the-loop maintains control",
+    "orchestration": "N8N workflow engine for agent coordination"
+  },
+  "deploymentScenarios": [
+    "Brownfield Enhancement - Incremental development of existing applications",
+    "Greenfield Development - Complete new application development",
+    "Package Integration - SAP, Salesforce, and enterprise software integration"
+  ],
+  "guarantees": {
+    "performanceGuarantee": "30% acceleration or Accion loss",
+    "qualityGuarantee": "<2% defect rate with 90-day warranty",
+    "vendorLockInProtection": "Technology transfer after 12 months"
+  },
+  "complementaryPlatform": {
+    "id": "platform_breeze",
+    "relationship": "Generates code following BREEZE architectural patterns and best practices",
+    "synergy": "AI agents accelerate development of applications built on BREEZE platform"
+  },
+  "tags": [
+    "platform",
+    "ai",
+    "automation"
+  ],
+  "strategicValue": "Revolutionizes software development through AI-powered automation and semantic engineering"
 }

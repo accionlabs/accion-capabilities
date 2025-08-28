@@ -42,6 +42,10 @@
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
       }
     ],
     "incoming": []

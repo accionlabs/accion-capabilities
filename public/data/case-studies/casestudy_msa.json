@@ -53,6 +53,10 @@
       {
         "to": "pillar_automation",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

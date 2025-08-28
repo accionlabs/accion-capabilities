@@ -262,5 +262,9 @@
         "category": "programming_language"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_rpa.md"
+  }
 }

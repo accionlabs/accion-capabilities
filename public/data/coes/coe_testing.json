@@ -290,5 +290,9 @@
         "category": "infrastructure_as_code"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_testing.md"
+  }
 }

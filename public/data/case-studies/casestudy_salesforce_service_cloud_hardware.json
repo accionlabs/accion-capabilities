@@ -25,7 +25,7 @@
   ],
   "businessValue": [
     "Significant reduction in operational costs through automation and efficiency gains",
-    "Enhanced fraud detection capabilities protecting revenue and reducing financial risk", 
+    "Enhanced fraud detection capabilities protecting revenue and reducing financial risk",
     "Improved customer satisfaction through faster case resolution and better service quality",
     "Streamlined service operations with centralized customer data management",
     "Better resource allocation through AI-driven case prioritization"
@@ -45,6 +45,10 @@
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
       }
     ],
     "incoming": []

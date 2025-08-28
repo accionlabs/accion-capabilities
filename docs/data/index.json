@@ -115,7 +115,7 @@
       },
       {
         "id": "coe_ux",
-        "name": "User Experience (UX) Center of Excellence"
+        "name": "User Experience & Design Center of Excellence"
       },
       {
         "id": "coe_salesforce",
@@ -128,10 +128,6 @@
       {
         "id": "coe_observability",
         "name": "Observability Center of Excellence"
-      },
-      {
-        "id": "coe_experience_design",
-        "name": "Experience Design Center of Excellence"
       },
       {
         "id": "coe_azure",

@@ -179,14 +179,38 @@ export class DataLoaderV2 {
       });
     }
     
-    // Also handle legacy outgoing/incoming format if it exists
-    if (entity.relationships?.outgoing) {
-      entity.relationships.outgoing.forEach((rel: any) => {
+    // Also handle nested outgoing/incoming format if it exists
+    if (entity.relationships?.outgoing || rawData.relationships?.outgoing) {
+      const outgoingRels = entity.relationships?.outgoing || rawData.relationships?.outgoing;
+      outgoingRels.forEach((rel: any) => {
         const targetNode = this.graph.getNode(rel.to);
         if (targetNode) {
           this.createEdge(node.id, rel.to, rel.type, rel.metadata);
+          if (node.type === 'casestudy' && targetNode.type === 'technology') {
+            console.log(`Creating edge from case study ${node.id} to technology ${rel.to}`);
+          }
         } else {
           console.warn(`⚠️ Target node not found for relationship: ${node.id} -> ${rel.to}`);
+        }
+      });
+    }
+    
+    // Process incoming relationships - create edges from the source
+    if (entity.relationships?.incoming || rawData.relationships?.incoming) {
+      const incomingRels = entity.relationships?.incoming || rawData.relationships?.incoming;
+      if (node.type === 'technology' && node.id === 'technology_llm') {
+        console.log(`Processing incoming relationships for LLM:`, incomingRels.length);
+      }
+      incomingRels.forEach((rel: any) => {
+        const sourceNode = this.graph.getNode(rel.from);
+        if (sourceNode) {
+          // Create edge from the source to this node
+          this.createEdge(rel.from, node.id, rel.type, rel.metadata);
+          if (node.type === 'technology' && node.id === 'technology_llm' && sourceNode.type === 'casestudy') {
+            console.log(`Created edge from case study ${rel.from} to LLM`);
+          }
+        } else {
+          console.warn(`⚠️ Source node not found for incoming relationship: ${rel.from} -> ${node.id}`);
         }
       });
     }
@@ -246,7 +270,8 @@ export class DataLoaderV2 {
     
     // Check for invalid relationship types
     const validTypes = ['BELONGS_TO', 'USES', 'IMPLEMENTS', 'TARGETS', 'LEVERAGES', 
-                       'DELIVERS', 'DEPENDS_ON', 'RELATED_TO', 'INVOLVED_IN'];
+                       'DELIVERS', 'DEPENDS_ON', 'RELATED_TO', 'INVOLVED_IN', 'DELIVERED_BY',
+                       'SERVES', 'ORCHESTRATES', 'HOSTS', 'EXTENDS', 'ENABLES'];
     
     allNodes.forEach(node => {
       const entity = node.data;
@@ -366,9 +391,28 @@ export class DataLoaderV2 {
       const entities = this.graph.findByType(entityType as any);
       entities.forEach(entity => {
         visited.clear();
-        const pillarIds = findPillarssThroughRelationships(entity.id);
-        if (pillarIds.length > 0) {
-          pillarMap.set(entity.id, pillarIds);
+        // For case studies, only look at direct pillar relationships
+        if (entityType === 'casestudy') {
+          const pillarIds: string[] = [];
+          const edges = this.graph.getEdges(entity.id);
+          edges.forEach(edge => {
+            // Case studies can have LEVERAGES or DEMONSTRATES relationships to pillars
+            if (edge.type === 'LEVERAGES' || edge.type === 'DEMONSTRATES') {
+              const targetNode = this.graph.getNode(edge.to);
+              if (targetNode && targetNode.type === 'pillar') {
+                pillarIds.push(edge.to);
+              }
+            }
+          });
+          if (pillarIds.length > 0) {
+            pillarMap.set(entity.id, pillarIds);
+          }
+        } else {
+          // For other entities, use the recursive search
+          const pillarIds = findPillarssThroughRelationships(entity.id);
+          if (pillarIds.length > 0) {
+            pillarMap.set(entity.id, pillarIds);
+          }
         }
       });
     }

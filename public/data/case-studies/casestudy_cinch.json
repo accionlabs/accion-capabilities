@@ -48,6 +48,10 @@
       {
         "to": "platform_breeze",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

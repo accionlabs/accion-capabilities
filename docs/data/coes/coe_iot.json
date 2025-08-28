@@ -286,5 +286,9 @@
         "use_case": "Smart healthcare, patient monitoring"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_iot.md"
+  }
 }

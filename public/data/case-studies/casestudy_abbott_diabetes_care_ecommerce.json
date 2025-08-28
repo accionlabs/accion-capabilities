@@ -35,6 +35,10 @@
       {
         "to": "pillar_digital_products",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

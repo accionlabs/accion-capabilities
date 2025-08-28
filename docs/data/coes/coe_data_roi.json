@@ -243,5 +243,9 @@
         "category": "infrastructure_as_code"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_data_roi.md"
+  }
 }

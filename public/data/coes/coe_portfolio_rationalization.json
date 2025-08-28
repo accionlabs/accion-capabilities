@@ -315,5 +315,9 @@
         "category": "quality_assurance"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_portfolio_rationalization.md"
+  }
 }

@@ -245,5 +245,9 @@
         "category": "data_orchestration"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_reengineering.md"
+  }
 }

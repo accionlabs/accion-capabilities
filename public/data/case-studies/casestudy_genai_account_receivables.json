@@ -1,0 +1,82 @@
+{
+  "id": "casestudy_genai_account_receivables",
+  "name": "Gen AI-Powered Account Receivables Automation",
+  "client": "Leading Corporate Travel Services Provider",
+  "industry": "Travel & Financial Services",
+  "description": "Transformed account receivables management using Gen AI-powered Cognitive Process Automation, managing commission collections across 1,000+ hotels in 30+ countries, recovering aged receivables worth millions.",
+  "challenge": "Manual receivables processing with aged receivables of $4-5M, only 27-32% collection rate, team of 10 handling 4,200-5,500 emails and 2,600-3,200 calls monthly, leading to delayed revenue recognition and ineffective communication.",
+  "solution": [
+    "Implemented Gen AI-powered Cognitive Process Automation",
+    "Deployed NLU for intelligent inquiry interpretation and response",
+    "Created AI agents for contact detail validation and updates",
+    "Automated debt categorization and prioritization",
+    "Developed automated email drafting and follow-up system"
+  ],
+  "technologies": [
+    "Generative AI",
+    "Cognitive Process Automation",
+    "Natural Language Understanding",
+    "Python",
+    "ReactJS",
+    "LangChain",
+    "Azure Cloud",
+    "Azure OpenAI (GPT-4 Turbo)"
+  ],
+  "impact": {
+    "recoveryRate": "15-20% increase in recovery rates",
+    "costSavings": "60% resource cost savings",
+    "revenueRecovery": "$500K-$900K additional commission recovery"
+  },
+  "outcomes": [
+    "15-20% increase in recovery rates improving cash flow",
+    "60% cost savings through workforce optimization",
+    "$500K-$900K potentially recovered commissions",
+    "Eliminated manual errors and delayed follow-ups",
+    "Accelerated revenue recognition"
+  ],
+  "serviceType": "Process Automation",
+  "pillar": "pillar_automation",
+  "coe": "coe_rpa",
+  "content": {
+    "type": "file",
+    "source": "content/casestudy/genai_account_receivables.md"
+  },
+  "type": "casestudy",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_azure_openai",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cognitive_automation",
+        "type": "USES"
+      },
+      {
+        "to": "technology_llm",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      },
+      {
+        "to": "platform_breeze_ai",
+        "type": "USES"
+      },
+      {
+        "to": "coe_genai",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "coe_rpa",
+        "type": "DELIVERED_BY"
+      },
+      {
+        "to": "industry_financial_services",
+        "type": "SERVES"
+      }
+    ],
+    "incoming": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "technology_devops",
+  "name": "DevOps",
+  "category": "Practices",
+  "description": "Set of practices that combines software development and IT operations to shorten the development lifecycle and provide continuous delivery of high-quality software.",
+  "businessValue": "Accelerates time to market, improves deployment frequency, reduces failure rates, shortens lead time between fixes, and improves mean time to recovery.",
+  "practices": [
+    "Continuous Integration",
+    "Continuous Delivery",
+    "Infrastructure as Code",
+    "Monitoring and Logging",
+    "Collaboration and Communication",
+    "Microservices",
+    "Automated Testing"
+  ],
+  "keyTools": [
+    "Jenkins",
+    "GitLab CI/CD",
+    "GitHub Actions",
+    "Azure DevOps",
+    "Docker",
+    "Kubernetes",
+    "Terraform"
+  ],
+  "technicalCapabilities": [
+    "CI/CD pipelines",
+    "Automated testing",
+    "Configuration management",
+    "Container orchestration",
+    "Infrastructure provisioning",
+    "Monitoring and alerting",
+    "Version control"
+  ],
+  "metrics": [
+    "Deployment frequency",
+    "Lead time for changes",
+    "Mean time to recovery",
+    "Change failure rate"
+  ],
+  "type": "technology",
+  "pillar": "pillar_cloud",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_devops",
+        "type": "IMPLEMENTED_BY"
+      },
+      {
+        "to": "acc_cicd_accelerator",
+        "type": "ACCELERATED_BY"
+      }
+    ],
+    "incoming": []
+  }
+}

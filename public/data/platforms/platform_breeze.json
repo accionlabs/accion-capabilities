@@ -1,10 +1,10 @@
 {
   "id": "platform_breeze",
   "type": "platform",
-  "name": "BREEZE - Containerized Microservices Architecture",
-  "category": "Development & Architecture",
-  "description": "Event-driven microservices architecture platform",
-  "investment": "Not specified",
+  "name": "BREEZE - Microservices Architecture Platform",
+  "category": "Architecture & Infrastructure",
+  "description": "Production-proven event-driven microservices architecture platform with comprehensive 8-layer framework for building scalable digital products and enabling SaaS transformation. Provides architectural blueprints, reusable platform services, and best practices for enterprise application development.",
+  "investment": "Multiple client implementations with proven ROI",
   "roi": "50%+ of converted deals influenced",
   "keyFeatures": [
     {
@@ -26,6 +26,21 @@
       "name": "Build-for-Change Capabilities",
       "description": "Adaptable architecture for evolving business requirements",
       "businessValue": "Future-proof solutions that adapt to changing business needs"
+    },
+    {
+      "name": "Polyglot Persistence",
+      "description": "Support for multiple databases - PostgreSQL, MongoDB, Cassandra, Elasticsearch, Redis",
+      "businessValue": "Optimal data storage for different use cases"
+    },
+    {
+      "name": "Platform Services Suite",
+      "description": "Shared services including IAM, Workflow Engine, Forms Engine, Rules Engine, Cognitive Search",
+      "businessValue": "Accelerated development through reusable components"
+    },
+    {
+      "name": "Big Data Analytics Platform",
+      "description": "Three-stage analytics with raw data store, semantic layer, and reporting layer using Apache Spark and streaming analytics",
+      "businessValue": "Comprehensive data insights and AI/ML capabilities"
     }
   ],
   "businessImpactMetrics": [
@@ -51,10 +66,20 @@
     }
   ],
   "techStack": [
-    "Microservices",
-    "Kafka",
+    "Spring Boot",
     "Docker",
-    "Kubernetes"
+    "Kubernetes",
+    "Apache Kafka",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Elasticsearch",
+    "GraphQL",
+    "Angular/React",
+    "KeyCloak",
+    "Camunda/Zeebe",
+    "Apache Spark",
+    "Apache Airflow"
   ],
   "clientValue": [
     "Delivery Acceleration - Proven framework for faster project delivery",
@@ -88,6 +113,10 @@
       {
         "to": "industry_technology",
         "type": "TARGETS"
+      },
+      {
+        "to": "platform_breeze_ai",
+        "type": "COMPLEMENTS"
       }
     ],
     "incoming": [
@@ -132,5 +161,37 @@
   "content": {
     "type": "file",
     "source": "content/platform/breeze.md"
-  }
+  },
+  "architectureLayers": [
+    "Personalized User Experience Layer",
+    "API Abstraction Layer with GraphQL",
+    "Containerized Microservices (Entity & Workflow)",
+    "Event-Driven Architecture with Kafka",
+    "Platform Services (IAM, Workflow, Forms, Rules)",
+    "Data Lake, Analytics & AI/ML",
+    "Business Application Integration",
+    "Administration & Support"
+  ],
+  "implementationPatterns": {
+    "incrementalReengineering": "Allows gradual transformation from legacy to modern architecture",
+    "containerDeployment": "Automated CI/CD with container promotion across environments",
+    "developerAutonomy": "Developers can deploy through all environments with minimal DevOps involvement"
+  },
+  "securityFeatures": [
+    "KeyCloak IAM integration",
+    "API Gateway security with centralized access control",
+    "SAML and OAuth2 support",
+    "HashiCorp Vault for secrets management"
+  ],
+  "complementaryPlatform": {
+    "id": "platform_breeze_ai",
+    "relationship": "Breeze.AI agents can generate code optimized for BREEZE architecture patterns",
+    "synergy": "Combined usage delivers AI-accelerated development on robust microservices architecture"
+  },
+  "tags": [
+    "platform",
+    "architecture",
+    "microservices"
+  ],
+  "strategicValue": "Enables rapid digital transformation through proven microservices architecture patterns"
 }

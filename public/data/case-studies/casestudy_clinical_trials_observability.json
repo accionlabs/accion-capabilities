@@ -30,18 +30,6 @@
   "relationships": {
     "outgoing": [
       {
-        "to": "technology_kubernetes",
-        "type": "LEVERAGES"
-      },
-      {
-        "to": "technology_grafana",
-        "type": "LEVERAGES"
-      },
-      {
-        "to": "technology_prometheus",
-        "type": "LEVERAGES"
-      },
-      {
         "to": "coe_observability",
         "type": "LEVERAGES"
       },
@@ -52,6 +40,14 @@
       {
         "to": "pillar_cloud",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_devops",
+        "type": "USES"
       }
     ],
     "incoming": []

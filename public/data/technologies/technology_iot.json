@@ -1,0 +1,54 @@
+{
+  "id": "technology_iot",
+  "name": "Internet of Things (IoT)",
+  "category": "Connected Systems",
+  "description": "Network of physical devices embedded with sensors, software, and connectivity that enables them to collect, exchange, and act on data.",
+  "businessValue": "Enables real-time monitoring, predictive maintenance, operational efficiency, new business models, enhanced customer experiences, and data-driven insights from connected devices.",
+  "useCases": [
+    "Smart cities",
+    "Industrial IoT",
+    "Connected healthcare",
+    "Smart homes",
+    "Asset tracking",
+    "Environmental monitoring",
+    "Predictive maintenance"
+  ],
+  "keyComponents": [
+    "Sensors and actuators",
+    "Connectivity protocols",
+    "Edge computing",
+    "IoT platforms",
+    "Data analytics",
+    "Security layers",
+    "Device management"
+  ],
+  "technicalCapabilities": [
+    "Device connectivity",
+    "Data collection and streaming",
+    "Edge processing",
+    "Remote monitoring",
+    "Over-the-air updates",
+    "Protocol translation",
+    "Real-time analytics"
+  ],
+  "protocols": [
+    "MQTT",
+    "CoAP",
+    "LoRaWAN",
+    "Zigbee",
+    "Bluetooth LE",
+    "NB-IoT",
+    "5G"
+  ],
+  "type": "technology",
+  "pillar": "pillar_digital_products",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_iot",
+        "type": "IMPLEMENTED_BY"
+      }
+    ],
+    "incoming": []
+  }
+}

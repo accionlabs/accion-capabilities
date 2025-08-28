@@ -1,0 +1,68 @@
+{
+  "id": "technology_cognitive_automation",
+  "name": "Cognitive Process Automation",
+  "category": "Automation",
+  "description": "Advanced automation technology that combines RPA with artificial intelligence and machine learning to handle complex, judgment-based tasks that traditionally required human intelligence and decision-making.",
+  "businessValue": "Enables end-to-end automation of complex business processes involving unstructured data, decision-making, and adaptive learning, significantly reducing manual effort while improving accuracy and speed.",
+  "useCases": [
+    "Document processing and extraction",
+    "Invoice and receipt processing",
+    "Customer service automation",
+    "Claims processing",
+    "Contract analysis",
+    "Email classification and routing",
+    "Fraud detection",
+    "Compliance monitoring"
+  ],
+  "capabilities": [
+    "Unstructured data processing",
+    "Pattern recognition",
+    "Decision-making automation",
+    "Adaptive learning",
+    "Natural language understanding",
+    "Computer vision",
+    "Predictive analytics",
+    "Exception handling"
+  ],
+  "technologies": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Optical Character Recognition (OCR)",
+    "Robotic Process Automation (RPA)",
+    "Deep Learning",
+    "Knowledge graphs"
+  ],
+  "platforms": [
+    "UiPath AI Center",
+    "Automation Anywhere IQ Bot",
+    "Blue Prism Decipher",
+    "Microsoft Power Automate AI",
+    "IBM Watson Discovery",
+    "WorkFusion",
+    "ABBYY Vantage"
+  ],
+  "type": "technology",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_llm",
+        "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "casestudy_genai_account_receivables",
+        "type": "USES"
+      },
+      {
+        "from": "coe_rpa",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}

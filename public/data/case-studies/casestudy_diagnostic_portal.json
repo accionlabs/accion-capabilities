@@ -70,6 +70,10 @@
       {
         "to": "component_hl7_edi_gateway",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

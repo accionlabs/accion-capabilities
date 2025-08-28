@@ -185,5 +185,9 @@
       "to": "industry_manufacturing",
       "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_azure.md"
+  }
 }

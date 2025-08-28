@@ -26,7 +26,7 @@
   ],
   "businessValue": [
     "Significant improvement in operational efficiency with 40% faster case resolution",
-    "Enhanced customer satisfaction with 35% increase through better service delivery", 
+    "Enhanced customer satisfaction with 35% increase through better service delivery",
     "Substantial cost savings with 30% reduction in service costs through predictive maintenance",
     "Improved service quality through omnichannel support and automated processes",
     "Better resource utilization through proactive maintenance and automated workflows"
@@ -46,6 +46,14 @@
       {
         "to": "pillar_automation",
         "type": "DEMONSTRATES"
+      },
+      {
+        "to": "technology_salesforce",
+        "type": "USES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
       }
     ],
     "incoming": []

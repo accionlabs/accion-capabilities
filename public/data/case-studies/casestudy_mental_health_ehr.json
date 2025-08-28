@@ -69,6 +69,10 @@
       {
         "to": "coe_ux",
         "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

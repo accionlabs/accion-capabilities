@@ -1,0 +1,55 @@
+{
+  "id": "technology_cloud",
+  "name": "Cloud Computing",
+  "category": "Infrastructure",
+  "description": "On-demand delivery of computing resources including servers, storage, databases, networking, and software over the internet with pay-as-you-go pricing.",
+  "businessValue": "Enables scalability, reduces infrastructure costs, improves agility, enhances collaboration, and provides global reach with high availability and disaster recovery.",
+  "useCases": [
+    "Infrastructure modernization",
+    "Application hosting",
+    "Data storage and backup",
+    "Disaster recovery",
+    "Development and testing",
+    "Big data analytics",
+    "Content delivery"
+  ],
+  "keyProviders": [
+    "Amazon Web Services (AWS)",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "IBM Cloud",
+    "Oracle Cloud",
+    "Alibaba Cloud",
+    "VMware Cloud"
+  ],
+  "technicalCapabilities": [
+    "Elastic computing",
+    "Auto-scaling",
+    "Load balancing",
+    "Container orchestration",
+    "Serverless computing",
+    "Multi-region deployment",
+    "Hybrid cloud connectivity"
+  ],
+  "serviceModels": [
+    "IaaS (Infrastructure as a Service)",
+    "PaaS (Platform as a Service)",
+    "SaaS (Software as a Service)",
+    "FaaS (Function as a Service)"
+  ],
+  "type": "technology",
+  "pillar": "pillar_cloud",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_architecture",
+        "type": "ARCHITECTED_BY"
+      },
+      {
+        "to": "coe_devops",
+        "type": "OPERATED_BY"
+      }
+    ],
+    "incoming": []
+  }
+}

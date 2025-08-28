@@ -66,6 +66,14 @@
       {
         "to": "coe_genai",
         "type": "SUPPORTED_BY"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cognitive_automation",
+        "type": "USES"
       }
     ],
     "incoming": []

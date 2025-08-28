@@ -272,5 +272,9 @@
         "category": "ci_cd"
       }
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_devops.md"
+  }
 }

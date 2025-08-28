@@ -1,0 +1,45 @@
+{
+  "id": "technology_salesforce",
+  "name": "Salesforce",
+  "category": "CRM & Business Applications",
+  "description": "World's leading customer relationship management (CRM) platform providing cloud-based applications for sales, service, marketing, commerce, and more.",
+  "businessValue": "Enables 360-degree customer view, streamlines business processes, improves customer engagement, and drives digital transformation through cloud-based CRM and business applications.",
+  "useCases": [
+    "Customer Relationship Management",
+    "Sales Force Automation",
+    "Marketing Automation",
+    "Customer Service Management",
+    "Commerce and E-commerce",
+    "Partner Relationship Management",
+    "Analytics and Reporting"
+  ],
+  "keyProducts": [
+    "Sales Cloud",
+    "Service Cloud",
+    "Marketing Cloud",
+    "Commerce Cloud",
+    "Health Cloud",
+    "Financial Services Cloud",
+    "CPQ (Configure, Price, Quote)"
+  ],
+  "technicalCapabilities": [
+    "Multi-tenant cloud architecture",
+    "Low-code/no-code development",
+    "API-first integration",
+    "Einstein AI capabilities",
+    "Mobile-first design",
+    "Lightning Web Components",
+    "Process automation and workflows"
+  ],
+  "type": "technology",
+  "pillar": "pillar_automation",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "coe_salesforce",
+        "type": "IMPLEMENTED_BY"
+      }
+    ],
+    "incoming": []
+  }
+}

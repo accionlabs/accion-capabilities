@@ -216,6 +216,20 @@
       "type": "TARGETS",
       "to": "industry_manufacturing",
       "metadata": {}
+    },
+    {
+      "type": "LEVERAGES",
+      "to": "technology_nlp",
+      "metadata": {}
+    },
+    {
+      "type": "DELIVERS",
+      "to": "casestudy_genai_drug_repurposing",
+      "metadata": {}
     }
-  ]
+  ],
+  "content": {
+    "type": "file",
+    "value": "coe_aiml.md"
+  }
 }

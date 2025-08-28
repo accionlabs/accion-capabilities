@@ -44,10 +44,6 @@
         "type": "LEVERAGES"
       },
       {
-        "to": "technology_uipath",
-        "type": "LEVERAGES"
-      },
-      {
         "to": "industry_technology",
         "type": "TARGETS"
       },
@@ -58,6 +54,18 @@
       {
         "to": "coe_genai",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_rpa",
+        "type": "USES"
+      },
+      {
+        "to": "technology_ai_ml",
+        "type": "USES"
+      },
+      {
+        "to": "technology_nlp",
+        "type": "USES"
       }
     ],
     "incoming": []

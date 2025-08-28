@@ -51,6 +51,14 @@
       {
         "to": "industry_retail",
         "type": "DELIVERS"
+      },
+      {
+        "to": "technology_devops",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
       }
     ],
     "incoming": []

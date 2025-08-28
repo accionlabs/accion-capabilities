@@ -78,6 +78,18 @@
       {
         "to": "pillar_automation",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_iot",
+        "type": "USES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_data_analytics",
+        "type": "USES"
       }
     ],
     "incoming": []

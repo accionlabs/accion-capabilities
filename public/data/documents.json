@@ -1,0 +1,399 @@
+{
+  "documents": [
+    {
+      "id": "doc_energy_use_cases",
+      "title": "Energy Use Cases",
+      "category": "case-studies",
+      "originalPath": "info/case studies/Energy Use Cases.pdf",
+      "publicPath": "/pdfs/case-studies/energy-use-cases.pdf",
+      "description": "Comprehensive collection of energy sector case studies including IoT automation, digital transformation, and data platform implementations",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["energy", "iot", "automation", "utilities", "oil & gas"],
+        "extractedEntities": [
+          "casestudy_atlas_oil_fuel_automation",
+          "casestudy_conservice_digital_transformation",
+          "casestudy_oil_dri_digital_data_platform",
+          "casestudy_teine_energy_unstructured_data",
+          "casestudy_microsoft_dream_sustainability"
+        ]
+      }
+    },
+    {
+      "id": "doc_digital_commerce_competency",
+      "title": "Digital Commerce Competency",
+      "category": "case-studies",
+      "originalPath": "info/case studies/Digital_Commerce_Competency v 6.0 (05-03-18) - Copy.pdf",
+      "publicPath": "/pdfs/case-studies/digital-commerce-competency.pdf",
+      "description": "E-commerce and digital commerce case studies across B2C, B2B, and omnichannel implementations",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["ecommerce", "b2c", "b2b", "marketplace", "digital commerce"],
+        "extractedEntities": [
+          "casestudy_abbott_b2c_nutrition_ecommerce",
+          "casestudy_abbott_diabetes_care_ecommerce",
+          "casestudy_abbott_b2b_migration",
+          "casestudy_rush_enterprises_marketplace",
+          "casestudy_reach_influence_omnichannel",
+          "casestudy_gopro_instore_commerce",
+          "casestudy_toyota_sales_knowledge_app"
+        ]
+      }
+    },
+    {
+      "id": "doc_healthcare_solutions",
+      "title": "Healthcare Solutions and Services",
+      "category": "case-studies",
+      "originalPath": "info/case studies/AccionLabs Healthcare Solutions and Services.pdf",
+      "publicPath": "/pdfs/case-studies/healthcare-solutions-services.pdf",
+      "description": "Healthcare industry solutions including telemedicine, medical imaging, and patient care platforms",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["healthcare", "telemedicine", "medical imaging", "patient care"],
+        "extractedEntities": []
+      }
+    },
+    {
+      "id": "doc_fintech_genai_services",
+      "title": "Fintech and GenAI for Financial Services",
+      "category": "case-studies",
+      "originalPath": "info/case studies/Fintech Deck + GenAI offerings for Financial Services Industry.pdf",
+      "publicPath": "/pdfs/case-studies/fintech-genai-financial-services.pdf",
+      "description": "Financial services solutions leveraging GenAI and fintech innovations",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["fintech", "genai", "financial services", "banking"],
+        "extractedEntities": []
+      }
+    },
+    {
+      "id": "doc_devops_coe",
+      "title": "DevOps Center of Excellence",
+      "category": "coe-cloud",
+      "originalPath": "info/Centers of Excellence/Cloud/DevOps CoE.pdf",
+      "publicPath": "/pdfs/coe/cloud/devops-coe.pdf",
+      "description": "DevOps practices, CI/CD pipelines, infrastructure as code, and cloud-native development",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["devops", "ci/cd", "infrastructure as code", "cloud"],
+        "extractedEntities": ["coe_devops"]
+      }
+    },
+    {
+      "id": "doc_observability_practice",
+      "title": "Observability Practice",
+      "category": "coe-cloud",
+      "originalPath": "info/Centers of Excellence/Cloud/Observability Practice-Short V1.1.pdf",
+      "publicPath": "/pdfs/coe/cloud/observability-practice.pdf",
+      "description": "Comprehensive observability practices for modern cloud applications",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["observability", "monitoring", "logging", "tracing"],
+        "extractedEntities": ["coe_observability"]
+      }
+    },
+    {
+      "id": "doc_security_coe_part1",
+      "title": "Security Center of Excellence - Part 1",
+      "category": "coe-cloud",
+      "originalPath": "info/Centers of Excellence/Cloud/Security CoE - Part 1.pdf",
+      "publicPath": "/pdfs/coe/cloud/security-coe-part1.pdf",
+      "description": "Security best practices, threat management, and compliance frameworks",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["security", "cybersecurity", "compliance", "threat management"],
+        "extractedEntities": ["coe_security"]
+      }
+    },
+    {
+      "id": "doc_security_coe_part2",
+      "title": "Security Center of Excellence - Part 2",
+      "category": "coe-cloud",
+      "originalPath": "info/Centers of Excellence/Cloud/Security CoE - Part 2.pdf",
+      "publicPath": "/pdfs/coe/cloud/security-coe-part2.pdf",
+      "description": "Advanced security implementations and zero-trust architecture",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["security", "zero-trust", "identity management", "encryption"],
+        "extractedEntities": ["coe_security"]
+      }
+    },
+    {
+      "id": "doc_data_analytics_coe",
+      "title": "Data Analytics Center of Excellence",
+      "category": "coe-data",
+      "originalPath": "info/Centers of Excellence/Data/Data Analytics CoE.pdf",
+      "publicPath": "/pdfs/coe/data/data-analytics-coe.pdf",
+      "description": "Data analytics strategies, BI solutions, and predictive analytics",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["data analytics", "business intelligence", "predictive analytics"],
+        "extractedEntities": ["coe_data_analytics"]
+      }
+    },
+    {
+      "id": "doc_data_governance_coe",
+      "title": "Data Governance Center of Excellence",
+      "category": "coe-data",
+      "originalPath": "info/Centers of Excellence/Data/Data Governance CoE.pdf",
+      "publicPath": "/pdfs/coe/data/data-governance-coe.pdf",
+      "description": "Data governance frameworks, quality management, and compliance",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["data governance", "data quality", "compliance", "metadata"],
+        "extractedEntities": ["coe_data_governance"]
+      }
+    },
+    {
+      "id": "doc_data_mesh_coe",
+      "title": "Data Mesh Center of Excellence",
+      "category": "coe-data",
+      "originalPath": "info/Centers of Excellence/Data/Data Mesh CoE.pdf",
+      "publicPath": "/pdfs/coe/data/data-mesh-coe.pdf",
+      "description": "Data mesh architecture patterns and decentralized data management",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["data mesh", "decentralized data", "domain-driven design"],
+        "extractedEntities": ["coe_data_mesh"]
+      }
+    },
+    {
+      "id": "doc_databricks_coe",
+      "title": "Databricks Center of Excellence",
+      "category": "coe-data",
+      "originalPath": "info/Centers of Excellence/Data/Databricks CoE.pdf",
+      "publicPath": "/pdfs/coe/data/databricks-coe.pdf",
+      "description": "Databricks platform expertise for unified analytics and AI",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["databricks", "spark", "data lakehouse", "machine learning"],
+        "extractedEntities": ["coe_databricks"]
+      }
+    },
+    {
+      "id": "doc_snowflake_coe",
+      "title": "Snowflake Center of Excellence",
+      "category": "coe-data",
+      "originalPath": "info/Centers of Excellence/Data/Snowflake CoE.pdf",
+      "publicPath": "/pdfs/coe/data/snowflake-coe.pdf",
+      "description": "Snowflake data cloud platform implementation and optimization",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["snowflake", "data warehouse", "cloud data platform"],
+        "extractedEntities": ["coe_snowflake"]
+      }
+    },
+    {
+      "id": "doc_rpa_coe",
+      "title": "RPA Center of Excellence",
+      "category": "coe-enterprise-automation",
+      "originalPath": "info/Centers of Excellence/Enterprise Automation/RPA CoE.pdf",
+      "publicPath": "/pdfs/coe/enterprise-automation/rpa-coe.pdf",
+      "description": "Robotic Process Automation solutions and intelligent automation",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["rpa", "automation", "process automation", "uipath"],
+        "extractedEntities": ["coe_rpa"]
+      }
+    },
+    {
+      "id": "doc_servicenow_coe",
+      "title": "ServiceNow Center of Excellence",
+      "category": "coe-enterprise-automation",
+      "originalPath": "info/Centers of Excellence/Enterprise Automation/Service Now CoE.pdf",
+      "publicPath": "/pdfs/coe/enterprise-automation/servicenow-coe.pdf",
+      "description": "ServiceNow platform implementation for IT service management",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["servicenow", "itsm", "workflow automation", "service management"],
+        "extractedEntities": ["coe_servicenow"]
+      }
+    },
+    {
+      "id": "doc_salesforce_practice",
+      "title": "Salesforce Practice Success Stories",
+      "category": "coe-enterprise-automation",
+      "originalPath": "info/Centers of Excellence/Enterprise Automation/Accion Labs Salesforce Practice - Success Stories.pdf",
+      "publicPath": "/pdfs/coe/enterprise-automation/salesforce-practice-success-stories.pdf",
+      "description": "Salesforce implementation success stories and best practices",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["salesforce", "crm", "sales cloud", "service cloud"],
+        "extractedEntities": ["coe_salesforce"]
+      }
+    },
+    {
+      "id": "doc_architecture_coe",
+      "title": "Architecture Center of Excellence",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/Architecture CoE.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/architecture-coe.pdf",
+      "description": "Enterprise architecture patterns and solution design",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["architecture", "solution design", "patterns", "microservices"],
+        "extractedEntities": ["coe_architecture"]
+      }
+    },
+    {
+      "id": "doc_blockchain_coe",
+      "title": "Blockchain Center of Excellence",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/Blockchain CoE.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/blockchain-coe.pdf",
+      "description": "Blockchain technology implementation and smart contracts",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["blockchain", "distributed ledger", "smart contracts", "web3"],
+        "extractedEntities": ["coe_blockchain"]
+      }
+    },
+    {
+      "id": "doc_ecommerce_coe",
+      "title": "E-Commerce Center of Excellence",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/ECommerce CoE.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/ecommerce-coe.pdf",
+      "description": "E-commerce platform development and optimization",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["ecommerce", "online retail", "marketplace", "payment systems"],
+        "extractedEntities": ["coe_ecommerce"]
+      }
+    },
+    {
+      "id": "doc_iot_coe",
+      "title": "IoT Center of Excellence",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/IoT CoE.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/iot-coe.pdf",
+      "description": "Internet of Things solutions and edge computing",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["iot", "edge computing", "sensors", "industrial iot"],
+        "extractedEntities": ["coe_iot"]
+      }
+    },
+    {
+      "id": "doc_testing_coe",
+      "title": "Testing Center of Excellence",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/Testing CoE.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/testing-coe.pdf",
+      "description": "Quality assurance and testing strategies",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["testing", "qa", "test automation", "quality assurance"],
+        "extractedEntities": ["coe_testing"]
+      }
+    },
+    {
+      "id": "doc_ux_coe_part1",
+      "title": "UX Center of Excellence - Part 1",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/UX CoE - Part 1.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/ux-coe-part1.pdf",
+      "description": "User experience design principles and methodologies",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["ux", "user experience", "design thinking", "ui design"],
+        "extractedEntities": ["coe_ux"]
+      }
+    },
+    {
+      "id": "doc_ux_coe_part2",
+      "title": "UX Center of Excellence - Part 2",
+      "category": "coe-prod-engg",
+      "originalPath": "info/Centers of Excellence/Prod Engg/UX CoE - Part 2.pdf",
+      "publicPath": "/pdfs/coe/prod-engg/ux-coe-part2.pdf",
+      "description": "Advanced UX practices and design systems",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["ux", "design systems", "prototyping", "usability testing"],
+        "extractedEntities": ["coe_ux"]
+      }
+    },
+    {
+      "id": "doc_pillars_coe_mapping",
+      "title": "Pillars to CoE Mapping",
+      "category": "general",
+      "originalPath": "info/Centers of Excellence/Pillars to CoE Mapping.pdf",
+      "publicPath": "/pdfs/general/pillars-coe-mapping.pdf",
+      "description": "Mapping of practice pillars to Centers of Excellence",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["organization", "structure", "pillars", "coe mapping"],
+        "extractedEntities": []
+      }
+    },
+    {
+      "id": "doc_capabilities_portfolio",
+      "title": "Capabilities & IP Portfolio",
+      "category": "general",
+      "originalPath": "info/Accion Labs Capabilities & IP Portfolio.pdf",
+      "publicPath": "/pdfs/general/capabilities-ip-portfolio.pdf",
+      "description": "Complete overview of Accion Labs capabilities and intellectual property",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["capabilities", "portfolio", "intellectual property", "overview"],
+        "extractedEntities": []
+      }
+    },
+    {
+      "id": "doc_ai_sre_agent",
+      "title": "AI-SRE Agent",
+      "category": "accelerators",
+      "originalPath": "info/accelerators/AI-SRE-Agent PPT V1.1.pdf",
+      "publicPath": "/pdfs/accelerators/ai-sre-agent.pdf",
+      "description": "AI-powered Site Reliability Engineering agent for automated operations",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["ai", "sre", "automation", "aiops", "observability"],
+        "extractedEntities": []
+      }
+    },
+    {
+      "id": "doc_autonomous_support",
+      "title": "Autonomous Support Solution",
+      "category": "accelerators",
+      "originalPath": "info/accelerators/Autonomous Support_ Solution Deck.pdf",
+      "publicPath": "/pdfs/accelerators/autonomous-support-solution.pdf",
+      "description": "Autonomous support system leveraging AI for customer service",
+      "metadata": {
+        "uploadDate": "2025-01-15",
+        "tags": ["autonomous", "support", "ai", "customer service", "automation"],
+        "extractedEntities": []
+      }
+    }
+  ],
+  "categories": {
+    "case-studies": {
+      "name": "Case Studies",
+      "description": "Client success stories and implementation examples"
+    },
+    "coe-cloud": {
+      "name": "Cloud Centers of Excellence",
+      "description": "Cloud infrastructure and operations expertise"
+    },
+    "coe-data": {
+      "name": "Data Centers of Excellence",
+      "description": "Data management, analytics, and platform expertise"
+    },
+    "coe-enterprise-automation": {
+      "name": "Enterprise Automation Centers of Excellence",
+      "description": "Process automation and enterprise platform expertise"
+    },
+    "coe-prod-engg": {
+      "name": "Product Engineering Centers of Excellence",
+      "description": "Software engineering and product development expertise"
+    },
+    "accelerators": {
+      "name": "Accelerators",
+      "description": "Pre-built solutions and frameworks"
+    },
+    "general": {
+      "name": "General Documentation",
+      "description": "Overview and organizational documentation"
+    }
+  }
+}

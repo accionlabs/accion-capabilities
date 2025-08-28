@@ -64,6 +64,14 @@
       {
         "to": "pillar_data",
         "type": "LEVERAGES"
+      },
+      {
+        "to": "technology_cloud",
+        "type": "USES"
+      },
+      {
+        "to": "technology_microservices",
+        "type": "USES"
       }
     ],
     "incoming": []

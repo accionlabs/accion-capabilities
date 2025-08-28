@@ -1,0 +1,47 @@
+{
+  "id": "technology_blockchain",
+  "name": "Blockchain",
+  "category": "Distributed Systems",
+  "description": "Distributed ledger technology that maintains a continuously growing list of records (blocks) secured using cryptography, enabling transparent and immutable transactions.",
+  "businessValue": "Provides transparency, reduces fraud, eliminates intermediaries, ensures data integrity, enables smart contracts, and creates trust in multi-party transactions.",
+  "useCases": [
+    "Cryptocurrency and digital payments",
+    "Supply chain traceability",
+    "Digital identity",
+    "Smart contracts",
+    "Healthcare records",
+    "Voting systems",
+    "Asset tokenization"
+  ],
+  "keyPlatforms": [
+    "Ethereum",
+    "Hyperledger Fabric",
+    "Bitcoin",
+    "Cardano",
+    "Polkadot",
+    "Solana",
+    "Binance Smart Chain"
+  ],
+  "technicalCapabilities": [
+    "Distributed consensus",
+    "Cryptographic security",
+    "Smart contract execution",
+    "Immutable ledger",
+    "Peer-to-peer networking",
+    "Token creation",
+    "Cross-chain interoperability"
+  ],
+  "consensusMechanisms": [
+    "Proof of Work",
+    "Proof of Stake",
+    "Practical Byzantine Fault Tolerance",
+    "Proof of Authority",
+    "Delegated Proof of Stake"
+  ],
+  "type": "technology",
+  "pillar": "pillar_digital_products",
+  "relationships": {
+    "outgoing": [],
+    "incoming": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "technology_azure_openai",
+  "name": "Azure OpenAI Service",
+  "category": "AI/ML",
+  "description": "Microsoft Azure's enterprise-ready implementation of OpenAI's powerful language models, providing secure, scalable, and compliant access to GPT-4, GPT-3.5, DALL-E, and other models with Azure's security and governance.",
+  "businessValue": "Combines OpenAI's cutting-edge AI capabilities with Azure's enterprise security, compliance, and scalability, enabling organizations to safely deploy AI solutions in production environments.",
+  "useCases": [
+    "Enterprise chatbots and virtual assistants",
+    "Document intelligence and processing",
+    "Code generation and modernization",
+    "Content creation and marketing",
+    "Customer service automation",
+    "Business process automation",
+    "Knowledge management systems"
+  ],
+  "keyFeatures": [
+    "Enterprise-grade security and compliance",
+    "Private endpoints and network isolation",
+    "Content filtering and safety systems",
+    "Regional deployment options",
+    "Responsible AI controls",
+    "Integration with Azure services",
+    "Usage monitoring and management"
+  ],
+  "models": [
+    "GPT-4 and GPT-4 Turbo",
+    "GPT-3.5 Turbo",
+    "DALL-E for image generation",
+    "Whisper for speech-to-text",
+    "Embeddings models",
+    "Custom fine-tuned models"
+  ],
+  "technicalCapabilities": [
+    "REST API access",
+    "SDKs for multiple languages",
+    "Streaming responses",
+    "Function calling",
+    "JSON mode",
+    "System message customization",
+    "Token management"
+  ],
+  "type": "technology",
+  "relationships": {
+    "outgoing": [
+      {
+        "to": "technology_llm",
+        "type": "IMPLEMENTS"
+      },
+      {
+        "to": "technology_openai",
+        "type": "EXTENDS"
+      }
+    ],
+    "incoming": [
+      {
+        "from": "casestudy_genai_account_receivables",
+        "type": "USES"
+      },
+      {
+        "from": "casestudy_genai_contract_intelligence",
+        "type": "USES"
+      },
+      {
+        "from": "platform_breeze_ai",
+        "type": "IMPLEMENTS"
+      }
+    ]
+  }
+}
